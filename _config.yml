@@ -17,6 +17,8 @@ markdown:       kramdown
 include:
   - _pages
 
+theme: tale
+
 # Assets
 sass:
   sass_dir:     _sass
