@@ -1,10 +1,10 @@
 ---
-layout: post
+layout: info
 title: "Contact"
 author: "Mateus Almeida"
 permalink: /contact/
 ---
 
-- E-mail: mateusalmeida0715@gmail.com
-- Github: https://github.com/imsouza
+<center>E-mail: mateusalmeida0715@gmail.com<center>
+
 
