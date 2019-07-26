@@ -23,15 +23,16 @@ BEM é uma metodologia ou padrão que é aplicado na nomenclatura de classes CSS
 	- <code>.block__example {}</code> -> <i>elemento filho</i>
 	- <code>.block__example--green {}</code> -> <i>elemento filho modificado</i>
 
-#### Nomenclatura 
+## Nomenclatura 
 
-- Para criarmos um bloco definimos simplesmente uma classe. Ex: <code>.block</code>
+- Para criarmos um bloco, definimos simplesmente uma classe. Ex.: <code>.block</code>
 
-- Para criarmos um elemento utilizamos dois underlines <i>(__)</i> após o nome do bloco. Ex: <code>.block__item</code>
+- Para criarmos um elemento, utilizamos dois underlines <i>(_)</i> após o nome do bloco. Ex.: <code>.block_item</code>
 
-- E por fim, para criarmos um modifier utilizamos dois traços <i>(- -)</i> no nosso bloco ou elemento. Ex:
+- E por fim, para criarmos um modifier, utilizamos dois traços <i>(- -)</i> no nosso bloco ou elemento. Ex.:
 
 	<i>Bloco modificado:</i> <code>.block--green</code>
+
 	<i>Elemento modificado:</i> <code>.block__item--red</code>
 
 ## Block
@@ -60,7 +61,7 @@ Um elemento nada mais é do que um complemento da estrutura de um bloco, como os
 <ul class="list">
   // Elemento
   <li class="list__item">
-	<h3>Example</h3>
+    <h3>Example</h3>
   </li>
 </ul>
 ```
@@ -71,29 +72,29 @@ Um fato importante que deve ser ressaltado é que um elemento <strong>não</stro
 // Errado
 <ul class="list">
   <li class="list__item">
-	<li class="list__item__title">
-		<h3>Example</h3>
-  	</li>
+    <li class="list__item__title">
+      <h3>Example</h3>
+    </li>
   </li>
 </ul>
 ```
 
-Para resolver esse problema utilize a seguinte estrutura:
+Para resolver esse problema, utilize a seguinte estrutura:
 
 ```
 // Correto
 <ul class="list">
   <li class="list__item">
-	<li class="list__title">
-		<h3>Example</h3>
-  	</li>
+    <li class="list__title">
+      <h3>Example</h3>
+    </li>
   </li>
 </ul>
 ```
 
 ## Modifier
 
-Os modificadores, como o próprio nome já diz, servem para modificar a aparência dos elementos, como por exemplo adicionar uma cor especifica a um botão. Além disso eles podem ser usados para alterar diferentes propriedades tais como: <i>opacity</i>, <i>position</i>, <i>display</i>, <i>font-weight</i>, <i>border</i>, etc.
+Os modificadores, como o próprio nome já diz, servem para modificar a aparência dos elementos, como por exemplo adicionar uma cor especifica a um botão. Além disso, eles podem ser usados para alterar diferentes propriedades, tais como: <i>opacity</i>, <i>position</i>, <i>display</i>, <i>font-weight</i>, <i>border</i>, etc.
 
 ![Modifier](https://i.imgur.com/bngiPKT.jpg)
 
@@ -102,17 +103,17 @@ Os modificadores, como o próprio nome já diz, servem para modificar a aparênc
 <ul class="list">
   // Elemento
   <li class="list__item">
-	  // Elemento modificado
-	  <li class="list__item list__item--green">
-		<h3>Example</h3>
-	  </li>
+    // Elemento modificado
+    <li class="list__item list__item--green">
+      <h3>Example</h3>
+    </li>
   </li>
 </ul>
 ```
 
 ## Conclusão
 
-A metodologia BEM é super fácil de compreender e implementar, ela pode ser usada em diferentes tipos de projetos web, desde um simples site até um sistema web completo. No começo pode parecer estranho a sintaxe (eis o motivo dela ser amada por uns e odiada por outros), mas em pouco tempo você se acostuma com a ideia e já estará aplicando naturalmente essa metodologia em seus projetos, facilitando assim a escrita e leitura de códigos, além de uma melhoria considerável no desempenho e desenvolvimento do projeto.
+A metodologia BEM é super fácil de compreender e implementar. Ela pode ser usada em diferentes tipos de projetos web, desde um simples site até um sistema completo. No começo, a sintaxe pode parecer estranha (eis o motivo dela ser amada por uns e odiada por outros), mas, em pouco tempo, você se acostuma com a ideia e já estará aplicando naturalmente essa metodologia em seus projetos, facilitando, assim, a escrita e a leitura de códigos, além de uma melhoria considerável no desempenho e desenvolvimento do projeto.
 
 <br><center><i>Obrigado pela leitura!</i></center>
 
