@@ -1,7 +1,5 @@
 ---
 layout: post
 title: "Title"
-author: "Mateus Almeida"
+author: "Descomplicando o VIM"
 ---
-
-

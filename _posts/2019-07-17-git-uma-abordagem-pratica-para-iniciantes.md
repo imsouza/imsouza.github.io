@@ -6,11 +6,15 @@ author: "Mateus Almeida"
 
 Quando falamos em Desenvolvimento de Software, o Git é uma ferramenta indispensável para o controle de versão e gerenciamento de código. Ele foi desenvolvido por Linus Torvalds em 2005 e é utilizado nos dias atuais por milhões de empresas de tecnologia, se tornando um dos recursos mais importantes para o dia a dia de qualquer desenvolvedor.
 
+<br>
+
 ## Instalação
 
 Caso não tenha o Git instalado no seu computador, acesse o site oficial [clicando aqui](https://git-scm.com/downloads/){:target="_blank"} para a realização do download.
 
 Para ter certeza de que o Git foi instalado corretamente em sua máquina, execute o comando ```git --version```; caso ele mostre a versão atual da ferramenta, a instalação ocorreu sem problemas.
+
+<br>
 
 ## Configuração básica
 
@@ -25,6 +29,8 @@ Após realizar a instalação do Git, chegou a hora de configurá-lo. Abra o ter
 #### Configurando editor
 
 ```git config --global core.editor nome-do-editor```
+
+<br>
 
 ## Uma pequena introdução ao GitHub
 
@@ -47,6 +53,8 @@ Após se registrar, criaremos um repositório para testar os comandos do Git; cl
 nela você irá preencher o seu repositório com as informações desejadas, tais como: nome, descrição, licença e outros. Após o preenchimento, clique em <i>Create repository</i> para que o repositório seja criado definitivamente, como é mostrado na imagem abaixo:
 
 ![Finalização da criação do Repositório no Github](https://i.imgur.com/RKCnvJN.png)
+
+<br>
 
 ## Primeiros passos com o Git
 
@@ -140,5 +148,12 @@ Ao executar o comando ```git log```, será exibido uma lista com detalhes sobre 
 O comando ```git clone``` é usado para clonar um repositório remoto para o seu ambiente de trabalho local. Use o seguinte comando:
 
 ```git clone url-do-repositorio```.
+
+<br>
+
+## Conclusão
+
+Neste artigo, vimos uma introdução básica do Git, seus comandos e a importância de aprender a tecnologia que é lider no mercado quando o assunto é controle de versões. Caso queira se aprofundar, acesse a documentação oficial [clicando aqui](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o){:target="_blank"}.
+
 
 <br><center><i>Obrigado pela leitura!</i></center>
