@@ -5,4 +5,58 @@ author: "Mateus Almeida"
 permalink: /contato/
 ---
 
-<center><form action=https://formspree.io/mateusalmeida0715@gmail.com class=topBefore id=form method=POST><input id=name name=name placeholder=Nome> <input id=email name=replyto placeholder=E-mail type=email> <textarea id=message name=content placeholder=Mensagem rows=10 style=resize:none type=text></textarea> <input id=submit type=submit value=Enviar></form></center><style>#form{display:flex;max-width:600px;flex-direction:column}#submit{cursor:pointer;background-color:rgba(0,0,0,.1)}button,input,textarea{border:1px solid rgba(0,0,0,.5);box-shadow:0 0 1px rgba(0,0,0,.5);margin:1px;padding:5px;min-height:40px}button:focus,input:focus,textarea:focus{outline:0}textarea{min-height:50px}</style>
+<center>
+	<form action='https://formspree.io/mateusalmeida0715@gmail.com' class='topBefore' id='form' method='POST'>
+		<input id='name' name='name' class="feedback-input" placeholder='Nome'> 
+		<input id='email' name='replyto' class="feedback-input" placeholder='E-mail' type='email'> 
+		<textarea id='message' name='content' class="feedback-input" placeholder='Mensagem' rows='10' style='resize:none;' type='text'></textarea> 
+		<input id='submit' class="feedback-input" type='submit' value='Enviar'>
+	</form>
+</center>
+
+<style>
+	form { max-width:420px; margin:50px auto; }
+
+	.feedback-input {
+	  color: #353535;
+	  font-family: sans-serif;
+	  font-weight:500;
+	  font-size: 18px;
+	  border-radius: 5px;
+	  line-height: 22px;
+	  background-color: transparent;
+	  border:2px solid #353535;
+	  transition: all 0.3s;
+	  padding: 13px;
+	  margin-bottom: 15px;
+	  width:100%;
+	  box-sizing: border-box;
+	  outline:0;
+	}
+
+	.feedback-input:focus { border:2px solid #ddd; }
+
+	textarea {
+	  height: 150px;
+	  line-height: 150%;
+	  resize:vertical;
+	}
+
+	[type="submit"] {
+	  font-family: sans-serif;
+	  width: 100%;
+	  background:#353535;
+	  border-radius:5px;
+	  border:0;
+	  cursor:pointer;
+	  color:white;
+	  font-size:24px;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	  transition: all 0.3s;
+	  margin-top:-4px;
+	  font-weight:700;
+	}
+	[type="submit"]:hover { background:#353535; }
+
+</style>
