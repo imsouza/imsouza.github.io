@@ -116,7 +116,7 @@ O comando ```git add nome-do-arquivo``` adiciona os arquivos do diretório local
 
 #### Adicionando múltiplos arquivos
 
-Para adicionar todos arquivos de uma só vez no índice, utilize o comando ```git add -A```
+Para adicionar todos arquivos de uma só vez no índice, utilize o comando ```git add .```
 
 #### Fazendo o primeiro commit
 
