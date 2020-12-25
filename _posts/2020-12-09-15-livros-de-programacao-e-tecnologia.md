@@ -2,7 +2,7 @@
 layout: post
 title: "Lista: 15 livros de programação e tecnologia"
 author: "Mateus Almeida"
-tags: [Livros, Programação, Estudos]
+tags: [Estudos]
 ---
 
 Faz um tempo que eu queria fazer uma lista de livros técnicos que já li e que eu gostaria de ler também. Obviamente, como existem muitos, vou pegar apenas uma parcela dos que eu julgo melhores para por nessa lista. Agora sem mais enrolações, segue o fio:

@@ -2,7 +2,7 @@
 layout: post
 title: "Uma rápida introdução à metodologia BEM"
 author: "Mateus Almeida"
-tags: [Arquitetura, CSS]
+tags: [CSS]
 ---
 
 Criado pela [Yandex](https://yandex.com/?source=post_page){:target="_blank"} para fins de desenvolvimento rápido, padronização e facilididade na manutenção de código, o BEM se tornou uma das metodologias mais utilizadas no mercado front-end. Neste artigo, mostrarei de forma simples e objetiva como aplicá-lo em seus projetos.
