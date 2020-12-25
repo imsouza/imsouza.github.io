@@ -31,6 +31,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 # Permalinks
 permalink:      /:title
