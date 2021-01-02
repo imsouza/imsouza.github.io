@@ -1,45 +1,64 @@
 ---
 layout: default
 ---
+
 {% include minutes-to-read.html %}
+
 <div class="post">
-    <div class="post-info">
-        <span>Written by</span>
-        {% if page.author %}
-        {{ page.author }}
-        {% else %}
-        {{ site.author.name }}
-        {% endif %}
-        {% if page.date %}
-        <br>
-        <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-        <br>
-        {% endif %}
-        <br>
-        <span>{{ minutesText }}</span><br>
-    </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-    <div class="post-line"></div>
-    {{ content }}
+  <div class="post-info">
+    <span>Written by</span>
+    {% if page.author %}
+    {{ page.author }}
+    {% else %}
+    {{ site.author.name }}
+    {% endif %}
+    {% if page.date %}
+    <br>
+    <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    <br>
+    {% endif %}
+    <br>
+    <span>{{ minutesText }}</span><br>
+  </div>
+
+  {% if page.tags %}
+  <div class="tags-clouds post-tags">
+      {% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+  </div>
+  {% endif %}
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
+  
+  {{ content }}
 </div>
+
 {% include share-buttons.html %}
+
 <div class="pagination">
-    {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592; Previous Page</a>
-    {% endif %}
-    {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">Next Page &#8594;</a>
-    {% endif %}
-    <a href="#" class="top">Top</a>
+  {% if page.next.url %}
+  <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592; Previous Page</a>
+  {% endif %}
+  {% if page.previous.url %}
+  <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">Next Page &#8594;</a>
+  {% endif %}
+  <a href="#" class="top">Top</a>
 </div>
+
 <div id="disqus_thread"></div>
+
 <script>
-(function() {
-    var d = document,
-        s = d.createElement('script');
-    s.src = 'https://mateus-almeida.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
+  (function() {
+      var d = document,
+          s = d.createElement('script');
+      s.src = 'https://mateus-almeida.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+  })();
 </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<noscript>
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>

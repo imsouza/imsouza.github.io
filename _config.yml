@@ -2,6 +2,7 @@
 title:          Mateus Almeida
 description:    "Meu blog pessoal sobre programação, tecnologia e afins."
 url:            "https://imsouza.github.io"
+rtl: true
 
 # Google Analytics
 google_analytics: UA-143763992-1
