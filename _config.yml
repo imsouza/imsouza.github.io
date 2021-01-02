@@ -28,11 +28,11 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jemoji
   - jekyll-sitemap
-  - jekyll-remote-theme
-
+  
 # Permalinks
 permalink:      /:title
 paginate:       5
