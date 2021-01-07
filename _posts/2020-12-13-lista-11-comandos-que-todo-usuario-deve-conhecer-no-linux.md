@@ -5,7 +5,7 @@ author: "Mateus Almeida"
 tags: [Linux]
 ---
 
-Fiz uma pequena lista com os 11 comandos que eu mais utilizo no meu dia a dia e que são excelentes para melhorar a produtividade com o sistema. Segue o fio:
+Fiz uma pequena lista com os 11 comandos que eu mais utilizo no meu dia a dia e que são excelentes para melhorar a produtividade com o sistema. Confira abaixo:
 
 ![ps -ef](https://imgur.com/9s6BxL7.png)
 ![top](https://imgur.com/XdSlYHe.png)

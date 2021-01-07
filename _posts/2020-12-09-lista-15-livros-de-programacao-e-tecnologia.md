@@ -5,7 +5,7 @@ author: "Mateus Almeida"
 tags: [Estudos]
 ---
 
-Faz um tempo que eu queria fazer uma lista de livros técnicos que já li e que eu gostaria de ler também. Obviamente, como existem muitos, vou pegar apenas uma parcela dos que eu julgo melhores para por nessa lista. Agora sem mais enrolações, segue o fio:
+Faz um tempo que eu queria fazer uma lista de livros técnicos que já li e que eu gostaria de ler também. Obviamente, como existem muitos, vou pegar apenas uma parcela dos que eu julgo melhores para por nessa lista. Agora sem mais enrolações, confira abaixo:
 
 ## 1 ) [Entendendo Algoritmos: Um Guia Ilustrado Para Programadores e Outros Curiosos](https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634){:target="_blank"}
 
