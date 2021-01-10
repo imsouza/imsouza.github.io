@@ -7,17 +7,60 @@ tags: [Linux]
 
 Fiz uma pequena lista com os 11 comandos que eu mais utilizo no meu dia a dia e que são excelentes para melhorar a produtividade com o sistema. Confira abaixo:
 
-![ps -ef](https://imgur.com/9s6BxL7.png)
-![top](https://imgur.com/XdSlYHe.png)
-![pstree](https://imgur.com/RzIMOA9.png)
-![history](https://imgur.com/EfDMsxD.png)
-![history tail](https://imgur.com/qpzZKRm.png)
-![xkill](https://imgur.com/D1Kz9pB.png)
-![ss -atunp](https://imgur.com/Kzug6Zy.png)
-![df -i](https://imgur.com/gbyAuDr.png)
-![du -sh *](https://imgur.com/nMvCyoe.png)
-![chmod +x](https://imgur.com/feXcuu8.png)
-![chmod -x](https://imgur.com/zv92EwL.png)
+#### Exibir os processos em execução na máquina:
+```
+$ ps -ef
+```
+
+#### Exibir os processos em execução na máquina de forma dinâmica:
+```
+$ top
+```
+
+#### Exibir os processos ativos no sistema em forma de árvore:
+```
+$ pstree
+```
+
+#### Exibir o histórico dos últimos 1000 comandos, por default, que foram digitados na máquina:
+```
+$ history
+```
+
+#### Exibir o histórico dos últimos 10 comandos que foram digitados na máquina:
+```
+$ history | tail
+```
+
+#### Fechar instantaneamente programas travados no sistema:
+```
+$ xkill
+```
+
+#### Verificar as portas que estão abertas na máquina e as exibir:
+```
+$ ss -atunp
+```
+
+#### Verificar a contagem de inodes do disco:
+```
+$ df -i
+```
+
+#### Exibir o tamanho das pastas e arquivos do local onde foi executado:
+```
+$ du -sh *
+```
+
+#### Adicionar permissão de execução do arquivo especificado:
+```
+$ chmod +x <nome_do_arquivo>
+```
+
+#### Remover permissão de execução do arquivo especificado:
+```
+$ chmod +x <nome_do_arquivo>
+```
 
 ## Conclusão
 
