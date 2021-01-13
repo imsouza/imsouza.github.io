@@ -4,7 +4,7 @@ layout: default
 
 <div class="catalogue">
   <div class="posts">
-    {% for post in site.categories.misc[page.category-name] %}
+    {% for post in site.categories.miscs[page.category-name] %}
       <a href="{{ post.url | relative_url }}" class="catalogue-item">
         <div>
           <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
