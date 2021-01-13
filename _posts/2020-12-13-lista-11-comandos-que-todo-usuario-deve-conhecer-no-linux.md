@@ -1,8 +1,10 @@
 ---
-layout: post
+layout: postmisc
 title: "Lista: 11 comandos que todo usuário deve conhecer no Linux"
 author: "Mateus Almeida"
 tags: [Linux]
+categories:
+  - Misc
 ---
 
 Fiz uma pequena lista com os 11 comandos que eu mais utilizo no meu dia a dia e que são excelentes para melhorar a produtividade com o sistema. Confira abaixo:
