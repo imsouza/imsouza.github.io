@@ -33,7 +33,7 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-sitemap
-  
+
 # Permalinks
 permalink:      /:title
 paginate:       5
