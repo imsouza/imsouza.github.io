@@ -2,7 +2,7 @@
 layout: postmisc
 title: "Lista: 11 comandos que todo usuário deve conhecer no Linux"
 author: "Mateus Almeida"
-tags: [Linux]
+tags: [Misc]
 categories:
   - Misc
 ---

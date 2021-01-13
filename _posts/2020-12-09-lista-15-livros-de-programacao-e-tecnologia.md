@@ -2,7 +2,7 @@
 layout: postmisc
 title: "Lista: 15 livros de programação e tecnologia"
 author: "Mateus Almeida"
-tags: [Estudos]
+tags: [Misc]
 categories:
   - Misc
 ---
