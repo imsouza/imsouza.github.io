@@ -3,7 +3,7 @@ layout: postmisc
 image: /assets/thumbnails/img5.jpeg
 title: "Lista: 11 comandos que todo usuário deve conhecer no Linux"
 author: "Mateus Almeida"
-tags: [Misc]
+tags: [Misc, Linux]
 categories:
   - Misc
 ---
