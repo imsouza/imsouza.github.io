@@ -1,11 +1,16 @@
 ---
 layout: postmisc
+image: /assets/thumbnails/img4.jpeg
 title: "Lista: 15 livros de programação e tecnologia"
 author: "Mateus Almeida"
 tags: [Misc]
 categories:
   - Misc
 ---
+
+![Book](/assets/thumbnails/img4.jpeg)
+
+<br>
 
 Faz um tempo que eu queria fazer uma lista de livros técnicos que já li e que eu gostaria de ler também. Obviamente, como existem muitos, vou pegar apenas uma parcela dos que eu julgo melhores para por nessa lista. Agora sem mais enrolações, confira abaixo:
 
