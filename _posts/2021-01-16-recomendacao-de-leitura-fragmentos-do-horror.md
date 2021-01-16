@@ -1,14 +1,16 @@
 ---
 layout: postmisc
+image: /assets/thumbnails/img0.jpeg
 title: "Recomendação de leitura: Fragmentos do Horror - Junji Ito"
 author: "Mateus Almeida"
-image: /assets/thumbnails/img0.jpeg
 tags: [Misc]
 categories:
   - Misc
 ---
 
 ![Book](/assets/thumbnails/img0.jpeg)
+
+<br>
 
 Fragmentos do Horror é nome do mangá de terror publicado pela Darkside® e de autoria do mais famoso mangaká de terror do Japão, Junji Ito. Como eu sabia da fama desse autor eu já esperava algo que me causasse arrepios e que me gelasse a espinha e foi dito e feito! O livro é uma coleção de histórias curtas, assombrosas e desconexas entre si e tem o surrealismo como ponto-chave da obra, assim como todas as outras do Junji aliás. 
 
