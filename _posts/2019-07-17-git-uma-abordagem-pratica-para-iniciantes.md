@@ -1,9 +1,14 @@
 ---
 layout: post
+image: /assets/thumbnails/img1.jpeg
 title: "Git, uma abordagem prática para iniciantes"
 author: "Mateus Almeida"
 tags: [Tools]
 ---
+
+![Book](/assets/thumbnails/img1.jpeg)
+
+<br>
 
 Quando falamos em Desenvolvimento de Software, o Git é uma ferramenta indispensável para o controle de versão e gerenciamento de código. Ele foi desenvolvido por Linus Torvalds em 2005 e é utilizado nos dias atuais por milhões de empresas de tecnologia, se tornando um dos recursos mais importantes para o dia a dia de qualquer desenvolvedor.
 

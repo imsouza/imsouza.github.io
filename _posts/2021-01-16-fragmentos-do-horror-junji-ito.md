@@ -1,7 +1,7 @@
 ---
 layout: postmisc
 image: /assets/thumbnails/img0.jpeg
-title: "Recomendação de leitura: Fragmentos do Horror - Junji Ito"
+title: "Fragmentos do Horror - Junji Ito"
 author: "Mateus Almeida"
 tags: [Misc]
 categories:

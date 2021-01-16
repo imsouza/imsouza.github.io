@@ -1,9 +1,14 @@
 ---
 layout: post
+image: /assets/thumbnails/img3.jpeg
 title: "Automatizando tarefas com Gulp"
 author: "Mateus Almeida"
 tags: [Tools]
 ---
+
+![Book](/assets/thumbnails/img3.jpeg)
+
+<br>
 
 Lidar diariamente com tarefas maçantes é um pesadelo para qualquer desenvolvedor. Por sorte, atualmente, existem inúmeras ferramentas no mercado que possibilitam a resolução desse problema de forma simples e descomplicada. Neste artigo, falarei sobre o Gulp, uma ferramenta poderosa e de fácil uso quando o assunto é automação de tarefas.
 
