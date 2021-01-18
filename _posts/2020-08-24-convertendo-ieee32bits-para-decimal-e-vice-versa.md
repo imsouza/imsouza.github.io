@@ -1,8 +1,9 @@
 ---
 layout: post
-image: /assets/thumbnails/img6.jpeg
 title: "Convertendo IEEE 754 32 bits para decimal e vice-versa"
+description: "O padrão IEEE 754, desenvolvido pelo Instituto de Engenheiros Eletricistas e Eletrônicos, foi adotado nos anos 2000, sofrendo algumas modificações ao longo..."
 author: "Mateus Almeida"
+image: /assets/thumbnails/img6.jpeg
 tags: [Matemática]
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: postmisc
-image: /assets/thumbnails/img0.jpeg
 title: "Fragmentos do Horror - Junji Ito"
+description: "Fragmentos do Horror é nome do mangá de terror publicado pela Darkside® e de autoria do mais famoso mangaká de terror do Japão, Junji Ito..."
 author: "Mateus Almeida"
+image: /assets/thumbnails/img0.jpeg
 tags: [Misc]
 categories:
   - Misc

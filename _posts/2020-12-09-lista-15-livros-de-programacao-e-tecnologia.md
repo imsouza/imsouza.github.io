@@ -1,8 +1,9 @@
 ---
 layout: postmisc
-image: /assets/thumbnails/img4.jpeg
 title: "Lista: 15 livros de programação e tecnologia"
+description: "Faz um tempo que eu queria fazer uma lista de livros técnicos que já li e que eu gostaria de ler também..."
 author: "Mateus Almeida"
+image: /assets/thumbnails/img4.jpeg
 tags: [Misc]
 categories:
   - Misc

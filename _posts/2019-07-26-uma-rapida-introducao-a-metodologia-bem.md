@@ -1,8 +1,9 @@
 ---
 layout: post
-image: /assets/thumbnails/img2.jpeg
 title: "Uma rápida introdução à metodologia BEM"
+description: "Criado pela Yandex para fins de desenvolvimento rápido, padronização e facilididade na manutenção de código, o BEM se tornou uma das metodologias mais utilizadas..."
 author: "Mateus Almeida"
+image: /assets/thumbnails/img2.jpeg
 tags: [CSS]
 ---
 
