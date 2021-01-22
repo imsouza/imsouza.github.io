@@ -111,39 +111,21 @@ Primeiramente, precisamos importar os métodos base do Gulp para essa tarefa em 
 
 Importaremos, inicialmente, os métodos <i>src</i> e <i>dest</i> do Gulp, utilizando o seguinte comando:
 
-```
-const { src, dest} = require('gulp');
-```
+<script src="https://gist.github.com/imsouza/64cbcbfbebca79e4e2a3c22d00bf35cf.js"></script>
 
 Agora, para mover os arquivos com extensão <i>.html</i>, utilizaremos a seguinte função:
 
-```
-function html() {
-  return src('src/*.html')
-    .pipe(dest('dist/'));
-}
-```
+<script src="https://gist.github.com/imsouza/61d44ee6a16c7b5887329ec9a0cfba86.js"></script>
 
 A função <i>html()</i> procurará por todos arquivos terminados em <i>.html</i> utilizando o método <i>src</i> e o enviará para a pasta <i>dist</i> utilizando o método <i>dest</i>.
 
 Agora, exportaremos essa tarefa com o seguinte comando:
 
-```
-exports.default = html;
-```
+<script src="https://gist.github.com/imsouza/e07180342fd55b7040c55ab645a8ce2c.js"></script>
 
 O arquivo final ficará desse modelo:
 
-```
-const { src, dest} = require('gulp');
-
-function html() {
-  return src('src/*.html')
-    .pipe(dest('dist/'));
-}
-
-exports.default = html;
-```
+<script src="https://gist.github.com/imsouza/1c112e79633c6e67aa73b23eb3955c79.js"></script>
 
 Com tudo pronto, abra o terminal na raiz do projeto e digite simplesmente ```gulp```. Será retornado algo semelhante a isso:
 
@@ -177,35 +159,11 @@ Ter o controle de como nossas tarefas serão executadas é algo muito importante
 
 O método <i>series()</i> combina tarefas e as executa em uma ordem específica, uma seguida da outra. Ex.:
 
-```
-const { series } = require('gulp');
-
-function firstTask() {
-  // task 
-}
-
-function secondTask() {
-  // task
-}
-
-exports.default = series(firstTask, secondTask);
-```
+<script src="https://gist.github.com/imsouza/d3d54e3de88650f912d138e160d4fb7f.js"></script>
 
 Já o método <i>parallel()</i> é usado para executar diferentes tarefas simultaneamente, não dependendo, assim, uma das outras. Ex.:
 
-```
-const { parallel } = require('gulp');
-
-function firstTask() {
-  // task
-}
-
-function secondTask() {
-  // task
-}
-
-exports.default = parallel(firstTask, secondTask);
-```
+<script src="https://gist.github.com/imsouza/3e4c0f140609b9b1821fd649edc6bda5.js"></script>
 
 Faremos uma comparação da saída gerada pelos dois métodos, começando pelo em série:
 
@@ -242,72 +200,25 @@ Minificar arquivos é uma tarefa bastante importante quando o assunto é desempe
 
 Para instalá-las, utilize o seguinte comando:
 
-```
-npm install gulp-rename gulp-uglify gulp-uglifycss --save-dev
-```
+```npm install gulp-rename gulp-uglify gulp-uglifycss --save-dev```
 
 Com todas as dependências já instaladas, iniciaremos importando todas elas em nosso arquivo <i>gulpfile.js</i>:
 
-```
-const { src, dest, parallel } = require('gulp');
-const rename = require('gulp-rename');
-const minifyJS = require('gulp-uglify');
-const minifyCSS = require('gulp-uglifycss');
-```
+<script src="https://gist.github.com/imsouza/f0c3e098b8c06e97a30d7875b7c72855.js"></script>
 
 Logo em seguida, adicionaremos a tarefa de renomear e minificar os arquivos JavaScript:
 
-```
-function javaScript() {
-  return src('src/js/*.js')
-    .pipe(minifyJS())
-    .pipe(rename({extname: '.min.js'}))
-    .pipe(dest('dist/js/'));
-}
-```
+<script src="https://gist.github.com/imsouza/3bac372b92363f5abe0bd1526a19964f.js"></script>
 
 Essa função irá procurar todos arquivos terminados em <i>.js</i> na pasta <i>src/js</i>. Em seguida, executará a função <i>minifyJS()</i> que será o responsável por minificar todo o arquivo; feito isso, o arquivo será renomeado utilizando a função <i>rename()</i> e passado como parâmetro um objeto, no qual é o próprio nome da extensão do arquivo que, no nosso caso, foi utilizado <i>.min.js</i> apenas por boas práticas devido ele ser um arquivo minificado. Por fim, enviaremos para a pasta <i>dist/js</i>.
 
 Faremos o mesmo agora com os arquivos CSS, fazendo as alterações necessárias, pois o funcionamento é o mesmo que o da função anterior:
 
-```
-function css() {
-  return src('src/css/*.css')
-    .pipe(minifyCSS())
-    .pipe(rename({extname: '.min.css'}))
-    .pipe(dest('dist/css/'))
-}
-```
+<script src="https://gist.github.com/imsouza/a118af6bdab43eae509b7288ec25c65c.js"></script>
 
 Com tudo feito, esse é o nossso arquivo <i>gulpfile.js</i> depois de pronto:
 
-```
-const { src, dest, parallel } = require('gulp');
-const rename = require('gulp-rename');
-const minifyJS = require('gulp-uglify');
-const minifyCSS = require('gulp-uglifycss');
-
-function html() {
-  return src('src/*.html')
-    .pipe(dest('dist/'));
-}
-
-function javaScript() {
-  return src('src/js/*.js')
-    .pipe(minifyJS())
-    .pipe(rename({extname: '.min.js'}))
-    .pipe(dest('dist/js/'));
-}
-
-function css() {
-  return src('src/css/*.css')
-    .pipe(minifyCSS())
-    .pipe(rename({extname: '.min.css'}))
-    .pipe(dest('dist/css/'))
-}
-
-exports.default = parallel(html, javaScript, css);
-```
+<script src="https://gist.github.com/imsouza/8070b25499aa6b52202f6647541a4223.js"></script>
 
 Por fim, utilize novamente o comando ```gulp``` na raiz do projeto para executar as tarefas. A estrutura final do nosso projeto ficará da seguinte forma:
 

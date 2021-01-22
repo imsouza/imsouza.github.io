@@ -58,14 +58,7 @@ Um bloco é uma entidade independente, um <i>“bloco de construção“</i> de 
 
 ![Block](https://i.imgur.com/pkv5J58.jpg)
 
-```
-// Bloco
-<ul class="lista">
-  <li>
-    <h3>Example</h3>
-  </li>
-</ul>
-```
+<script src="https://gist.github.com/imsouza/3d8367116e2ef2789348a22b5ff8bd07.js"></script>
 
 <br>
 
@@ -75,41 +68,15 @@ Um elemento nada mais é do que um complemento da estrutura de um bloco, como os
 
 ![Element](https://i.imgur.com/RFrTWfF.jpg)
 
-```
-// Bloco
-<ul class="list">
-  // Elemento
-  <li class="list__item">
-    <h3>Example</h3>
-  </li>
-</ul>
-```
+<script src="https://gist.github.com/imsouza/dd74c3a59700b59a0e57614ecfdefe0b.js"></script>
 
 Um fato importante que deve ser ressaltado é que um elemento <strong>não</strong> pode estar dentro de outro, como por exemplo:
 
-```
-// Errado
-<ul class="list">
-  <li class="list__item">
-    <li class="list__item__title">
-      <h3>Example</h3>
-    </li>
-  </li>
-</ul>
-```
+<script src="https://gist.github.com/imsouza/663512143f403d0c07d9f3e02e044e58.js"></script>
 
 Para resolver esse problema, utilize a seguinte estrutura:
 
-```
-// Correto
-<ul class="list">
-  <li class="list__item">
-    <li class="list__title">
-      <h3>Example</h3>
-    </li>
-  </li>
-</ul>
-```
+<script src="https://gist.github.com/imsouza/a63a9c8998a9d92e5f2c0b1fab0cf440.js"></script>
 
 <br>
 
@@ -119,18 +86,7 @@ Os modificadores, como o próprio nome já diz, servem para modificar a aparênc
 
 ![Modifier](https://i.imgur.com/bngiPKT.jpg)
 
-```
-// Bloco
-<ul class="list">
-  // Elemento
-  <li class="list__item">
-    // Elemento modificado
-    <li class="list__item list__item--green">
-      <h3>Example</h3>
-    </li>
-  </li>
-</ul>
-```
+<script src="https://gist.github.com/imsouza/db92208b43de48c3d0470ed41a09f6f6.js"></script>
 
 <br>
 
