@@ -11,13 +11,11 @@ tags: [Python]
 
 <br>
 
-Meu primeiro contato com o paradigma funcional foi na faculdade bem no começo do curso e foi tempo suficiente para eu me encantar por essa maravilhosa forma de programar. Percebi que nem tudo eram rosas, ou melhor, nem tudo era recursão e logo decidi mergulhar cada vez mais para conhecer esse mundo funcional. No curso, estudávamos a programação funcional por meio de uma linguagem que de longe é puramente funcional, mas que é multiparadigma, o Python. A escolha do Python para abordar esse tópico é óbvia, sua uma sintaxe simples, de fácil entendimento e menos bicho de 7 cabeças do que outras linguagens puramente funcionais, além, claro, de ser uma excelente linguagem pra introduzir um novo conhecimento de forma simples, clara e objetiva. A programação funcional tem o poder de tornar nossos códigos mais simples além de nos ajudar a reduzir os efeitos colaterais do mesmo. Esse artigo será divido em partes e quero apresentar para você os principais conceitos da programação funcional com Python.
+Meu primeiro contato com o paradigma funcional foi na faculdade bem no começo do curso e foi tempo suficiente para eu me encantar por essa maravilhosa forma de programar. Percebi que nem tudo eram rosas, ou melhor, nem tudo era recursão e logo decidi mergulhar cada vez mais para conhecer esse mundo funcional. No curso, estudávamos a programação funcional por meio de uma linguagem que de longe é puramente funcional, mas que é multiparadigma, o Python. A escolha do Python para abordar esse tópico é óbvia, sua uma sintaxe simples, de fácil entendimento e menos bicho de 7 cabeças do que outras linguagens puramente funcionais, além, claro, de ser uma excelente linguagem pra introduzir um novo conhecimento de forma simples, clara e objetiva. A programação funcional tem o poder de tornar nossos códigos mais simples além de nos ajudar a reduzir os efeitos colaterais dos mesmos. Esse artigo será divido em partes e quero apresentar para você os principais conceitos da programação funcional com Python.
 
 <br>
 
 ## Contextualizando a Programação Funcional
-
-<br>
 
 Para começo de conversa precisamos contextualizar algumas coisas antes de prosseguirmos de fato para a prática, uma dessas coisas são os paradigmas, algo que iremos tratar muito aqui com o funcional.
 
@@ -59,6 +57,6 @@ Então como funciona o retorno dessa função? É retornada uma cópia da lista 
 
 ## Conclusão
 
-Nesse artigo foi abordado uma introdução sobre a Programação Funcional com Python e suas principais características, na próxima postagem irei me aprofundar mais em alguns outros conceitos fundamentais desse maravilhoso paradigma.
+Este artigo foi uma introdução sobre a Programação Funcional com Python e suas principais características, na próxima postagem irei me aprofundar mais em alguns outros conceitos fundamentais desse maravilhoso paradigma.
 
 <br><center><i>Obrigado pela leitura!</i></center>

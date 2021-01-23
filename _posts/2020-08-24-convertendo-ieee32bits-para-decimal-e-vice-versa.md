@@ -206,6 +206,6 @@ Percebe-se que o valor de resultado chegou muito próximo do esperado de forma e
 
 ## Conclusão
 
-Nesse artigo foi abordado, de forma simples e prática, a conversão de números no formato IEEE 754 para decimal e vice-versa, tendo como premissa conhecimentos básicos do leitor sobre conversão de base no geral.
+Neste artigo foi abordado, de forma simples e prática, a conversão de números no formato IEEE 754 para decimal e vice-versa, tendo como premissa conhecimentos básicos do leitor sobre conversão de base no geral.
 
 <br><center><i>Obrigado pela leitura!</i></center>
