@@ -27,7 +27,7 @@ A Programação Funcional(PF) é um paradigma, assim como a Programação Orient
 
 ## Imutabilidade, a alma do paradigma funcional
 
-Nesse paradigma de programação tratamos apenas de funções matemáticas, evitando, assim, a alteração de estado e mutabilidade de dados. Na programação funcional um número sempre será ele mesmo, independente de onde, como ou quando ele será usado no código. Um fato da imutabilidade é que, em uma expressão matemática, dado um valor <i>x</i> teremos sempre o mesmo retorno da função. Por exemplo: se temos a expressão, <i>f(x) = x + 1</i>, sendo <i>x = 2</i>, o resultado dessa função sempre será 3, independente de quantas vezes o <i>x</i> for passado. O número passado para <i>x</i> não muda o seu valor, ele continua imutável, o que define o conceito da imutabilidade das funções.
+Nesse paradigma de programação tratamos apenas de funções matemáticas, evitando, assim, a alteração de estado e mutabilidade de dados. Na programação funcional um número sempre será ele mesmo, independente de onde, como ou quando ele será usado no código. Um fato da imutabilidade é que, em uma expressão matemática, dado um valor <b>x</b> teremos sempre o mesmo retorno da função. Por exemplo: se temos a expressão, <b>f(x) = x + 1</b>, sendo <b>x = 2</b>, o resultado dessa função sempre será 3, independente de quantas vezes o <b>x</b> for passado. O número passado para <b>x</b> não muda o seu valor, ele continua imutável, o que define o conceito da imutabilidade das funções.
 
 <br>
 
