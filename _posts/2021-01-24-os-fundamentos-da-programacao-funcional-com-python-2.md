@@ -41,7 +41,7 @@ Agora o código utilizando as funções lambda:
 
 <script src="https://gist.github.com/imsouza/da0ad51cfd7f49a965362ff7e6a2582f.js"></script>
 
-Percebe-se que o resultado foi o mesmo, porém feito de formas diferentes. No código acima definimos uma função lambda onde ```x``` é o argumento e ```x % 2``` é a expressão. Essa função é anonônima, ou seja, não possuí um nome como já foi explicado e ela irá retornar um objeto de função que será atribuido a variável <b>resto</b>, podendo, assim, ser chamada normalmente no código como fazemos com as funções definidas pelo identificador ```def```.
+Percebe-se que o resultado foi o mesmo, porém feito de formas diferentes. No código acima definimos uma função lambda onde ```x``` é o argumento e ```x % 2``` é a expressão. Essa função é anonônima, ou seja, não possuí um nome como já foi explicado e ela irá retornar um objeto de função que será atribuido a variável ```resto```, podendo, assim, ser chamada normalmente no código como fazemos com as funções definidas pelo identificador ```def```.
 
 <br>
 
