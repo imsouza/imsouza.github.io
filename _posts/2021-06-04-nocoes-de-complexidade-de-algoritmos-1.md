@@ -89,7 +89,7 @@ Logo, podemos concluir que:
 
 o tempo de execução para o <b>melhor caso</b> é f(n) = 1, referente ao elemento que está na primeira posição do array;
 
-o tempo de execução para o <b>pior caso</b> é f(n) = n, referente ao elemento que está última posição do array ou não existe;
+o tempo de execução para o <b>pior caso</b> é f(n) = n, referente ao elemento que está na última posição do array ou não existe;
 
 o tempo de execução para o <b>caso médio</b> é f(n) = (n + 1) / 2.
 
@@ -97,6 +97,6 @@ o tempo de execução para o <b>caso médio</b> é f(n) = (n + 1) / 2.
 
 ## Conclusão
 
-Neste artigo foir abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <i>Notação Big O</i> e <i>Classes de comportamento</i>.
+Neste artigo foi abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <i>Notação Big O</i> e <i>Classes de comportamento</i>.
 
 <br><center><i>Obrigado pela leitura!</i></center>
