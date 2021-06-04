@@ -72,7 +72,7 @@ Seja <i>f(n)</i> o número de operações feitas para um array de tamanho <b>n</
 
 No problema da busca sequencial (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
 
-E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar <img src="https://latex.codecogs.com/gif.latex?P_{i}" alt="Pi"> como a probabilidade de procura do <i>i</i>-ésimo elemento. Para encontrar o <i>i</i>-ésimo elemento são necessárias <i>i</i> comparações, temos então que: 
+E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20P_%7Bi%7D" alt="Pi"> como a probabilidade de procura do <i>i</i>-ésimo elemento. Para encontrar o <i>i</i>-ésimo elemento são necessárias <i>i</i> comparações, temos então que: 
 <div align="center">
   <img src="https://latex.codecogs.com/gif.latex?f(n)&space;=&space;1&space;\cdot&space;P_{1}&space;&plus;&space;2&space;\cdot&space;P_{2}&space;&plus;&space;...&space;&plus;&space;n&space;\cdot&space;P_{n}" alt="formula">
 </div>
