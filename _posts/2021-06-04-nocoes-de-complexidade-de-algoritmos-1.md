@@ -27,9 +27,9 @@ Para calcularmos o quão eficiente é um algoritmo existem duas abordagens: a an
 
 A análise empírica realiza a comparação entre programas, ou seja, esse tipo de análise avalia o custo (ou a complexidade) de um algoritmo a partir da avaliação de sua execução assim que implementado.
 
-Essa abordagem possui algumas vantagens, como: comparação de linguagens e computadores e avaliação de desempenho em determinada configuração da linguagem ou máquina.
+Essa abordagem possui algumas vantagens, como: comparação de linguagens de programação e computadores e avaliação de desempenho em determinada configuração da linguagem de programação ou máquina.
 
-Assim como tem vantagens também tem desvantagens e a principal é a necessidade de implementação do algoritmo para a análise.
+Assim como tem vantagens, também há desvantagens e a principal é a necessidade de implementação do algoritmo para a análise.
 
 
 #### Análise matemática
@@ -42,9 +42,9 @@ Esse tipo de análise permite entender a relação entre o crescimento do conjun
 
 ## Medindo o tempo de execução
 
-Geralmente há várias formas de resolver um determinado problema. Essas várias formas dão origem a diferentes soluções que diferem entre si no tempo de execução computacional. A função de complexidade <i>f(n)</i> é uma das maneiras de medir o número de vezes que uma certa operação é executada para uma entrada de tamanho n. Vale ressaltar que <i>f(n)</i> não significa o tempo de execução diretamente, mas sim o número de vezes que certa operação foi executada.
+Geralmente há várias formas de resolver um determinado problema. Essas várias formas dão origem a diferentes soluções que diferem entre si no tempo de execução computacional. A função de complexidade <i>f(n)</i> é uma das maneiras de medir o número de vezes que uma certa operação é executada para uma entrada de tamanho <i>n</i>. Vale ressaltar que <i>f(n)</i> não significa o tempo de execução diretamente, mas sim o número de vezes que certa operação foi executada.
 
-Para entender como calcular o tempo de execução de um algoritmo com a função com esse método, utilizarei um simples trecho de código na linguagem C como exemplo.
+Utilizarei dois exemplos de código na linguagem C para entendermos melhor como calcular o tempo de execução de um algoritmo com esse método.
 
 #### Exemplo 1
 
@@ -54,9 +54,9 @@ O código acima realiza a busca pelo maior valor dentro do array <b>A</b> conten
 
 Na linha 1, o valor da posição do array <b>A</b> é copiado para a variável <b>T</b>, ou seja, o valor de <b>A[0]</b> foi atribuído para a variável <b>T</b>, sendo assim, o custo da linha 1 é de apenas 1 instrução.
 
-Na linha 3 o array <b>A</b> é percorrido com o comando de laço <i>for</i>, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução <b>int i = 0</b>. Por mais que <b>A</b> tenha zero elementos, será executada pelo menos uma comparação no <i>for</i>, sendo ela <b>i < n</b> , ou seja, mais uma operação. 
+Na linha 3, o array <b>A</b> é percorrido com o comando de laço <i>for</i>, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução <b>int i = 0</b>. Por mais que <b>A</b> tenha zero elementos, será executada pelo menos uma comparação no <i>for</i>, sendo ela <b>i < n</b> , ou seja, mais uma operação. 
 
-Com isso, o custo para executar a linha 3 é de 2n instruções. Note que as instruções serão executadas antes da primeira iteração do laço <i>for</i>, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento <b>i++</b> e uma de comparação <b>i < n</b>. 
+Com isso, o custo para executar a linha 3 é de 2n instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço <i>for</i>, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento <b>i++</b> e uma de comparação <b>i < n</b>. 
 
 Se tratarmos apenas o laço <i>for</i> sem o seu corpo, teremos que o algoritmo precisa executar 3 + 2n instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado <b>n</b> vezes. 
 
@@ -72,7 +72,7 @@ Seja <i>f(n)</i> o número de operações feitas para um array de tamanho <b>n</
 
 No problema da busca sequencial (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
 
-E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar ![Pi](https://latex.codecogs.com/gif.latex?P_{i}) como a probabilidade de procura do <i>i</i>-ésimo elemento. Para encontrar o <i>i</i>-ésimo elemento são necessárias <i>i</i> comparações, temos então que: 
+E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar <img src="https://latex.codecogs.com/gif.latex?P_{i}" alt="Pi"> como a probabilidade de procura do <i>i</i>-ésimo elemento. Para encontrar o <i>i</i>-ésimo elemento são necessárias <i>i</i> comparações, temos então que: 
 <div align="center">
   <img src="https://latex.codecogs.com/gif.latex?f(n)&space;=&space;1&space;\cdot&space;P_{1}&space;&plus;&space;2&space;\cdot&space;P_{2}&space;&plus;&space;...&space;&plus;&space;n&space;\cdot&space;P_{n}" alt="formula">
 </div>
@@ -80,7 +80,7 @@ E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso mé
 Considerando <i>1/n</i> como a probabilidade de cada um dos elementos a ser encontrado, temos que:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbegin%7Balign*%7D%20f%28n%29%20%3D%201%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%20&plus;%202%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%20&plus;%20...%20&plus;%20n%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%281%20&plus;%202%20&plus;%20...%20&plus;%20n%29%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Cleft%20%28%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D%20%5Cright%20%29%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D%20%5Cend%7Balign*%7D" alt="formula">
+  <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbegin%7Balign*%7D%20f%28n%29%20%3D%201%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%20&plus;%202%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%20&plus;%20...%20&plus;%20n%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%281%20&plus;%202%20&plus;%20...%20&plus;%20n%29%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Cleft%20%28%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D%20%5Cright%20%29%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B%28n&plus;1%29%7D%7B2%7D%20%5Cend%7Balign*%7D" alt="formula">
 </div>
 
 <br>
@@ -97,6 +97,6 @@ o tempo de execução para o <b>caso médio</b> é f(n) = (n + 1) / 2.
 
 ## Conclusão
 
-Neste artigo abordei alguns tópicos introdutórios referentes a análise de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <i>Notação Big O</i> e <i>Classes de comportamento</i>.
+Neste artigo foir abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <i>Notação Big O</i> e <i>Classes de comportamento</i>.
 
 <br><center><i>Obrigado pela leitura!</i></center>
