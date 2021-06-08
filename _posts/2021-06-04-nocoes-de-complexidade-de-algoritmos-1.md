@@ -66,9 +66,9 @@ Logo, podemos definir uma função matemática que relaciona o custo do algoritm
 
 <script src="https://gist.github.com/imsouza/edfa42857e4130ec16f7d6ed63317b3a.js"></script>
 
-O código acima realiza a busca de um valor```x``` no array ```A``` de tamanho ```n``` e retorna ```true``` caso encontre e ```false``` caso contrário.
+O código acima realiza a busca de um valor ```x``` no array ```A``` de tamanho ```n``` e retorna ```true``` caso encontre e ```false``` caso contrário.
 
-Seja <i>f(n)</i> o número de operações feitas para um array de tamanho ```n``` o valor de <i>f(n)</i> irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar <i>f(n)</i> para o melhor caso, pior caso e caso médio, ou seja, no <b>melhor caso</b> o valor mínimo de <i>f(n)</i> estaria dentre todas entradas possíveis, no <b>pior caso</b> o valor máximo de <i>f(n)</i> estaria dentre todas entradas possíveis e a complexidade do <b>caso médio</b> é a média de <i>f(n)</i> considerando todos os casos possíveis de entrada.
+Seja <i>f(n)</i> o número de operações feitas para um array de tamanho <i>n</i> o valor de <i>f(n)</i> irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar <i>f(n)</i> para o melhor caso, pior caso e caso médio, ou seja, no <b>melhor caso</b> o valor mínimo de <i>f(n)</i> estaria dentre todas entradas possíveis, no <b>pior caso</b> o valor máximo de <i>f(n)</i> estaria dentre todas entradas possíveis e a complexidade do <b>caso médio</b> é a média de <i>f(n)</i> considerando todos os casos possíveis de entrada.
 
 No problema da busca sequencial (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
 

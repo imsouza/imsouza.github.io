@@ -144,17 +144,79 @@ Para realizar o envio dos arquivos locais para o repositório remoto, utilize o 
 
 ```git push origin master```
 
+#### Clonando repositórios
+
+O comando ```git clone url-do-repositorio``` é usado para clonar um repositório remoto para o seu ambiente de trabalho local.
+
+Obs.: a clonagem do repositório conecta automaticamente o repositório local com o remoto, ou seja, não é necessário realizar a conexão manual com o repositório remoto.
+
 #### Exibindo lista de logs
 
 Ao executar o comando ```git log```, será exibido uma lista com detalhes sobre as alterações feitas no projeto.
 
 ![Output do comando git log](https://i.imgur.com/fRAzFqX.png)
 
-#### Clonando repositórios
+<br>
 
-O comando ```git clone``` é usado para clonar um repositório remoto para o seu ambiente de trabalho local. Use o seguinte comando:
+## Lidando com branches
 
-```git clone url-do-repositorio```.
+O Git tem uma função feita para que desenvolvedores criem vários ramos dentro de um único projeto. A finalidade desses ramos (ou branches) é para que o desenvolvedor trabalhe em novas funcionalidades em uma outra área no mesmo projeto sem que interfira diretamente na branch do código principal, que por padrão é a master ou main.
+
+#### Criando uma nova branch
+
+Para criar uma nova branch, use o seguinte comando:
+
+```git checkout -b nome-da-nova-branch```
+
+#### Alternando branches
+
+Se você deseja mudar de branch, o seguinte comando pode ser usado:
+
+```git checkout nome-da-branch```
+
+#### Deletando branch local
+
+Branches locais podem ser excluídas utilizando o seguinte comando:
+
+```git checkout -d nome-da-branch```
+
+#### Deletando branch remota
+
+Branches remotas podem ser excluídas utilizando o seguinte comando:
+
+```git push origin --delete nome-da-branch```
+
+#### Enviando branch
+
+Para tornar a branch que você criou disponível para outros usuários, será necessário enviá-la para o repositório remoto. Para isso, utilize os seguintes comandos:
+
+```git commit -m "commit da nova branch"```
+
+```git push --set-upstream origin nome-da-nova-branch```
+
+#### Atualizando branch
+
+Use ```git pull``` para atualizar o repositório local com a última alteração feita. 
+
+#### Mesclando branches
+
+Para mesclar (fazer um merge) de uma outra branch com sua branch ativa, use:
+
+```git merge nome-da-branch```
+
+<br>
+
+## Lidando com alterações locais
+
+As vezes acontecem imprevistos que nos forçam a desfazer algumas alterações no código. Para isso, existem alguns comandos que nos auxiliam na eliminação de certos commits. O comando ```reset``` é um dos mais poderosos do Git e é sobre ele que iremos falar a seguir.
+
+#### Reset soft
+
+O comando ```git reset --soft origin/master``` move apenas o ponteiro HEAD para algum outro commit, sem alterar o diretório de trabalho. Essa opção é a mais segura, pois caso seja executada por engano, todo código do projeto estará acessível.
+
+#### Reset hard
+
+O comando ```git reset --hard origin/master``` é o mais perigoso pois ele não só reseta as últimas alterações feitas como também reverte todas as alterações no diretório de trabalho.
 
 <br>
 
