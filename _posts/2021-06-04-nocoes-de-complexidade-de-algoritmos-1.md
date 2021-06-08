@@ -50,15 +50,15 @@ Utilizarei dois exemplos de código na linguagem C para entendermos melhor como 
 
 <script src="https://gist.github.com/imsouza/40799279ae270e399536c0da23f73f8b.js"></script>
 
-O código acima realiza a busca pelo maior valor dentro do array <b>A</b> contendo <b>n</b> elementos e o armazena na variável <b>T</b>.
+O código acima realiza a busca pelo maior valor dentro do array ```A``` contendo ```n``` elementos e o armazena na variável ```T```.
 
-Na linha 1, o valor da posição do array <b>A</b> é copiado para a variável <b>T</b>, ou seja, o valor de <b>A[0]</b> foi atribuído para a variável <b>T</b>, sendo assim, o custo da linha 1 é de apenas 1 instrução.
+Na linha 1, o valor da posição do array ```A``` é copiado para a variável ```T```, ou seja, o valor de ```A[0]``` foi atribuído para a variável ```T```, sendo assim, o custo da linha 1 é de apenas 1 instrução.
 
-Na linha 3, o array <b>A</b> é percorrido com o comando de laço <i>for</i>, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução <b>int i = 0</b>. Por mais que <b>A</b> tenha zero elementos, será executada pelo menos uma comparação no <i>for</i>, sendo ela <b>i < n</b> , ou seja, mais uma operação. 
+Na linha 3, o array ```A``` é percorrido com o comando de laço ```for```, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução ```int i = 0```. Por mais que ```A``` tenha zero elementos, será executada pelo menos uma comparação no ```for```, sendo ela ```i < n```, ou seja, mais uma operação. 
 
-Com isso, o custo para executar a linha 3 é de 2n instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço <i>for</i>, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento <b>i++</b> e uma de comparação <b>i < n</b>. 
+Com isso, o custo para executar a linha 3 é de <i>2n</i> instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço ```for```, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento ```i++``` e uma de comparação ```i < n```. 
 
-Se tratarmos apenas o laço <i>for</i> sem o seu corpo, teremos que o algoritmo precisa executar 3 + 2n instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado <b>n</b> vezes. 
+Se tratarmos apenas o laço ```for``` sem o seu corpo, teremos que o algoritmo precisa executar <i>3 + 2n</i> instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado <i>n</i> vezes. 
 
 Logo, podemos definir uma função matemática que relaciona o custo do algoritmo com o  tamanho do array, em outras palavras: <i>f(n) = 2n + 3</i>.
 
@@ -66,9 +66,9 @@ Logo, podemos definir uma função matemática que relaciona o custo do algoritm
 
 <script src="https://gist.github.com/imsouza/edfa42857e4130ec16f7d6ed63317b3a.js"></script>
 
-O código acima realiza a busca de um valor <b>x</b> no array <b>A</b> de tamanho <b>n</b> e retorna <b>true</b> caso encontre e <b>false</b> caso contrário.
+O código acima realiza a busca de um valor```x``` no array ```A``` de tamanho ```n``` e retorna ```true``` caso encontre e ```false``` caso contrário.
 
-Seja <i>f(n)</i> o número de operações feitas para um array de tamanho <b>n</b> o valor de <i>f(n)</i> irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar <i>f(n)</i> para o melhor caso, pior caso e caso médio, ou seja, no <b>melhor caso</b> o valor mínimo de <i>f(n)</i> estaria dentre todas entradas possíveis, no <b>pior caso</b> o valor máximo de <i>f(n)</i> estaria dentre todas entradas possíveis e a complexidade do <b>caso médio</b> é a média de <i>f(n)</i> considerando todos os casos possíveis de entrada.
+Seja <i>f(n)</i> o número de operações feitas para um array de tamanho ```n``` o valor de <i>f(n)</i> irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar <i>f(n)</i> para o melhor caso, pior caso e caso médio, ou seja, no <b>melhor caso</b> o valor mínimo de <i>f(n)</i> estaria dentre todas entradas possíveis, no <b>pior caso</b> o valor máximo de <i>f(n)</i> estaria dentre todas entradas possíveis e a complexidade do <b>caso médio</b> é a média de <i>f(n)</i> considerando todos os casos possíveis de entrada.
 
 No problema da busca sequencial (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
 
@@ -87,11 +87,11 @@ Considerando <i>1/n</i> como a probabilidade de cada um dos elementos a ser enco
 
 Logo, podemos concluir que:
 
-o tempo de execução para o <b>melhor caso</b> é f(n) = 1, referente ao elemento que está na primeira posição do array;
+o tempo de execução para o <b>melhor caso</b> é <i>f(n) = 1</i>, referente ao elemento que está na primeira posição do array;
 
-o tempo de execução para o <b>pior caso</b> é f(n) = n, referente ao elemento que está na última posição do array ou não existe;
+o tempo de execução para o <b>pior caso</b> é <i>f(n) = n</i>, referente ao elemento que está na última posição do array ou não existe;
 
-o tempo de execução para o <b>caso médio</b> é f(n) = (n + 1) / 2.
+o tempo de execução para o <b>caso médio</b> é <i>f(n) = (n + 1) / 2</i>.
 
 <br>
 
