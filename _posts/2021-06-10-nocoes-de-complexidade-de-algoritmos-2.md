@@ -81,16 +81,16 @@ A seguir, listarei algumas classes de comportamento referentes a notação Big O
 
 | Notação    | Descrição   | Denominação  |
 |------------|-------------| ------------ |
-| O(1)       | A melhor solução possível, pois não depende do tamanho da entrada. O acesso direto a um elemento de um array pode ser um bom exemplo | Constante |
-| O(log n)   | O problema é resolvido dividindo-o ao meio, e assim sucessivamente. Um exemplo famoso é o algorítmo de <b>Busca Binária</b> | Logarítimica |
-| O(n)       | O problema realiza uma operação em cada elemento da entrada como o algoritmo de <b>Busca Sequencial</b> | Linear |
-| O(n log n) | O problema é resolvido dividindo-se sucessivamente ao meio e depois junta-se os resultados. Um bom exemplo é o algoritmo <b>Mergesort</b> | Linearítmico |
-| O(n^2)     | Ocorre quando os itens de dados são processados aos pares, muitas vezes com repetições aninhadas. Não é uma boa escolha para uma grande quantidade de dados. O algoritmo <b>selection sort</b> possui essa complexidade e provamos isso no tópico acima | Quadrática |
-| O(n^3)     | Podemos ter como exemplo a multiplicação de matrizes <i>n</i> x <i>n</i> | Cúbica |
-| O(2^n)     | A medida que <i>n</i> aumenta, o fator analisado (tempo ou espaço) aumenta exponencialmente. Um exemplo pode ser todos subconjuntos de <i>n</i> elementos            | Exponencial |
-| O(n!)      | A pior solução, pois o número de instruções cresce muito rapidamente para um pequeno número de dados, como, por exemplo, o algoritmo do <b>Caixeiro Viajante</b> | Fatorial |
+|O(1)        | <i>A melhor solução possível, pois não depende do tamanho da entrada. O acesso direto a um elemento de um array pode ser um bom exemplo</i><br><br> |  Constante|
+|O(log n)    | <i>O problema é resolvido dividindo-o ao meio, e assim sucessivamente. Um exemplo famoso é o algorítmo de <b>Busca Binária</b></i><br><br> |  Logarítimica|
+|O(n)        | <i>O problema realiza uma operação em cada elemento da entrada como o algoritmo de <b>Busca Sequencial</b></i><br><br> |  Linear|
+|O(n log n)  | <i>O problema é resolvido dividindo-se sucessivamente ao meio e depois junta-se os resultados. Um bom exemplo é o algoritmo <b>Mergesort</b></i><br><br> |  Linearítmico|
+|O(n^2)      | <i>Ocorre quando os itens de dados são processados aos pares, muitas vezes com repetições aninhadas. Não é uma boa escolha para uma grande quantidade de dados. O algoritmo <b>selection sort</b> possui essa complexidade e provamos isso no tópico acima</i><br><br> |  Quadrática|
+|O(n^3)      | <i>Podemos ter como exemplo a multiplicação de matrizes <b>n x n</b></i><br><br> |  Cúbica|
+|O(2^n)      | <i>A medida que <b>n</b> aumenta, o fator analisado (tempo ou espaço) aumenta exponencialmente. Um exemplo pode ser todos subconjuntos de <b>n</b> elementos</i><br><br>             |  Exponencial|
+|O(n!)       | <i>A pior solução, pois o número de instruções cresce muito rapidamente para um pequeno número de dados, como, por exemplo, o algoritmo do <b>Caixeiro Viajante</b></i> |  Fatorial|
 
-#### Ordem de crescimento
+<br>
 
 O gráfico abaixo compara a ordem de crescimento referente a cada complexidade:
 
