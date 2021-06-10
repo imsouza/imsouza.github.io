@@ -4,7 +4,7 @@ title: "Noções de Complexidade de Algoritmos #1"
 description: "Um algoritmo é um conjunto de instruções que realizam uma determinada tarefa, mas como saber o algoritmo ideal para solucionar tal problema em meio a tantas possíveis soluções?"
 author: "Mateus Almeida"
 image: /assets/thumbnails/img9.jpeg
-tags: [Estruturas de Dados e Algoritmos]
+tags: [Algoritmos]
 ---
 
 ![Book](/assets/thumbnails/img9.jpeg)
@@ -21,7 +21,7 @@ Quando criamos um algoritmo, o passo mais importante a se seguir é determinar o
 
 ## Análise de eficiência
 
-Para calcularmos o quão eficiente é um algoritmo existem duas abordagens: a análise empírica e a análise matemática.
+Para calcularmos o quão eficiente é um algoritmo existem duas abordagens: a <b>análise empírica</b> e a <b>análise matemática</b>.
 
 #### Análise empírica
 
@@ -70,7 +70,7 @@ O código acima realiza a busca de um valor ```x``` no array ```A``` de tamanho 
 
 Seja <i>f(n)</i> o número de operações feitas para um array de tamanho <i>n</i> o valor de <i>f(n)</i> irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar <i>f(n)</i> para o melhor caso, pior caso e caso médio, ou seja, no <b>melhor caso</b> o valor mínimo de <i>f(n)</i> estaria dentre todas entradas possíveis, no <b>pior caso</b> o valor máximo de <i>f(n)</i> estaria dentre todas entradas possíveis e a complexidade do <b>caso médio</b> é a média de <i>f(n)</i> considerando todos os casos possíveis de entrada.
 
-No problema da busca sequencial (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
+No problema da <b>busca sequencial</b> (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
 
 E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20P_%7Bi%7D" alt="Pi"> como a probabilidade de procura do <i>i</i>-ésimo elemento. Para encontrar o <i>i</i>-ésimo elemento são necessárias <i>i</i> comparações, temos então que: 
 <div align="center">
@@ -97,6 +97,6 @@ o tempo de execução para o <b>caso médio</b> é <i>f(n) = (n + 1) / 2</i>.
 
 ## Conclusão
 
-Neste artigo foi abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <i>Notação Big O</i> e <i>Classes de comportamento</i>.
+Neste artigo foi abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <b>notação Big O</b> e <b>classes de comportamento</b>.
 
 <br><center><i>Obrigado pela leitura!</i></center>
