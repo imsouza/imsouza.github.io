@@ -216,7 +216,7 @@ O comando ```git reset --soft origin/master``` move apenas o ponteiro HEAD para 
 
 #### Reset hard
 
-O comando ```git reset --hard origin/master``` é o mais perigoso pois ele não só reseta as últimas alterações feitas como também reverte todas as alterações no diretório de trabalho.
+O comando ```git reset --hard origin/master``` é o mais perigoso, pois, ele não só reseta as últimas alterações feitas como também reverte todas as alterações no diretório de trabalho.
 
 <br>
 
