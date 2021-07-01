@@ -65,7 +65,7 @@ Tipos abstratos de dados possuem operações para a manipulação de seus dados.
 - Acesso/consulta a um elemento do TAD;
 - Destruição do TAD.
 
-A figura abaixo exemplifica a ligação das operações com os módulos:
+A figura abaixo ilustra a ligação das operações com os módulos e vice-versa:
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/39147407/124054163-de9e5500-d9f7-11eb-969c-8f4a255e7c15.png" alt="estrutura" width="70%">
