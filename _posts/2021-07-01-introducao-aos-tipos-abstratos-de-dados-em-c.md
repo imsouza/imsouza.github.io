@@ -43,12 +43,16 @@ Desse modo, o usuário só deve manipular os atributos do TAD através das funç
 
 Um TAD é, muitas vezes, implementado na fórmula de dois módulos: <b>implementação</b> e <b>interface</b>. Já os programas que usam determinado tipo abstrato de dados são chamados de <b>clientes</b>. 
 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/39147407/124182614-77cb7b00-da8d-11eb-8938-64a8b3db1bb5.png" alt="módulos" width="70%">
+</div>
+
 O módulo de interface declara as funções que correspondem às operações do TAD e é visível pelo usuário. A implementação é o conjunto de algoritmos que realizam as operações e é o único "lugar" que uma variável é acessada diretamente.
 
 A estratégia de ocultação de informações permite a implementação e manutenção de módulos sem afetar os programas do usuário. A figura abaixo exemplifica esse esquema:
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/39147407/124182614-77cb7b00-da8d-11eb-8938-64a8b3db1bb5.png" alt="módulos" width="70%">
+  <img src="https://user-images.githubusercontent.com/39147407/124054163-de9e5500-d9f7-11eb-969c-8f4a255e7c15.png" alt="estrutura" width="70%">
 </div>
 
 Na linguagem C, um TAD é declarado como uma <code>struct</code> e a interface é um conjunto de protótipos de funções que manipula a <code>struct</code>.
@@ -64,13 +68,6 @@ Tipos abstratos de dados possuem operações para a manipulação de seus dados.
 - Remoção de um elemento do TAD;
 - Acesso/consulta a um elemento do TAD;
 - Destruição do TAD.
-
-A figura abaixo ilustra a ligação das operações com os módulos e vice-versa:
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/39147407/124054163-de9e5500-d9f7-11eb-969c-8f4a255e7c15.png" alt="estrutura" width="70%">
-</div>
-
 
 <br>
 
