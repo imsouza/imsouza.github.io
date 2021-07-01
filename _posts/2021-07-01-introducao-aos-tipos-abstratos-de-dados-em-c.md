@@ -48,7 +48,7 @@ O módulo de interface declara as funções que correspondem às operações do 
 A estratégia de ocultação de informações permite a implementação e manutenção de módulos sem afetar os programas do usuário. A figura abaixo exemplifica esse esquema:
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/39147407/124054163-de9e5500-d9f7-11eb-969c-8f4a255e7c15.png" alt="estrutura" width="70%">
+  <img src="https://user-images.githubusercontent.com/39147407/124182614-77cb7b00-da8d-11eb-8938-64a8b3db1bb5.png" alt="módulos" width="70%">
 </div>
 
 Na linguagem C, um TAD é declarado como uma <code>struct</code> e a interface é um conjunto de protótipos de funções que manipula a <code>struct</code>.
@@ -65,6 +65,13 @@ Tipos abstratos de dados possuem operações para a manipulação de seus dados.
 - Acesso/consulta a um elemento do TAD;
 - Destruição do TAD.
 
+A figura abaixo exemplifica a ligação das operações com os módulos:
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/39147407/124054163-de9e5500-d9f7-11eb-969c-8f4a255e7c15.png" alt="estrutura" width="70%">
+</div>
+
+
 <br>
 
 ## Modularizando o programa
@@ -74,10 +81,6 @@ Quando trabalhamos com TAD, é uma boa prática da linguagem C utilizarmos dois 
 - Arquivo ".h": onde será declarado os protótipos das funções, ou seja, as funções que ficarão visíveis para o usuário. Também é o onde será declarado os tipos de ponteiro e os dados de acesso global no programa. O arquivo com essa extensão define a <b>interface</b> visível pelo usuário;
 
 - Arquivo ".c": declaração do tipo de dados que ficarão ocultos do usuário do TAD e implementação das suas funções. O arquivo com essa extensão define tudo que ficará <b>oculto</b> do usuário.
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/39147407/124182614-77cb7b00-da8d-11eb-8938-64a8b3db1bb5.png" alt="módulos" width="70%">
-</div>
 
 Esse processo de separar o código do programa em vários arquivos e funções se chama <b>modularização</b>. A modularização visa à criação de <b>módulos</b>. Um módulo é uma unidade com propósito único e bem definido que pode ser compilado separadamente do restante do programa. Desse modo, um modulo pode ser facilmente reutilizado e modificado independente do programa do usuário. A utilização de módulos se torna necessária a medida que a aplicação se torna maior devido a exigências de manutenção no código, reutilização e modificação que exija recompilação de todo código.
 
