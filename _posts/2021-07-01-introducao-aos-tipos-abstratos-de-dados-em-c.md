@@ -76,7 +76,7 @@ Quando trabalhamos com TAD, é uma boa prática da linguagem C utilizarmos dois 
 - Arquivo ".c": declaração do tipo de dados que ficarão ocultos do usuário do TAD e implementação das suas funções. O arquivo com essa extensão define tudo que ficará <b>oculto</b> do usuário.
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/39147407/124054375-40f75580-d9f8-11eb-9fc5-01bf43c5b8d0.png" alt="módulos" width="70%">
+  <img src="https://user-images.githubusercontent.com/39147407/124182614-77cb7b00-da8d-11eb-8938-64a8b3db1bb5.png" alt="módulos" width="70%">
 </div>
 
 Esse processo de separar o código do programa em vários arquivos e funções se chama <b>modularização</b>. A modularização visa à criação de <b>módulos</b>. Um módulo é uma unidade com propósito único e bem definido que pode ser compilado separadamente do restante do programa. Desse modo, um modulo pode ser facilmente reutilizado e modificado independente do programa do usuário. A utilização de módulos se torna necessária a medida que a aplicação se torna maior devido a exigências de manutenção no código, reutilização e modificação que exija recompilação de todo código.
@@ -132,7 +132,7 @@ A implementação desse TAD pode ser dada pelo arquivo "Ponto.c". O código deve
 
 A seguir, mostrarei a definição de cada uma das funções do TAD em questão. Pouparei a explicação sobre ponteiros, afinal, como já foi dito no começo do artigo, ao trabalhar com TADs o único pré-requisito que se espera é que você saiba manipular ponteiros.
 
-Iniciaremos definindo nossa estrutura ponto. Como só precisamos guardar as coordenadas de um ponto, podemos definir da seguinte forma:
+Iniciaremos definindo nossa estrutura Ponto. Como só precisamos guardar as coordenadas de um ponto, podemos definir da seguinte forma:
 
 <script src="https://gist.github.com/imsouza/ea5af24dc20e489713719cbf6815eb72.js"></script>
 
