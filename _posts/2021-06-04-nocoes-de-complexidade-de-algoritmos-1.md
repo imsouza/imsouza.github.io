@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Noções de Complexidade de Algoritmos #1"
-description: "Um algoritmo é um conjunto de instruções que realizam uma determinada tarefa, mas como saber o algoritmo ideal para solucionar tal problema em meio a tantas possíveis soluções?"
+description: "Um algoritmo é um conjunto de instruções que realizam uma determinada tarefa, mas como saber o algoritmo ideal para solucionar tal problema em meio a tantas possíveis soluções?..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img9.jpeg
 tags: [Algoritmos]

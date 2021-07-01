@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Noções de Complexidade de Algoritmos #2"
-description: "Dando continuidade ao artigo anterior, irei introduzir alguns novos conceitos e aprofundar em outros que são fundamentalmente importantes para análise e complexidade de algoritmos"
+description: "Dando continuidade ao artigo anterior, irei introduzir alguns novos conceitos e aprofundar em outros que são fundamentalmente importantes para análise e complexidade de algoritmos..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img10.jpeg
 tags: [Algoritmos]
