@@ -112,7 +112,7 @@ Dentro do diretório criado, utilize o comando **git init**, este comando é res
 
 #### Visualizando alterações
 
-Para visualizar qualquer alteração nos arquivos, utilize o comando ```git status```, esse comando exibe uma lista de arquivos alterados e que ainda não foram adicionados.
+Para visualizar qualquer alteração nos arquivos, utilize o comando **git status**, esse comando exibe uma lista de arquivos alterados e que ainda não foram adicionados.
 
 ![Output do comando git status](https://i.imgur.com/M2wAHbW.png)
 

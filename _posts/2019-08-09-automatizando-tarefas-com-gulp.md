@@ -127,7 +127,7 @@ O arquivo final ficará desse modelo:
 
 <script src="https://gist.github.com/imsouza/1c112e79633c6e67aa73b23eb3955c79.js"></script>
 
-Com tudo pronto, abra o terminal na raiz do projeto e digite simplesmente ```gulp```. Será retornado algo semelhante a isso:
+Com tudo pronto, abra o terminal na raiz do projeto e digite simplesmente **gulp**. Será retornado algo semelhante a isso:
 
 ```
 Using gulpfile ~/Documents/example/gulpfile.js
