@@ -17,7 +17,7 @@ Criado pela [Yandex](https://yandex.com/?source=post_page){:target="_blank"} par
 
 ## O que é BEM?
 
-BEM é uma metodologia ou padrão que é aplicado na nomenclatura de classes CSS para manter nossos projetos simples e organizados. A sigla BEM significa <i>Block Element Modifier</i>; esses três fundamentos são a base dessa metodologia cujo objetivo é fazer com que qualquer desenvolvedor possa alterar um código de um projeto de forma rápida e fácil.
+BEM é uma metodologia ou padrão que é aplicado na nomenclatura de classes CSS para manter nossos projetos simples e organizados. A sigla BEM significa *Block Element Modifier*; esses três fundamentos são a base dessa metodologia cujo objetivo é fazer com que qualquer desenvolvedor possa alterar um código de um projeto de forma rápida e fácil.
 
 <br>
 
@@ -42,7 +42,7 @@ BEM é uma metodologia ou padrão que é aplicado na nomenclatura de classes CSS
 
 - Para criarmos um bloco, definimos simplesmente uma classe. Ex.: ```.block```
 
-- Para criarmos um elemento, utilizamos dois underlines <i>(_)</i> após o nome do bloco. Ex.: ```.block_item```
+- Para criarmos um elemento, utilizamos dois underlines *(_)* após o nome do bloco. Ex.: ```.block_item```
 
 - E por fim, para criarmos um modifier, utilizamos dois traços <i>(- -)</i> no nosso bloco ou elemento. Ex.:
 
@@ -54,7 +54,7 @@ BEM é uma metodologia ou padrão que é aplicado na nomenclatura de classes CSS
 
 ## Block
 
-Um bloco é uma entidade independente, um <i>“bloco de construção“</i> de uma aplicação no qual pode ser simples ou composto (contendo outros blocos dentro do mesmo). Ele deve ser único, não contendo dois com o mesmo nome no seu código.
+Um bloco é uma entidade independente, um “bloco de construção“ de uma aplicação no qual pode ser simples ou composto (contendo outros blocos dentro do mesmo). Ele deve ser único, não contendo dois com o mesmo nome no seu código.
 
 ![Block](https://i.imgur.com/pkv5J58.jpg)
 
@@ -70,7 +70,7 @@ Um elemento nada mais é do que um complemento da estrutura de um bloco, como os
 
 <script src="https://gist.github.com/imsouza/dd74c3a59700b59a0e57614ecfdefe0b.js"></script>
 
-Um fato importante que deve ser ressaltado é que um elemento <strong>não</strong> pode estar dentro de outro, como por exemplo:
+Um fato importante que deve ser ressaltado é que um elemento **não** pode estar dentro de outro, como por exemplo:
 
 <script src="https://gist.github.com/imsouza/663512143f403d0c07d9f3e02e044e58.js"></script>
 
@@ -82,7 +82,7 @@ Para resolver esse problema, utilize a seguinte estrutura:
 
 ## Modifier
 
-Os modificadores, como o próprio nome já diz, servem para modificar a aparência dos elementos, como por exemplo adicionar uma cor especifica a um botão. Além disso, eles podem ser usados para alterar diferentes propriedades, tais como: <i>opacity</i>, <i>position</i>, <i>display</i>, <i>font-weight</i>, <i>border</i>, etc.
+Os modificadores, como o próprio nome já diz, servem para modificar a aparência dos elementos, como por exemplo adicionar uma cor especifica a um botão. Além disso, eles podem ser usados para alterar diferentes propriedades, tais como: *opacity*, *position*, *display*, *font-weight*, *border*, etc.
 
 ![Modifier](https://i.imgur.com/bngiPKT.jpg)
 
@@ -95,5 +95,5 @@ Os modificadores, como o próprio nome já diz, servem para modificar a aparênc
 A metodologia BEM é super fácil de compreender e implementar. Ela pode ser usada em diferentes tipos de projetos web, desde um simples site até um sistema completo. No começo, a sintaxe pode parecer estranha (eis o motivo dela ser amada por uns e odiada por outros), mas, em pouco tempo, você se acostuma com a ideia e já estará aplicando naturalmente essa metodologia em seus projetos, facilitando, assim, a escrita e a leitura de códigos, além de uma melhoria considerável no desempenho e desenvolvimento do projeto.
 
 
-<br><center><i>Obrigado pela leitura!</i></center>
+<br><center>*Obrigado pela leitura!*</center>
 

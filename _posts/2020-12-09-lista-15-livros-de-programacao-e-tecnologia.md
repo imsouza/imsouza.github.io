@@ -86,7 +86,7 @@ Uma resposta aos grandes desafios enfrentados pelos profissionais que trabalham 
 Esta foi uma lista dos principais livros que me vieram na cabeça para recomendação. Os livros são de diversos níveis, abordagens e temas. Caso você conheça um livro interessante que não foi citado, deixe nos comentários abaixo.
 
 
-<br><center><i>Obrigado pela leitura!</i></center>
+<br><center>*Obrigado pela leitura!*</center>
 
 
 

@@ -23,13 +23,13 @@ Assim que você tiver o Node e o Npm instalados, partiremos logo para a instala�
 
 ```npm install -g gulp-cli```
 
-Esse comando vai instalar de forma global ```-g``` o ```gulp-cli``` para ser utilizado em qualquer projeto.
+Esse comando vai instalar de forma global **-g** o **gulp-cli** para ser utilizado em qualquer projeto.
 
 <br>
 
 ## Instalando dependências no projeto
 
-Primeiramente, criaremos o arquivo <i>package.json</i>, no qual ficarão armazenadas as informações do projeto e das dependências instaladas nele. Para isso, utilize o comando ```npm init```. Serão exibidos no terminal vários campos a serem preenchidos com as respectivas informações do projeto. No final, teremos um arquivo desse modelo:
+Primeiramente, criaremos o arquivo **package.json**, no qual ficarão armazenadas as informações do projeto e das dependências instaladas nele. Para isso, utilize o comando **npm init**. Serão exibidos no terminal vários campos a serem preenchidos com as respectivas informações do projeto. No final, teremos um arquivo desse modelo:
 
 ```
 {
@@ -45,7 +45,7 @@ Primeiramente, criaremos o arquivo <i>package.json</i>, no qual ficarão armazen
 }
 ```
 
-Com o arquivo <i>package.json</i> já configurado, podemos instalar a dependência do Gulp nele, utilizando o seguinte comando:
+Com o arquivo **package.json** já configurado, podemos instalar a dependência do Gulp nele, utilizando o seguinte comando:
 
 ```npm install gulp --save-dev```
 
@@ -63,9 +63,9 @@ Essa é a estrutura atual do nosso projeto:
     index.html
 ```
 
-Se você abrir a pasta <i>node_modules/</i>, notará uma série de outras dependências. Isso acontece porque o Gulp precisa delas pra funcionar; o mesmo acontece com todas as outras que você for instalar em seu projeto.
+Se você abrir a pasta **node_modules/**, notará uma série de outras dependências. Isso acontece porque o Gulp precisa delas pra funcionar; o mesmo acontece com todas as outras que você for instalar em seu projeto.
 
-Ao abrir o arquivo <i>package.json</i>, você verá que a dependência do Gulp estará listada como <i>"devDependences"</i>
+Ao abrir o arquivo **package.json**, você verá que a dependência do Gulp estará listada como **devDependences**
 
 ```
 {
@@ -88,7 +88,7 @@ Ao abrir o arquivo <i>package.json</i>, você verá que a dependência do Gulp e
 
 ## Criando o arquivo de configuração "gulpfile.js"
 
-O próximo passo agora é criar o arquivo <i>gulpfile.js</i> na raiz do nosso projeto. Ele é a base para adicionarmos as tarefas que serão executadas pelo Gulp, a estrutura ficará da seguinte forma:
+O próximo passo agora é criar o arquivo **gulpfile.js** na raiz do nosso projeto. Ele é a base para adicionarmos as tarefas que serão executadas pelo Gulp, a estrutura ficará da seguinte forma:
 
 ```
 |- gulp-example/
@@ -107,17 +107,17 @@ O próximo passo agora é criar o arquivo <i>gulpfile.js</i> na raiz do nosso pr
 
 ## Criando nossa primeira tarefa
 
-Primeiramente, precisamos importar os métodos base do Gulp para essa tarefa em questão, na qual consiste em apenas mover os arquivos com extensão <i>.html</i> localizadas na pasta <i>src/</i> para a pasta <i>dist</i> que é a pasta pública para o acesso dos usuários.
+Primeiramente, precisamos importar os métodos base do Gulp para essa tarefa em questão, na qual consiste em apenas mover os arquivos com extensão **.html** localizadas na pasta **src/** para a pasta **dist** que é a pasta pública para o acesso dos usuários.
 
-Importaremos, inicialmente, os métodos <i>src</i> e <i>dest</i> do Gulp, utilizando o seguinte comando:
+Importaremos, inicialmente, os métodos **src** e **dest** do Gulp, utilizando o seguinte comando:
 
 <script src="https://gist.github.com/imsouza/64cbcbfbebca79e4e2a3c22d00bf35cf.js"></script>
 
-Agora, para mover os arquivos com extensão <i>.html</i>, utilizaremos a seguinte função:
+Agora, para mover os arquivos com extensão **.html**, utilizaremos a seguinte função:
 
 <script src="https://gist.github.com/imsouza/61d44ee6a16c7b5887329ec9a0cfba86.js"></script>
 
-A função <i>html()</i> procurará por todos arquivos terminados em <i>.html</i> utilizando o método <i>src</i> e o enviará para a pasta <i>dist</i> utilizando o método <i>dest</i>.
+A função **html()** procurará por todos arquivos terminados em **.html** utilizando o método **src** e o enviará para a pasta **dist** utilizando o método **dest**.
 
 Agora, exportaremos essa tarefa com o seguinte comando:
 
@@ -135,7 +135,7 @@ Starting 'default'...
 Finished 'default' after 90 ms
 ```
 
-Agora, se você abrir a pasta <i>dist/</i>, notará que o arquivo <i>index.html</i> estará lá.
+Agora, se você abrir a pasta **dist/**, notará que o arquivo **index.html** estará lá.
 
 ```
 |- gulp-example/
@@ -157,11 +157,11 @@ Agora, se você abrir a pasta <i>dist/</i>, notará que o arquivo <i>index.html<
 
 Ter o controle de como nossas tarefas serão executadas é algo muito importante, para isso, explicarei de uma forma simples como funciona os dois métodos de execução de tarefas do Gulp.
 
-O método <i>series()</i> combina tarefas e as executa em uma ordem específica, uma seguida da outra. Ex.:
+O método **series()** combina tarefas e as executa em uma ordem específica, uma seguida da outra. Ex.:
 
 <script src="https://gist.github.com/imsouza/d3d54e3de88650f912d138e160d4fb7f.js"></script>
 
-Já o método <i>parallel()</i> é usado para executar diferentes tarefas simultaneamente, não dependendo, assim, uma das outras. Ex.:
+Já o método **parallel()** é usado para executar diferentes tarefas simultaneamente, não dependendo, assim, uma das outras. Ex.:
 
 <script src="https://gist.github.com/imsouza/3e4c0f140609b9b1821fd649edc6bda5.js"></script>
 
@@ -177,7 +177,7 @@ Finished 'secondTask' after 8.4 ms
 Finished 'default' after 65 ms
 ```
 
-Percebe-se que primeiro foi executado a função <i>firstTask()</i>; logo depois, ela foi finalizada. Em seguida foi executada a função <i>secondTask()</i> e, logo depois, também foi finalizada. Ou seja, as tarefas foram executadas uma de cada vez seguindo a ordem que foram adicionadas no método <i>series()</i>
+Percebe-se que primeiro foi executado a função **firstTask()**; logo depois, ela foi finalizada. Em seguida foi executada a função **secondTask()** e, logo depois, também foi finalizada. Ou seja, as tarefas foram executadas uma de cada vez seguindo a ordem que foram adicionadas no método **series()**
 
 Agora, analisaremos a saída do método em paralelo:
 
@@ -190,19 +190,19 @@ Finished 'firstTask' after 50 ms
 Finished 'secondTask' after 51 ms
 Finished 'default' after 56 ms
 ```
-Nota-se que as funções <i>firstTask()</i> e <i>secondTask()</i> foram executadas e finalizadas simultaneamente, ou seja, independentemente da ordem que elas forem adicionadas no método <i>parallel()</i>, elas iniciarão e terminarão juntas, não dependendo, assim, que uma tarefa precise terminar para ser executada.
+Nota-se que as funções **firstTask()** e **secondTask()** foram executadas e finalizadas simultaneamente, ou seja, independentemente da ordem que elas forem adicionadas no método **parallel()**, elas iniciarão e terminarão juntas, não dependendo, assim, que uma tarefa precise terminar para ser executada.
 
 <br>
 
 ## Renomeando e minificando arquivos
 
-Minificar arquivos é uma tarefa bastante importante quando o assunto é desempenho do projeto. Para isso, utilizaremos em nosso projeto as seguintes dependências: <i>gulp</i>, <i>gulp-rename</i>, <i>gulp-uglify</i> e <i>gulp-uglifycss</i>
+Minificar arquivos é uma tarefa bastante importante quando o assunto é desempenho do projeto. Para isso, utilizaremos em nosso projeto as seguintes dependências: **gulp**, **gulp-rename**, **gulp-uglify** e **gulp-uglifycss**
 
 Para instalá-las, utilize o seguinte comando:
 
 ```npm install gulp-rename gulp-uglify gulp-uglifycss --save-dev```
 
-Com todas as dependências já instaladas, iniciaremos importando todas elas em nosso arquivo <i>gulpfile.js</i>:
+Com todas as dependências já instaladas, iniciaremos importando todas elas em nosso arquivo **gulpfile.js**:
 
 <script src="https://gist.github.com/imsouza/f0c3e098b8c06e97a30d7875b7c72855.js"></script>
 
@@ -210,13 +210,13 @@ Logo em seguida, adicionaremos a tarefa de renomear e minificar os arquivos Java
 
 <script src="https://gist.github.com/imsouza/3bac372b92363f5abe0bd1526a19964f.js"></script>
 
-Essa função irá procurar todos arquivos terminados em <i>.js</i> na pasta <i>src/js</i>. Em seguida, executará a função <i>minifyJS()</i> que será o responsável por minificar todo o arquivo; feito isso, o arquivo será renomeado utilizando a função <i>rename()</i> e passado como parâmetro um objeto, no qual é o próprio nome da extensão do arquivo que, no nosso caso, foi utilizado <i>.min.js</i> apenas por boas práticas devido ele ser um arquivo minificado. Por fim, enviaremos para a pasta <i>dist/js</i>.
+Essa função irá procurar todos arquivos terminados em **.js** na pasta **src/js**. Em seguida, executará a função **minifyJS()** que será o responsável por minificar todo o arquivo; feito isso, o arquivo será renomeado utilizando a função **rename()** e passado como parâmetro um objeto, no qual é o próprio nome da extensão do arquivo que, no nosso caso, foi utilizado **.min.js** apenas por boas práticas devido ele ser um arquivo minificado. Por fim, enviaremos para a pasta **dist/js**.
 
 Faremos o mesmo agora com os arquivos CSS, fazendo as alterações necessárias, pois o funcionamento é o mesmo que o da função anterior:
 
 <script src="https://gist.github.com/imsouza/a118af6bdab43eae509b7288ec25c65c.js"></script>
 
-Com tudo feito, esse é o nossso arquivo <i>gulpfile.js</i> depois de pronto:
+Com tudo feito, esse é o nossso arquivo **gulpfile.js** depois de pronto:
 
 <script src="https://gist.github.com/imsouza/8070b25499aa6b52202f6647541a4223.js"></script>
 
@@ -244,7 +244,7 @@ Por fim, utilize novamente o comando ```gulp``` na raiz do projeto para executar
 
 ## Conclusão
 
-Neste artigo, tentei abordar de forma simples e direta uma introdução sobre a ferramenta Gulp e como ela pode ajudar na automação de tarefas. Com o Gulp, é possível criar quantas tarefas quiser para diferentes finalidades em seu projeto. Muitas delas eu não citei no tutorial para não ficar algo muito grande, como, por exemplo, a compilação de Sass para CSS utilizando as dependências <i>gulp-sass</i> e <i>node-sass</i>, ambas encontradas no site oficial do [Npm](https://www.npmjs.com/){:target="_blank"}, juntamente com uma documentação explicando como usar, assim como todas as outras dependências que você pode utilizar em seus projetos.
+Neste artigo, tentei abordar de forma simples e direta uma introdução sobre a ferramenta Gulp e como ela pode ajudar na automação de tarefas. Com o Gulp, é possível criar quantas tarefas quiser para diferentes finalidades em seu projeto. Muitas delas eu não citei no tutorial para não ficar algo muito grande, como, por exemplo, a compilação de Sass para CSS utilizando as dependências **gulp-sass** e **node-sass**, ambas encontradas no site oficial do [Npm](https://www.npmjs.com/){:target="_blank"}, juntamente com uma documentação explicando como usar, assim como todas as outras dependências que você pode utilizar em seus projetos.
 
 
-<br><center><i>Obrigado pela leitura!</i></center>
+<br><center>*Obrigado pela leitura!*</center>

@@ -17,7 +17,7 @@ O padrão IEEE 754, desenvolvido pelo Instituto de Engenheiros Eletricistas e El
 
 ## Precisão
 
-As principais precisões para a representação binária que conhecemos, são: Precisão Simples de <i>32 bits</i>, que é a precisão que será abordada nesse artigo, e Precisão Dupla de <i>64 bits</i>.
+As principais precisões para a representação binária que conhecemos, são: Precisão Simples de **32 bits**, que é a precisão que será abordada nesse artigo, e Precisão Dupla de **64 bits**.
 
 <br>
 
@@ -53,19 +53,19 @@ A fórmula abaixo, em notação científica, existe para que o número esteja de
 
 ### Sinal
 
-O sinal sempre será representado apenas por um bit, sendo (1) <i>negativo</i> ou (0) <i>positivo</i>.
+O sinal sempre será representado apenas por um bit, sendo **(1) negativo** ou **(0) positivo**.
 
 <br>
 
 ### Mantissa
 
-A mantissa é parte de um número em notação científica ou um número de ponto flutuante, consistindo em seus dígitos significativos..
+A mantissa é parte de um número em notação científica ou um número de ponto flutuante, consistindo em seus dígitos significativos.
 
 <br>
 
 ### Expoente
 
-O expoente irá depender do resultado do cálculo, onde será somado a <i>"representação em excesso"</i>, mais conhecido como <i>Bias</i> na precisão simples em 32 bits, valendo 127. Vale ressaltar que o expoente <i>(E)</i> pode ser positivo ou negativo, mas <b>não</b> é armazenado em complemento de dois.
+O expoente irá depender do resultado do cálculo, onde será somado a "representação em excesso", mais conhecido como **Bias** na precisão simples em 32 bits, valendo 127. Vale ressaltar que o expoente *(E)* pode ser positivo ou negativo, mas **não** é armazenado em complemento de dois.
 
 ![Expoente](https://i.imgur.com/i3YFGSC.png)
 
@@ -73,13 +73,13 @@ O expoente irá depender do resultado do cálculo, onde será somado a <i>"repre
 
 ## Convertendo número decimal para o padrão IEEE 754
 
-Teremos como base o número <b>121.3</b> em decimal, e iremos representá-lo como ponto flutuante com precisão de 32 bits, seguindo os passos:
+Teremos como base o número *121.3* em decimal, e iremos representá-lo como ponto flutuante com precisão de 32 bits, seguindo os passos:
 
 <br>
 
 ### Passo 1 - Converter o número para binário
 
-Para iniciarmos, iremos converter o número <b>121.3</b> de decimal para binário. Efetuaremos a conversão para binário por partes, começando pelo <b>121</b>:
+Para iniciarmos, iremos converter o número *121.3* de decimal para binário. Efetuaremos a conversão para binário por partes, começando pelo *121*:
 
 ![Divisão](https://i.imgur.com/KMUDeXy.png)
 
@@ -87,7 +87,7 @@ Podendo ser escrito da seguinte forma:
 
 ![Resultado](https://i.imgur.com/pNpbvYc.png)
 
-Agora converteremos a parte decimal <b>.3</b>:
+Agora converteremos a parte decimal *.3*:
 
 ![Multiplicação](https://i.imgur.com/fLixgRP.png)
 
@@ -113,20 +113,20 @@ Utilizaremos a seguinte representação, como já mostrada antes, para a convers
 | Sinal | Expoente |          Mantissa          |
 ```
 
-Como o número <b>121.3</b> é positivo, por padrão, é sugerido que o bit de sinal seja 0, caso o número fosse negativo, o bit de sinal seria 1.
+Como o número **121.3** é positivo, por padrão, é sugerido que o bit de sinal seja 0, caso o número fosse negativo, o bit de sinal seria 1.
 
 ```
 | 0 | Expoente |          Mantissa          |
 ```
 
 Em seguida representaremos os bits de expoente e para isso precisaremos ficar atentos com o Bias.
-Sabemos que o Bias para precisão simples é 127, e vai aí a precaução: se o expoente for <b>positivo</b> nós somaremos o expoente ao Bias, caso contrário, iremos subtrair.  
+Sabemos que o Bias para precisão simples é *127*, e vai aí a precaução: se o expoente for **positivo** nós somaremos o expoente ao Bias, caso contrário, iremos subtrair.  
 
 Nesse caso, somando o Bias com o expoente teremos:
 
 ![127+6=133](https://i.imgur.com/wd4i8yP.png)
 
-E em seguida, converteremos o resultado <b>133</b> para binário:
+E em seguida, converteremos o resultado *133* para binário:
 
 ![Resultado em Binário](https://i.imgur.com/v6Cqyso.png)
 
@@ -170,7 +170,7 @@ Fazendo a conversão do expoente em binário para decimal, teremos o seguinte re
 
 ![Resultado em Decimal](https://i.imgur.com/rjPb36v.png)
 
-Neste caso, para encontrar o expoente, precisamos fazer a operação inversa. Iremos subtrair o valor <b>133</b> obtido na conversão, pelo Bias.
+Neste caso, para encontrar o expoente, precisamos fazer a operação inversa. Iremos subtrair o valor *133* obtido na conversão, pelo Bias.
 
 ![Subtração](https://i.imgur.com/EYr19LP.png)
 
@@ -200,7 +200,7 @@ Resultando em:
 
 ![Resultado](https://i.imgur.com/0ZSGp44.png)
 
-Percebe-se que o valor de resultado chegou muito próximo do esperado de forma exata e estrita que é <b>121.3</b>, podendo assim, tranquilamente ser arredondado sem nenhum problema.
+Percebe-se que o valor de resultado chegou muito próximo do esperado de forma exata e estrita que é *121.3*, podendo assim, tranquilamente ser arredondado sem nenhum problema.
 
 <br>
 
@@ -208,4 +208,4 @@ Percebe-se que o valor de resultado chegou muito próximo do esperado de forma e
 
 Neste artigo foi abordado, de forma simples e prática, a conversão de números no formato IEEE 754 para decimal e vice-versa, tendo como premissa conhecimentos básicos do leitor sobre conversão de base no geral.
 
-<br><center><i>Obrigado pela leitura!</i></center>
+<br><center>*Obrigado pela leitura!*</center>

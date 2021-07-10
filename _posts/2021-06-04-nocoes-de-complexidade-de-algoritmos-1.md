@@ -21,7 +21,7 @@ Quando criamos um algoritmo, o passo mais importante a se seguir é determinar o
 
 ## Análise de eficiência
 
-Para calcularmos o quão eficiente é um algoritmo existem duas abordagens: a <b>análise empírica</b> e a <b>análise matemática</b>.
+Para calcularmos o quão eficiente é um algoritmo existem duas abordagens: a **análise empírica** e a **análise matemática**.
 
 #### Análise empírica
 
@@ -42,7 +42,7 @@ Esse tipo de análise permite entender a relação entre o crescimento do conjun
 
 ## Medindo o tempo de execução
 
-Geralmente há várias formas de resolver um determinado problema. Essas várias formas dão origem a diferentes soluções que diferem entre si no tempo de execução computacional. A função de complexidade <i>f(n)</i> é uma das maneiras de medir o número de vezes que uma certa operação é executada para uma entrada de tamanho <i>n</i>. Vale ressaltar que <i>f(n)</i> não significa o tempo de execução diretamente, mas sim o número de vezes que certa operação foi executada.
+Geralmente há várias formas de resolver um determinado problema. Essas várias formas dão origem a diferentes soluções que diferem entre si no tempo de execução computacional. A função de complexidade *f(n)* é uma das maneiras de medir o número de vezes que uma certa operação é executada para uma entrada de tamanho *n*. Vale ressaltar que *f(n)* não significa o tempo de execução diretamente, mas sim o número de vezes que certa operação foi executada.
 
 Utilizarei dois exemplos de código na linguagem C para entendermos melhor como calcular o tempo de execução de um algoritmo com esse método.
 
@@ -50,34 +50,34 @@ Utilizarei dois exemplos de código na linguagem C para entendermos melhor como 
 
 <script src="https://gist.github.com/imsouza/40799279ae270e399536c0da23f73f8b.js"></script>
 
-O código acima realiza a busca pelo maior valor dentro do array ```A``` contendo ```n``` elementos e o armazena na variável ```T```.
+O código acima realiza a busca pelo maior valor dentro do array **A** contendo **n** elementos e o armazena na variável **T**.
 
-Na linha 1, o valor da posição do array ```A``` é copiado para a variável ```T```, ou seja, o valor de ```A[0]``` foi atribuído para a variável ```T```, sendo assim, o custo da linha 1 é de apenas 1 instrução.
+Na linha 1, o valor da posição do array **A** é copiado para a variável **T**, ou seja, o valor de **A[0]** foi atribuído para a variável **T**, sendo assim, o custo da linha 1 é de apenas 1 instrução.
 
-Na linha 3, o array ```A``` é percorrido com o comando de laço ```for```, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução ```int i = 0```. Por mais que ```A``` tenha zero elementos, será executada pelo menos uma comparação no ```for```, sendo ela ```i < n```, ou seja, mais uma operação. 
+Na linha 3, o array **A** é percorrido com o comando de laço **for**, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução **int i = 0**. Por mais que **A** tenha zero elementos, será executada pelo menos uma comparação no **for**, sendo ela **i < n**, ou seja, mais uma operação. 
 
-Com isso, o custo para executar a linha 3 é de <i>2n</i> instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço ```for```, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento ```i++``` e uma de comparação ```i < n```. 
+Com isso, o custo para executar a linha 3 é de *2n* instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço **for**, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento **i++** e uma de comparação **i < n**. 
 
-Se tratarmos apenas o laço ```for``` sem o seu corpo, teremos que o algoritmo precisa executar <i>3 + 2n</i> instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado <i>n</i> vezes. 
+Se tratarmos apenas o laço **for** sem o seu corpo, teremos que o algoritmo precisa executar *3 + 2n* instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado *n* vezes. 
 
-Logo, podemos definir uma função matemática que relaciona o custo do algoritmo com o  tamanho do array, em outras palavras: <i>f(n) = 2n + 3</i>.
+Logo, podemos definir uma função matemática que relaciona o custo do algoritmo com o  tamanho do array, em outras palavras: *f(n) = 2n + 3*.
 
 #### Exemplo 2
 
 <script src="https://gist.github.com/imsouza/edfa42857e4130ec16f7d6ed63317b3a.js"></script>
 
-O código acima realiza a busca de um valor ```x``` no array ```A``` de tamanho ```n``` e retorna ```true``` caso encontre e ```false``` caso contrário.
+O código acima realiza a busca de um valor **x** no array **A** de tamanho **n** e retorna **true** caso encontre e **false** caso contrário.
 
-Seja <i>f(n)</i> o número de operações feitas para um array de tamanho <i>n</i> o valor de <i>f(n)</i> irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar <i>f(n)</i> para o melhor caso, pior caso e caso médio, ou seja, no <b>melhor caso</b> o valor mínimo de <i>f(n)</i> estaria dentre todas entradas possíveis, no <b>pior caso</b> o valor máximo de <i>f(n)</i> estaria dentre todas entradas possíveis e a complexidade do <b>caso médio</b> é a média de <i>f(n)</i> considerando todos os casos possíveis de entrada.
+Seja *f(n)* o número de operações feitas para um array de tamanho *n* o valor de *f(n)* irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar *f(n)* para o melhor caso, pior caso e caso médio, ou seja, no **melhor caso** o valor mínimo de *f(n)* estaria dentre todas entradas possíveis, no **pior caso** o valor máximo de *f(n)* estaria dentre todas entradas possíveis e a complexidade do **caso médio** é a média de *f(n)* considerando todos os casos possíveis de entrada.
 
-No problema da <b>busca sequencial</b> (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
+No problema da **busca sequencial** (muitas vezes chamada de "busca burra") de um array, a função de complexidade de tempo é calculada em função do número de elementos consultados no array. Ou seja, o melhor caso dessa busca seria quando o elemento que desejamos procurar está logo no começo do array. Já o pior caso acontece quando o elemento que desejamos procurar é o último do array, ou seja, seria preciso passar por todos até chegar nele ou quando o elemento sequer existe.
 
-E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20P_%7Bi%7D" alt="Pi"> como a probabilidade de procura do <i>i</i>-ésimo elemento. Para encontrar o <i>i</i>-ésimo elemento são necessárias <i>i</i> comparações, temos então que: 
+E agora? sabemos o melhor caso e o pior, mas como fazer para calcular o caso médio? Bem, para isso iremos considerar <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20P_%7Bi%7D" alt="Pi"> como a probabilidade de procura do *i*-ésimo elemento. Para encontrar o *i*-ésimo elemento são necessárias *i* comparações, temos então que: 
 <div align="center">
   <img src="https://latex.codecogs.com/gif.latex?f(n)&space;=&space;1&space;\cdot&space;P_{1}&space;&plus;&space;2&space;\cdot&space;P_{2}&space;&plus;&space;...&space;&plus;&space;n&space;\cdot&space;P_{n}" alt="formula">
 </div>
 
-Considerando <i>1/n</i> como a probabilidade de cada um dos elementos a ser encontrado, temos que:
+Considerando *1/n* como a probabilidade de cada um dos elementos a ser encontrado, temos que:
 
 <div align="center">
   <img src="https://latex.codecogs.com/gif.latex?%5Cinline%20%5Cbegin%7Balign*%7D%20f%28n%29%20%3D%201%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%20&plus;%202%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%20&plus;%20...%20&plus;%20n%20%5Ccdot%20%5Cfrac%7B1%7D%7Bn%7D%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%281%20&plus;%202%20&plus;%20...%20&plus;%20n%29%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B1%7D%7Bn%7D%20%5Cleft%20%28%20%5Cfrac%7Bn%28n&plus;1%29%7D%7B2%7D%20%5Cright%20%29%5C%5C%5C%5C%20f%28n%29%20%3D%20%5Cfrac%7B%28n&plus;1%29%7D%7B2%7D%20%5Cend%7Balign*%7D" alt="formula">
@@ -87,16 +87,16 @@ Considerando <i>1/n</i> como a probabilidade de cada um dos elementos a ser enco
 
 Logo, podemos concluir que:
 
-o tempo de execução para o <b>melhor caso</b> é <i>f(n) = 1</i>, referente ao elemento que está na primeira posição do array;
+o tempo de execução para o **melhor caso** é *f(n) = 1*, referente ao elemento que está na primeira posição do array;
 
-o tempo de execução para o <b>pior caso</b> é <i>f(n) = n</i>, referente ao elemento que está na última posição do array ou não existe;
+o tempo de execução para o **pior caso** é *f(n) = n*, referente ao elemento que está na última posição do array ou não existe;
 
-o tempo de execução para o <b>caso médio</b> é <i>f(n) = (n + 1) / 2</i>.
+o tempo de execução para o **caso médio** é *f(n) = (n + 1) / 2*.
 
 <br>
 
 ## Conclusão
 
-Neste artigo foi abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: <b>notação Big O</b> e <b>classes de comportamento</b>.
+Neste artigo foi abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: **notação Big O** e **classes de comportamento**.
 
-<br><center><i>Obrigado pela leitura!</i></center>
+<br><center>*Obrigado pela leitura!*</center>

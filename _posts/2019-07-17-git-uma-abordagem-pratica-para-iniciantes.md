@@ -19,7 +19,7 @@ Quando falamos em Desenvolvimento de Software, o Git é uma ferramenta indispens
 
 Caso não tenha o Git instalado no seu computador, acesse o site oficial [clicando aqui](https://git-scm.com/downloads/){:target="_blank"} para a realização do download.
 
-Para ter certeza de que o Git foi instalado corretamente em sua máquina, execute o comando ```git --version```; caso ele mostre a versão atual da ferramenta, a instalação ocorreu sem problemas.
+Para ter certeza de que o Git foi instalado corretamente em sua máquina, execute o comando **git --version**; caso ele mostre a versão atual da ferramenta, a instalação ocorreu sem problemas.
 
 <br>
 
@@ -53,11 +53,11 @@ Para criar uma conta no GitHub, acesse o site oficial [clicando aqui](https://gi
 
 #### Criação do repositório
 
-Após se registrar, criaremos um repositório para testar os comandos do Git; clique no símbolo de <i>+</i>(Adição) ao lado da foto de perfil e vá em <i>New repository</i>. Abrirá uma janela como esta:
+Após se registrar, criaremos um repositório para testar os comandos do Git; clique no símbolo de *+* (Adição) ao lado da foto de perfil e vá em *New repository*. Abrirá uma janela como esta:
 
 ![Criação do Repositório no Github](https://i.imgur.com/4XONOUG.png)
 
-nela você irá preencher o seu repositório com as informações desejadas, tais como: nome, descrição, licença e outros. Após o preenchimento, clique em <i>Create repository</i> para que o repositório seja criado definitivamente, como é mostrado na imagem abaixo:
+nela você irá preencher o seu repositório com as informações desejadas, tais como: nome, descrição, licença e outros. Após o preenchimento, clique em *Create repository* para que o repositório seja criado definitivamente, como é mostrado na imagem abaixo:
 
 ![Finalização da criação do Repositório no Github](https://i.imgur.com/RKCnvJN.png)
 
@@ -69,25 +69,25 @@ Com o repositório já criado, iniciaremos com os principais comandos básicos d
 
 #### Termos básicos de um repositório Git
 
-- <i>Branch</i>: um ramo/divisão do projeto, Ex: uma branch para versão de testes e outra branch para a versão principal;
-- <i>Master</i>: branch principal do repositório;
-- <i>Clone</i>: cópia de um repositório <i>Git</i> remoto para o diretório local;
-- <i>Fetch ou Pull</i>: pega as últimas atualizações de um repositório remoto;
-- <i>Push</i>: envia os arquivos locais para um repositório remoto.
+- *Branch*: um ramo/divisão do projeto, Ex: uma branch para versão de testes e outra branch para a versão principal;
+- *Master*: branch principal do repositório;
+- *Clone*: cópia de um repositório *Git* remoto para o diretório local;
+- *Fetch ou Pull*: pega as últimas atualizações de um repositório remoto;
+- *Push*: envia os arquivos locais para um repositório remoto.
 
 #### Fluxo de trabalho de arquivos no Git
 
 Os repositórios locais consistem em três "árvores" mantidas pelo Git.
 
-A primeira é a sua <i>Working Directory</i> (diretório de trabalho) que contém os arquivos vigentes;
-a segunda é a <i>Index</i> (índice), que funciona como uma área temporária;
-e por último a <i>HEAD</i> (cabeça) que aponta para o último <i>commit</i> (confirmação) que foi realizado.
+A primeira é a sua *Working Directory* (diretório de trabalho) que contém os arquivos vigentes;
+a segunda é a *Index* (índice), que funciona como uma área temporária;
+e por último a *HEAD* (cabeça) que aponta para o último *commit* (confirmação) que foi realizado.
 
 ![Git três árvores](https://i.imgur.com/5w95Hag.png)
 
 #### Criando um diretório
 
-O primeiro passo é a criação de um diretório para o projeto. Para isso, utilize o comando ```mkdir nome-do-diretorio``` no terminal. Após a criação do diretório, adicione todos os arquivos do projeto dentro do mesmo, no meu caso adicionarei um ```index.html``` como exemplo.
+O primeiro passo é a criação de um diretório para o projeto. Para isso, utilize o comando **mkdir nome-do-diretorio** no terminal. Após a criação do diretório, adicione todos os arquivos do projeto dentro do mesmo, no meu caso adicionarei um **index.html** como exemplo.
 
 ```
 <!DOCTYPE html>
@@ -106,7 +106,7 @@ O primeiro passo é a criação de um diretório para o projeto. Para isso, util
 
 #### Inicializando o Git
 
-Dentro do diretório criado, utilize o comando ```git init```, este comando é responsavel por criar um repositório local para o projeto em sua máquina.
+Dentro do diretório criado, utilize o comando **git init**, este comando é responsavel por criar um repositório local para o projeto em sua máquina.
 
 ```Initialized empty Git repository in /home/imsouza/git-test/.git/```
 
@@ -122,11 +122,11 @@ O comando ```git add nome-do-arquivo``` adiciona os arquivos do diretório local
 
 #### Adicionando múltiplos arquivos
 
-Para adicionar todos arquivos de uma só vez no índice, utilize o comando ```git add .```
+Para adicionar todos arquivos de uma só vez no índice, utilize o comando **git add .**
 
 #### Fazendo o primeiro commit
 
-O comando ```git commit``` é usado para gravar alterações dos arquivos no HEAD.
+O comando **git commit** é usado para gravar alterações dos arquivos no HEAD.
 
 Use: ```git commit -m "mensagem do commit"``` para realização do commit.
 
@@ -152,7 +152,7 @@ Obs.: a clonagem do repositório conecta automaticamente o repositório local co
 
 #### Exibindo lista de logs
 
-Ao executar o comando ```git log```, será exibido uma lista com detalhes sobre as alterações feitas no projeto.
+Ao executar o comando **git log**, será exibido uma lista com detalhes sobre as alterações feitas no projeto.
 
 ![Output do comando git log](https://i.imgur.com/fRAzFqX.png)
 
@@ -196,7 +196,7 @@ Para tornar a branch que você criou disponível para outros usuários, será ne
 
 #### Atualizando branch
 
-Use ```git pull``` para atualizar o repositório local com a última alteração feita. 
+Use **git pull** para atualizar o repositório local com a última alteração feita. 
 
 #### Mesclando branches
 
@@ -208,7 +208,7 @@ Para mesclar (fazer um merge) de uma outra branch com sua branch ativa, use:
 
 ## Lidando com alterações locais
 
-As vezes acontecem imprevistos que nos forçam a desfazer algumas alterações no código. Para isso, existem alguns comandos que nos auxiliam na eliminação de certos commits. O comando ```reset``` é um dos mais poderosos do Git e é sobre ele que iremos falar a seguir.
+As vezes acontecem imprevistos que nos forçam a desfazer algumas alterações no código. Para isso, existem alguns comandos que nos auxiliam na eliminação de certos commits. O comando **reset** é um dos mais poderosos do Git e é sobre ele que iremos falar a seguir.
 
 #### Reset soft
 
@@ -225,4 +225,4 @@ O comando ```git reset --hard origin/master``` é o mais perigoso, pois, ele nã
 Neste artigo, vimos uma introdução básica do Git, seus comandos e a importância de aprender a tecnologia que é lider no mercado quando o assunto é controle de versões. Caso queira se aprofundar, acesse a documentação oficial [clicando aqui](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o){:target="_blank"}.
 
 
-<br><center><i>Obrigado pela leitura!</i></center>
+<br><center>*Obrigado pela leitura!*</center>
