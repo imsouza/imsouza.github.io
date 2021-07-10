@@ -151,9 +151,11 @@ Mission Complete!
 Agora iremos fazer o processo inverso. Utilizaremos o resultado obtido anteriormente no formato IEEE 754 para ficar mais compreensível o processo, vamos lá!
 
 ```
++---+----------+----------------------------+
 | S | Expoente |          Mantissa          |
-|---|:--------:|---------------------------:|
++---+----------+----------------------------+
 | 0 | 10000101 | 11100101001100110011010... |
++---+----------+----------------------------+
 ```
 
 <br>
