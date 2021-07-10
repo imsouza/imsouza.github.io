@@ -99,4 +99,4 @@ o tempo de execução para o **caso médio** é *f(n) = (n + 1) / 2*.
 
 Neste artigo foi abordado alguns tópicos introdutórios referentes a análise e complexidade de algoritmos e sua importância no desenvolvimento de software. No artigo seguinte, irei falar mais sobre alguns temas importantes desse estudo como: **notação Big O** e **classes de comportamento**.
 
-<br><center>*Obrigado pela leitura!*</center>
+<br><center><i>Obrigado pela leitura!</i></center>

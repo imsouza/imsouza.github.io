@@ -85,9 +85,7 @@ A programação funcional pode nos ajudar a resolver determinado tipo de problem
 
 [Higher-Order Functions](http://composingprograms.com/pages/16-higher-order-functions.html){:target="_blank"}
 
-<br><center>*Obrigado pela leitura!*</center>
-
-
+<br><center><i>Obrigado pela leitura!</i></center>
 
 
 

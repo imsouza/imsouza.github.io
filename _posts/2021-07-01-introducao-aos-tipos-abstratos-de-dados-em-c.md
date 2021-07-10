@@ -114,19 +114,19 @@ Como já foi dito, nosso TAD deve seguir as boas práticas de modularização de
 
 ![Screenshot](https://user-images.githubusercontent.com/39147407/124140572-f826b780-da5e-11eb-9456-336e2e245271.png)
 
-Observe que tanto o nome do arquivo ".h" quanto o ".c" possuem o mesmo nome "Ponto". Isso não é por acaso, é uma excelente prática definir um mesmo nome para cada TAD individualmente a fim de evitar conflitos e melhorar a compreensão e organização do projeto principalmente quando lidamos com vários tipos abstratos simultâneos.
+Observe que tanto o nome do arquivo **.h** quanto o **.c** possuem o mesmo nome **Ponto**. Isso não é por acaso, é uma excelente prática definir um mesmo nome para cada TAD individualmente a fim de evitar conflitos e melhorar a compreensão e organização do projeto principalmente quando lidamos com vários tipos abstratos simultâneos.
 
 #### Interface Ponto.h
 
-A interface desse TAD pode ser dada pelo arquivo "Ponto.h" da seguinte forma:
+A interface desse TAD pode ser dada pelo arquivo **Ponto.h** da seguinte forma:
 
 <script src="https://gist.github.com/imsouza/34d38927df87da65c2c4b6038f1e1e0f.js"></script>
 
-Perceba que a estrutura Ponto (```struct``` ponto) não é exportada pelo módulo, isto é, não faz parte da interface do módulo e, portanto, não é visível para outros módulos. Ao analisar apenas esse módulo, não é possível dizer como a estrutura foi definida, quais campos está sendo armazenado, qual o nome da variável associada a cada campo, etc. Dessa forma, os demais módulos que usarem esse TAD só terão acesso às informações obtidas através das funções exportadas pelo arquivo "Ponto.h". Essa é uma forma de proteger a implementação do nosso código, deixando disponível para o usuário apenas as funções que queremos que sejam usadas.
+Perceba que a estrutura Ponto (**struct ponto**) não é exportada pelo módulo, isto é, não faz parte da interface do módulo e, portanto, não é visível para outros módulos. Ao analisar apenas esse módulo, não é possível dizer como a estrutura foi definida, quais campos está sendo armazenado, qual o nome da variável associada a cada campo, etc. Dessa forma, os demais módulos que usarem esse TAD só terão acesso às informações obtidas através das funções exportadas pelo arquivo **Ponto.h**. Essa é uma forma de proteger a implementação do nosso código, deixando disponível para o usuário apenas as funções que queremos que sejam usadas.
 
 #### Implementação Ponto.c
 
-A implementação desse TAD pode ser dada pelo arquivo "Ponto.c". O código deve sempre incluir o arquivo de interface do módulo, ou seja, o "Ponto.h". No entanto, por que isso é necessário? Bem, pode haver definições na interface que podem ser necessárias na implementação. No caso da criação do nosso TAD, precisaremos da definição do tipo **Ponto**. Outra razão para realizar a inclusão da interface é garantir que as funções implementadas correspondem às funções da interface. Como os protótipos das funções exportadas são incluídos, o compilador verifica, por exemplo, se os parâmetros das funções implementadas equivalem aos parâmetros dos protótipos. Obviamente que além da inclusão da própria interface, é preciso incluir as interfaces das funções que usamos da biblioteca padrão do C. O código das importações é o seguinte:
+A implementação desse TAD pode ser dada pelo arquivo **Ponto.c**. O código deve sempre incluir o arquivo de interface do módulo, ou seja, o **Ponto.h**. No entanto, por que isso é necessário? Bem, pode haver definições na interface que podem ser necessárias na implementação. No caso da criação do nosso TAD, precisaremos da definição do tipo **Ponto**. Outra razão para realizar a inclusão da interface é garantir que as funções implementadas correspondem às funções da interface. Como os protótipos das funções exportadas são incluídos, o compilador verifica, por exemplo, se os parâmetros das funções implementadas equivalem aos parâmetros dos protótipos. Obviamente que além da inclusão da própria interface, é preciso incluir as interfaces das funções que usamos da biblioteca padrão do C. O código das importações é o seguinte:
 
 <script src="https://gist.github.com/imsouza/2a3cbe0ccf817ef73ea463205f150114.js"></script>
 
@@ -233,8 +233,6 @@ Neste artigo foi introduzido, de forma teórica e prática os conceitos dos **Ti
 
 [Introdução a Estruturas de Dados - Com Técnicas de Programação em C ,  Waldemar Waldemar Celes](https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-Estruturas-Dados-Waldemar-Celes/dp/8535283455){:target="_blank"}
 
-<br><center>*Obrigado pela leitura!*</center>
-
-
+<br><center><i>Obrigado pela leitura!</i></center>
 
 

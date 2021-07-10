@@ -74,4 +74,4 @@ $ chmod +x <nome_do_arquivo>
 
 Obviamente existem muitos outros comandos que são tão bons e úteis quanto os listados. Aproveito também para recomendar um guia muito interessante que aborda [500 comandos do Linux](https://www.linuxpro.com.br/dl/guia_500_comandos_Linux.pdf){:target="_blank"}, é uma excelente referência. Caso você use algum comando interessante e ele não foi listado, deixe-o nos comentários abaixo. ;)
 
-<br><center>*Obrigado pela leitura!*</center>
+<br><center><i>Obrigado pela leitura!</i></center>

@@ -95,5 +95,4 @@ Os modificadores, como o próprio nome já diz, servem para modificar a aparênc
 A metodologia BEM é super fácil de compreender e implementar. Ela pode ser usada em diferentes tipos de projetos web, desde um simples site até um sistema completo. No começo, a sintaxe pode parecer estranha (eis o motivo dela ser amada por uns e odiada por outros), mas, em pouco tempo, você se acostuma com a ideia e já estará aplicando naturalmente essa metodologia em seus projetos, facilitando, assim, a escrita e a leitura de códigos, além de uma melhoria considerável no desempenho e desenvolvimento do projeto.
 
 
-<br><center>*Obrigado pela leitura!*</center>
-
+<br><center><i>Obrigado pela leitura!</i></center>

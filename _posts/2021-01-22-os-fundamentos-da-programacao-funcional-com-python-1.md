@@ -61,4 +61,4 @@ Então como funciona o retorno dessa função? É retornada uma cópia da lista 
 
 Este artigo foi uma introdução sobre a Programação Funcional com Python e suas principais características, na próxima postagem irei me aprofundar mais em alguns outros conceitos fundamentais desse maravilhoso paradigma.
 
-<br><center>*Obrigado pela leitura!*</center>
+<br><center><i>Obrigado pela leitura!</i></center>

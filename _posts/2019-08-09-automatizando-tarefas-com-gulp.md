@@ -247,4 +247,4 @@ Por fim, utilize novamente o comando ```gulp``` na raiz do projeto para executar
 Neste artigo, tentei abordar de forma simples e direta uma introdução sobre a ferramenta Gulp e como ela pode ajudar na automação de tarefas. Com o Gulp, é possível criar quantas tarefas quiser para diferentes finalidades em seu projeto. Muitas delas eu não citei no tutorial para não ficar algo muito grande, como, por exemplo, a compilação de Sass para CSS utilizando as dependências **gulp-sass** e **node-sass**, ambas encontradas no site oficial do [Npm](https://www.npmjs.com/){:target="_blank"}, juntamente com uma documentação explicando como usar, assim como todas as outras dependências que você pode utilizar em seus projetos.
 
 
-<br><center>*Obrigado pela leitura!*</center>
+<br><center><i>Obrigado pela leitura!</i></center>

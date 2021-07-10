@@ -225,4 +225,4 @@ O comando ```git reset --hard origin/master``` é o mais perigoso, pois, ele nã
 Neste artigo, vimos uma introdução básica do Git, seus comandos e a importância de aprender a tecnologia que é lider no mercado quando o assunto é controle de versões. Caso queira se aprofundar, acesse a documentação oficial [clicando aqui](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o){:target="_blank"}.
 
 
-<br><center>*Obrigado pela leitura!*</center>
+<br><center><i>Obrigado pela leitura!</i></center>

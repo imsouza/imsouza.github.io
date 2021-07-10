@@ -21,4 +21,4 @@ Essa certeza de saber que sim, vai ficar cada vez mais bizarro é o que torna es
 
 A leitura é rápida, mas as memórias, bem… As memórias ficarão por um bom tempo na sua cabeça. Cada traço é feito cuidadosamente para ser estranho, para causar um certo desconforto e para ser impactante. Fragmentos do Horror é uma pequena obra com grandes histórias que possivelmente tirarão tuas noites de sono e que sem dúvidas é de leitura indispensável.
 
-<br><center>*Obrigado pela leitura!*</center>
+<br><center><i>Obrigado pela leitura!</i></center>
