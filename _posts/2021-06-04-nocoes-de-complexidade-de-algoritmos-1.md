@@ -50,15 +50,15 @@ Utilizarei dois exemplos de código na linguagem C para entendermos melhor como 
 
 <script src="https://gist.github.com/imsouza/40799279ae270e399536c0da23f73f8b.js"></script>
 
-O código acima realiza a busca pelo maior valor dentro do array **A** contendo **n** elementos e o armazena na variável **T**.
+O código acima realiza a busca pelo maior valor dentro do array ```A``` contendo ```n``` elementos e o armazena na variável ```T```.
 
-Na linha 1, o valor da posição do array **A** é copiado para a variável **T**, ou seja, o valor de **A[0]** foi atribuído para a variável **T**, sendo assim, o custo da linha 1 é de apenas 1 instrução.
+Na linha 1, o valor da posição do array ```A``` é copiado para a variável ```T```, ou seja, o valor de ```A[0]``` foi atribuído para a variável ```T```, sendo assim, o custo da linha 1 é de apenas 1 instrução.
 
-Na linha 3, o array **A** é percorrido com o comando de laço **for**, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução **int i = 0**. Por mais que **A** tenha zero elementos, será executada pelo menos uma comparação no **for**, sendo ela **i < n**, ou seja, mais uma operação. 
+Na linha 3, o array ```A``` é percorrido com o comando de laço ```for```, porém, antes de percorrer o array, ele precisa ser inicializado ao custo de uma instrução ```int i = 0```. Por mais que ```A``` tenha zero elementos, será executada pelo menos uma comparação no ```for```, sendo ela ```i < n```, ou seja, mais uma operação. 
 
-Com isso, o custo para executar a linha 3 é de *2n* instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço **for**, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento **i++** e uma de comparação **i < n**. 
+Com isso, o custo para executar a linha 3 é de *2n* instruções. Note que as instruções serão executadas antes mesmo da primeira iteração do laço ```for```, vale ressaltar também que ao final de cada iteração é preciso executar mais duas instruções: uma de incremento ```i++``` e uma de comparação ```i < n```. 
 
-Se tratarmos apenas o laço **for** sem o seu corpo, teremos que o algoritmo precisa executar *3 + 2n* instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado *n* vezes. 
+Se tratarmos apenas o laço ```for``` sem o seu corpo, teremos que o algoritmo precisa executar *3 + 2n* instruções, sendo elas: 3 instruções antes de iniciar o laço e 2 instruções ao final de cada looping que é executado *n* vezes. 
 
 Logo, podemos definir uma função matemática que relaciona o custo do algoritmo com o  tamanho do array, em outras palavras: *f(n) = 2n + 3*.
 
@@ -66,7 +66,7 @@ Logo, podemos definir uma função matemática que relaciona o custo do algoritm
 
 <script src="https://gist.github.com/imsouza/edfa42857e4130ec16f7d6ed63317b3a.js"></script>
 
-O código acima realiza a busca de um valor **x** no array **A** de tamanho **n** e retorna **true** caso encontre e **false** caso contrário.
+O código acima realiza a busca de um valor ```x``` no array ```A``` de tamanho ```n``` e retorna ```true``` caso encontre e ```false``` caso contrário.
 
 Seja *f(n)* o número de operações feitas para um array de tamanho *n* o valor de *f(n)* irá depender se o elemento procurado existe ou não e, caso exista, irá depender de sua posição. O objetivo é encontrar *f(n)* para o melhor caso, pior caso e caso médio, ou seja, no **melhor caso** o valor mínimo de *f(n)* estaria dentre todas entradas possíveis, no **pior caso** o valor máximo de *f(n)* estaria dentre todas entradas possíveis e a complexidade do **caso médio** é a média de *f(n)* considerando todos os casos possíveis de entrada.
 

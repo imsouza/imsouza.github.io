@@ -11,11 +11,11 @@ tags: [Estrutura de Dados]
 
 <br>
 
-Ao dar início aos estudos em alguma linguagem de programação, nos deparamos com uma série de conceitos. Um desses conceitos é o de **tipo de dados**. Um tipo de dado nada mais é do que um conjunto de valores e operações que uma variável pode assumir, por exemplo, **float**, **int**, **char** e **double** são alguns dos tipos de dados da linguagem C. Cada tipo aceita determinado valor, ou seja, o tipo **int** aceita somente números inteiros (pertencente ao conjunto dos inteiros) variando de -2.147.483.648 a 2.147.483.647.
+Ao dar início aos estudos em alguma linguagem de programação, nos deparamos com uma série de conceitos. Um desses conceitos é o de **tipo de dados**. Um tipo de dado nada mais é do que um conjunto de valores e operações que uma variável pode assumir, por exemplo, ```float```, ```int```, ```char``` e ```double``` são alguns dos tipos de dados da linguagem C. Cada tipo aceita determinado valor, ou seja, o tipo ```int``` aceita somente números inteiros (pertencente ao conjunto dos inteiros) variando de -2.147.483.648 a 2.147.483.647.
 
 Se você começou já faz um tempinho nos estudos, sabe (ou deveria saber) que os tipos de dados descritos acima não possuem nenhum tipo de estrutura sobre seus valores. No entanto, o que seria essa estrutura? Bem, uma estrutura, ou melhor, uma **estrutura de dados** é uma forma de armazenar e organizar os dados na máquina de modo que eles possam ser usados de forma eficiente.
 
-Alguns exemplos de estrutura de dados na linguagem C são os **arrays**, **struct**, **union** e **enum**, todas criadas a partir dos tipos de dados básicos e que você provavelmente já ouviu falar delas caso conheça o básico da linguagem C.
+Alguns exemplos de estrutura de dados na linguagem C são os ```arrays```, ```struct```, ```union``` e ```enum```, todas criadas a partir dos tipos de dados básicos e que você provavelmente já ouviu falar delas caso conheça o básico da linguagem C.
 
 <br>
 
@@ -23,7 +23,7 @@ Alguns exemplos de estrutura de dados na linguagem C são os **arrays**, **struc
 
 Dependendo do projeto, os tipos de dados básicos e as estruturas de dados presentes na linguagem em questão podem não ser suficientes para a aplicação, ou seja, haveria uma necessidade de uma melhor estruturação dos dados. Sendo assim, o ideal é a criação de um **tipo abstrato de dados**, também conhecido como **TAD**. Um TAD é um novo tipo de dados implementado pelo programador, no qual será responsável por definir tanto as estruturas de dados quanto as operações para a manipulação desses dados a fim de resolver determinado problema.
 
-Por exemplo, podemos criar um TAD para representar matrizes alocadas de forma dinâmica na memória. Para isso, podemos criar nosso próprio tipo **Matriz**, ou seja, um novo tipo de dados definido pelo programador que neste caso representa matrizes, da seguinte forma:
+Por exemplo, podemos criar um TAD para representar matrizes alocadas de forma dinâmica na memória. Para isso, podemos criar nosso próprio tipo ```Matriz```, ou seja, um novo tipo de dados definido pelo programador que neste caso representa matrizes, da seguinte forma:
 
 <script src="https://gist.github.com/imsouza/f9fdf4cf19ba1f2cafee4bd8da63d9ca.js"></script>
 
@@ -101,7 +101,7 @@ Esse processo de separar o código do programa em vários arquivos e funções s
 
 ## Programando um TAD
 
-Chegou o momento de colocar a mão na massa, ou melhor, no código e criarmos um TAD como exemplo. Vamos considerar a criação de um tipo de dado para representar um ponto no plano cartesiano. Para isso, iremos definir um tipo abstrato chamado **Ponto** e em seguida o conjunto de funções que irão operar sobre esse tipo. As operações para o nosso TAD Ponto são as seguintes:
+Chegou o momento de colocar a mão na massa, ou melhor, no código e criarmos um TAD como exemplo. Vamos considerar a criação de um tipo de dado para representar um ponto no plano cartesiano. Para isso, iremos definir um tipo abstrato chamado ```Ponto``` e em seguida o conjunto de funções que irão operar sobre esse tipo. As operações para o nosso TAD Ponto são as seguintes:
 
 - criarPonto: cria um ponto com coordenadas x e y;
 - acessarPonto: retorna as coordenadas de um ponto;
@@ -122,11 +122,11 @@ A interface desse TAD pode ser dada pelo arquivo **Ponto.h** da seguinte forma:
 
 <script src="https://gist.github.com/imsouza/34d38927df87da65c2c4b6038f1e1e0f.js"></script>
 
-Perceba que a estrutura Ponto (**struct ponto**) não é exportada pelo módulo, isto é, não faz parte da interface do módulo e, portanto, não é visível para outros módulos. Ao analisar apenas esse módulo, não é possível dizer como a estrutura foi definida, quais campos está sendo armazenado, qual o nome da variável associada a cada campo, etc. Dessa forma, os demais módulos que usarem esse TAD só terão acesso às informações obtidas através das funções exportadas pelo arquivo **Ponto.h**. Essa é uma forma de proteger a implementação do nosso código, deixando disponível para o usuário apenas as funções que queremos que sejam usadas.
+Perceba que a estrutura Ponto (```struct ponto```) não é exportada pelo módulo, isto é, não faz parte da interface do módulo e, portanto, não é visível para outros módulos. Ao analisar apenas esse módulo, não é possível dizer como a estrutura foi definida, quais campos está sendo armazenado, qual o nome da variável associada a cada campo, etc. Dessa forma, os demais módulos que usarem esse TAD só terão acesso às informações obtidas através das funções exportadas pelo arquivo **Ponto.h**. Essa é uma forma de proteger a implementação do nosso código, deixando disponível para o usuário apenas as funções que queremos que sejam usadas.
 
 #### Implementação Ponto.c
 
-A implementação desse TAD pode ser dada pelo arquivo **Ponto.c**. O código deve sempre incluir o arquivo de interface do módulo, ou seja, o **Ponto.h**. No entanto, por que isso é necessário? Bem, pode haver definições na interface que podem ser necessárias na implementação. No caso da criação do nosso TAD, precisaremos da definição do tipo **Ponto**. Outra razão para realizar a inclusão da interface é garantir que as funções implementadas correspondem às funções da interface. Como os protótipos das funções exportadas são incluídos, o compilador verifica, por exemplo, se os parâmetros das funções implementadas equivalem aos parâmetros dos protótipos. Obviamente que além da inclusão da própria interface, é preciso incluir as interfaces das funções que usamos da biblioteca padrão do C. O código das importações é o seguinte:
+A implementação desse TAD pode ser dada pelo arquivo **Ponto.c**. O código deve sempre incluir o arquivo de interface do módulo, ou seja, o **Ponto.h**. No entanto, por que isso é necessário? Bem, pode haver definições na interface que podem ser necessárias na implementação. No caso da criação do nosso TAD, precisaremos da definição do tipo ```Ponto```. Outra razão para realizar a inclusão da interface é garantir que as funções implementadas correspondem às funções da interface. Como os protótipos das funções exportadas são incluídos, o compilador verifica, por exemplo, se os parâmetros das funções implementadas equivalem aos parâmetros dos protótipos. Obviamente que além da inclusão da própria interface, é preciso incluir as interfaces das funções que usamos da biblioteca padrão do C. O código das importações é o seguinte:
 
 <script src="https://gist.github.com/imsouza/2a3cbe0ccf817ef73ea463205f150114.js"></script>
 

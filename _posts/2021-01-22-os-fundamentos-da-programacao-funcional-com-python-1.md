@@ -45,7 +45,7 @@ Que tal um pouco de código pra exemplificar o uso de funções puras e impuras?
 
 <script src="https://gist.github.com/imsouza/fb7b35f7a0c72f9bb3aa11b465930e39.js"></script>
 
-O código acima possui uma função impura por conta de um efeito colateral que faz com que, quando é passada uma lista para a função, ela remove o item, mas altera a lista original, ou seja, o argumento que é passado é modificado diretamente pela função. O método **pop** é o modo não funcional para obter tal resultado.
+O código acima possui uma função impura por conta de um efeito colateral que faz com que, quando é passada uma lista para a função, ela remove o item, mas altera a lista original, ou seja, o argumento que é passado é modificado diretamente pela função. O método ```pop``` é o modo não funcional para obter tal resultado.
 
 Agora um exemplo de uma função pura, da qual não se usa o método anterior:
 

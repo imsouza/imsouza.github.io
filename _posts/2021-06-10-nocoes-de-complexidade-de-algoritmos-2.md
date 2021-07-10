@@ -57,7 +57,7 @@ Para todos os casos (melhor, médio e pior) o algoritmo possui complexidade *O(n
 
 <script src="https://gist.github.com/imsouza/95b0fdba01ebeb92e51db2ecb1bfbe78.js"></script>
 
-O código acima é o método de ordenação por seleção em C, onde será dado um array **A** de tamanho **n** a fim de procurar o menor valor do array utilizando a posição **pos** e o colocar na primeira posição. Esse processo será repetido até que todo array esteja ordenado em ordem crescente. No código, é possível ver dois comandos de laço, um externo e um interno. Enquanto o laço externo é executado **n** vezes o laço interno é executado **n-1** vezes, tendo sua execução dependente do valor do índice do primeiro laço. Portanto, o laço interno é executado **n-1** vezes na primeira iteração do laço externo, já na próxima iteração será **n-2** vezes e assim por diante, até que seja executado apenas **1** vez.
+O código acima é o método de ordenação por seleção em C, onde será dado um array ```A``` de tamanho ```n``` a fim de procurar o menor valor do array utilizando a posição ```pos``` e o colocar na primeira posição. Esse processo será repetido até que todo array esteja ordenado em ordem crescente. No código, é possível ver dois comandos de laço, um externo e um interno. Enquanto o laço externo é executado ```n``` vezes o laço interno é executado ```n-1``` vezes, tendo sua execução dependente do valor do índice do primeiro laço. Portanto, o laço interno é executado ```n-1``` vezes na primeira iteração do laço externo, já na próxima iteração será ```n-2``` vezes e assim por diante, até que seja executado apenas ```1``` vez.
 
 O cálculo do custo do *selection sort* é um pouco complexo, por isso resolveremos por partes. Primeiramente iremos calcular o resultado da soma de execuções do laço interno, sendo ela:
 
@@ -73,7 +73,7 @@ O nível de dificuldade e exatidão do cálculo pode variar de algoritmo para al
 
 Com isso, temos que o número de execuções do laço interno é *S(n) = n(1 + n) / 2*. Esse método é bastante complexo, mas existe uma alternativa mais simples para estimar um limite superior. Essa estimativa pode ser feita de maneira intuitiva para realização do cálculo do custo do novo algoritmo obtido. A ideia principal desse método alternativo é alterar o algoritmo original para um menos eficiente, ou seja, saberemos se o *selection sort* é, no máximo, tão ruim ou até melhor que o novo algoritmo obtido. Uma estratégia para tornar o *selection sort* menos eficiente é trocar o laço interno por um laço que seja executado *n* vezes. Utilizando esse método facilitaremos muito no cálculo do custo do algoritmo em questão.
 
-Sabendo que agora temos dois **for** aninhados sendo executados **n** vezes cada, a função de custo de algoritmo passa a ser *f(n) = n^2*. Agora, utilizando a notação Big O, temos que o curso do algoritmo no **pior caso** é *O(n^2)*. Vale lembrar que o custo do algoritmo original é, no máximo, tão ruim quanto *n^2*. O algoritmo pode ser melhor? Sim, mas nunca pior, por conta do resultado limite obtido para pior caso.
+Sabendo que agora temos dois ```for``` aninhados sendo executados ```n``` vezes cada, a função de custo de algoritmo passa a ser *f(n) = n^2*. Agora, utilizando a notação Big O, temos que o curso do algoritmo no **pior caso** é *O(n^2)*. Vale lembrar que o custo do algoritmo original é, no máximo, tão ruim quanto *n^2*. O algoritmo pode ser melhor? Sim, mas nunca pior, por conta do resultado limite obtido para pior caso.
 
 #### Classes de comportamento
 

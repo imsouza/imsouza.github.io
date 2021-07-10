@@ -19,7 +19,7 @@ Quando falamos em Desenvolvimento de Software, o Git é uma ferramenta indispens
 
 Caso não tenha o Git instalado no seu computador, acesse o site oficial [clicando aqui](https://git-scm.com/downloads/){:target="_blank"} para a realização do download.
 
-Para ter certeza de que o Git foi instalado corretamente em sua máquina, execute o comando **git --version**; caso ele mostre a versão atual da ferramenta, a instalação ocorreu sem problemas.
+Para ter certeza de que o Git foi instalado corretamente em sua máquina, execute o comando ```git --version```; caso ele mostre a versão atual da ferramenta, a instalação ocorreu sem problemas.
 
 <br>
 
@@ -106,13 +106,13 @@ O primeiro passo é a criação de um diretório para o projeto. Para isso, util
 
 #### Inicializando o Git
 
-Dentro do diretório criado, utilize o comando **git init**, este comando é responsavel por criar um repositório local para o projeto em sua máquina.
+Dentro do diretório criado, utilize o comando ```git init```, este comando é responsavel por criar um repositório local para o projeto em sua máquina.
 
 ```Initialized empty Git repository in /home/imsouza/git-test/.git/```
 
 #### Visualizando alterações
 
-Para visualizar qualquer alteração nos arquivos, utilize o comando **git status**, esse comando exibe uma lista de arquivos alterados e que ainda não foram adicionados.
+Para visualizar qualquer alteração nos arquivos, utilize o comando ```git status```, esse comando exibe uma lista de arquivos alterados e que ainda não foram adicionados.
 
 ![Output do comando git status](https://i.imgur.com/M2wAHbW.png)
 
@@ -122,11 +122,11 @@ O comando ```git add nome-do-arquivo``` adiciona os arquivos do diretório local
 
 #### Adicionando múltiplos arquivos
 
-Para adicionar todos arquivos de uma só vez no índice, utilize o comando **git add .**
+Para adicionar todos arquivos de uma só vez no índice, utilize o comando ```git add .```
 
 #### Fazendo o primeiro commit
 
-O comando **git commit** é usado para gravar alterações dos arquivos no HEAD.
+O comando ```git commit``` é usado para gravar alterações dos arquivos no HEAD.
 
 Use: ```git commit -m "mensagem do commit"``` para realização do commit.
 
@@ -152,7 +152,7 @@ Obs.: a clonagem do repositório conecta automaticamente o repositório local co
 
 #### Exibindo lista de logs
 
-Ao executar o comando **git log**, será exibido uma lista com detalhes sobre as alterações feitas no projeto.
+Ao executar o comando ```git log```, será exibido uma lista com detalhes sobre as alterações feitas no projeto.
 
 ![Output do comando git log](https://i.imgur.com/fRAzFqX.png)
 
@@ -196,7 +196,7 @@ Para tornar a branch que você criou disponível para outros usuários, será ne
 
 #### Atualizando branch
 
-Use **git pull** para atualizar o repositório local com a última alteração feita. 
+Use ```git pull``` para atualizar o repositório local com a última alteração feita. 
 
 #### Mesclando branches
 
@@ -208,7 +208,7 @@ Para mesclar (fazer um merge) de uma outra branch com sua branch ativa, use:
 
 ## Lidando com alterações locais
 
-As vezes acontecem imprevistos que nos forçam a desfazer algumas alterações no código. Para isso, existem alguns comandos que nos auxiliam na eliminação de certos commits. O comando **reset** é um dos mais poderosos do Git e é sobre ele que iremos falar a seguir.
+As vezes acontecem imprevistos que nos forçam a desfazer algumas alterações no código. Para isso, existem alguns comandos que nos auxiliam na eliminação de certos commits. O comando ```reset``` é um dos mais poderosos do Git e é sobre ele que iremos falar a seguir.
 
 #### Reset soft
 

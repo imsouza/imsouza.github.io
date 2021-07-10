@@ -23,13 +23,13 @@ Assim que você tiver o Node e o Npm instalados, partiremos logo para a instala�
 
 ```npm install -g gulp-cli```
 
-Esse comando vai instalar de forma global **-g** o **gulp-cli** para ser utilizado em qualquer projeto.
+Esse comando vai instalar de forma global ```-g``` o ```gulp-cli``` para ser utilizado em qualquer projeto.
 
 <br>
 
 ## Instalando dependências no projeto
 
-Primeiramente, criaremos o arquivo **package.json**, no qual ficarão armazenadas as informações do projeto e das dependências instaladas nele. Para isso, utilize o comando **npm init**. Serão exibidos no terminal vários campos a serem preenchidos com as respectivas informações do projeto. No final, teremos um arquivo desse modelo:
+Primeiramente, criaremos o arquivo **package.json**, no qual ficarão armazenadas as informações do projeto e das dependências instaladas nele. Para isso, utilize o comando ```npm init```. Serão exibidos no terminal vários campos a serem preenchidos com as respectivas informações do projeto. No final, teremos um arquivo desse modelo:
 
 ```
 {
@@ -157,11 +157,11 @@ Agora, se você abrir a pasta **dist/**, notará que o arquivo **index.html** es
 
 Ter o controle de como nossas tarefas serão executadas é algo muito importante, para isso, explicarei de uma forma simples como funciona os dois métodos de execução de tarefas do Gulp.
 
-O método **series()** combina tarefas e as executa em uma ordem específica, uma seguida da outra. Ex.:
+O método ```series()``` combina tarefas e as executa em uma ordem específica, uma seguida da outra. Ex.:
 
 <script src="https://gist.github.com/imsouza/d3d54e3de88650f912d138e160d4fb7f.js"></script>
 
-Já o método **parallel()** é usado para executar diferentes tarefas simultaneamente, não dependendo, assim, uma das outras. Ex.:
+Já o método ```parallel()``` é usado para executar diferentes tarefas simultaneamente, não dependendo, assim, uma das outras. Ex.:
 
 <script src="https://gist.github.com/imsouza/3e4c0f140609b9b1821fd649edc6bda5.js"></script>
 
@@ -177,7 +177,7 @@ Finished 'secondTask' after 8.4 ms
 Finished 'default' after 65 ms
 ```
 
-Percebe-se que primeiro foi executado a função **firstTask()**; logo depois, ela foi finalizada. Em seguida foi executada a função **secondTask()** e, logo depois, também foi finalizada. Ou seja, as tarefas foram executadas uma de cada vez seguindo a ordem que foram adicionadas no método **series()**
+Percebe-se que primeiro foi executado a função ```firstTask()```; logo depois, ela foi finalizada. Em seguida foi executada a função ```secondTask()``` e, logo depois, também foi finalizada. Ou seja, as tarefas foram executadas uma de cada vez seguindo a ordem que foram adicionadas no método ```series()```
 
 Agora, analisaremos a saída do método em paralelo:
 
@@ -190,7 +190,7 @@ Finished 'firstTask' after 50 ms
 Finished 'secondTask' after 51 ms
 Finished 'default' after 56 ms
 ```
-Nota-se que as funções **firstTask()** e **secondTask()** foram executadas e finalizadas simultaneamente, ou seja, independentemente da ordem que elas forem adicionadas no método **parallel()**, elas iniciarão e terminarão juntas, não dependendo, assim, que uma tarefa precise terminar para ser executada.
+Nota-se que as funções ```firstTask()``` e ```secondTask()``` foram executadas e finalizadas simultaneamente, ou seja, independentemente da ordem que elas forem adicionadas no método ```parallel()```, elas iniciarão e terminarão juntas, não dependendo, assim, que uma tarefa precise terminar para ser executada.
 
 <br>
 
@@ -210,7 +210,7 @@ Logo em seguida, adicionaremos a tarefa de renomear e minificar os arquivos Java
 
 <script src="https://gist.github.com/imsouza/3bac372b92363f5abe0bd1526a19964f.js"></script>
 
-Essa função irá procurar todos arquivos terminados em **.js** na pasta **src/js**. Em seguida, executará a função **minifyJS()** que será o responsável por minificar todo o arquivo; feito isso, o arquivo será renomeado utilizando a função **rename()** e passado como parâmetro um objeto, no qual é o próprio nome da extensão do arquivo que, no nosso caso, foi utilizado **.min.js** apenas por boas práticas devido ele ser um arquivo minificado. Por fim, enviaremos para a pasta **dist/js**.
+Essa função irá procurar todos arquivos terminados em **.js** na pasta **src/js**. Em seguida, executará a função ```minifyJS()``` que será o responsável por minificar todo o arquivo; feito isso, o arquivo será renomeado utilizando a função ```rename()``` e passado como parâmetro um objeto, no qual é o próprio nome da extensão do arquivo que, no nosso caso, foi utilizado **.min.js** apenas por boas práticas devido ele ser um arquivo minificado. Por fim, enviaremos para a pasta **dist/js**.
 
 Faremos o mesmo agora com os arquivos CSS, fazendo as alterações necessárias, pois o funcionamento é o mesmo que o da função anterior:
 
