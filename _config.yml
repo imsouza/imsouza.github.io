@@ -1,17 +1,16 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Mateus Almeida
+description:    "Meu blog pessoal sobre programação, tecnologia e afins."
+url:            "https://imsouza.github.io"
 
 # Google Analytics
-google_analytics: UA—XXXXXXXX-X
+google_analytics: UA-143763992-1
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Mateus Almeida
+  url:          https://imsouza.github.io
+  email:        mateusalmeida0715@gmail.com
 
 # Build settings
 markdown:       kramdown
