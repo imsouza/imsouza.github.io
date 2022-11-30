@@ -15,6 +15,7 @@ Esse blog foi criado com o objetivo de postar artigos simples, rápidos e objeti
 Boa leitura!
 
 <center>
+Gostou do conteúdo? Me pague um cafézinho ☕ ;)
 <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
 <form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
 <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
