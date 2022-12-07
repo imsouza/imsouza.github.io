@@ -7,9 +7,9 @@ image: /assets/thumbnails/img19.jpg
 tags: [Estrutura de Dados]
 ---
 
-![Airplane](/assets/thumbnails/img11.jpg)
+![Airplane](/assets/thumbnails/img19.jpg)
 
-Diferente da biologia, as árvores na computação têm o estranho comportamento de crescerem de cabeça pra baixo. Existem várias “espécies”, ou melhor, vários tipos de árvores na computação, cada uma com sua finalidade e propósito específicos, umas mais eficientes que outras e outras mais complexas que todas demais. De fato, as árvores possuem um grande papel na história da computação e entender como elas funcionam é um dos passos mais importantes para quem está cursando algum curso da área. Este é o primeiro artigo de uma série de outros que virão em seguida sobre este assunto onde abordarei os conceitos teóricos e práticos que envolvem essas estruturas.
+Diferente da biologia, as árvores na computação têm o estranho comportamento de crescerem de cabeça para baixo. Existem várias “espécies”, ou melhor, vários tipos de árvores na computação, cada uma com sua finalidade e propósito específicos, umas mais eficientes que outras e outras mais complexas que todas demais. De fato, as árvores possuem um grande papel na história da computação e entender como elas funcionam é um dos passos mais importantes para quem está cursando algum curso da área. Este é o primeiro artigo de uma série de outros que virão em seguida sobre este assunto onde abordarei os conceitos teóricos e práticos que envolvem essas estruturas.
 
 <br>
 
@@ -50,13 +50,13 @@ A figura abaixo representa os principais conceitos relativos às árvores seguid
 
 **Irmãos**: Nós com o mesmo pai são irmãos.
 
-**Caminho**: Um caminho do nó $n_{1}$ para $n_{k}$ é definido como uma sequência de nós $n_{1}$,$n_{2}$,$n_{3}$,...,$n_{k}$ tal que $n_{i}$ é o pai de $n_{i+1}$ para 1 $\leq$ *i* < *k. Em suma, um caminho é uma sequência de arestas consecutivas. Na figura anterior, o caminho do nó raiz ``A``` ao nó ```I``` é dado como: ```A```, ```D``` e ```I```.
+**Caminho**: Um caminho do nó *n_1* para *n_k* é definido como uma sequência de nós *n_1,n_2,n_3,...,n_k* tal que *n_i* é o pai de *n_i+1* para 1 <= *i* < *k*. Em suma, um caminho é uma sequência de arestas consecutivas. Na figura anterior, o caminho do nó raiz ```A``` ao nó ```I``` é dado como: ```A```, ```D``` e ```I```.
 
 **Comprimento de um caminho**: O comprimento de um caminho é o número de arestas no caminho. Há um caminho de comprimento zero de cada nó até ele mesmo.
 
-**Ancestral e descendente**: Se existe um caminho $n_{1}$ a $n_{2}$, então $n_{1}$ é um ancestral de $n_{2}$ e $n_{2}$ é descendente de $n_{1}$. O nó raiz não possui ancestrais enquanto os nós folha não possui descendentes. Na árvore anterior, os nós ```A```, ```C``` e ```G``` são os ancestrais do nó ```K```. Já os nós ```C```, ```G```, ```J``` e ```K``` são os descendentes do nó ```A```.
+**Ancestral e descendente**: Se existe um caminho *n_1* a *n_2*, então *n_1* é um ancestral de *n_2* e *n_2* é descendente de *n_1*. O nó raiz não possui ancestrais enquanto os nós folha não possui descendentes. Na árvore anterior, os nós ```A```, ```C``` e ```G``` são os ancestrais do nó ```K```. Já os nós ```C```, ```G```, ```J``` e ```K``` são os descendentes do nó ```A```.
 
-**Altura**: A altura de $n_{i}$ é o comprimento do caminho mais longo de $n_{i}$ até uma folha. Assim, todas as folhas têm altura 0. A altura de uma árvore é igual à altura da raiz. Na árvore da figura anterior, o nó ```C``` tem altura 1 e a árvore tem altura 3. A altura é o número total de níveis de uma árvore, sendo assim, a altura é a profundidade da árvore.
+**Altura**: A altura de *n_i* é o comprimento do caminho mais longo de *n_i* até uma folha. Assim, todas as folhas têm altura 0. A altura de uma árvore é igual à altura da raiz. Na árvore da figura anterior, o nó ```C``` tem altura 1 e a árvore tem altura 3. A altura é o número total de níveis de uma árvore, sendo assim, a altura é a profundidade da árvore.
 
 **Nível**: O nível é dado pelo número de nós que existem no caminho entre dado um nó e a raiz.
 
