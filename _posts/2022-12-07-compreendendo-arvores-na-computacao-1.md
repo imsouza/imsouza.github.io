@@ -21,7 +21,7 @@ Uma árvore é um tipo especial de **grafo** não direcionado, conexo e acíclic
 
 > Uma árvore é definida recursivamente como um conjunto de um ou mais nós, onde um nó é chamado de **raiz** e os demais nós restantes podem ser particionados em conjuntos não vazios, onde cada um é uma subárvore da raiz. 
 
-A figura abaixo mostra uma árvore em que o nó A é o nó raiz; os nós B, C, e D são os filhos do nó raiz e estes filhos formam subárvores da árvore com raiz no nó A.
+A figura abaixo mostra uma árvore em que o nó ```A``` é o nó raiz; os nós ```B```, ```C```, e ```D``` são os filhos do nó raiz e estes filhos formam subárvores da árvore com raiz no nó ```A```.
 
 ![Representação](https://user-images.githubusercontent.com/39147407/206097267-807351df-bfa0-4bb8-a013-d221f2fb70eb.png)
 
@@ -42,7 +42,7 @@ A figura abaixo representa os principais conceitos relativos às árvores seguid
 
 **Raiz**: é o nó localizado na parte mais alta da árvore, o único que não possui pai. Dado um nó raiz ```R```, ele será o nó superior da árvore. Se ```R = NULL```, significa que a árvore está vazia.
 
-**Sub-árvores**: se o nó raiz ```R``` não for ```NULL```, então as árvores ```T1```, ```T2``` e ```T3``` são chamadas de subárvores de R.
+**Sub-árvores**: se o nó raiz ```R``` não for ```NULL```, então as árvores ```T1```, ```T2``` e ```T3``` são chamadas de subárvores de ```R```.
 
 **Nó folha**: um nó que não tem filhos é chamado de nó folha ou nó terminal.
 
