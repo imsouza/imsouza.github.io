@@ -9,7 +9,7 @@ tags: [Estrutura de Dados]
 
 ![Airplane](/assets/thumbnails/img19.jpg)
 
-Diferente da biologia, as árvores na computação têm o estranho comportamento de crescerem de cabeça para baixo. Existem várias “espécies”, ou melhor, vários tipos de árvores na computação, cada uma com sua finalidade e propósito específicos, umas mais eficientes que outras e outras mais complexas que todas as demais. De fato, as árvores possuem um grande papel na história da computação e entender como elas funcionam é um dos passos mais importantes para quem está cursando algum curso da área. Este é o primeiro artigo de uma série de outros que virão em seguida sobre este assunto onde abordarei os conceitos teóricos e práticos que envolvem essas estruturas.
+Diferente da biologia, as árvores na computação têm o estranho comportamento de crescerem de cabeça para baixo. Existem várias “espécies”, ou melhor, vários tipos de árvores na computação, cada uma com sua finalidade e propósito específicos, umas mais eficientes que outras e outras mais complexas que todas as demais. De fato, as árvores possuem um grande papel na história da computação e entender como elas funcionam é um dos passos mais importantes para quem está cursando algum curso da área. Este é o primeiro artigo de uma série de outros que virão em seguida sobre este assunto onde abordaremos os conceitos teóricos e práticos que envolvem essas estruturas.
 
 <br>
 
