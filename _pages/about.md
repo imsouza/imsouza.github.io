@@ -5,7 +5,7 @@ author: "Mateus Almeida"
 permalink: /about/
 ---
 
-Olá, me chamo Mateus Almeida, sou estudante de Ciência da Computação na UFES, Desenvolvedor Web e Designer Gráfico.
+Olá, me chamo Mateus Almeida, sou estudante de Ciência da Computação na UFES, Desenvolvedor Web, Designer Gráfico e Cientista de Dados em formação.
 
 Esse blog foi criado com o objetivo de postar artigos simples, rápidos e objetivos sobre programação, tecnologia, matemática e afins.
 
