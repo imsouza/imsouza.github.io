@@ -44,7 +44,7 @@ permalink: /projetos/
   box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
 }
 
-.item:hover .img {
+.item:hover .item:active .img {
   filter: blur(2px);
   transform: scale(1.05);
 }
@@ -141,7 +141,7 @@ permalink: /projetos/
 
 <section class="portfolio">  
   <div class="showcase">
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -153,7 +153,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -165,7 +165,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -177,7 +177,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -189,7 +189,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -201,7 +201,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -213,7 +213,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
@@ -225,7 +225,7 @@ permalink: /projetos/
         </p>
       </div>
     </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" class="item">
+    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
