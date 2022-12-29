@@ -1,3 +1,41 @@
+
+<style>
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css')
+</style>
+
+<style type="text/css">
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+  const options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: 'white',  // default: '#fff'
+  buttonColorDark: '#555',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+  function darkMode () {
+    const darkmode =  new Darkmode(options);
+    darkmode.toggle()
+  }
+
+  window.addEventListener('load', darkmode);
+
+</script>
+
 <nav class="nav">
   <div class="nav-container">
     <a href="{{ site.baseurl }}/">
@@ -5,9 +43,15 @@
     </a>
     <ul>
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
-      <li><a href="{{ '/projects' | prepend: site.baseurl }}">Projects</a></li>
       <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
-      <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
+      <li><a href="{{ '/sobre' | prepend: site.baseurl }}">Sobre</a></li>
+      <li>
+        <a class="darkmode" onclick="darkMode()">
+          <i id="icon-dark" class="fa fa-moon"></i>
+          <span id="dark-text"></span>
+       </a>
+      </li>
     </ul>
   </div>
 </nav>
