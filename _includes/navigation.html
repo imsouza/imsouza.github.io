@@ -10,6 +10,9 @@
 
 </style>
 
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+
 <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 
 <script>
@@ -27,12 +30,17 @@
   autoMatchOsTheme: true // default: true
 }
 
+  const darkmode =  new Darkmode(options);
+
   function darkMode () {
-    const darkmode =  new Darkmode(options);
     darkmode.toggle()
   }
 
-  window.addEventListener('load', darkmode);
+  $('#darkmode').bind('click', function() {
+  darkMode()
+});
+
+
 
 </script>
 
@@ -47,7 +55,7 @@
       <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
       <li><a href="{{ '/sobre' | prepend: site.baseurl }}">Sobre</a></li>
       <li>
-        <a class="darkmode" onclick="darkMode()">
+        <a id="darkmode" onclick="darkMode()">
           <i id="icon-dark" class="fa fa-moon"></i>
           <span id="dark-text"></span>
        </a>

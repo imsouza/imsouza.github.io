@@ -24,12 +24,3 @@ Sou estudante de Ciência da Computação na UFES, Desenvolvedor Web, Designer G
 </center>
 
 <br>
-
-<center>
-<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
-<input type="hidden" name="currency" value="BRL" />
-<input type="hidden" name="receiverEmail" value="mateusalmeida071@icloud.com" />
-<input type="hidden" name="iot" value="button" />
-<i class="fa-solid fa-mug-hot"></i>&nbsp;<input type="image" name="submit" alt="Me pague um cafézinho ;)" />
-</form>
-</center>
