@@ -5,6 +5,8 @@ author: "Mateus Almeida"
 permalink: /projetos/
 ---
 
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
 <style>
   @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css')
 </style>
@@ -67,8 +69,9 @@ permalink: /projetos/
   top: 0;
   left: 0;
   transition: all 0.3s ease-in-out;
+   
 }
-.overlay:hover {
+.overlay:hover{
   background-color: rgba(0, 0, 0, 0.5);
 }
 .overlay:hover .text {
@@ -77,6 +80,14 @@ permalink: /projetos/
   transform: translateY(-50%);
   transition: all 0.5s ease-in-out;
 }
+
+.hover_effect {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+}
+
 
 .text {
   text-align: justify;
@@ -98,7 +109,7 @@ permalink: /projetos/
   font-size: 8px;
   padding: 2% 5% 2% 2%;
   background-color: #353535;
-  top: 2.5%;
+  top: 2.4%;
   transform: translateY(-10%);
   position: absolute;
   opacity: 0;
@@ -106,6 +117,12 @@ permalink: /projetos/
   visibility: hidden;
   color: white;
   text-align: center;
+}
+
+.overlay:hover, .overlay:active {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-user-select: none;
+-webkit-touch-callout: none /
 }
 
 @media screen and (max-width: 1200px) {
@@ -120,7 +137,13 @@ permalink: /projetos/
     width: 100%;
   }
 }
+
 </style>
+<script>
+
+document.addEventListener("touchstart", function(){}, true);
+
+</script>
 
 <div class="tags-header">
   <h2 class="tags-header-title">{{ page.title }}</h2>
@@ -141,7 +164,7 @@ permalink: /projetos/
 
 <section class="portfolio">  
   <div class="showcase">
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
+    <a href="https://github.com/imsouza/account-balance" aria-haspopup="true" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/verificador.png" alt=""  class="img">
       <div class="overlay">
         <p class="text">
