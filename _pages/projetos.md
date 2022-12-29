@@ -109,7 +109,7 @@ permalink: /projetos/
   font-size: 8px;
   padding: 2% 5% 2% 2%;
   background-color: #353535;
-  top: 2.4%;
+  top: 2.3%;
   transform: translateY(-10%);
   position: absolute;
   opacity: 0;
