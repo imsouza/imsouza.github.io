@@ -72,7 +72,7 @@ permalink: /projetos/
    
 }
 .overlay:hover{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .overlay:hover .text {
   opacity: 1;
@@ -95,7 +95,7 @@ permalink: /projetos/
   padding-right: 5%;
   padding: 0 5% auto 0;
   top: 50%;
-  font-size: 60%;
+  font-size: 65%;
   position: relative;
   transform: translateY(-10%);
   opacity: 0;
@@ -106,16 +106,16 @@ permalink: /projetos/
 
 .category {
   text-align: center;
-  font-size: 8px;
-  padding: 2% 5% 2% 2%;
-  background-color: #353535;
-  top: 2.3%;
+  font-size: 9px;
+  padding: 2% 5% 2% 5%;
+  background-color: white;
+  top: 3%;
   transform: translateY(-10%);
   position: absolute;
   opacity: 0;
-  font-weight: bolder;
+  font-weight: bold;
   visibility: hidden;
-  color: white;
+  color: #353535;
   text-align: center;
 }
 
