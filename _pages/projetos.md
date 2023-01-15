@@ -72,7 +72,7 @@ permalink: /projetos/
    
 }
 .overlay:hover{
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .overlay:hover .text {
   opacity: 1;
@@ -113,7 +113,7 @@ permalink: /projetos/
   transform: translateY(-10%);
   position: absolute;
   opacity: 0;
-  font-weight: bold;
+  font-weight: bolder;
   visibility: hidden;
   color: #353535;
   text-align: center;
@@ -164,15 +164,15 @@ document.addEventListener("touchstart", function(){}, true);
 
 <section class="portfolio">  
   <div class="showcase">
-    <a href="https://github.com/imsouza/account-balance" aria-haspopup="true" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
+    <a href="https://github.com/imsouza/airplane-crash" aria-haspopup="true" target="_blank" onclick="" class="item">
+      <img src="/assets/portfolio/output_22_1.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          Uma análise exploratória dos dados de acidentes e fatalidades aéreas mundiais do ano de 1908 a 2009 utilizando como ferramenta principal o Python e suas bibliotecas para análise e visualização de dados como: Seaborn, Pandas e Matplotlib. 
           <i class="fa-solid fa-up-right-from-square"></i>
         </p>
         <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
+          <i class="fa-solid fa-chart-line"></i>&nbsp;Análise Exploratória de Dados
         </p>
       </div>
     </a>
