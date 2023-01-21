@@ -164,87 +164,15 @@ document.addEventListener("touchstart", function(){}, true);
 
 <section class="portfolio">  
   <div class="showcase">
-    <a href="https://github.com/imsouza/airplane-crash" aria-haspopup="true" target="_blank" onclick="" class="item">
+    <a href="https://colab.research.google.com/github/imsouza/airplane-crash/blob/main/EDA%20-%20Airplane%20Crash.ipynb" aria-haspopup="true" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/output_22_1.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
-          Uma análise exploratória dos dados de acidentes e fatalidades aéreas mundiais do ano de 1908 a 2009 utilizando como ferramenta principal o Python e suas bibliotecas para análise e visualização de dados como: Seaborn, Pandas e Matplotlib. 
+          Uma análise exploratória dos dados de acidentes e fatalidades aéreas mundiais do ano de 1908 a 2009 utilizando como ferramenta principal o Python e suas bibliotecas para análise e visualização de dados. O uso da causalidade de Granger juntamente com a avaliação de significância estatística dos dados foi uma etapa fundamental para a realização da análise dos componentes principais (PCA) para avaliação do modelo com base nas séries temporais obtidas. 
           <i class="fa-solid fa-up-right-from-square"></i>
         </p>
         <p class="text category">
           <i class="fa-solid fa-chart-line"></i>&nbsp;Análise Exploratória de Dados
-        </p>
-      </div>
-    </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
-      <div class="overlay">
-        <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
-        </p>
-      </div>
-    </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
-      <div class="overlay">
-        <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
-        </p>
-      </div>
-    </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
-      <div class="overlay">
-        <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
-        </p>
-      </div>
-    </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
-      <div class="overlay">
-        <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
-        </p>
-      </div>
-    </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
-      <div class="overlay">
-        <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
-        </p>
-      </div>
-    </a>
-    <a href="https://github.com/imsouza/account-balance" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/verificador.png" alt=""  class="img">
-      <div class="overlay">
-        <p class="text">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          <i class="fa-solid fa-up-right-from-square"></i>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-code"></i>&nbsp;Desenvolvimento Web
         </p>
       </div>
     </a>
