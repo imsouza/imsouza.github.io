@@ -100,6 +100,7 @@ permalink: /projetos/
   transform: translateY(-10%);
   opacity: 0;
   visibility: hidden;
+  font-weight: bolder;
   color: white;
   transition: all 0.3s ease-in-out;
 }
@@ -117,6 +118,18 @@ permalink: /projetos/
   visibility: hidden;
   color: #353535;
   text-align: center;
+}
+
+.keywords {
+  text-align: bottom;
+  font-size: 9px;
+  padding: 2% 5% 2% 5%;
+  transform: translateY(-10%);
+  position: absolute;
+  top: 85%;
+  opacity: 0;
+  visibility: hidden;
+  text-align: left;
 }
 
 .overlay:hover, .overlay:active {
@@ -168,8 +181,9 @@ document.addEventListener("touchstart", function(){}, true);
       <img src="/assets/portfolio/output_22_1.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
-          Uma análise exploratória dos dados de acidentes e fatalidades aéreas mundiais do ano de 1908 a 2009 utilizando como ferramenta principal o Python e suas bibliotecas para análise e visualização de dados. O uso da causalidade de Granger juntamente com a avaliação de significância estatística dos dados foi uma etapa fundamental para a realização da análise dos componentes principais (PCA) para avaliação do modelo com base nas séries temporais obtidas. 
-          <i class="fa-solid fa-up-right-from-square"></i>
+          Uma análise exploratória dos dados de série temporal de acidentes aéreos mundiais do ano de 1908 a 2009 aplicando técnicas de causalidade e análise dos componentes principais da série utilizando o Python e suas bibliotecas para análise e visualização de dados.
+          <br>
+          <p class="text keywords">Palavras-chave: Airplane, Time Series, EDA, PCA, Kmeans, Granger Causality</p>
         </p>
         <p class="text category">
           <i class="fa-solid fa-chart-line"></i>&nbsp;Análise Exploratória de Dados
