@@ -107,7 +107,7 @@ permalink: /projetos/
 
 .category {
   text-align: center;
-  font-size: 9px;
+  font-size: 65%;
   padding: 2% 5% 2% 5%;
   background-color: white;
   top: 3%;
@@ -122,12 +122,13 @@ permalink: /projetos/
 
 .keywords {
   text-align: bottom;
-  font-size: 9px;
+  font-size: 50%;
   padding: 2% 5% 2% 5%;
   transform: translateY(-10%);
   position: absolute;
   top: 85%;
   opacity: 0;
+  font-weight: normal;
   visibility: hidden;
   text-align: left;
 }
@@ -135,7 +136,7 @@ permalink: /projetos/
 .overlay:hover, .overlay:active {
 -webkit-tap-highlight-color: rgba(0,0,0,0);
 -webkit-user-select: none;
--webkit-touch-callout: none /
+-webkit-touch-callout: none;
 }
 
 @media screen and (max-width: 1200px) {
