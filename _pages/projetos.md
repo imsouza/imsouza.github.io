@@ -179,7 +179,7 @@ document.addEventListener("touchstart", function(){}, true);
 <section class="portfolio">  
   <div class="showcase">
     <a href="https://colab.research.google.com/github/imsouza/airplane-crash/blob/main/EDA%20-%20Airplane%20Crash.ipynb" aria-haspopup="true" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/output_22_1.png" alt="Count of crashes by Year" class="img">
+      <img src="/assets/portfolio/pca.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
           Uma análise exploratória dos dados de série temporal de acidentes aéreos mundiais do ano de 1908 a 2009 aplicando técnicas de causalidade e análise dos componentes principais da série utilizando o Python e suas bibliotecas para análise e visualização de dados.
