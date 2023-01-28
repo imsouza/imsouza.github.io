@@ -181,7 +181,7 @@ document.addEventListener("touchstart", function(){}, true);
       <img src="/assets/portfolio/pca.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
-          A análise exploratória dos dados de série temporal de acidentes aéreos mundiais, do ano de 1908 até 2009, foi realizada utilizando técnicas de causalidade e análise dos componentes principais da série. Essa análise foi implementada com o uso do Python e suas bibliotecas para análise e visualização de dados, proporcionando uma compreensão mais profunda dos dados.
+          Análise dos dados de acidentes aéreos mundiais de 1908-2009 usando técnicas de causalidade e análise de componentes principais, com Python e bibliotecas de análise e visualização de dados para uma compreensão mais profunda.
           <br>
           <p class="text keywords">Palavras-chave: Airplane, Time Series, EDA, PCA, Kmeans, Granger Causality</p>
         </p>
