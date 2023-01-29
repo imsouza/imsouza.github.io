@@ -103,11 +103,15 @@ As principais funções de uma árvore AVL são:
 
 <script src="https://gist.github.com/imsouza/3bb188a1d3ed6318ec62225fa8af184f.js"></script>
 
+- A função de liberar memória:
+
+<script src="https://gist.github.com/imsouza/974d919b5a4aa3b37a29cd55586fda2d.js"></script>
+
 A função ```remover()``` remove um nó com o valor especificado na árvore AVL, levando em conta a necessidade de manter o equilíbrio da árvore. A função ```encontrarMenor()``` encontra o nó com o menor valor em uma subárvore específica. E a função ```liberarMemoria()``` libera toda a memória alocada pela árvore AVL, percorrendo recursivamente todos os nós e liberando cada um deles.
 
 É importante notar que essas funções não são exclusivas para árvores AVL, elas também podem ser utilizadas em árvores binárias de busca simples. A diferença está na forma como a árvore é balanceada após cada operação, garantindo que a altura da árvore seja sempre a menor possível.
 
-É importante também lembrar que essas funções são apenas uma implementação básica de uma árvore AVL e podem ser melhoradas ou adaptadas de acordo com as necessidades do seu projeto. Além disso, é recomendado sempre testar o código em diferentes casos de uso antes de implementá-lo em um sistema real.
+Vale ressaltar que essas funções são apenas uma implementação básica de uma árvore AVL e podem ser melhoradas ou adaptadas de acordo com as necessidades do seu projeto. Além disso, é recomendado sempre testar o código em diferentes casos de uso antes de implementá-lo em um sistema real.
 
 <br>
 
