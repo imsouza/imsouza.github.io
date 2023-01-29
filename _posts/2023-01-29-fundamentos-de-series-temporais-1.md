@@ -31,8 +31,6 @@ As séries temporais são úteis em muitas aplicações, incluindo:
 
 **Monitoramento climático**: as séries temporais são usadas para monitorar temperaturas, precipitação e outros dados climáticos, o que é importante para prever eventos climáticos adversos e tomar medidas preventivas.
 
-![Plot](https://imgur.com/sjECq8z.png)
-
 <br>
 
 ## Previsão
@@ -43,7 +41,7 @@ Segue um exemplo de previsão de séries temporais utilizando o dataset *AirPass
 
 <script src="https://gist.github.com/imsouza/0327ce38b23cb8148a5829c6e46de8e1.js"></script>
 
-![Plot](https://imgur.com/RcCkoWa.png)
+![Plot](https://imgur.com/sjECq8z.png)
 
 <br>
 
@@ -56,6 +54,8 @@ Aqui está um exemplo de como realizar a classificação de séries temporais no
 <script src="https://gist.github.com/imsouza/b8fa62fbe383fb98c03f06a4d2b8a667.js"></script>
 
 O plot acima exibirá o número real de passageiros ao lado da classificação feita pelo modelo (High >= 300 ou Low < 300), com uma linha vermelha indicando as previsões.
+
+![Plot](https://imgur.com/cQPrQq1.png)
 
 <br>
 
