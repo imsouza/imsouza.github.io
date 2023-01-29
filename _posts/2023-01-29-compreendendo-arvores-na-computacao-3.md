@@ -91,11 +91,7 @@ As principais funções de uma árvore AVL são:
 
 <script src="https://gist.github.com/imsouza/83ae1c8ab06428e17024d20da2aea936.js"></script>
 
-- A função de balanceamento, que aplica as rotações necessárias para manter a árvore balanceada:
-
-<script src="https://gist.github.com/imsouza/dff0ae80d5e81abc7c4010b57ed7877a.js"></script>
-
-- As funções de rotação simples e dupla, que realizam as reestruturações da árvore:
+- As funções de rotação que realizam as reestruturações da árvore:
 
 <script src="https://gist.github.com/imsouza/59e5172dac3f283e766da3b97d18a301.js"></script>
 
@@ -103,9 +99,11 @@ As principais funções de uma árvore AVL são:
 
 <script src="https://gist.github.com/imsouza/3bb188a1d3ed6318ec62225fa8af184f.js"></script>
 
-- A função de liberar memória:
 
-<script src="https://gist.github.com/imsouza/974d919b5a4aa3b37a29cd55586fda2d.js"></script>
+### Código completo
+
+<script src="https://gist.github.com/imsouza/8f9f2939be38ac4db2e463bea92ae298.js"></script>
+
 
 A função ```remover()``` remove um nó com o valor especificado na árvore AVL, levando em conta a necessidade de manter o equilíbrio da árvore. A função ```encontrarMenor()``` encontra o nó com o menor valor em uma subárvore específica. E a função ```liberarMemoria()``` libera toda a memória alocada pela árvore AVL, percorrendo recursivamente todos os nós e liberando cada um deles.
 
