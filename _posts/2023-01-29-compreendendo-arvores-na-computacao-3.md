@@ -73,7 +73,9 @@ A rotação dupla à direita é realizada quando o nó desbalanceado está local
 
 A figura abaixo mostra os passos ao inserirmos três nós com chaves 1,3 e 2:
 
-<img src="https://imgur.com/bkowiVH.png" align="center">
+<p align="center">
+	<img src="https://imgur.com/bkowiVH.png" align="center">
+</p>
 
 <br>
 
