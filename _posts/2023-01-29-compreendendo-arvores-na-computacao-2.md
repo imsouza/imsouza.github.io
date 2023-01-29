@@ -15,7 +15,7 @@ As árvores binárias de busca são uma variante das árvores binárias, onde ca
 
 Exemplo de representação gráfica de uma árvore binária de busca cujo objetivo é encontrar a chave 27:
 
-<center>![Gif](https://imgur.com/QDwcFwq.gif)</center>
+![Gif](https://imgur.com/QDwcFwq.gif)
 
 Na imagem acima, cada nó possui uma chave numérica e setas apontando para os filhos à esquerda e à direita. O nó raiz possui a chave 21 e os nós filhos possuem chaves menores ou maiores.
 
