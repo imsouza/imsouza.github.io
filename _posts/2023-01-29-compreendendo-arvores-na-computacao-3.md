@@ -25,7 +25,7 @@ A chave para o balanceamento em uma árvore AVL é o fator de balanceamento (FB)
 
 ![B1](https://imgur.com/UeooPIB.png)
 
-A imagem acima é um exemplo de uma árvore desbalanceada, enquanto na de baixo ela foi balanceada.
+A imagem acima é um exemplo de uma árvore desbalanceada, enquanto na de baixo foi balanceada.
 
 ![B2](https://imgur.com/oh4aehr.png)
 
@@ -95,7 +95,7 @@ As principais funções de uma árvore AVL são:
 
 <script src="https://gist.github.com/imsouza/59e5172dac3f283e766da3b97d18a301.js"></script>
 
-- A função de remover um nó específico da estrutura:
+- A função de remover um nó específico da estrutura, levando em conta a necessidade de manter o equilíbrio da árvore:
 
 <script src="https://gist.github.com/imsouza/3bb188a1d3ed6318ec62225fa8af184f.js"></script>
 
@@ -103,9 +103,6 @@ As principais funções de uma árvore AVL são:
 ### Código completo
 
 <script src="https://gist.github.com/imsouza/8f9f2939be38ac4db2e463bea92ae298.js"></script>
-
-
-A função ```remover()``` remove um nó com o valor especificado na árvore AVL, levando em conta a necessidade de manter o equilíbrio da árvore. A função ```encontrarMenor()``` encontra o nó com o menor valor em uma subárvore específica. E a função ```liberarMemoria()``` libera toda a memória alocada pela árvore AVL, percorrendo recursivamente todos os nós e liberando cada um deles.
 
 É importante notar que essas funções não são exclusivas para árvores AVL, elas também podem ser utilizadas em árvores binárias de busca simples. A diferença está na forma como a árvore é balanceada após cada operação, garantindo que a altura da árvore seja sempre a menor possível.
 
