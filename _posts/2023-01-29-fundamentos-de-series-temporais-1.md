@@ -17,6 +17,8 @@ Abaixo está um exemplo de código em Python para criar uma série temporal com 
 
 <script src="https://gist.github.com/imsouza/9bfc4a142616ae3f9828f8287249a020.js"></script>
 
+![Plot](https://imgur.com/okQXOr6.png)
+
 <br>
 
 ## Aplicações
@@ -29,6 +31,8 @@ As séries temporais são úteis em muitas aplicações, incluindo:
 
 **Monitoramento climático**: as séries temporais são usadas para monitorar temperaturas, precipitação e outros dados climáticos, o que é importante para prever eventos climáticos adversos e tomar medidas preventivas.
 
+![Plot](https://imgur.com/sjECq8z.png)
+
 <br>
 
 ## Previsão
@@ -38,6 +42,8 @@ As previsões de séries temporais são uma técnica de inteligência artificial
 Segue um exemplo de previsão de séries temporais utilizando o dataset *AirPassengers* da biblioteca *statsmodels* no Python:
 
 <script src="https://gist.github.com/imsouza/0327ce38b23cb8148a5829c6e46de8e1.js"></script>
+
+![Plot](https://imgur.com/RcCkoWa.png)
 
 <br>
 
