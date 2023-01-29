@@ -15,7 +15,7 @@ permalink: /sobre/
 </div>
 
 <center>
-Sou estudante de Ciência da Computação na UFES, Desenvolvedor Web, Designer Gráfico e Cientista de Dados em formação. Possuo interesse em Deep Learning, Inteligência Artificial, Matemática, Teoria da Computação e Otimização.
+Sou estudante de Ciência da Computação da UFES, com habilidades em Desenvolvimento Web, Design Gráfico e Ciência de Dados. Meus interesses incluem Deep Learning, Inteligência Artificial, Matemática, Teoria da Computação e Otimização. 
 </center>
 &nbsp;
 
