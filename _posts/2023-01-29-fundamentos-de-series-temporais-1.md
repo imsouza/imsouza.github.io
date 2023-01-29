@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Compreendendo Árvores na Computação #3"
+title: "Fundamentos de Séries Temporais #1"
 description: "Uma série temporal é uma coleção de dados coletados ao longo do tempo. Esses dados podem incluir informações sobre vendas, preços de ações, temperaturas, entre outros..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img22.jpg
-tags: [Estrutura de Dados]
+tags: [Inteligência Artificial]
 ---
 
 ![Birds](/assets/thumbnails/img22.jpg)
