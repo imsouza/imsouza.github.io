@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Fundamentos de Séries Temporais #1"
+title: "Fundamentos e Aplicações de Séries Temporais"
 description: "Uma série temporal é uma coleção de dados coletados ao longo do tempo. Esses dados podem incluir informações sobre vendas, preços de ações, temperaturas, entre outros..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img22.jpg
@@ -76,6 +76,10 @@ O processo de clustering de séries temporais é basicamente composto pelos segu
 - **Visualização**: exibição dos resultados, como gráficos de tendências ou histogramas.
 
 O algoritmo de clustering usado pode ser o KMeans ou qualquer outro algoritmo de agrupamento de dados. O resultado é uma classificação das séries temporais em grupos, onde as séries dentro de um grupo são consideradas similares entre si e diferentes das séries em outros grupos.
+
+A figura abaixo identifica três grupos diferentes de dados dentro de um mesmo conjunto de séries temporais, gerado com a biblioteca *tslearn*.
+
+![Plot](https://imgur.com/2f7gvC7.png)
 
 <br>
 
