@@ -89,4 +89,11 @@ A figura abaixo identifica três grupos diferentes de dados dentro de um mesmo c
 
 As séries temporais são sequências de dados coletados ao longo do tempo, onde, em um gráfico, um dos eixos é o tempo. A análise de séries temporais permite fazer previsões futuras e identificar padrões como tendências e sazonalidades. Além disso, o uso de técnicas de clustering em séries temporais pode ajudar a identificar grupos de dados similares. Em geral, a análise de séries temporais é uma ferramenta bastante útil para uma ampla gama de aplicações.
 
+## Referências
+
+[Conjunto de dados AirPassengers do statsmodels]( https://www.statsmodels.org/stable/datasets/generated/fair.html){:target="_blank"}
+[Métricas de avaliação de cluster](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation){:target="_blank"}
+[Algoritmo de clustering KMeans na biblioteca scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html){:target="_blank"}
+
+
 <br><center><i>Obrigado pela leitura!</i></center>

@@ -114,4 +114,10 @@ Vale ressaltar que essas funções são apenas uma implementação básica de um
 
 Em resumo, as árvores balanceadas são estruturas de dados que garantem alta performance em operações de busca, inserção e remoção, mantendo um equilíbrio entre as alturas dos nós da árvore. A árvore AVL é uma das implementações mais comuns de árvores balanceadas, que garante uma altura máxima de log2(n) para árvores com n nós, garantindo assim uma complexidade temporal O(log n) para as principais operações.
 
+<br>
+
+## Referências
+
+[Estrutura de Dados Descomplicada - Em Linguagem C , por André Backes](https://www.amazon.com.br/Estrutura-Dados-Descomplicada-Linguagem-Backes/dp/8535285237){:target="_blank"}
+
 <br><center><i>Obrigado pela leitura!</i></center>
