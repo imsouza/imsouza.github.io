@@ -92,7 +92,9 @@ As séries temporais são sequências de dados coletados ao longo do tempo, onde
 ## Referências
 
 [Conjunto de dados AirPassengers do statsmodels]( https://www.statsmodels.org/stable/datasets/generated/fair.html){:target="_blank"}
+
 [Métricas de avaliação de cluster](https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation){:target="_blank"}
+
 [Algoritmo de clustering KMeans na biblioteca scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html){:target="_blank"}
 
 
