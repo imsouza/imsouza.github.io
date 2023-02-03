@@ -199,9 +199,8 @@ document.addEventListener("touchstart", function(){}, true);
       <img src="/assets/portfolio/covid.png" alt="Covid-19 Analysis" class="img">
       <div class="overlay">
         <p class="text">
-          -------------------------
           [EM DESENVOLVIMENTO]
-          -------------------------
+          <br>
           Utilização do modelo ARIMA para fazer previsões sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e autocorrelação. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
           <br>
           <p class="text keywords">Palavras-chave: Time Series, Machine Learning, Covid-19, Previsões</p>
