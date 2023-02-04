@@ -51,13 +51,15 @@ O que está em destaque é o resultado da previsão.
 
 A classificação de séries temporais é um problema de aprendizado supervisionado, onde o objetivo é prever a categoria de uma série temporal. Por exemplo, prever se uma ação vai subir ou descer no próximo dia de negociação.
 
-Aqui está um exemplo de como realizar a classificação de séries temporais no Python utilizando o mesmo dataset anterior:
+Aqui está um exemplo de como realizar a classificação de séries temporais no Python:
 
 <script src="https://gist.github.com/imsouza/b8fa62fbe383fb98c03f06a4d2b8a667.js"></script>
 
-O plot acima exibirá o número real de passageiros ao lado da classificação feita pelo modelo (High >= 300 ou Low < 300), com uma linha vermelha indicando as previsões.
+Neste exemplo, o objetivo é classificar se o número de passageiros em cada mês é "Alto" ou "Baixo". A classificação é feita com base na média dos números de passageiros. O modelo é treinado com 80% dos dados e avaliado com o restante. Por fim, um gráfico é plotado para comparar as previsões com os valores reais.
 
-![Plot](https://imgur.com/cQPrQq1.png)
+![DF](https://imgur.com/RImJTAk.png)
+
+![Plot](https://imgur.com/IkUn6zF.png)
 
 <br>
 
