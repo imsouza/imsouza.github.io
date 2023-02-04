@@ -35,7 +35,7 @@ A árvore possui três maneiras de percorrer sua estrutura, sendo elas:
 
 ## Código
 
-Segue abaixo a implementação do TAD da árvore binária:
+Segue abaixo a implementação completa da árvore binária de busca:
 
 <script src="https://gist.github.com/imsouza/760fd7bb9e7c2675ee8165865504e66b.js"></script>
 
