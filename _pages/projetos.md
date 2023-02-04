@@ -107,16 +107,16 @@ permalink: /projetos/
 .category {
   text-align: center;
   font-size: 65%;
+  width: 100%;
   padding: 2% 5% 2% 5%;
   background-color: white;
-  top: 2.5%;
+  top: 2.8%;
   transform: translateY(-10%);
   position: absolute;
   opacity: 0;
   font-weight: bolder;
   visibility: hidden;
   color: #353535;
-  text-align: center;
 }
 
 .keywords {
