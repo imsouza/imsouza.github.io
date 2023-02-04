@@ -41,7 +41,7 @@ Segue um exemplo de previsão de séries temporais utilizando o dataset *AirPass
 
 <script src="https://gist.github.com/imsouza/0327ce38b23cb8148a5829c6e46de8e1.js"></script>
 
-![Plot](https://imgur.com/CmaIYhU)
+![Plot](https://imgur.com/CmaIYhU.png)
 
 A parte que está em destaque é o resultado da previsão.
 
