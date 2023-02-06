@@ -15,7 +15,7 @@ permalink: /sobre/
 </div>
 
 <p align="justify">
-Meu nome é Mateus Almeida, tenho 23 anos e sou da cidade de São Mateus, localizada no norte do estado do Espírito Santo. Sou estudante de Ciência da Computação na UFES onde realizo projetos de pesquisa, especificamente na área de aprendizado de máquina e análise de séries temporais. Além disso, meus interesses incluem Inteligência Artificial, Deep Learning, Visão Computacional, Teoria da Computação, Matemática e Otimização.
+Me chamo Mateus Almeida, tenho 23 anos e sou da cidade de São Mateus, localizada no norte do estado do Espírito Santo. Sou estudante de Ciência da Computação na UFES onde realizo projetos de pesquisa, especificamente na área de aprendizado de máquina e análise de séries temporais. Além disso, meus interesses incluem Inteligência Artificial, Deep Learning, Visão Computacional, Teoria da Computação, Matemática e Otimização.
 <br>
 <br>
 Acredito na importância da colaboração e da troca de conhecimentos na comunidade tecnológica e estou sempre em busca de novas oportunidades de crescimento e aprendizado. Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem ou se conectar comigo em minhas redes sociais. 
