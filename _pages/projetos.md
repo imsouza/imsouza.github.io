@@ -183,7 +183,7 @@ document.addEventListener("touchstart", function(){}, true);
 <section class="portfolio">  
   <div class="showcase">
     <a href="https://colab.research.google.com/github/imsouza/airplane-crash/blob/main/EDA%20-%20Airplane%20Crash.ipynb" aria-haspopup="true" target="_blank" onclick="" class="item">
-      <img src="/assets/portfolio/decompose.png" alt="Count of crashes by Year" class="img">
+      <img src="/assets/portfolio/airplane.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
           Exploração dos dados de acidentes aéreos mundiais de 1908 a 2009 utilizando técnicas de análise de causalidade e PCA em séries temporais para identificar padrões e tendências relacionadas às fatalidades.
