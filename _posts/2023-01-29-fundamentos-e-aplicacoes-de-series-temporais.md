@@ -4,7 +4,7 @@ title: "Fundamentos e Aplicações de Séries Temporais"
 description: "Uma série temporal é uma coleção de dados coletados ao longo do tempo. Esses dados podem incluir informações sobre vendas, preços de ações, temperaturas, entre outros..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img22.jpg
-tags: [Inteligência Artificial]
+tags: [Machine Learning]
 ---
 
 ![Birds](/assets/thumbnails/img22.jpg)
