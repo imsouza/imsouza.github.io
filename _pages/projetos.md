@@ -195,12 +195,10 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
-    <a href="#" aria-haspopup="true" target="_blank" onclick="" class="item">
+    <a href="https://colab.research.google.com/drive/1BF-CC7_g5wiY7XqKjYl65FS5m8bDJhM1?usp=sharing" aria-haspopup="true" target="_blank" onclick="" class="item">
       <img src="/assets/portfolio/covid.png" alt="Covid-19 Analysis" class="img">
       <div class="overlay">
         <p class="text">
-          [EM DESENVOLVIMENTO]
-          <br>
           Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e autocorrelação. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
           <br>
           <p class="text keywords">Palavras-chave: Time Series, Machine Learning, Covid-19, Previsões</p>
