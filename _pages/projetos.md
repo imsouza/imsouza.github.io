@@ -169,12 +169,13 @@ document.addEventListener("touchstart", function(){}, true);
 <i class="fa-solid fa-chart-line"></i>&nbsp;
 <i class="fa-solid fa-circle-nodes"></i>&nbsp;
 <i class="fa-solid fa-scroll"></i>&nbsp;
- <i class="fa-solid fa-image"></i>&nbsp;
- <i class="fa-solid fa-comments"></i>&nbsp;
- <i class="fa-solid fa-robot"></i>&nbsp;
- <i class="fa-solid fa-brain"></i>&nbsp;
+<i class="fa-solid fa-image"></i>&nbsp;
+<i class="fa-solid fa-comments"></i>&nbsp;
+<i class="fa-solid fa-robot"></i>&nbsp;
+<i class="fa-solid fa-brain"></i>&nbsp;
+<i class="fa-sharp fa-solid fa-browser"></i>&nbsp;
 
-  Insights
+  Análise Exploratória de Dados
   Machine Learning
   Deep Learning
   Visão Computacional  
@@ -205,6 +206,33 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
         <p class="text category">
           <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+        </p>
+      </div>
+    </a>
+    <a href="#" onclick="" target="_blank" class="item">
+      <img src="/assets/portfolio/beer.png" alt="Beer Analysis" class="img">
+      <div class="overlay">
+        <p class="text">
+          <dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br>
+          Modelo regressivo para previsão do consumo de cerveja no estado de São Paulo. O objetivo é fornecer uma previsão precisa do consumo de cerveja que possam impactar a demanda levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
+          <br>
+          <p class="text keywords">Palavras-chave: Regressão Linear, Estatística, Cerveja</p>
+        </p>
+        <p class="text category">
+          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+        </p>
+      </div>
+    </a>
+    <a href="https://github.com/imsouza/account-balance" onclick="" target="_blank" class="item">
+      <img src="/assets/portfolio/accb.png" alt="Account balance" class="img">
+      <div class="overlay">
+        <p class="text">
+          Este projeto envolve a criação de um sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
+          <br>
+          <p class="text keywords">Palavras-chave: Laravel, Conta Bancária, CRUD, Sistema</p>
+        </p>
+        <p class="text category">
+          <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
         </p>
       </div>
     </a>
