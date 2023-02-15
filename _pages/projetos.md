@@ -179,6 +179,8 @@ document.addEventListener("touchstart", function(){}, true);
   Machine Learning
   Deep Learning
   Visão Computacional  
+
+<dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br> 
 -->
 
 <section class="portfolio">  
@@ -209,11 +211,10 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
-    <a href="#" onclick="" target="_blank" class="item">
+    <a href="https://colab.research.google.com/drive/1FuTkYHyoYCpWS422nuLF_LcDMjLm2KGb?usp=sharing" onclick="" target="_blank" class="item">
       <img src="/assets/portfolio/beer.png" alt="Beer Analysis" class="img">
       <div class="overlay">
         <p class="text">
-          <dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br>
           Modelo regressivo para previsão do consumo de cerveja no estado de São Paulo. O objetivo é fornecer uma previsão precisa do consumo de cerveja que possam impactar a demanda levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
           <br>
           <p class="text keywords">Palavras-chave: Regressão Linear, Estatística, Cerveja</p>
