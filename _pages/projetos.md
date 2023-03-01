@@ -251,5 +251,18 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
+    <a href="https://github.com/imsouza/orus/tree/main_buttons" onclick="" target="_blank" class="item">
+      <img src="/assets/portfolio/stock.png" alt="Account balance" class="img">
+      <div class="overlay">
+        <p class="text">
+          Sistema de gerenciamento de estoque e clientes utilizando o framework Electron. Ele permitirá aos administradores gerenciar o estoque de maneira fácil, incluindo funcionalidades como CRUD de produto, CRUD de clientes e análise de dados.  
+          <br>
+          <p class="text keywords">Palavras-chave: Electron, Estoque, CRUD, Sistema</p>
+        </p>
+        <p class="text category">
+          <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
+        </p>
+      </div>
+    </a>
   </div>
 </section>
