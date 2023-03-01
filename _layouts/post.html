@@ -49,16 +49,18 @@ layout: default
 
 <div class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow" style="top: 1.5rem; padding: 5px 10px 0px 10px; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8592;&nbsp;</a>
   {% endif %}
   {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow" style="top: 1.5rem; padding: 5px 10px 0px 10px; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8594;&nbsp;</a>
   {% endif %}
 
-  <a href="#" class="top">Top</a>
+  <a href="#" class="top" style="top: 1.5rem; padding: 10px; border-radius: 5px; background-color: #353535; color: white">Ir para o topo</a>
 </div>
+
+
   
-<div id="disqus_thread"></div>
+<div style="margin-top: 30px" id="disqus_thread"></div>
 
 <script>
   (function() {

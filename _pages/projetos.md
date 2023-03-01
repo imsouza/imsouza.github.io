@@ -237,5 +237,19 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
+    <!--
+    <a href="https://github.com/imsouza/account-balance" onclick="" target="_blank" class="item">
+      <img src="/assets/portfolio/accb.png" alt="Account balance" class="img">
+      <div class="overlay">
+        <p class="text">
+          Este projeto envolve a criação de um sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
+          <br>
+          <p class="text keywords">Palavras-chave: Laravel, Conta Bancária, CRUD, Sistema</p>
+        </p>
+        <p class="text category">
+          <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
+        </p>
+      </div>
+    </a>-->
   </div>
 </section>
