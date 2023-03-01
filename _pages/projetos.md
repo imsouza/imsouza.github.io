@@ -237,19 +237,19 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
-    <!--
-    <a href="https://github.com/imsouza/account-balance" onclick="" target="_blank" class="item">
-      <img src="/assets/portfolio/accb.png" alt="Account balance" class="img">
+    <a href="#" onclick="" target="_blank" class="item">
+      <img src="/assets/portfolio/spellchecker.png" alt="Account balance" class="img">
       <div class="overlay">
         <p class="text">
-          Este projeto envolve a criação de um sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
+          <dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br>  
+          Criação de um corretor ortográfico que utiliza técnicas de processamento de linguagem natural (NLP) juntamente com a biblioteca NLTK para validar erros ortográficos em textos em língua portuguesa.
           <br>
-          <p class="text keywords">Palavras-chave: Laravel, Conta Bancária, CRUD, Sistema</p>
+          <p class="text keywords">Palavras-chave: NLTK, NLP, Spell Checker</p>
         </p>
         <p class="text category">
-          <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
+          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
         </p>
       </div>
-    </a>-->
+    </a>
   </div>
 </section>
