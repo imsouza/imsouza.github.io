@@ -240,8 +240,7 @@ document.addEventListener("touchstart", function(){}, true);
     <a href="https://colab.research.google.com/drive/1m-pyGCxmjJkQX3n8kalPmBz488aaJLkU?usp=sharing" onclick="" target="_blank" class="item">
       <img src="/assets/portfolio/spellchecker.png" alt="Account balance" class="img">
       <div class="overlay">
-        <p class="text">
-          <dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br>  
+        <p class="text"> 
           Criação de um corretor ortográfico que utiliza técnicas de processamento de linguagem natural (NLP) juntamente com a biblioteca NLTK para validar erros ortográficos em textos em língua portuguesa.
           <br>
           <p class="text keywords">Palavras-chave: NLTK, NLP, Spell Checker</p>
