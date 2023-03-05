@@ -13,7 +13,7 @@ Uma série temporal é uma coleção de dados coletados ao longo do tempo. Esses
 
 A análise de séries temporais é uma ferramenta valiosa para entender tendências, padrões e previsões futuras. A previsão de séries temporais é uma tarefa comum na análise de dados e pode ser realizada usando vários métodos, incluindo modelos ARIMA, SARIMA, entre outros.
 
-Abaixo está um exemplo de código em Python para criar uma série temporal com o pacote pandas e plotá-la usando o pacote matplotlib.
+Abaixo está um exemplo de código em Python para criar uma série temporal com o pacote pandas e plotá-la usando o pacote *matplotlib*.
 
 <script src="https://gist.github.com/imsouza/9bfc4a142616ae3f9828f8287249a020.js"></script>
 
@@ -90,6 +90,8 @@ A figura abaixo identifica três grupos diferentes de dados dentro de um mesmo c
 ## Conclusão
 
 As séries temporais são sequências de dados coletados ao longo do tempo, onde, em um gráfico, um dos eixos é o tempo. A análise de séries temporais permite fazer previsões futuras e identificar padrões como tendências e sazonalidades. Além disso, o uso de técnicas de clustering em séries temporais pode ajudar a identificar grupos de dados similares. Em geral, a análise de séries temporais é uma ferramenta bastante útil para uma ampla gama de aplicações.
+
+<br>
 
 ## Referências
 
