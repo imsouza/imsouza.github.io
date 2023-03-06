@@ -31,10 +31,15 @@ plugins:
 
 # Permalinks
 permalink:      /:title
-paginate:       5
+paginate:       999
 
 # Excludes
 exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
+
+collections:
+  notas:
+    output: true
+    permalink: notas/:title/

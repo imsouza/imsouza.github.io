@@ -1,0 +1,75 @@
+---
+layout: default
+---
+
+<div class="post">
+  <div class="post-info">
+    <span>Escrito por</span>
+    {% if page.author %}
+        {{ page.author }}
+    {% else %}
+        {{ site.author.name }}
+    {% endif %}
+
+    {% if page.date %}
+      <br>
+      <span>em&nbsp;</span>
+      <time datetime="{{ page.date }}">
+      {% assign m = page.date | date: "%-m" %}
+      {{ page.date | date: "%-d" }}
+      {% case m %}
+        {% when '1' %}Janeiro
+        {% when '2' %}Fevereiro
+        {% when '3' %}Março
+        {% when '4' %}Abril
+        {% when '5' %}Maio
+        {% when '6' %}Junho
+        {% when '7' %}Julho
+        {% when '8' %}Agosto
+        {% when '9' %}Setembro
+        {% when '10' %}Outubro
+        {% when '11' %}Novembro
+        {% when '12' %}Dezembro
+      {% endcase %}
+      {{ page.date | date: "%Y" }}
+
+    </time>
+    {% endif %}
+  </div>
+
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-line"></div>
+
+  {{ content }}
+</div>
+
+{% if page.comments %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8592;&nbsp;</a>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8594;&nbsp;</a>
+  {% endif %}
+
+  <a href="#" class="top" style="top: 1.5rem; padding: 1.5%; border-radius: 5px; background-color: #353535; color: white">Ir para o topo</a>
+</div>
+  
+<div style="margin-top: 30px" id="disqus_thread"></div>
+
+<script>
+  (function() {
+    var d = document,
+        s = d.createElement('script');
+    s.src = 'https://mateus-almeida.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+
+<noscript>
+  Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>  

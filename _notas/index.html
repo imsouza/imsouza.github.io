@@ -1,0 +1,81 @@
+---
+layout: default
+title: "Notas de Aula"
+author: "Mateus Almeida"
+permalink: /notas/
+---
+
+<div class="tags">
+  <div class="tags-header">
+    <h2 class="tags-header-title">{{ page.title }}</h2>
+    <div class="tags-header-line"></div>
+  </div>
+
+{% for nota in site.notas %}
+  {% if nota.categories contains 'notas' %}
+    <a class="tags-post" href="{{ nota.url | prepend: site.baseurl }}">
+      <div>
+        <span class="tags-post-title">{{ nota.title }}</span>
+        <div class="tags-post-line"></div>
+      </div>
+      <span class="tags-post-meta">
+        <time datetime="{{ nota.date }}">
+          {{ nota.date | date:"%Y-%m-%d" }}
+        </time>
+      </span>
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+<!--
+<div class="catalogue">
+ {% for note in site.notas %}
+   {% if note.categories contains 'notas' %}
+    <a href="{{ note.url | prepend: site.baseurl }}" class="catalogue-item">
+      <time datetime="{{ note.date }}" class="catalogue-time">
+        {% assign m = note.date | date: "%-m" %}
+        {{ note.date | date: "%-d" }}
+        {% case m %}
+          {% when '1' %}Janeiro
+          {% when '2' %}Fevereiro
+          {% when '3' %}Março
+          {% when '4' %}Abril
+          {% when '5' %}Maio
+          {% when '6' %}Junho
+          {% when '7' %}Julho
+          {% when '8' %}Agosto
+          {% when '9' %}Setembro
+          {% when '10' %}Outubro
+          {% when '11' %}Novembro
+          {% when '12' %}Dezembro
+        {% endcase %}
+        {{ note.date | date: "%Y" }}
+      </time>
+
+        <h1 class="catalogue-title">{{ note.title }}</h1>
+        <div class="catalogue-line"></div>
+        <p>
+          {% if note.excerpt_separator %}
+            {{ note.excerpt | strip_html }}
+          {% else %}
+            {{ note.content | strip_html | truncatewords: 30 }}
+          {% endif %}
+        </p>    
+    </a>
+    {% endif %}
+{% endfor %}
+</div>
+
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8592;&nbsp;</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8594;&nbsp;</a>
+  {% endif %}
+
+  <span>{{ paginator.page }}</span>
+</div>
+-->
