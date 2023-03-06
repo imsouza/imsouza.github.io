@@ -55,11 +55,11 @@ img {
       <h2 class="nav-title">{{ site.title }}</h2>
     </a>
     <ul>
+      <li><a href="{{ '/sobre' | prepend: site.baseurl }}">Sobre</a></li>
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
       <li><a href="{{ '/notas' | prepend: site.baseurl }}">Notas</a></li>
-      <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
       <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
-      <li><a href="{{ '/sobre' | prepend: site.baseurl }}">Sobre</a></li>
+      <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
       <li>
         <a id="darkmode" onclick="darkMode()">
           <i id="icon-dark" class="fa fa-moon"></i>
