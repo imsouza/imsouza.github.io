@@ -11,6 +11,7 @@ permalink: /notas/
     <div class="tags-header-line"></div>
   </div>
 
+
 {% for nota in site.notas %}
   {% if nota.categories contains 'notas' %}
     <a class="tags-post" href="{{ nota.url | prepend: site.baseurl }}">
@@ -20,7 +21,7 @@ permalink: /notas/
       </div>
       <span class="tags-post-meta">
         <time datetime="{{ nota.date }}">
-          {{ nota.date | date:"%Y-%m-%d" }}
+          {{nota.tags}}
         </time>
       </span>
     </a>

@@ -1,10 +1,10 @@
 ---
 layout: note
-title: "teste1"
+title: "test"
 description: "A Inteligência Artificial (IA) é uma área de pesquisa que investiga formas de habilitar o computador a realizar tarefas nas quais, até o momento, o ser humano tem um melhor desempenho..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img23.jpg
-tags: [Inteligência Artificial]
+tags: [SO]
 categories: [notas]
 ---
 
