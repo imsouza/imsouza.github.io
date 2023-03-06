@@ -21,7 +21,7 @@ permalink: /notas/
       </div>
       <span class="tags-post-meta">
         <time datetime="{{ nota.date }}">
-          {{nota.tags}}
+          {{ nota.date | date:"%Y-%m-%d" }}
         </time>
       </span>
     </a>
