@@ -159,6 +159,7 @@ document.addEventListener("touchstart", function(){}, true);
 </script>
 
 <div class="tags-header">
+  <div>&nbsp;</div>
   <h2 class="tags-header-title">{{ page.title }}</h2>
   <div class="tags-header-line"></div>
 </div>

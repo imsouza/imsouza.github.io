@@ -30,7 +30,7 @@ plugins:
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
-permalink:      /:title
+permalink:      posts/:title
 paginate:       999
 
 # Excludes

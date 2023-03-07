@@ -2,7 +2,7 @@
 layout: default
 title: "Sobre"
 author: "Mateus Almeida"
-permalink: /sobre/
+permalink: /
 ---
 
 <style>
@@ -10,6 +10,7 @@ permalink: /sobre/
 </style>
 
 <div class="tags-header">
+  <div>&nbsp;</div>
   <h2 class="tags-header-title">{{ page.title }}</h2>
   <div class="tags-header-line"></div>
 </div>

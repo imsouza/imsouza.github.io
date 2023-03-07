@@ -6,11 +6,11 @@ permalink: /notas/
 ---
 
 <div class="tags">
-  <div class="tags-header">
-    <h2 class="tags-header-title">{{ page.title }}</h2>
-    <div class="tags-header-line"></div>
-  </div>
-
+<div class="tags-header">
+  <div>&nbsp;</div>
+  <h2 class="tags-header-title">{{ page.title }}</h2>
+  <div class="tags-header-line"></div>
+</div>
 
 {% for nota in site.notas %}
   {% if nota.categories contains 'notas' %}
