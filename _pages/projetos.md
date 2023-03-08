@@ -241,7 +241,7 @@ document.addEventListener("touchstart", function(){}, true);
       </div>
     </a>
     <a href="https://colab.research.google.com/drive/1m-pyGCxmjJkQX3n8kalPmBz488aaJLkU?usp=sharing" onclick="" target="_blank" class="item">
-      <img src="/assets/portfolio/spellchecker.png" alt="Account balance" class="img">
+      <img src="/assets/portfolio/spellchecker.png" alt="NLP" class="img">
       <div class="overlay">
         <p class="text"> 
           Criação de um corretor ortográfico que utiliza técnicas de processamento de linguagem natural (NLP) juntamente com a biblioteca NLTK para validar erros ortográficos em textos em língua portuguesa.
@@ -253,8 +253,22 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
+    <a href="https://colab.research.google.com/drive/1HIDFgE819Yovue63iMI2wyicQPWLWMGc?usp=sharing" onclick="" target="_blank" class="item">
+      <img src="/assets/portfolio/spotify.png" alt="Spotify" class="img">
+      <div class="overlay">
+        <p class="text">
+            <dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br> 
+            Sistema de recomendação de músicas utilizando a API do Spotify e algoritmos de clusterização. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário e nos clusters aos quais as músicas pertencem.
+          <br>
+          <p class="text keywords">Palavras-chave: Cluster, Spotify, Sistema, Músicas</p>
+        </p>
+        <p class="text category">
+          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+        </p>
+      </div>
+    </a>
     <a href="https://github.com/imsouza/orus/tree/main_buttons" onclick="" target="_blank" class="item">
-      <img src="/assets/portfolio/stock.png" alt="Account balance" class="img">
+      <img src="/assets/portfolio/stock.png" alt="Electron" class="img">
       <div class="overlay">
         <p class="text">
           Sistema de gerenciamento de estoque e clientes utilizando o framework Electron. Ele permitirá aos administradores gerenciar o estoque de maneira fácil, incluindo funcionalidades como CRUD de produto, CRUD de clientes e análise de dados.  
@@ -268,9 +282,6 @@ document.addEventListener("touchstart", function(){}, true);
     </a>
   </div>
 </section>
-
-
-
 
 <style>
 #button {
