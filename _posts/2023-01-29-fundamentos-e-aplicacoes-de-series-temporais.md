@@ -43,8 +43,6 @@ Segue um exemplo de previsão de séries temporais utilizando o dataset *AirPass
 
 ![Plot](https://imgur.com/CmaIYhU.png)
 
-A parte que está em destaque é o resultado da previsão.
-
 <br>
 
 ## Classificação
