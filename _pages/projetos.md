@@ -267,6 +267,7 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
+    <!--
     <a href="https://github.com/imsouza/orus/tree/main_buttons" onclick="" target="_blank" class="item">
       <img src="/assets/portfolio/stock.png" alt="Electron" class="img">
       <div class="overlay">
@@ -279,7 +280,7 @@ document.addEventListener("touchstart", function(){}, true);
           <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
         </p>
       </div>
-    </a>
+    </a>-->
   </div>
 </section>
 
