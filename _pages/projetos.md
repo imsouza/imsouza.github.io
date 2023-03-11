@@ -257,7 +257,6 @@ document.addEventListener("touchstart", function(){}, true);
       <img src="/assets/portfolio/spotify.png" alt="Spotify" class="img">
       <div class="overlay">
         <p class="text">
-            <dev style="font-size: 85%; font-weight: bolder;color: crimson;">[EM DESENVOLVIMENTO]</dev><br> 
             Sistema de recomendação de músicas utilizando a API do Spotify e algoritmos de clusterização. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário e nos clusters aos quais as músicas pertencem.
           <br>
           <p class="text keywords">Palavras-chave: Cluster, Spotify, Sistema, Músicas</p>
