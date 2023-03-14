@@ -121,7 +121,7 @@ dados. Ele permite controlar quem tem acesso aos dados e quais ações
 essas pessoas podem realizar. Alguns exemplos de comandos DCL incluem
 GRANT (para conceder permissões) e REVOKE (para revogar permissões).
 
-![Principais comandos](https://imgur.com/oFQq47Z)
+![Principais comandos](https://i.imgur.com/oFQq47Z.png)
 
 <br>
 
