@@ -25,7 +25,7 @@ Acredito na importância da colaboração e da troca de conhecimentos na comunid
 &nbsp;
 
 <center>
-<a href="https://github.com/imsouza" target="_blank" style="color: #353535;" alt="github"><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>
+<a href="https://github.com/imsouza" target="_blank" style="color: #353535;" alt="github"><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
 </center>
 
 <br>
