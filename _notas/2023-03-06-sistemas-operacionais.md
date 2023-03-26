@@ -18,6 +18,7 @@ categories: [notas]
 <br>
 
 ## O que é um Sistema Operacional
+
 - Software que realiza o intermédio entre o hardware e o usuário;
 - Gerenciador de recursos.
 
@@ -58,9 +59,9 @@ categories: [notas]
 
 ## Formas de Processamento do SO
 
-- Serial (Monoprogramação)
+- Serial (Monoprogramação);
   - Recursos alocados a um único programa.
-- Concorrente (Multiprogramação)
+- Concorrente (Multiprogramação);
   - Recursos dinamicamente reassociados entre uma coleção de programas em diferentes estágios.
 
 <br>
@@ -69,7 +70,7 @@ categories: [notas]
 
 ## Tipos de SOs
 
-- Monoprogramados ou Monotarefa
+- Monoprogramados ou Monotarefa;
   - Só permitem um programa ativo em um dado período;
   - A execução permanece na RAM até o seu fim (Ex: MS-DOS);
   - Permite que o processador, a memória e os periféricos permaneceçam exclusivamente dedicados à execução de um único programa;
@@ -78,8 +79,8 @@ categories: [notas]
 
 ![https://imgur.com/60kSdik.png](https://imgur.com/60kSdik.png)
 
-- Multiprogramados ou Multitarefa
-  - Mantém mais de um programa na memória ;
+- Multiprogramados ou Multitarefa;
+  - Mantém mais de um programa na memória;
   - Permite o compartilhamento de tempo de CPU e demais recursos (Ex: UNIX, Windows);
   - Multicore (executa diversas tarefas ao mesmo tempo);
   - A ideia é manter vários programas em memória ao mesmo tempo;
@@ -89,13 +90,13 @@ categories: [notas]
 
 ![https://imgur.com/3Ij8GQE.png](https://imgur.com/3Ij8GQE.png)
 
-- SO Multitarefa em Batch
+- SO Multitarefa em Batch;
   - Sistema Batch (lote) consiste em submeter ao computador um lote (batch) de programas de uma só vez;
   - Um job é um conjunto de tarefas à ser executado pela CPU (Ex: Makefile);
   - Os jobs (scripts com lote de programas) dos usuários são submetidos em ordem sequencial para a execução;
   - Não existe interação entre o usuário e o job durante sua execução.
 
-- SO Multitarefa Interativo
+- SO Multitarefa Interativo;
   - O sistema permite que os usuários interajam com suas computações na forma de diálogo (Ex: Caixa do banco através de um mainframe);
   - Pode ser projetado como um sistema monousuário ou multiusuário (usando conceitos de multiprogramação e time-sharing).
 
@@ -103,29 +104,29 @@ categories: [notas]
 
 ## Estruturas de SOs
 
-- Monolítica
+- Monolítica;
   - O SO é um único módulo;
   - Consiste de um conjunto de programas que executam sobre o hardware, como se fosse um único programa;
   - Os programas de usuário invocam rotinas do SO (Ex: UNIX, Windows, MS-DOS).
   
 ![https://imgur.com/4nSVve7.png](https://imgur.com/4nSVve7.png)
 
-- Micronúcleo
+- Micronúcleo;
   - Busca tornar o núcleo do SO o menor possível;
   - A principal função é gerencias a comunicação entre processos;
   - O núcleo fornece serviços de alocação de CPU e de comunicação aos processos (IPC) (Ex: Minix, Symbian).
 
 ![https://imgur.com/KI6gtGg.png](https://imgur.com/KI6gtGg.png)
 
-- Camadas
-  - Modular
-    - Divisão de programas complexos em módulos de menor complexidade
-  - Hierárquico
-    - A cada nível, os detalhes de operação dos níveis inferiores podem ser ignorados
+- Camadas;
+  - Modular;
+    - Divisão de programas complexos em módulos de menor complexidade.
+  - Hierárquico;
+    - A cada nível, os detalhes de operação dos níveis inferiores podem ser ignorados.
   - A ideia é criar um SO modular com caracteristicas hierárquicas;
   - As interfaces são definidas para facilitar a interação entre os módulos hierárquicos (Ex: MULTICS, OpenVMS).
 
-- Máquina virtual
+- Máquina virtual;
   - Cria um nível intermediário entre o hardware e o SO, denominado Gerência de VM;
   - Esse nível cria diversas VMs independentes;
   - Cada VM oferece uma cópia virtual do hardware;  
@@ -184,12 +185,13 @@ categories: [notas]
 
 ## Interrupções
 
-- Interupções no nível de software
+- Interupções no nível de software;
   - write();
   - read();
   - open();
   - Entre outras chamadas.
-- Interupções no nível de hardware
+
+- Interupções no nível de hardware;
   - Ocorre fora do processador;
   - Provém de um sinal elétrico do hardware;
   - Causa: dispositivos de E/S ou clock;
@@ -198,11 +200,172 @@ categories: [notas]
 
 ## Interrupção vs. Traps
 
-- Interrupção
+- Interrupção;
   - Evento externo ao processador (dispositivos de E/S);
   - Gerada por dispostivos que precisam de atenção do SO.
-- Traps
+
+- Traps;
   - Evento inesperado interno ao processador;
   - Causado pelo processo corrente no processador.
 
 ![https://imgur.com/nMMI39s.png](https://imgur.com/nMMI39s.png)
+
+<br>
+
+# Processos
+
+## Definição
+
+- Um processo é um programa em execução;
+- Possui dados de entrada, saída e um estado (executando, bloqueado e pronto).
+
+<br>
+
+## Programa vs. Processo
+
+- Programa;
+  - Um programa pode ter várias instâncias em execução (em diferentes processos);
+  - Algoritmo codificado;
+  - Forma como o programador vê a tarefa a ser executada.
+- Processo
+  - Código acompanhado de dados e estado;
+  - Forma pela qual o SO vê um programa e possibilita sua execução.
+
+<br>
+
+## Processo em Primeiro Plano
+
+- Interação direta com o usuário (Ex: ler um arquivo, executar um programa).
+
+<br>
+
+## Processo em Segundo Plano
+
+- Não tem uma interação direta com o usuário (Ex: recepção e envio de emails);
+- Processo genérico;
+- Serve uma quantidade grande de usuários.
+
+<br>
+
+## Componentes de um Processo
+
+- Conjunto de instruções;
+- Espaço de endereçamento (espaço reservado para que os processos possam ler e escrever - 0 até max);
+
+- Contexto de hardware;
+  - Contador de Programa (Program Counter)
+    - Armazena as informações de contexto do processo.
+  - Valores nos registradores;
+  - Ponteiro de pilha;
+  - Registradores de propósito gerais.
+
+- Contexto de software;
+  - Atributos em geral;
+  - Lista de arquivos abertos.
+  - Váriáveis;
+  - Entre outros.
+
+<br>
+
+## Espaço de Endereçamento
+
+- Texto: código executável do(s) programa(s);
+- Dado: as variáveis;
+- Pilha de execução;
+  - Controla a execução do processo;
+  - Empilha chamadas a procedimentos, seus parâmetros, variáveis locais, etc.
+
+![https://imgur.com/dDgdaij.png](https://imgur.com/dDgdaij.png)
+
+<br>
+
+## Tabela de Processos
+
+- Bloco de Controle de Processo (Process Control Block - PCB);
+- Contém informações de contexto de cada processo (Ex: ponteiros de arquivos abertos, posição do próximo byte a ser lido em cada arquivo, etc.);
+- Contém informações necessárias para trazer o processo de volta, caso o SO tenha que tirá-lo de execução;
+- Contém os estados de um processo em um determinado tempo;
+- O PCB só não guarda o conteúdo do espaço de endereçamento do processo;
+- Um processo é constituído de seu espaço de endereçamento e PCB (com seus registradoresm, etc.), representando uma entrada na tabela de processos;
+- PID: identificador do processo.
+
+![https://imgur.com/qA2Rebk.png](https://imgur.com/qA2Rebk.png)
+
+<br>
+
+## Características de um Processo
+
+- Processos CPU-bound (orientado à CPU);
+  - Utiliza muito do processador;
+  - Tempo de execução é definido pelos ciclos do processador.
+
+- Processos I/O-bound (orientados à E/S);
+  - Utiliza muita E/S;
+  - Tempo de execução é definido pela duração das operações de E/S.
+
+- Ideal: existir um balanceamento entre processos CPU-bound e I/O-bound.
+
+<br>
+
+## Criação de Processos
+
+- Inicialização do sistema;
+- Execução de uma chamada de sistema para criação de processo, realizada por algum processo em execução;
+- Requisição de usuário para criar um novo processo (duplo clique do mouse, etc.);
+- Inicialização de um processo em batch (em sistemas de mainframes).
+
+<br>
+
+## Processos criando outros processos
+
+- No UNIX (fork());
+  - Cria um clone do processo pai: cópias exatas na memória, mas com identificadores diferentes.
+
+- No Windows (CreateProcess);
+  - Cria processo filho, já carregando novo programa nele.
+
+```
+  int main () {
+    int pid;
+    pid = fork();
+    printf("%d", num);
+
+    if (pid == 0) {       // child
+      num = 1;            // execução do processo filho
+    } else if (pid > 0) { // parent
+      num = 2;            // execução do processo pai
+    }
+
+    printf("%d", num);
+  }
+```
+
+<br>
+
+## Finalizando Processos
+
+- Término normal (voluntário);
+  - A tarefa a ser executada é finalizada;
+  - Ao terminar, o processo executa uma chamada de sistema (exit - UNIX,  ExitProcess - Windows).
+
+- Término por erro (voluntário);
+  - O processo sendo executado não pode ser finalizado.
+
+- Término com erro fatal (involuntário);
+  - Erro causado por algum erro no programa (bug);
+  - Divisão por zero;
+  - Referência à memória inexistente.
+
+- Término causado por algum outro processo (involuntário);
+  - kill (UNIX);
+  - TerminateProcess (Windows).
+
+<br>
+
+## Estados de Processos
+
+- Executando: usando a CPU naquele momento em tempo real;
+- Bloqueado: incapaz de executar enquanto um evento externo não ocorrer;
+- Pronto: em memória, pronto para executar (ou para continuar sua execução), apenas aguardando a disponibilidade do processador.
+
+![https://imgur.com/3wamZcD.png](https://imgur.com/3wamZcD.png)
