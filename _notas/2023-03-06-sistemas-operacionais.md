@@ -85,12 +85,9 @@ categories: [notas]
   - A ideia é manter vários programas em memória ao mesmo tempo;
   - Há várias tarefas simultâneas em um único processador: enquanto uma espera, a outra roda;
   - Demandam mecanismos de trocas rápidas de procesos.
-
-![https://imgur.com/3Ij8GQE.png](https://imgur.com/3Ij8GQE.png)
-
   - O sistema multitarefa pode ser classificado em outros três sistemaas: Batch, Tempo Compartilhado (Time-sharing) e Real.
 
-![https://imgur.com/e2agiIA.png](https://imgur.com/e2agiIA.png)
+![https://imgur.com/3Ij8GQE.png](https://imgur.com/3Ij8GQE.png)
 
 - SO Multitarefa em Batch
   - Sistema Batch (lote) consiste em submeter ao computador um lote (batch) de programas de uma só vez;
@@ -119,7 +116,6 @@ categories: [notas]
   - O núcleo fornece serviços de alocação de CPU e de comunicação aos processos (IPC) (Ex: Minix, Symbian).
 
 ![https://imgur.com/KI6gtGg.png](https://imgur.com/KI6gtGg.png)
-![https://imgur.com/6ckC4Ab.png](https://imgur.com/6ckC4Ab.png)
 
 - Camadas
   - Modular
@@ -136,8 +132,77 @@ categories: [notas]
   - Um outro exemplo de VM é a estrutura da linguagem Java;
   - Para executar um programa Java é necessário uma Java Virtual Machine (JVM);
   - A JVM gera um overhead (queda de performace), devido a passagem de execução de um nível para o outro até alcançar o hardware.
-  
 
+<br>
 
+# Chamadas de Sistema e Interrupção
 
+## Visão geral
 
+- São funções que realizam determinada operação no SO;
+- Chamadas de sistema são a porta de entrada para o modo kernel;
+- As chamadas de sistemas são realizadas através de instruções Traps;
+- Traps são conhecidas como interrupções de software;
+- Após o término da chamada (Ex: ler um arquivo), a execução continua após a chamada de sistema.
+
+![https://imgur.com/6KT1yxW.png](https://imgur.com/6KT1yxW.png)
+
+<br>
+
+## Passos de uma SysCall
+
+- Aplicativo faz a chamada ao sistema (Trap);
+- Através de uma tabela, o SO determina o endereço da rotina;
+- Rotina de Serviço é acionada (rotina compartilhada);
+- Serviço solicitado é executado e o controle retorna ao aplicativo.
+
+![https://imgur.com/ADOv4FJ.png](https://imgur.com/ADOv4FJ.png)
+
+<br>
+
+## Exemplo com a chamada open()
+
+- A função open() é requisitada;
+- É realizada a busca da função open() no vetor de endereço;
+- Uma vez que o endereço é encontrado, irá executar cada instrução presente no open();
+- Após Finalizar a execução do open(), retorna para a interface de chamada de sistema; 
+- Recebe o resultado da execução do open.
+
+![https://imgur.com/JuPfoLD.png](https://imgur.com/JuPfoLD.png)
+
+<br>
+
+## Interfaces e Estrutura das SysCalls
+
+- Interface para esconder a complexidade das syscalls;
+- interface de programação fornecida pelo SO;
+- Geralmente escrita em linguagem de alto nível (C, C++ ou Java);
+- Normalmente as aplicações utilizam uma API;
+- Interface que encapsula o acesso direto às chamadas do sistema.
+
+<br>
+
+## Interrupções
+
+- Interupções no nível de software
+  - write();
+  - read();
+  - open();
+  - Entre outras chamadas.
+- Interupções no nível de hardware
+  - Ocorre fora do processador;
+  - Provém de um sinal elétrico do hardware;
+  - Causa: dispositivos de E/S ou clock;
+
+<br>
+
+## Interrupção vs. Traps
+
+- Interrupção
+  - Evento externo ao processador (dispositivos de E/S);
+  - Gerada por dispostivos que precisam de atenção do SO.
+- Traps
+  - Evento inesperado interno ao processador;
+  - Causado pelo processo corrente no processador.
+
+![https://imgur.com/nMMI39s.png](https://imgur.com/nMMI39s.png)
