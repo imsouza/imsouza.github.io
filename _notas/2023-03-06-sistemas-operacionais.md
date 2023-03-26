@@ -129,8 +129,6 @@ categories: [notas]
   - A ideia é criar um SO modular com caracteristicas hierárquicas;
   - As interfaces são definidas para facilitar a interação entre os módulos hierárquicos (Ex: MULTICS, OpenVMS).
 
-![https://imgur.com/boTLtBF.png](https://imgur.com/boTLtBF.png)
-
 - Máquina virtual
   - Cria um nível intermediário entre o hardware e o SO, denominado Gerência de VM;
   - Esse nível cria diversas VMs independentes;
@@ -139,8 +137,6 @@ categories: [notas]
   - Para executar um programa Java é necessário uma Java Virtual Machine (JVM);
   - A JVM gera um overhead (queda de performace), devido a passagem de execução de um nível para o outro até alcançar o hardware.
   
-  ![https://imgur.com/XG1lwAf.png](https://imgur.com/XG1lwAf.png)
-
 
 
 
