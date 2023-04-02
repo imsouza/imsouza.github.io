@@ -10,8 +10,9 @@ permalink: /
 </style>
 
 <div class="tags-header">
-  <h2 class="tags-header-title">&nbsp;</h2>
-  <div class="tags-header"></div>
+  <div>&nbsp;</div>
+  <h2 class="tags-header-title">{{ page.title }}&nbsp;</h2>
+  <div class="tags-header-line"></div>
 </div>
 
 <p align="justify">
