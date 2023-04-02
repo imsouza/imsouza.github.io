@@ -55,12 +55,12 @@ img {
       <h2 class="nav-title">{{ site.title }}</h2>
     </a>
     <ul>
-      <li><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
-      <li><a href="{{ '/notas' | prepend: site.baseurl }}">Notas</a></li>
-      <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
-      <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+      <li><a toggle="tooltip" data-placement="top" title="Blog" href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
+      <!--<li><a href="{{ '/notas' | prepend: site.baseurl }}">Notas</a></li>-->
+      <li><a toggle="tooltip" data-placement="top" title="Meu Portfólio" href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
+      <li><a toggle="tooltip" data-placement="top" title="Tags de Posts" href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
       <li>
-        <a id="darkmode" onclick="darkMode()">
+        <a style="cursor: pointer;" toggle="tooltip" data-placement="top" title="Modo Escuro/Claro" id="darkmode" onclick="darkMode()">
           <i id="icon-dark" class="fa fa-moon"></i>
           <span id="dark-text"></span>
        </a>
