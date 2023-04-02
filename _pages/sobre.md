@@ -10,7 +10,6 @@ permalink: /
 </style>
 
 <div class="tags-header">
-  <div>&nbsp;</div>
   <h2 class="tags-header-title">&nbsp;</h2>
   <div class="tags-header"></div>
 </div>
