@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Noções de Grafos #1"
-description: "Grafos estão presentes em muitas apões do nosso dia a dia, desde as mais criativas soluções da engenharia moderna..."
+description: "Grafos são uma estrutura matemática fundamental em muitas áreas do conhecimento, desde a ciência da computação até a física e a biologia..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img24.jpeg
 tags: [Estrutura de Dados]
