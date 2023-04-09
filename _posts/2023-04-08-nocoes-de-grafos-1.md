@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Noções de Grafos #1"
-description: "Grafos estão presentes em muitas aplicações do nosso dia a dia, desde as mais criativas soluções da engenharia moderna até encontrar o melhor caminho para chegar a um local de carro..."
+description: "Grafos estão presentes em muitas apões do nosso dia a dia, desde as mais criativas soluções da engenharia moderna..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img24.jpeg
 tags: [Estrutura de Dados]
@@ -9,7 +9,7 @@ tags: [Estrutura de Dados]
 
 ![Birds](/assets/thumbnails/img24.jpeg)
 
-Grafos estão presentes em muitas aplicações do nosso dia a dia, desde as mais criativas soluções da engenharia moderna até encontrar o melhor caminho para chegar a um local de carro. Mas afinal, o que é um grafo? Que tipos de grafos existem? Como são representados? Isso e muito mais será contextualizado nessa série de artigos em questão.
+Grafos estão presentes em muitas aplicações do nosso dia a dia, desde as mais criativas soluções da engenharia moderna até dentro de algum aplicativo mobile para encontrar a melhor rota para chegar em um local. Mas afinal, o que é um grafo? Que tipos de grafos existem? Como são representados? Isso e muito mais será contextualizado nessa série de artigos em questão.
 
 <br>
 
@@ -25,9 +25,9 @@ Um grafo *G(V,A)* é definido em termos de dois conjuntos, sendo eles:
 
 ![https://imgur.com/Pw7zDK9.png](https://imgur.com/Pw7zDK9.png)
 
-> Dois vértices são considerados **adjacentes** se existir uma aresta ligando-os;
+> Dois vértices são considerados **adjacentes** se existir uma aresta ligando-os.
 
-Abaixo está um exemplo de representação de um grafo *G(V,A)*, contendo os vértices *V={1,2,3,4}* e arestas *A={{1,2},{1,4},{2,3},{2,4}}*:
+Abaixo está um exemplo de representação de um grafo *G(V,A)*, contendo os vértices *V={1,2,3,4}* e arestas *A={(1,2),(1,4),(2,3),(2,4)}*:
 
 ![https://imgur.com/Od6qYAg.png](https://imgur.com/Od6qYAg.png)
 
@@ -99,11 +99,3 @@ Um grafo que possui arestas múltiplas é chamado de **multigrafo**. Trata-se de
 Este primeiro artigo abordou somente os conceitos básicos, mas de suma importância da teoria dos grafos. A compreensão desses conceitos iniciais é fundamental para a resolução de problemas e análises mais complexas envolvendo essas estruturas.
 
 <br><center><i>Obrigado pela leitura!</i></center>
-
-
-
-
-
-
-
-
