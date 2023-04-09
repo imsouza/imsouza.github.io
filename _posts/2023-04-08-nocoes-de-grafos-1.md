@@ -3,8 +3,8 @@ layout: post
 title: "Noções de Grafos #1"
 description: "Grafos estão presentes em muitas aplicações do nosso dia a dia, desde as mais criativas soluções da engenharia moderna até encontrar o melhor caminho para chegar a um local de carro..."
 author: "Mateus Almeida"
-image: /assets/thumbnails/img22.jpg
-tags: [Machine Learning]
+image: /assets/thumbnails/img24.jpeg
+tags: [Estrutura de Dados]
 ---
 
 ![Birds](/assets/thumbnails/img24.jpeg)
