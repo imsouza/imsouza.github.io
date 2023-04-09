@@ -9,7 +9,7 @@ tags: [Estrutura de Dados]
 
 ![Birds](/assets/thumbnails/img24.jpeg)
 
-Grafos estão presentes em muitas aplicações do nosso dia a dia, desde as mais criativas soluções da engenharia moderna até dentro de algum aplicativo mobile para encontrar a melhor rota para chegar em um local. Mas afinal, o que é um grafo? Que tipos de grafos existem? Como são representados? Isso e muito mais será contextualizado nessa série de artigos em questão.
+Grafos são uma estrutura matemática fundamental em muitas áreas do conhecimento, desde a ciência da computação até a física e a biologia. Eles são usados em aplicações cotidianas, como encontrar a melhor rota para chegar a um local, planejar uma rede de transporte eficiente ou criar algoritmos de recomendação personalizados. Nesta série de artigos, vamos explorar os conceitos básicos de um grafo, seus diferentes tipos, suas representações e implementações. 
 
 <br>
 
