@@ -126,7 +126,7 @@ Um grafo é dito **hamiltoniano** quando possui um caminho que visita todos os s
 
 > O problema de verificar se existe um caminho (ou ciclo) hamiltoniano em um grafo é NP-completo, ou seja, é pouco provável que exista um algoritmo polinomial para resolver isso.
 
-![https://imgur.com/uwLYsvh.png](https://imgur.com/uwLYsvhs.png)
+![https://imgur.com/ktlWStV.png](https://imgur.com/ktlWStV.png)
 
 ### Planar
 
