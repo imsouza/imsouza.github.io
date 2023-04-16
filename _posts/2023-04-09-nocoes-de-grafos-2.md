@@ -47,7 +47,7 @@ Além disso, para saber se dois vértices estão conectados é necessário perco
 
 ### Trivial e simples
 
-UM grafo **trivial** possui um único vértice e nenhuma aresta. Já um grafo **simples** é um grafo não direcionado, sem laços e sem arestas paralelas.
+Um grafo **trivial** possui um único vértice e nenhuma aresta. Já um grafo **simples** é um grafo não direcionado, sem laços e sem arestas paralelas.
 
 ![https://imgur.com/JyfUSgv.png](https://imgur.com/JyfUSgv.png)
 
@@ -110,7 +110,7 @@ As arestas possuem **valores** (pesos) associados a elas. Esse tipo de grafo e l
 
 ### Euleriano
 
-Um **grafo euleriano**  ́e um tipo especial de grafo que possui um ciclo que visita as suas arestas apenas uma vez, iniciando e terminando no mesmo vertice. Esse ciclo dá-se o nome de **ciclo euleriano**.
+Um **grafo euleriano** é um tipo especial de grafo que possui um ciclo que visita as suas arestas apenas uma vez, iniciando e terminando no mesmo vertice. Esse ciclo dá-se o nome de **ciclo euleriano**.
 
 ![https://imgur.com/bmuDnDi.png](https://imgur.com/bmuDnDi.png)
 
@@ -142,8 +142,34 @@ Uma árvore é um **grafo acíclico**, não orientado e conexo. A diferença de 
 
 <br>
 
+## Conectividade em Grafos
+
+### Componente conexa
+
+Um grafo *G=(V,A)* desconexo é formado por pelo menos dois subgrafos conexos, disjuntos em relação aos vértices. Assim, cada um deste **subgrafos conexos** é dito ser uma **componente conexa** de *G*.
+
+![https://imgur.com/2A2aJ67.png](https://imgur.com/2A2aJ67.png)
+
+### Vértice de corte
+
+Um vértice é dito ser um vértice de corte se sua remoção (juntamente com as arestas a ele conectadas) produz um grafo com mais componentes conexos.
+
+> Se o grafo original é conexo, ele se torna desconexo
+
+![https://imgur.com/EnXaXps.png](https://imgur.com/EnXaXps.png)
+
+No grafo acima, o vértice de corte é o de valor **2**.
+
+### Ponte
+
+Uma aresta é dita ser uma ponte se sua remoção produz um grafo com mais componentes conexos.
+
+![https://imgur.com/8nzdXV2.png](https://imgur.com/8nzdXV2.png)
+
+<br>
+
 ## Conclusão
 
-Neste artigo exploramos os principais tipos de grafos utilizados, como o trivial, simples, completo, regular, subgrafo e bipartido. Além disso, vimos como representar a estrutrua de um grafo na máquina. A compreensão desses conceitos é fundamental para a solução de problemas que envolvem grafos e para a compreensão dos próximos artigos que virão em sequência.
+Neste artigo exploramos os principais tipos de grafos utilizados, como o trivial, simples, completo, regular, subgrafo e bipartido. Além disso, vimos como representar a estrutura de um grafo na máquina e a relação dos grafos com sua conectividade. A compreensão desses conceitos é fundamental para a solução de problemas que envolvem grafos e para a compreensão dos próximos artigos que virão em sequência.
 
 <br><center><i>Obrigado pela leitura!</i></center>
