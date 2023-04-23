@@ -49,7 +49,7 @@ O algoritmo de busca em largura (*breadth first search*) é um método para expl
 
 Durante a busca, o algoritmo de busca em largura utiliza uma **fila** para gerenciar os vértices visitados. Ele marca cada vértice como "visitado" antes de visitar os vizinhos desse vértice. Em seguida, adiciona cada vizinho à fila. Ele visita os vizinhos na ordem em que eles foram adicionados à fila, garantindo que todos os vértices a uma distância *k* sejam visitados antes de visitar qualquer vértice a uma distância *k+1*.
 
-A busca em largura é amplamente utilizada em problemas de grafos e tem um custo de *O(\|V\|+\|A\|)* no pior caso. Isso significa que o custo da busca é **proporcional** ao número de vértices e arestas do grafo.
+A busca em largura é amplamente utilizada em problemas de grafos e, assim como na busca em profundidade, tem um custo de busca de *O(\|V\|+\|A\|)* no pior caso. Isso significa que o custo da busca é **proporcional** ao número de vértices e arestas do grafo.
 
 ![Imgur](https://imgur.com/Jn3jX45.gif)
 
