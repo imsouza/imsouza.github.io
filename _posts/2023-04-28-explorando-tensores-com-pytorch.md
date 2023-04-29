@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Explorando Tensores com PyTorch"
-description: "ÉPyTorch é uma biblioteca de aprendizado de máquina de código aberto baseada em Torch, que é uma biblioteca de aprendizado de máquina e visão computacional..."
+description: "PyTorch é uma biblioteca de aprendizado de máquina de código aberto baseada em Torch, que é uma biblioteca de aprendizado de máquina e visão computacional..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img27.jpg
 tags: [Machine Learning]
