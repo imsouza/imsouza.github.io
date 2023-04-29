@@ -72,4 +72,12 @@ Abaixo consta a implementação do algoritmo de busca em largura:
 
 Em suma, os algoritmos de busca em profundidade e busca em largura são fundamentais para a exploração de grafos e têm um papel significativo em diversas aplicações da computação, como simulação de labirintos, ordenação topológica de grafos e até mesmo em inteligência artificial. Com a compreensão adequada desses algoritmos, é possível analisar e solucionar problemas complexos em diversas áreas da computação.
 
+<br>
+
+## Referências
+
+[DFS and BFS algorithms]( https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c){:target="_blank"}
+
+[Estrutura de Dados Descomplicada - Em Linguagem C , por André Backes](https://www.amazon.com.br/Estrutura-Dados-Descomplicada-Linguagem-Backes/dp/8535285237){:target="_blank"}
+
 <br><center><i>Obrigado pela leitura!</i></center>
