@@ -130,7 +130,7 @@ A escolha da métrica de avaliação e da loss function depende do tipo de probl
 
 <br>
 
-## Hyperparâmetro x parâmetro
+## Hyperparâmetro X parâmetro
 
 Em aprendizado de máquina, os parâmetros são os valores que o modelo **aprende durante o treinamento**, enquanto os hiperparâmetros são os valores que **controlam o processo de treinamento do modelo**. Os parâmetros são ajustados pelo modelo durante o treinamento para minimizar a função de custo. Eles são os pesos e vieses que o modelo usa para fazer previsões. 
 
