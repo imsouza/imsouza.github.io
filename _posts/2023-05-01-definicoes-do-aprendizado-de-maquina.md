@@ -21,12 +21,12 @@ Este aprendizado é amplamente utilizado em problemas de classificação e regre
 
 Alguns exemplos de algoritmos são:
 
-- *k-Nearest Neighbors*
-- *Support Vector Machines (SVMs)*
-- *Linear regression*
-- *Logistic regression*
-- *Decision Trees*
-- *Random Forests*
+- ***k-Nearest Neighbors***
+- ***Support Vector Machines (SVMs)***
+- ***Linear regression***
+- ***Logistic regression***
+- ***Decision Trees***
+- ***Random Forests***
 
 <br>
 
@@ -50,13 +50,13 @@ A redução de dimensionalidade é uma técnica de aprendizado de máquina que p
 
 Alguns exemplos de algoritmos são:
 
-- *K-Means*
-- *DBSCAN*
-- *Hierarchical Cluster Analysis (HCA)*
-- *One-class SVM*
-- *Isolation Forest*
-- *PCA*
-- *t-SNE*
+- ***K-Means***
+- ***DBSCAN***
+- ***Hierarchical Cluster Analysis (HCA)***
+- ***One-class SVM***
+- ***Isolation Forest***
+- ***PCA***
+- ***t-SNE***
 
 <br>
 
@@ -86,7 +86,7 @@ A divisão dos dados em conjuntos de treino, validação e teste é uma técnica
 
 ## *Overfitting* e *underfitting*
 
-O *overfitting* e o *underfitting* são problemas comuns em modelos de aprendizado de máquina. O *overfitting* ocorre quando o modelo **se ajusta muito bem** aos dados de treinamento, mas **não generaliza bem** para novos dados.
+O ***overfitting*** e o ***underfitting*** são problemas comuns em modelos de aprendizado de máquina. O *overfitting* ocorre quando o modelo **se ajusta muito bem** aos dados de treinamento, mas **não generaliza bem** para novos dados.
 
 ![https://imgur.com/vgybW40.png](https://imgur.com/vgybW40.png)
 
