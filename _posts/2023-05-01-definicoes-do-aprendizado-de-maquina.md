@@ -136,7 +136,7 @@ Em aprendizado de máquina, os parâmetros são os valores que o modelo **aprend
 
 Os hiperparâmetros são definidos **antes do treinamento** e controlam o processo de treinamento, como a taxa de aprendizado, o número de épocas e o tamanho do *batch*. Eles são definidos pelo usuário e afetam o desempenho do modelo. A escolha dos hiperparâmetros corretos é importante para obter um modelo com bom desempenho. 
 
-O ajuste de hiperparâmetros é o processo de encontrar os melhores valores para os hiperparâmetros do modelo. Ele é feito por meio de tentativa e erro ou por meio de técnicas mais avançadas, como o **GridSearch** ou o **RandomSearch**. O ajuste de hiperparâmetros é uma parte importante do processo de treinamento de modelos de aprendizado de máquina.
+O ajuste de hiperparâmetros é o processo de encontrar os melhores valores para os hiperparâmetros do modelo. Ele é feito por meio de tentativa e erro ou por meio de técnicas mais avançadas, como o ***GridSearch*** ou o ***RandomSearch***. O ajuste de hiperparâmetros é uma parte importante do processo de treinamento de modelos de aprendizado de máquina.
 
 <br>
 
@@ -174,16 +174,16 @@ Neste artigo foram apresentados os principais conceitos do aprendizado de máqui
 
 ## Referências
 
-- [Didática Tech. Entenda: Aprendizado Supervisionado vs Não Supervisionado](https://didatica.tech/aprendizado-supervisionado-vs-nao-supervisionado/)
+[Didática Tech. Entenda: Aprendizado Supervisionado vs Não Supervisionado](https://didatica.tech/aprendizado-supervisionado-vs-nao-supervisionado/)
 
-- [TIBCO. O que é aprendizagem supervisionada?](https://www.tibco.com/learn/data-science/supervised-learning)
+[TIBCO. O que é aprendizagem supervisionada?](https://www.tibco.com/learn/data-science/supervised-learning)
 
-- [Betrybe. Aprendizado supervisionado: 7 exemplos sobre como aplicar](https://blog.betrybe.com/tecnologia/aprendizado-supervisionado/)
+[Betrybe. Aprendizado supervisionado: 7 exemplos sobre como aplicar](https://blog.betrybe.com/tecnologia/aprendizado-supervisionado/)
 
-- [FourWeekMBA. Aprendizado supervisionado versus não supervisionado](https://fourweekmba.com/pt-br/aprendizado-supervisionado-versus-nao-supervisionado/)
+[FourWeekMBA. Aprendizado supervisionado versus não supervisionado](https://fourweekmba.com/pt-br/aprendizado-supervisionado-versus-nao-supervisionado/)
 
-- [Desmistificando termos Machine Learning: Tipos de Aprendizado](https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado)
+[Desmistificando termos Machine Learning: Tipos de Aprendizado](https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado)
 
-- [O que é regularização L1/L2?](https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51)
+[O que é regularização L1/L2?](https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51)
 
-- [Principais conceitos por trás do Machine Learning](https://medium.com/neuronio-br/principais-conceitos-por-tras-do-machine-learning-a4b942d5d309)
+[Principais conceitos por trás do Machine Learning](https://medium.com/neuronio-br/principais-conceitos-por-tras-do-machine-learning-a4b942d5d309)
