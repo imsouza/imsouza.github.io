@@ -107,11 +107,11 @@ Essa técnica adiciona uma penalização em modelos que são muito complexos ou 
 As métricas de avaliação são usadas para avaliar o desempenho de modelos de aprendizado de máquina. Algumas das principais métricas de avaliação para problemas de classificação são:
 
 - **Acurácia**: mede a proporção de exemplos classificados corretamente.
-- **Sensibilidade (recall ou revocação)**: mede a proporção de exemplos positivos que foram corretamente identificados.
+- **Sensibilidade (*recall* ou revocação)**: mede a proporção de exemplos positivos que foram corretamente identificados.
 - **Especificidade**: mede a proporção de exemplos negativos que foram corretamente identificados.
 - **Precisão**: mede a proporção de exemplos positivos classificados corretamente.
 - ***F-score***: é uma média harmônica da precisão e recall.
-- Curva ROC: é uma curva que mostra a taxa de verdadeiros positivos em relação à taxa de falsos positivos.
+- **Curva ROC**: é uma curva que mostra a taxa de verdadeiros positivos em relação à taxa de falsos positivos.
 
 Em problemas de regressão, as métricas de avaliação comuns incluem:
 
