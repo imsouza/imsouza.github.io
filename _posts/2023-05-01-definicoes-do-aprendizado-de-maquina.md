@@ -48,7 +48,7 @@ A detecção de anomalia é outra técnica de aprendizado não supervisionado qu
 
 A redução de dimensionalidade é uma técnica de aprendizado de máquina que permite reduzir a quantidade de variáveis em um conjunto de dados, mantendo as informações mais importantes. É útil para simplificar a análise de dados e melhorar o desempenho dos modelos de aprendizado de máquina. 
 
-Alguns exemplos de algoritmos são:
+Alguns exemplos de algoritmos não supervisionados são:
 
 - ***K-Means***
 - ***DBSCAN***
