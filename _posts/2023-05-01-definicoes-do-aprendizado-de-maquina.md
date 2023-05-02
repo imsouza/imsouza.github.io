@@ -174,16 +174,23 @@ Neste artigo foram apresentados os principais conceitos do aprendizado de máqui
 
 ## Referências
 
-[Didática Tech. Entenda: Aprendizado Supervisionado vs Não Supervisionado](https://didatica.tech/aprendizado-supervisionado-vs-nao-supervisionado/)
+[Didática Tech. Entenda: Aprendizado Supervisionado vs Não Supervisionado](https://didatica.tech/aprendizado-supervisionado-vs-nao-supervisionado/){:target="_blank"}
 
-[TIBCO. O que é aprendizagem supervisionada?](https://www.tibco.com/learn/data-science/supervised-learning)
 
-[Betrybe. Aprendizado supervisionado: 7 exemplos sobre como aplicar](https://blog.betrybe.com/tecnologia/aprendizado-supervisionado/)
+[TIBCO. O que é aprendizagem supervisionada?](https://www.tibco.com/learn/data-science/supervised-learning){:target="_blank"}
 
-[FourWeekMBA. Aprendizado supervisionado versus não supervisionado](https://fourweekmba.com/pt-br/aprendizado-supervisionado-versus-nao-supervisionado/)
 
-[Desmistificando termos Machine Learning: Tipos de Aprendizado](https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado)
+[Betrybe. Aprendizado supervisionado: 7 exemplos sobre como aplicar](https://blog.betrybe.com/tecnologia/aprendizado-supervisionado/){:target="_blank"}
 
-[O que é regularização L1/L2?](https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51)
 
-[Principais conceitos por trás do Machine Learning](https://medium.com/neuronio-br/principais-conceitos-por-tras-do-machine-learning-a4b942d5d309)
+[FourWeekMBA. Aprendizado supervisionado versus não supervisionado](https://fourweekmba.com/pt-br/aprendizado-supervisionado-versus-nao-supervisionado/){:target="_blank"}
+
+
+[Desmistificando termos Machine Learning: Tipos de Aprendizado](https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado){:target="_blank"}
+
+
+[O que é regularização L1/L2?](https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51){:target="_blank"}
+
+
+[Principais conceitos por trás do Machine Learning](https://medium.com/neuronio-br/principais-conceitos-por-tras-do-machine-learning-a4b942d5d309){:target="_blank"}
+
