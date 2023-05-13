@@ -98,7 +98,7 @@ Existem algumas condições mínimas para que dois grafos sejam isomorfos. São 
 
 - Possuírem o mesmo número de vértices;
 - Possuírem o mesmo número de arestas;
-- POssuírem o mesmo número de vértices de grau *n*, para qualquer valor *n* entre 0 e o número de vértices que o grafo contém.
+- Possuírem o mesmo número de vértices de grau *n*, para qualquer valor *n* entre 0 e o número de vértices que o grafo contém.
 
 ![https://imgur.com/bxKcRZt.png](https://imgur.com/bxKcRZt.png)
 
