@@ -87,13 +87,12 @@ permalink: /projetos/
   transition: all 0.5s ease-in-out;
 }
 
-
 .text {
   text-align: justify;
   padding-left: 5%;
   padding-right: 5%;
   padding: 0 5% auto 0;
-  top: 50%;
+  top: 45%;
   font-size: 65%;
   position: relative;
   transform: translateY(-10%);
@@ -107,16 +106,12 @@ permalink: /projetos/
 .category {
   text-align: center;
   font-size: 65%;
+  position: absolute;
   width: 100%;
   padding: 2% 5% 2% 5%;
-  background-color: white;
-  top: 2.8%;
-  transform: translateY(-10%);
-  position: absolute;
-  opacity: 0;
+  z-index: 1;
   font-weight: bolder;
-  visibility: hidden;
-  color: #353535;
+  color: #fff;
 }
 
 .keywords {
@@ -187,8 +182,12 @@ document.addEventListener("touchstart", function(){}, true);
 -->
 
 <section class="portfolio">  
+
   <div class="showcase">
     <a href="https://colab.research.google.com/github/imsouza/airplane-crash/blob/main/EDA%20-%20Airplane%20Crash.ipynb" aria-haspopup="true" target="_blank" onclick="" class="item">
+      <p class="category">
+        <i class="fa-solid fa-chart-line" ></i>&nbsp;Análise Exploratória de Dados
+      </p>
       <img src="/assets/portfolio/airplane.png" alt="Count of crashes by Year" class="img">
       <div class="overlay">
         <p class="text">
@@ -196,12 +195,12 @@ document.addEventListener("touchstart", function(){}, true);
           <br>
           <p class="text keywords">Palavras-chave: Airplane, Time Series, EDA, PCA, Kmeans, Granger Causality</p>
         </p>
-        <p class="text category">
-          <i class="fa-solid fa-chart-line"></i>&nbsp;Análise Exploratória de Dados
-        </p>
       </div>
     </a>
     <a href="https://colab.research.google.com/drive/1BF-CC7_g5wiY7XqKjYl65FS5m8bDJhM1?usp=sharing" aria-haspopup="true" target="_blank" onclick="" class="item">
+      <p class="category">
+        <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+      </p>
       <img src="/assets/portfolio/covid.png" alt="Covid-19 Analysis" class="img">
       <div class="overlay">
         <p class="text">
@@ -209,12 +208,12 @@ document.addEventListener("touchstart", function(){}, true);
           <br>
           <p class="text keywords">Palavras-chave: Time Series, Machine Learning, Covid-19, Previsões</p>
         </p>
-        <p class="text category">
-          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
-        </p>
       </div>
     </a>
     <a href="https://colab.research.google.com/drive/1FuTkYHyoYCpWS422nuLF_LcDMjLm2KGb?usp=sharing" onclick="" target="_blank" class="item">
+      <p class="category">
+        <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+      </p>      
       <img src="/assets/portfolio/beer.png" alt="Beer Analysis" class="img">
       <div class="overlay">
         <p class="text">
@@ -222,12 +221,12 @@ document.addEventListener("touchstart", function(){}, true);
           <br>
           <p class="text keywords">Palavras-chave: Regressão Linear, Estatística, Cerveja</p>
         </p>
-        <p class="text category">
-          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
-        </p>
       </div>
     </a>
     <a href="https://github.com/imsouza/account-balance" onclick="" target="_blank" class="item">
+      <p class="category">
+        <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
+      </p>
       <img src="/assets/portfolio/accb.png" alt="Account balance" class="img">
       <div class="overlay">
         <p class="text">
@@ -235,12 +234,12 @@ document.addEventListener("touchstart", function(){}, true);
           <br>
           <p class="text keywords">Palavras-chave: Laravel, Conta Bancária, CRUD, Sistema</p>
         </p>
-        <p class="text category">
-          <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
-        </p>
       </div>
     </a>
     <a href="https://colab.research.google.com/drive/1m-pyGCxmjJkQX3n8kalPmBz488aaJLkU?usp=sharing" onclick="" target="_blank" class="item">
+      <p class="category">
+        <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+      </p>
       <img src="/assets/portfolio/spellchecker.png" alt="NLP" class="img">
       <div class="overlay">
         <p class="text"> 
@@ -248,21 +247,18 @@ document.addEventListener("touchstart", function(){}, true);
           <br>
           <p class="text keywords">Palavras-chave: NLTK, NLP, Spell Checker</p>
         </p>
-        <p class="text category">
-          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
-        </p>
       </div>
     </a>
     <a href="https://colab.research.google.com/drive/1HIDFgE819Yovue63iMI2wyicQPWLWMGc?usp=sharing" onclick="" target="_blank" class="item">
+      <p class="category">
+        <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+      </p>
       <img src="/assets/portfolio/spotify.png" alt="Spotify" class="img">
       <div class="overlay">
         <p class="text">
             Sistema de recomendação de músicas utilizando a API do Spotify e algoritmos de clusterização. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário e nos clusters aos quais as músicas pertencem.
           <br>
           <p class="text keywords">Palavras-chave: Cluster, Spotify, Sistema, Músicas</p>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
         </p>
       </div>
     </a>
