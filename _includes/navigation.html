@@ -4,14 +4,6 @@
 </style>
 
 <style type="text/css">
-.darkmode-layer, .darkmode-toggle {
-  z-index: 500;
-}
-
-.darkmode-ignore{
-  width: 100%;
-}
-
 html {
   background: transparent !important;
 }
@@ -23,36 +15,6 @@ img {
 </style>
 
 <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-
-
-<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-
-<script>
-  const options = {
-  bottom: '64px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '32px', // default: 'unset'
-  time: '0.5s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: 'white',  // default: '#fff'
-  buttonColorDark: '#555',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
-  saveInCookies: true, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: true // default: true
-}
-
-  const darkmode =  new Darkmode(options);
-
-  function darkMode () {
-    darkmode.toggle()
-  }
-
-  $('#darkmode').bind('click', function() {
-  darkMode()
-});
-
-
 
 </script>
 
