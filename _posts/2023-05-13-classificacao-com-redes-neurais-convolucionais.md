@@ -9,8 +9,8 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img29.jpg)
 
-Atualmente as Redes Neurais Artificiais (*CNN*) já apresentam resultados altamente satisfatórios para diversos problemas reais, no entanto, a categoria
-de redes neurais artificiais densas, provenientes do aprendizado profundo (do inglês *Deep Learning*) mostra um avanço no campo da Inteligência Artificial principalmente na resolução de problemas que envolvem a área de Visão Computacional e aplicações de áudio. Em muitos problemas dessas áreas, as Redes Neurais Convolucionais apresentam melhores resultados quando aplicadas ao modelo.
+Atualmente as Redes Neurais Artificiais já apresentam resultados altamente satisfatórios para diversos problemas reais, no entanto, a categoria
+de redes neurais artificiais densas, provenientes do aprendizado profundo (do inglês *Deep Learning*) mostra um avanço no campo da Inteligência Artificial principalmente na resolução de problemas que envolvem a área de Visão Computacional e aplicações de áudio. Em muitos problemas dessas áreas, as Redes Neurais Convolucionais (*CNNs*) apresentam melhores resultados quando aplicadas ao modelo.
 
 <br>
 
@@ -66,7 +66,7 @@ A arquitetura *VGG* é capaz de obter resultados de alta precisão em tarefas de
 
 ### ResNet
 
-A arquitetura *ResNet* introduziu o conceito de conexões residuais. O objetivo das conexões residuais é permitir que as redes neurais profundas sejam treinadas com mais facilidade, evitando o problema de dissipação do gradiente. A ResNet é composta por várias camadas residuais, que permitem que as informações sejam transmitidas diretamente de uma camada para outra, sem passar por várias camadas intermediárias. Cada camada residual é composta por duas camadas convolucionais, seguidas por uma conexão residual. A conexão residual é uma adição simples entre a entrada da camada residual e a saída da camada convolucional anterior. A *ResNet* é uma arquitetura de CNN muito profunda, com mais de 100 camadas, que é capaz de obter resultados de alta precisão em tarefas de processamento de imagem, como classificação de imagens e detecção de objetos.
+A arquitetura *ResNet* introduziu o conceito de conexões residuais. O objetivo das conexões residuais é permitir que as redes neurais profundas sejam treinadas com mais facilidade, evitando o problema de dissipação do gradiente. A *ResNet* é composta por várias camadas residuais, que permitem que as informações sejam transmitidas diretamente de uma camada para outra, sem passar por várias camadas intermediárias. Cada camada residual é composta por duas camadas convolucionais, seguidas por uma conexão residual. A conexão residual é uma adição simples entre a entrada da camada residual e a saída da camada convolucional anterior. A *ResNet* é uma arquitetura de CNN muito profunda, com mais de 100 camadas, que é capaz de obter resultados de alta precisão em tarefas de processamento de imagem, como classificação de imagens e detecção de objetos.
 
 ![https://imgur.com/c5Hrpdf.png](https://imgur.com/c5Hrpdf.png)
 
