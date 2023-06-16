@@ -9,7 +9,7 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img30.jpg)
 
-Neste artigo, focaremos nos aspectos gerais das *CNNs*, visando compreender suas camadas e sua estrutura interna. Além disso, discutiremos sobre a entrada, saída e passagem de dados na rede.
+Neste artigo, focaremos nos aspectos gerais das *CNNs*, visando compreender suas camadas e sua estrutura interna. Além disso, discutiremos sobre a entrada, saída e passagem de dados na rede. Também será visto camadas importantes para otimização da rede como a *batch normalization* e a *dropout*.
 
 <br>
 
@@ -19,7 +19,7 @@ As entradas em uma *CNN* (*Convolutional Neural Network*) podem ser matrizes 3D,
 
 A imagem abaixo ilustra os canais *RGB* de uma imagem:
 
-![rgb](https://imgur.com/TBHwFjs.png)
+![rgb](https://imgur.com/EexYYaw.png)
 
 > Toda rede neural possui pelo menos uma função de ativação, o mesmo vale para uma convolucional. A função de ativação mais utilizada nas redes convolucionais é a *ReLU*, podendo também ser utilizada em conjunto com outras funções tais como *Softmax* ou até mesmo Sigmóide.
 
@@ -59,7 +59,7 @@ Previnir *overfitting* se tornou um fator considerável e fundamental quando o a
 
 ## *Batch normalization*
 
-A camada de *batch normalization* é uma técnica usada em *CNNs* para normalizar as entradas de uma camada para cada *mini-batch*, o que tem o efeito de estabilizar o processo de aprendizado e reduzir o número de épocas de treinamento necessárias para treinar redes profundas. É amplamente utilizada em CNNs de última geração, como Inception e ResNet. A técnica acelera o treinamento, em alguns casos, reduzindo pela metade as épocas ou mais, e fornece alguma regularização, reduzindo o erro de generalização.
+A camada de *batch normalization* é uma técnica usada em *CNNs* para normalizar as entradas de uma camada para cada *mini-batch*, o que tem o efeito de estabilizar o processo de aprendizado e reduzir o número de épocas de treinamento necessárias para treinar redes profundas. É amplamente utilizada em *CNNs* de última geração, como *Inception* e *ResNet*. A técnica acelera o treinamento, em alguns casos, reduzindo pela metade as épocas ou mais, e fornece alguma regularização, reduzindo o erro de generalização.
 
 > A camada de *batch normalization* é aplicada em **cada camada convolucional** e pode ser usada em conjunto com outras técnicas de regularização, como o *dropout* visto anteriormente.
 
@@ -69,7 +69,7 @@ A camada de *batch normalization* é uma técnica usada em *CNNs* para normaliza
 
 A imagem abaixo possui uma camada especial chamada de *Flatten*. Esta camada é responsável por receber os **dados mais significativos** da rede convolucional e transformá-los em uma rede densa para classificação completamente conectada.
 
-![img](https://imgur.com/00IXLlA.png)
+![img](https://imgur.com/hrcDhou.png)
 
 <br>
 
