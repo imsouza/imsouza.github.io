@@ -9,7 +9,7 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img30.jpg)
 
-Neste artigo, focaremos nos aspectos gerais das *CNNs*, visando compreender suas camadas e sua estrutura interna. Além disso, discutiremos sobre a entrada, saída e passagem de dados na rede. Também será visto camadas importantes para otimização da rede como a *batch normalization* e a *dropout*.
+Nesta etapa, focaremos nos aspectos gerais das *CNNs*, visando compreender suas camadas e sua estrutura interna. Além disso, discutiremos sobre a entrada, saída e passagem de dados na rede. Também será visto camadas importantes para otimização da rede como a *batch normalization* e a *dropout*.
 
 <br>
 
