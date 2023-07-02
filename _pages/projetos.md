@@ -262,20 +262,19 @@ document.addEventListener("touchstart", function(){}, true);
         </p>
       </div>
     </a>
-    <!--
-    <a href="https://github.com/imsouza/orus/tree/main_buttons" onclick="" target="_blank" class="item">
-      <img src="/assets/portfolio/stock.png" alt="Electron" class="img">
+    <a href="https://colab.research.google.com/drive/1i90wYeYHdOlo-EUXowqtVV3sGElBeYys?usp=sharing" onclick="" target="_blank" class="item">
+      <p class="category">
+        <i class="fa-solid fa-eye"></i>&nbsp;Visão Computacional
+      </p>
+      <img src="/assets/portfolio/ocr.png" alt="Spotify" class="img">
       <div class="overlay">
         <p class="text">
-          Sistema de gerenciamento de estoque e clientes utilizando o framework Electron. Ele permitirá aos administradores gerenciar o estoque de maneira fácil, incluindo funcionalidades como CRUD de produto, CRUD de clientes e análise de dados.  
+            Este projeto consiste em um sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
           <br>
-          <p class="text keywords">Palavras-chave: Electron, Estoque, CRUD, Sistema</p>
-        </p>
-        <p class="text category">
-          <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
+          <p class="text keywords">Palavras-chave: OCR, Tesseract, Computer Vision</p>
         </p>
       </div>
-    </a>-->
+    </a>
   </div>
 </section>
 
