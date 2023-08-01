@@ -9,7 +9,11 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img31.jpg)
 
-Nesta etapa, resolveremos um problema clássico quando o assunto é reconhecimento de padrões com redes convolucionais. O problema proposto consiste no reconhecimento de digitos presentes no dataset MNIST. O banco de dados em questão contém inúmeras imagens de digitos manuscritos, cada imagem possui um tamanho de 28x28 pixels, resultando em 784 células da matriz, onde cada uma dessas células possuem uma intensidade de 0 a 255.
+Nesta etapa, resolveremos um problema clássico quando o assunto é reconhecimento de padrões com redes convolucionais. O problema proposto consiste no reconhecimento de digitos presentes no dataset *MNIST*. O banco de dados em questão contém inúmeras imagens de digitos manuscritos, cada imagem possui um tamanho de 28x28 pixels, resultando em 784 células da matriz, onde cada uma dessas células possuem uma intensidade de 0 a 255.
+
+<br>
+
+## Contextualizando
 
 Abaixo consta um exemplo de uma rede neural artificial (RNA) de 1 camada com 10 neurônios de saída (classes) correspondentes aos dígitos de 0 a 9:
 
@@ -25,7 +29,7 @@ não alcançaram.
 
 O reconhecimento de padrões por partes é a chave para que as redes neurais convolucionais usam em seu cerne. Identificando parte por parte e assimilando cada ”pedaço” é possível chegar a uma determinada conclusão. A imagem abaixo exemplifica como a rede ”enxerga” os pixels pela sua intensidade em cada neurônio:
 
-![Rede](https://imgur.com/hWb7LJQ)
+![Rede](https://imgur.com/hWb7LJQ.png)
 
 <br>
 
