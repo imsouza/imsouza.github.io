@@ -9,7 +9,7 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img31.jpg)
 
-Nesta etapa, resolveremos um problema clássico quando o assunto é reconhecimento de padrões com redes convolucionais. O problema proposto consiste no reconhecimento de digitos presentes no dataset *MNIST*. O banco de dados em questão contém inúmeras imagens de digitos manuscritos, cada imagem possui um tamanho de 28x28 pixels, resultando em 784 células da matriz, onde cada uma dessas células possuem uma intensidade de 0 a 255.
+Nesta etapa, resolveremos um problema clássico quando o assunto é reconhecimento de padrões com redes convolucionais. O problema proposto consiste no reconhecimento de digitos presentes no dataset *MNIST*. O banco de dados em questão contém inúmeras imagens de digitos manuscritos, cada imagem possui um tamanho de 28x28 *pixels*, resultando em 784 células da matriz, onde cada uma dessas células possuem uma intensidade de 0 a 255.
 
 <br>
 
@@ -19,7 +19,7 @@ Abaixo consta um exemplo de uma rede neural artificial (RNA) de 1 camada com 10 
 
 ![Img](https://imgur.com/lVb7CPK.png)
 
-A razão de utilizar uma *CNN* e não uma rede neural artificial, como vista na imagem acima, é que a RNA não possui um mecanismo de visualização de pixels vizinhos, ou seja, o que ela faz é apenas dizer que um pixel está mais ativo do que outro, ignorando completamente a noção espacial do que está sendo analisado. Algo que é tratado ao utilizar redes de convoluções.
+A razão de utilizar uma *CNN* e não uma rede neural artificial, como vista na imagem acima, é que a RNA não possui um mecanismo de visualização de *pixels* vizinhos, ou seja, o que ela faz é apenas dizer que um *pixel* está mais ativo do que outro, ignorando completamente a noção espacial do que está sendo analisado. Algo que é tratado ao utilizar redes de convoluções.
 
 A ideia para solucionar o problema proposto é a criação de um modelo de *Deep Learning* que utiliza uma *CNN* para reconhecer novos digitos inseridos como teste, utilizando para aprendizado o vasto acervo de unidades presentes no *dataset*.
 
@@ -27,7 +27,7 @@ O processo que o modelo irá realizar pode ser exemplificado por um raciocínio 
 assimilando-as na totalidade. Claro que, para nós, é uma tarefa extremamente rápida e quase que instantânea, um nível que as máquinas ainda
 não alcançaram.
 
-O reconhecimento de padrões por partes é a chave para que as redes neurais convolucionais usam em seu cerne. Identificando parte por parte e assimilando cada ”pedaço” é possível chegar a uma determinada conclusão. A imagem abaixo exemplifica como a rede ”enxerga” os pixels pela sua intensidade em cada neurônio:
+O reconhecimento de padrões por partes é a chave para que as redes neurais convolucionais usam em seu cerne. Identificando parte por parte e assimilando cada ”pedaço” é possível chegar a uma determinada conclusão. A imagem abaixo exemplifica como a rede ”enxerga” os *pixels* pela sua intensidade em cada neurônio:
 
 ![Rede](https://imgur.com/hWb7LJQ.png)
 
@@ -53,7 +53,7 @@ O modelo Sequencial é uma pilha linear de camadas. Neste caso, estamos criando 
 
 <script src="https://gist.github.com/imsouza/5d4960ac63620e98afc7b567887fd4a8.js"></script>
 
-Esta é a primeira camada do modelo. ***Conv2D*** é uma camada convolucional que aplica convoluções espaciais sobre a imagem de entrada. O parâmetro ```filters``` define o número de filtros que serão aplicados, e ```kernel_size``` define o tamanho dos filtros (neste caso, 5x5). O parâmetro ```padding='same'``` indica que o preenchimento é adicionado para manter o tamanho das saídas. A função de ativação ```activation='relu'``` aplica a função de ativação *ReLU* aos mapas de características gerados. A ```input_shape``` define a forma dos dados de entrada (28x28 pixels e 1 canal para imagens em escala de cinza).
+Esta é a primeira camada do modelo. ***Conv2D*** é uma camada convolucional que aplica convoluções espaciais sobre a imagem de entrada. O parâmetro ```filters``` define o número de filtros que serão aplicados, e ```kernel_size``` define o tamanho dos filtros (neste caso, 5x5). O parâmetro ```padding='same'``` indica que o preenchimento é adicionado para manter o tamanho das saídas. A função de ativação ```activation='relu'``` aplica a função de ativação *ReLU* aos mapas de características gerados. A ```input_shape``` define a forma dos dados de entrada (28x28 *pixels* e 1 canal para imagens em escala de cinza).
 
 ### 4 - Redução de dimensionalidade:
 

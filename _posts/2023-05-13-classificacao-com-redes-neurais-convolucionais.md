@@ -9,8 +9,7 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img29.jpg)
 
-Atualmente as Redes Neurais Artificiais já apresentam resultados altamente satisfatórios para diversos problemas reais, no entanto, a categoria
-de redes neurais artificiais densas, provenientes do aprendizado profundo (do inglês *Deep Learning*) mostra um avanço no campo da Inteligência Artificial principalmente na resolução de problemas que envolvem a área de Visão Computacional e aplicações de áudio. Em muitos problemas dessas áreas, as Redes Neurais Convolucionais (*CNNs*) apresentam melhores resultados quando aplicadas ao modelo.
+Atualmente as Redes Neurais Artificiais já apresentam resultados altamente satisfatórios para diversos problemas reais, no entanto, a categoria de redes neurais artificiais densas, provenientes do aprendizado profundo (do inglês *Deep Learning*) mostra um avanço no campo da Inteligência Artificial principalmente na resolução de problemas que envolvem a área de Visão Computacional e aplicações de áudio. Em muitos problemas dessas áreas, as Redes Neurais Convolucionais (*CNNs*) apresentam melhores resultados quando aplicadas ao modelo.
 
 <br>
 
@@ -24,7 +23,7 @@ Uma rede neural artificial clássica é composta por um conjunto de neurônios *
 
 ## O que é uma CNN?
 
-As *CNNs* foram propostas para o reconhecimento visual, baseando-se em conceitos da biologia da visão humana. É um algoritmo de aprendizado profundo que pode **receber uma imagem como entrada**, atribuir pesos e vieses que podem ser aprendidos pelo modelo e, com base nisso, ser capaz de diferenciar, classificar e validar os respectivos dados considerando a relação entre os pixels vizinhos com base nos filtros aplicados por uma operação de **convolução**.
+As *CNNs* foram propostas para o reconhecimento visual, baseando-se em conceitos da biologia da visão humana. É um algoritmo de aprendizado profundo que pode **receber uma imagem como entrada**, atribuir pesos e vieses que podem ser aprendidos pelo modelo e, com base nisso, ser capaz de diferenciar, classificar e validar os respectivos dados considerando a relação entre os *pixels* vizinhos com base nos filtros aplicados por uma operação de **convolução**.
 
 <br>
 

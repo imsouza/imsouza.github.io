@@ -15,7 +15,7 @@ Nesta etapa, focaremos nos aspectos gerais das *CNNs*, visando compreender suas 
 
 ## Entrada de dados
 
-As entradas em uma *CNN* (*Convolutional Neural Network*) podem ser matrizes 3D, ou seja, com a mesma altura e largura, mas com profundidade baseada nos três canais de cores *RGB* de cada pixel e 1D para processamento de sinais. O processo de convolução é feito para cada um dos canais em questão. Essa característica é importante para o processamento de imagens, pois permite que a rede neural capture informações de cor e textura de cada pixel da imagem. Além disso, as *CNNs* também podem receber outros tipos de entradas, como áudio e vídeo.
+As entradas em uma *CNN* (*Convolutional Neural Network*) podem ser matrizes 3D, ou seja, com a mesma altura e largura, mas com profundidade baseada nos três canais de cores *RGB* de cada *pixel* e 1D para processamento de sinais. O processo de convolução é feito para cada um dos canais em questão. Essa característica é importante para o processamento de imagens, pois permite que a rede neural capture informações de cor e textura de cada *pixel* da imagem. Além disso, as *CNNs* também podem receber outros tipos de entradas, como áudio e vídeo.
 
 A imagem abaixo ilustra os canais *RGB* de uma imagem:
 
@@ -35,7 +35,7 @@ A figura abaixo exemplifica uma convolução 2D usando um kernel de tamanho 3, s
 
 > Existem inúmeros outros tipos de convolução, com diferentes ariações nos parâmetros de stride, padding e kernel.
 
-O tamanho do ***kernel*** define o **campo de visão** da convolução. No exemplo acima, foi usado um kernel de 3x3 pixels. O ***stride*** define os **passos que o kernel irá dar** ao percorrer os pixels da imagem. Já o ***padding*** é um processo em que **alguns pixels nulos são adicionados** ao redor da imagem antes da operação de convolução, de forma a manter a dimensionalidade na imagem resultante durante a operação.
+O tamanho do ***kernel*** define o **campo de visão** da convolução. No exemplo acima, foi usado um kernel de 3x3 *pixels*. O ***stride*** define os **passos que o kernel irá dar** ao percorrer os *pixels* da imagem. Já o ***padding*** é um processo em que **alguns *pixels* nulos são adicionados** ao redor da imagem antes da operação de convolução, de forma a manter a dimensionalidade na imagem resultante durante a operação.
 
 <br>
 
