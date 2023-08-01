@@ -105,7 +105,7 @@ Aqui, estamos compilando o modelo com as configurações de treinamento. A funç
 
 Para criação deste modelo foi utilizada uma camada convolucional com 32 filtros, em seguida uma camada de *pooling*, outra camada com 64 filtros
 seguida de mais uma camada de *pooling*, uma camada de *flatten* e por fim
-duas camadas densas, cada uma com sua respectiva função de ativação: *ReLU* e *Softmax*. Totalizando, assim, 8 camadas na rede considerando a inicial de entrada. Além disso, também foi utilizado os algoritmos *adam* para otimização, *categorical cross entropy* para o *loss* e, para métrica, a acurácia.
+duas camadas densas, cada uma com sua respectiva função de ativação: *ReLU* e *Softmax*. Totalizando, assim, 8 camadas na rede considerando a inicial de entrada. Além disso, também foi utilizado os algoritmos *adam* para otimização e, para a medida dos erros, *categorical cross entropy* e acurácia.
 
 ![results](https://imgur.com/lWEg6iF.png)
 
