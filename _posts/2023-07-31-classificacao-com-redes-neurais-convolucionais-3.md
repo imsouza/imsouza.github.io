@@ -77,13 +77,13 @@ Outra camada de max pooling é adicionada para reduzir ainda mais as dimensões 
 
 <script src="https://gist.github.com/imsouza/16f588df351c03695ab179b52b3666e1.js"></script>
 
-A camada *Flatten* transforma os mapas de características 3D em um vetor 1D para poderem ser alimentados em uma rede neural densa (totalmente conectada). Isso é necessário porque as camadas densas exigem vetores de entrada.
+A camada ***Flatten*** transforma os mapas de características 3D em um vetor 1D para poderem ser alimentados em uma rede neural densa (totalmente conectada). Isso é necessário porque as camadas densas exigem vetores de entrada.
 
 ### 8 - Adição de uma camada *Dense*:
 
 <script src="https://gist.github.com/imsouza/bca40c82324280443432f2408d0b0c4b.js"></script>
 
-A camada Dense possui 1024 neurônios e usa a função de ativação *ReLU*. Cada neurônio nesta camada estará conectado a todos os neurônios da camada anterior, tornando-a uma camada densamente conectada.
+A camada ***Dense*** possui 1024 neurônios e usa a função de ativação *ReLU*. Cada neurônio nesta camada estará conectado a todos os neurônios da camada anterior, tornando-a uma camada densamente conectada.
 
 ### 9 - Adição de uma camada *Dense* de saída:
 
@@ -95,7 +95,7 @@ Esta é a camada de saída do modelo. Ela possui 10 neurônios, que correspondem
 
 <script src="https://gist.github.com/imsouza/1cdf0f03644ca1e9778abc33e26c227d.js"></script>
 
-Aqui, estamos compilando o modelo com as configurações de treinamento. A função de perda (*loss*) utilizada é a ```categorical_crossentropy```, que é adequada para problemas de classificação com várias classes. O otimizador *adam* é usado para ajustar os pesos do modelo durante o treinamento. E a métrica de *accuracy* é usada para monitorar a acurácia do modelo durante o treinamento.
+Aqui, estamos compilando o modelo com as configurações de treinamento. A função de perda (*loss*) utilizada é a ***categorical_crossentropy***, que é adequada para problemas de classificação com várias classes. O otimizador ***adam*** é usado para ajustar os pesos do modelo durante o treinamento. E a métrica de ***accuracy*** é usada para monitorar a acurácia do modelo durante o treinamento.
 
 ### Código final:
 
@@ -103,9 +103,7 @@ Aqui, estamos compilando o modelo com as configurações de treinamento. A funç
 
 ### Resumo do modelo
 
-Para criação deste modelo foi utilizada uma camada convolucional com 32 filtros, em seguida uma camada de *pooling*, outra camada com 64 filtros
-seguida de mais uma camada de *pooling*, uma camada de *flatten* e por fim
-duas camadas densas, cada uma com sua respectiva função de ativação: *ReLU* e *Softmax*. Totalizando, assim, 8 camadas na rede considerando a inicial de entrada. Além disso, também foi utilizado os algoritmos *adam* para otimização e, para a medida dos erros, *categorical cross entropy* e acurácia.
+Para criação deste modelo foi utilizada uma camada convolucional com 32 filtros, em seguida uma camada de ***pooling***, outra camada com 64 filtros seguida de mais uma camada de ***pooling***, uma camada de ***flatten*** e por fim duas camadas densas, cada uma com sua respectiva função de ativação: *ReLU* e *Softmax*. Totalizando, assim, 8 camadas na rede considerando a inicial de entrada. Além disso, também foi utilizado os algoritmos ***adam*** para otimização e, para a medida dos erros, ***categorical cross entropy*** e **acurácia**.
 
 ![results](https://imgur.com/lWEg6iF.png)
 
