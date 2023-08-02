@@ -248,7 +248,7 @@ Por fim, a última função e não menos importante do nosso **TAD Lista** é a 
 
 ## Lista vs. *Array*
 
-As vantagens da lista sobre o **array** são:
+As vantagens da lista sobre o *array* são:
 
 - Tamanho dinâmico: a capacidade da lista só será excedida quando a memória estiver realmente cheia, ou seja, não é preciso definir previamente o tamanho da lista;
 - Melhor utilização dos recursos de memória;
@@ -264,7 +264,7 @@ Enquanto as do *array* incluem:
 
 ## Conclusão
 
-Neste artigo foi abordado sobre as listas simplesmente encadeadas dinâmicas e suas vantagens e desvantagens em relação ao uso de *array*s. Nos artigos seguintes, darei continuação a esse assunto, falando sobre algumas outras operações que não foram implementadas ainda em nosso TAD e que requerem uma abordagem mais minuciosa.
+Neste artigo foi abordado sobre as listas simplesmente encadeadas dinâmicas e suas vantagens e desvantagens em relação ao uso de *arrays*. Nos artigos seguintes, darei continuação a esse assunto, falando sobre algumas outras operações que não foram implementadas ainda em nosso TAD e que requerem uma abordagem mais minuciosa.
 
 &nbsp;
 
