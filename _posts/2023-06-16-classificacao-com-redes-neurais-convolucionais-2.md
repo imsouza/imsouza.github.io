@@ -11,7 +11,7 @@ tags: [Deep Learning]
 
 Nesta etapa, focaremos nos aspectos gerais das *CNNs*, visando compreender suas camadas e sua estrutura interna. Além disso, discutiremos sobre a entrada, saída e passagem de dados na rede. Também será visto camadas importantes para otimização da rede como a *batch normalization* e a *dropout*.
 
-<br>
+&nbsp;
 
 ## Entrada de dados
 
@@ -23,7 +23,7 @@ A imagem abaixo ilustra os canais *RGB* de uma imagem:
 
 > Toda rede neural possui pelo menos uma função de ativação, o mesmo vale para uma convolucional. A função de ativação mais utilizada nas redes convolucionais é a *ReLU*, podendo também ser utilizada em conjunto com outras funções tais como *Softmax* ou até mesmo Sigmóide.
 
-<br>
+&nbsp;
 
 ## Filtros
 
@@ -37,7 +37,7 @@ A figura abaixo exemplifica uma convolução 2D usando um kernel de tamanho 3, s
 
 O tamanho do ***kernel*** define o **campo de visão** da convolução. No exemplo acima, foi usado um kernel de 3x3 *pixels*. O ***stride*** define os **passos que o kernel irá dar** ao percorrer os *pixels* da imagem. Já o ***padding*** é um processo em que **alguns *pixels* nulos são adicionados** ao redor da imagem antes da operação de convolução, de forma a manter a dimensionalidade na imagem resultante durante a operação.
 
-<br>
+&nbsp;
 
 ## *Pooling*
 
@@ -51,11 +51,13 @@ A imagem abaixo ilustra o processo de *maxpooling* com *kernel* 2x2 e *stride* 2
 
 Assim como na convolução, é escolhida uma unidade de área, por exemplo 2x2, para transitar por toda a saída da camada anterior. A unidade é responsável por resumir a informação daquela área em um único valor. Se a saída da camada anterior for 24x24, a saída do *pooling* será 12x12.
 
-<br>
+&nbsp;
 
 ## *Dropout*
 
 Previnir *overfitting* se tornou um fator considerável e fundamental quando o assunto é *CNN* devido o grande número de parâmetros e a alta complexidade dos algoritmos de *deep learning*. Para resolver esse problema foi criada a técnica de ***dropout*** que consiste na definição de camadas que **eliminam um conjunto aleatório de ativações** desta mesma camada, tornando-as nulas. Isso garante que a rede não ajuste demais seus parâmetros e consequentemente evita o problema de *overfitting*.
+
+&nbsp;
 
 ## *Batch normalization*
 
@@ -63,7 +65,7 @@ A camada de *batch normalization* é uma técnica usada em *CNNs* para normaliza
 
 > A camada de *batch normalization* é aplicada em **cada camada convolucional** e pode ser usada em conjunto com outras técnicas de regularização, como o *dropout* visto anteriormente.
 
-<br>
+&nbsp;
 
 ## *Flatten*
 
@@ -71,10 +73,24 @@ A imagem abaixo possui uma camada especial chamada de *Flatten*. Esta camada é 
 
 ![img](https://imgur.com/hrcDhou.png)
 
-<br>
+&nbsp;
 
 ## Conclusão
 
 Nesta segunda parte foi abordado os conceitos gerais da estrutura de camadas de uma *CNN* e seu processamento de dados. No próximo artigo, daremos início a implementação de um problema prático de implementação de uma arquitetura para classificação de dados usando redes neurais convolucionais.
+
+&nbsp;
+
+## Referências
+
+[Neural Networks](https://ml4a.github.io/ml4a/neuralnetworks/){:target="_blank"}
+
+[How Do Convolutional Layers Work in Deep Learning Neural Networks?](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-
+neural-networks){:target="_blank"}
+
+[Entendendo Redes Convolucionais](https://medium.com/neuronio-br/entendendo-redes-convolucionais-cnns-d10359f2118){:target="_blank"}
+
+[Uma introdução as redes neurais convolucionais uti-
+lizando o Keras](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-as-redes-neurais-convolucionais-utilizando-o-keras-41ee8dcc033e){:target="_blank"}
 
 <br><center><i>Obrigado pela leitura!</i></center>

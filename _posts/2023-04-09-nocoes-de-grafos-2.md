@@ -11,7 +11,7 @@ tags: [Estrutura de Dados]
 
 A representação de grafos em um computador é uma questão importante a ser pensada quando estamos modelando um problema que necessita dessa estrutura. Existem duas abordagens muito populares utilizadas para representar um grafo computacionalmente. Sendo elas: **matriz de adjacências** e **lista de adjacências**. Veremos nesse artigo o que elas são e como funcionam, além disso, será explorado os diversos tipos de grafos mais utilizados.
 
-<br>
+&nbsp;
 
 ## Matriz de adjacência
 
@@ -25,7 +25,7 @@ Uma matriz de adjacência faz o uso de uma matriz quadrada para descrever as rel
 
 ![https://imgur.com/b0LMuFf.png](https://imgur.com/b0LMuFf.png)
 
-<br>
+&nbsp;
 
 ## Lista de adjacência
 
@@ -41,7 +41,7 @@ Além disso, para saber se dois vértices estão conectados é necessário perco
 
 ![https://imgur.com/OTroIkj.png](https://imgur.com/OTroIkj.png)
 
-<br>
+&nbsp;
 
 ## Tipos de grafos
 
@@ -51,11 +51,15 @@ Um grafo **trivial** possui um único vértice e nenhuma aresta. Já um grafo **
 
 ![https://imgur.com/JyfUSgv.png](https://imgur.com/JyfUSgv.png)
 
+&nbsp;
+
 ### Completo
 
 É um grafo **simples** onde cada vértice se conecta a todos os outros vértices do grafo.
 
 ![https://imgur.com/enNNffm.png](https://imgur.com/enNNffm.png)
+
+&nbsp;
 
 ### Regular
 
@@ -65,6 +69,8 @@ Qualquer grafo cujos vértices possuem o mesmo grau.
 
 ![https://imgur.com/YQCFL7C.png](https://imgur.com/YQCFL7C.png)
 
+&nbsp;
+
 ### Subgrafo
 
 > Um grafo *G′=(V′, A′)* é um **subgrafo** de *G=(V,A)* se *V′* for um subconjunto
@@ -73,6 +79,8 @@ de *V* e, para cada par de vertices *(x,y)* em *V′*, *(x,y)* são adjacentes e
 Em outras palavras, *G'=(V',A')* é um subgrafo de *G=(V,A)* se o conjunto de vértices *V'* for um **subconjunto** de *V*, onde *V'* está contido em *V*, e se o conjunto de arestas *A'* for um subconjunto de *A*, onde *A'* está contido em *A*.
 
 ![https://imgur.com/Sj6dfRw.png](https://imgur.com/Sj6dfRw.png)
+
+&nbsp;
 
 ### Bipartido
 
@@ -84,11 +92,15 @@ Um grafo *G(V,A)* é chamado de **bipartido** se o seu conjunto de vértices pud
 
 ![https://imgur.com/qg7Jvar.png](https://imgur.com/qg7Jvar.png)
 
+&nbsp;
+
 ### Conexo e desconexo
 
 Um **grafo conexo** possui um caminho ligando quaisquer dois vértices, ou seja, para quais quer dois vértices distintos sempre existe um caminho que os une. Em contrapartida, em um **grafo desconexo** isso não acontece. Um grafo desconexo contém no mínimo duas partes, cada uma delas chamada de **componente conexa**.
 
 ![https://imgur.com/KUCTCIa.png](https://imgur.com/KUCTCIa.png)
+
+&nbsp;
 
 ### Isomorfo
 
@@ -102,11 +114,15 @@ Existem algumas condições mínimas para que dois grafos sejam isomorfos. São 
 
 ![https://imgur.com/bxKcRZt.png](https://imgur.com/bxKcRZt.png)
 
+&nbsp;
+
 ### Ponderado
 
 As arestas possuem **valores** (pesos) associados a elas. Esse tipo de grafo e largamente usado nas engenharias para representação de grandezas, altitudes, distâncias, capacidades ou fluxos.
 
 ![https://imgur.com/c6PY6nz.png](https://imgur.com/c6PY6nz.png)
+
+&nbsp;
 
 ### Euleriano
 
@@ -114,11 +130,15 @@ Um **grafo euleriano** é um tipo especial de grafo que possui um ciclo que visi
 
 ![https://imgur.com/bmuDnDi.png](https://imgur.com/bmuDnDi.png)
 
+&nbsp;
+
 ### Semieuleriano
 
 Um **grafo semieuleriano** possui um **caminho aberto**, cujo **não é** um ciclo, em que visita todas as suas arestas apenas uma vez. Dá-se o nome de **caminho euleriano** para esse caminho.
 
 ![https://imgur.com/yxIzfMV.png](https://imgur.com/yxIzfMV.png)
+
+&nbsp;
 
 ### Hamiltoniano
 
@@ -128,9 +148,13 @@ Um grafo é dito **hamiltoniano** quando possui um caminho que visita todos os s
 
 ![https://imgur.com/ktlWStV.png](https://imgur.com/ktlWStV.png)
 
+&nbsp;
+
 ### Planar
 
 Todo grafo que pode ser desenhado no plano, com pontos representando vertices e linhas contınuas conectando pares de pontos representando arestas, sem que haja duas arestas se intersectando.
+
+&nbsp;
 
 ### Árvore
 
@@ -140,7 +164,7 @@ Uma árvore é um **grafo acíclico**, não orientado e conexo. A diferença de 
 
 ![https://imgur.com/mCJ0aay.png](https://imgur.com/mCJ0aay.png)
 
-<br>
+&nbsp;
 
 ## Conectividade em Grafos
 
@@ -149,6 +173,8 @@ Uma árvore é um **grafo acíclico**, não orientado e conexo. A diferença de 
 Um grafo *G=(V,A)* desconexo é formado por pelo menos dois subgrafos conexos, disjuntos em relação aos vértices. Assim, cada um deste **subgrafos conexos** é dito ser uma **componente conexa** de *G*.
 
 ![https://imgur.com/2A2aJ67.png](https://imgur.com/2A2aJ67.png)
+
+&nbsp;
 
 ### Vértice de corte
 
@@ -160,16 +186,26 @@ Um vértice é dito ser um vértice de corte se sua remoção (juntamente com as
 
 No grafo acima, o vértice de corte é o de valor **2**.
 
+&nbsp;
+
 ### Ponte
 
 Uma aresta é dita ser uma ponte se sua remoção produz um grafo com mais componentes conexos.
 
 ![https://imgur.com/8nzdXV2.png](https://imgur.com/8nzdXV2.png)
 
-<br>
+&nbsp;
 
 ## Conclusão
 
 Neste artigo exploramos os principais tipos de grafos utilizados, como o trivial, simples, completo, regular, subgrafo e bipartido. Além disso, vimos como representar a estrutura de um grafo na máquina e a relação dos grafos com sua conectividade. A compreensão desses conceitos é fundamental para a solução de problemas que envolvem grafos e para a compreensão dos próximos artigos que virão em sequência.
+
+&nbsp;
+
+## Referências
+
+[DFS and BFS algorithms]( https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c){:target="_blank"}
+
+[Estrutura de Dados Descomplicada - Em Linguagem C , por André Backes](https://www.amazon.com.br/Estrutura-Dados-Descomplicada-Linguagem-Backes/dp/8535285237){:target="_blank"}
 
 <br><center><i>Obrigado pela leitura!</i></center>

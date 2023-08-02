@@ -11,21 +11,23 @@ tags: [Deep Learning]
 
 Atualmente as Redes Neurais Artificiais já apresentam resultados altamente satisfatórios para diversos problemas reais, no entanto, a categoria de redes neurais artificiais densas, provenientes do aprendizado profundo (do inglês *Deep Learning*) mostra um avanço no campo da Inteligência Artificial principalmente na resolução de problemas que envolvem a área de Visão Computacional e aplicações de áudio. Em muitos problemas dessas áreas, as Redes Neurais Convolucionais (*CNNs*) apresentam melhores resultados quando aplicadas ao modelo.
 
-<br>
+&nbsp;
 
-## O que é uma rede neural artificial?
+## O que é uma rede neural artificial (RNA)?
 
-Uma rede neural artificial clássica é composta por um conjunto de neurônios **interconectados**, onde cada neurônio é conectado a todos os neurônios da camada anterior. Essa arquitetura é conhecida como rede neural artificial de múltiplas camadas e consiste em uma camada de entrada, várias camadas ocultas e uma camada de saída. Cada neurônio recebe um conjunto de entradas, realiza uma operação matemática nelas e produz uma saída que é enviada para os neurônios da camada seguinte. As conexões entre os neurônios são ponderadas e ajustadas durante o treinamento da rede para produzir a saída desejada para um determinado conjunto de entradas. As redes neurais artificiais são usadas em uma variedade de aplicações, incluindo reconhecimento de fala, reconhecimento de imagem e processamento de linguagem natural.
+Uma rede neural artificial clássica é composta por um conjunto de neurônios **interconectados**, onde cada neurônio é conectado a todos os neurônios da camada anterior. Essa arquitetura é conhecida como rede neural artificial de múltiplas camadas e consiste em uma camada de entrada, várias camadas ocultas e uma camada de saída. 
+
+Cada neurônio recebe um conjunto de entradas, realiza uma operação matemática nelas e produz uma saída que é enviada para os neurônios da camada seguinte. As conexões entre os neurônios são ponderadas e ajustadas durante o treinamento da rede para produzir a saída desejada para um determinado conjunto de entradas. As redes neurais artificiais são usadas em uma variedade de aplicações, incluindo reconhecimento de fala, reconhecimento de imagem e processamento de linguagem natural.
 
 ![https://imgur.com/PpA5QOS.png](https://imgur.com/PpA5QOS.png)
 
-<br>
+&nbsp;
 
-## O que é uma CNN?
+## O que é uma *CNN*?
 
 As *CNNs* foram propostas para o reconhecimento visual, baseando-se em conceitos da biologia da visão humana. É um algoritmo de aprendizado profundo que pode **receber uma imagem como entrada**, atribuir pesos e vieses que podem ser aprendidos pelo modelo e, com base nisso, ser capaz de diferenciar, classificar e validar os respectivos dados considerando a relação entre os *pixels* vizinhos com base nos filtros aplicados por uma operação de **convolução**.
 
-<br>
+&nbsp;
 
 ## Convolução
 
@@ -35,19 +37,23 @@ Os filtros são matrizes que permitem que as *CNNs* identifiquem padrões na ima
 
 ![https://imgur.com/MhLsYZb.png](https://imgur.com/MhLsYZb.png)
 
-<br>
+&nbsp;
 
 ## Arquiteturas
 
 Com base na arquitetura das redes neurais convolucionais para reconhecimento de imagens, tornou-se possível, atualmente, uma alta eficiência no treinamento de redes densas de muitas camadas para reconhecimento e classificação de imagens. A arquitetura foi evoluindo ao longo do tempo, tornando-se cada vez mais complexas, precisas e profundas.
 
-### LeNet 5
+&nbsp;
 
-A primeira aplicação bem sucedida de uma *CNN* foi dada em 1998 por *Yann LeCun*. A *CNN* foi chamada de "*LeNet 5*" e foi capaz de reconhecer dígitos manuscritos com boa velocidade e precisão. A arquitetura consiste em duas partes: um codificador convolucional com duas camadas convolucionais e um bloco denso com três camadas totalmente conectadas. A camada de saída tem 10 dimensões, correspondendo ao número de classes de saída possíveis. A arquitetura *LeNet-5* foi adaptada para reconhecer dígitos para processar depósitos em caixas eletrônicos e ainda é usado em alguns caixas eletrônicos hoje em dia.
+### *LeNet*-5
+
+A primeira aplicação bem sucedida de uma *CNN* foi dada em 1998 por *Yann LeCun*. A *CNN* foi chamada de "*LeNet*-5" e foi capaz de reconhecer dígitos manuscritos com boa velocidade e precisão. A arquitetura consiste em duas partes: um codificador convolucional com duas camadas convolucionais e um bloco denso com três camadas totalmente conectadas. A camada de saída tem 10 dimensões, correspondendo ao número de classes de saída possíveis. A arquitetura *LeNet*-5 foi adaptada para reconhecer dígitos para processar depósitos em caixas eletrônicos e ainda é usado em alguns caixas eletrônicos hoje em dia.
 
 ![https://imgur.com/rTy2RRN.png](https://imgur.com/rTy2RRN.png)
 
-### AlexNet
+&nbsp;
+
+### *AlexNet*
 
 Outra arquitetura de rede convolucional popular e que revolucionou
 este campo foi a *AlexNet*, projetada por *Alex Krizhevsky*. A *AlexNet*
@@ -55,7 +61,9 @@ competiu no Desafio de *Reconhecimento Visual em Grande Escala ImageNet* em 30 d
 
 ![https://imgur.com/1oH5Isu.png](https://imgur.com/1oH5Isu.png)
 
-### VGG
+&nbsp;
+
+### *VGG*
 
 A arquitetura *VGG* se destaca por sua simplicidade e eficácia. A arquitetura *VGG* consiste de uma rede sequencial composta por um caminho simples, ou seja, sua estrutura era linear e formada por diferentes camadas convolucionais e de *pooling*, seguidas por camadas totalmente conectadas. A *VGG* é composta por várias camadas convolucionais com filtros pequenos (3x3) e profundidade crescente, seguidas por camadas de *pooling*. 
 
@@ -63,16 +71,34 @@ A arquitetura *VGG* é capaz de obter resultados de alta precisão em tarefas de
 
 ![https://imgur.com/3Nk5voB.png](https://imgur.com/3Nk5voB.png)
 
-### ResNet
+&nbsp;
 
-A arquitetura *ResNet* introduziu o conceito de conexões residuais. O objetivo das conexões residuais é permitir que as redes neurais profundas sejam treinadas com mais facilidade, evitando o problema de dissipação do gradiente. A *ResNet* é composta por várias camadas residuais, que permitem que as informações sejam transmitidas diretamente de uma camada para outra, sem passar por várias camadas intermediárias. Cada camada residual é composta por duas camadas convolucionais, seguidas por uma conexão residual. A conexão residual é uma adição simples entre a entrada da camada residual e a saída da camada convolucional anterior. A *ResNet* é uma arquitetura de *CNN* muito profunda, com mais de 100 camadas, que é capaz de obter resultados de alta precisão em tarefas de processamento de imagem, como classificação de imagens e detecção de objetos.
+### *ResNet*
+
+A arquitetura *ResNet* introduziu o conceito de conexões residuais. O objetivo das conexões residuais é permitir que as redes neurais profundas sejam treinadas com mais facilidade, evitando o problema de dissipação do gradiente. A *ResNet* é composta por várias camadas residuais, que permitem que as informações sejam transmitidas diretamente de uma camada para outra, sem passar por várias camadas intermediárias. 
+
+Cada camada residual é composta por duas camadas convolucionais, seguidas por uma conexão residual. A conexão residual é uma adição simples entre a entrada da camada residual e a saída da camada convolucional anterior. A *ResNet* é uma arquitetura de *CNN* muito profunda, com mais de 100 camadas, que é capaz de obter resultados de alta precisão em tarefas de processamento de imagem, como classificação de imagens e detecção de objetos.
 
 ![https://imgur.com/c5Hrpdf.png](https://imgur.com/c5Hrpdf.png)
 
-<br>
+&nbsp;
 
 ## Conclusão
 
 Em resumo, as Redes Neurais Convolucionais (*CNNs*) são uma categoria de Redes Neurais Artificiais Densas, que apresentam resultados altamente satisfatórios em muitos problemas das quais podem ser aplicadas. Este primeiro artigo teve como foco uma abordagem introdutória sobre as principais arquiteturas de *CNNs* e uma visão geral sobre o que são essas redes.
+
+&nbsp;
+
+## Referências
+
+[Neural Networks](https://ml4a.github.io/ml4a/neuralnetworks/){:target="_blank"}
+
+[How Do Convolutional Layers Work in Deep Learning Neural Networks?](https://machinelearningmastery.com/convolutional-layers-for-deep-learning-
+neural-networks){:target="_blank"}
+
+[Entendendo Redes Convolucionais](https://medium.com/neuronio-br/entendendo-redes-convolucionais-cnns-d10359f2118){:target="_blank"}
+
+[Uma introdução as redes neurais convolucionais uti-
+lizando o Keras](https://medium.com/data-hackers/uma-introdu%C3%A7%C3%A3o-as-redes-neurais-convolucionais-utilizando-o-keras-41ee8dcc033e){:target="_blank"}
 
 <br><center><i>Obrigado pela leitura!</i></center>

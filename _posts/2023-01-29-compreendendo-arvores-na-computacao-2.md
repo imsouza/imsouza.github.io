@@ -19,7 +19,7 @@ Exemplo de representação gráfica de uma árvore binária de busca cujo objeti
 
 Na imagem acima, cada nó possui uma chave numérica e setas apontando para os filhos à esquerda e à direita. O nó raiz possui a chave 21 e os nós filhos possuem chaves menores ou maiores.
 
-<br>
+&nbsp;
 
 ## Percursos
 
@@ -31,7 +31,7 @@ A árvore possui três maneiras de percorrer sua estrutura, sendo elas:
 
 **Pós-órdem**: Esse percurso percorre os nós da árvore da seguinte maneira: primeiro, os nós da sub-árvore esquerda são percorridos recursivamente, em seguida, os nós da sub-árvore direita são percorridos recursivamente, e por último, o nó raiz é visitado. Esse percurso geralmente é usado para liberar a memória alocada para uma árvore binária.
 
-<br>
+&nbsp;
 
 ## Código
 
@@ -39,16 +39,22 @@ Segue abaixo a implementação completa da árvore binária de busca:
 
 <script src="https://gist.github.com/imsouza/760fd7bb9e7c2675ee8165865504e66b.js"></script>
 
-A função ```removerNo()```, como o próprio nome sugere, remove um nó com um determinado valor na árvore binária de busca. Ela funciona recursivamente, percorrendo a árvore até encontrar o nó a ser removido. Dependendo da posição do nó e se ele tem filhos ou não, a função remove o nó de forma apropriada mantendo a estrutura da árvore binária de busca.
+A função **removerNo()**, como o próprio nome sugere, remove um nó com um determinado valor na árvore binária de busca. Ela funciona recursivamente, percorrendo a árvore até encontrar o nó a ser removido. Dependendo da posição do nó e se ele tem filhos ou não, a função remove o nó de forma apropriada mantendo a estrutura da árvore binária de busca.
 
-> Nota: A função ```encontrarMinimo(raiz->direita)``` é uma função auxiliar que encontra o nó com o menor valor na sub-árvore direita.
+> Nota: A função **encontrarMinimo(raiz->direita)** é uma função auxiliar que encontra o nó com o menor valor na sub-árvore direita.
 
 É importante notar que as árvores binárias de busca só são eficientes quando os elementos são inseridos de maneira aleatória, pois se os elementos são inseridos em ordem crescente ou decrescente, a árvore se transforma em uma lista encadeada e as operações passam a ser realizadas em tempo linear.
 
-<br>
+&nbsp;
 
 ## Conclusão
 
 Em resumo, as árvores binárias e binárias de busca são estruturas de dados fundamentais para armazenar e organizar informações de maneira hierárquica, permitindo operações de busca, inserção e remoção em tempo constante. Elas são utilizadas em diversas áreas, como algoritmos de ordenação, inteligência artificial e programação competitiva.
   
+&nbsp;
+
+## Referências
+
+[Estrutura de Dados Descomplicada - Em Linguagem C , por André Backes](https://www.amazon.com.br/Estrutura-Dados-Descomplicada-Linguagem-Backes/dp/8535285237){:target="_blank"}
+
 <br><center><i>Obrigado pela leitura!</i></center>

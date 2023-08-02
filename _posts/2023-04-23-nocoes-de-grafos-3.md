@@ -13,7 +13,7 @@ tags: [Estrutura de Dados]
 
 ![Imgur](https://imgur.com/VHOrYu5.gif)
 
-<br>
+&nbsp;
 
 ## Busca em profundidade
 
@@ -29,6 +29,8 @@ Abaixo consta o algoritmo de busca em profundidade:
 
 <script src="https://gist.github.com/imsouza/dd7add87f2c263ca67da6c8414418f08.js"></script>
 
+&nbsp;
+
 ### Passos
 
 ![1](https://imgur.com/wSRGPgG.png)
@@ -39,7 +41,7 @@ Abaixo consta o algoritmo de busca em profundidade:
 ![6](https://imgur.com/vMAjam6.png)
 ![7](https://imgur.com/wcfXU21.png)
 
-<br>
+&nbsp;
 
 ## Busca em largura
 
@@ -57,6 +59,8 @@ Abaixo consta a implementação do algoritmo de busca em largura:
 
 <script src="https://gist.github.com/imsouza/fcd476cf5e4710bb01aafca3fdd7de54.js"></script>
 
+&nbsp;
+
 ### Passos
 
 ![1](https://imgur.com/vxdYSqL.png)
@@ -66,13 +70,13 @@ Abaixo consta a implementação do algoritmo de busca em largura:
 ![5](https://imgur.com/4lvN9v2.png)
 ![6](https://imgur.com/myB6uOO.png)
 
-<br>
+&nbsp;
 
 ## Conclusão
 
 Em suma, os algoritmos de busca em profundidade e busca em largura são fundamentais para a exploração de grafos e têm um papel significativo em diversas aplicações da computação, como simulação de labirintos, ordenação topológica de grafos e até mesmo em inteligência artificial. Com a compreensão adequada desses algoritmos, é possível analisar e solucionar problemas complexos em diversas áreas da computação.
 
-<br>
+&nbsp;
 
 ## Referências
 

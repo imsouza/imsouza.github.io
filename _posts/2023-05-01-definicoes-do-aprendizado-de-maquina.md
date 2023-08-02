@@ -9,9 +9,11 @@ tags: [Machine Learning]
 
 ![Birds](/assets/thumbnails/img28.jpg)
 
-O *Machine Learning* (aprendizado de máquina) é o ramo da Inteligência Artificial que estuda e desenvolve sistemas computacionais capazes de aprender, prever e identificar padrões a partir de dados inseridos. É uma forma de inteligência artificial que incorpora a estratégia de aprendizado e previsão a partir de dados. Existem vários tipos de aprendizado de máquina, como o aprendizado supervisionado, que analisa dados rotulados para prever novas saídas, e o aprendizado não supervisionado, que encontra padrões e estruturas nos dados. Neste artigo, vamos explorar os conceitos fundamentais do aprendizado de máquina, incluindo os diferentes tipos de aprendizado, técnicas de avaliação de modelos, técnicas de otimização e seus principais algoritmos.
+O *Machine Learning* (aprendizado de máquina) é o ramo da Inteligência Artificial que estuda e desenvolve sistemas computacionais capazes de aprender, prever e identificar padrões a partir de dados inseridos. É uma forma de inteligência artificial que incorpora a estratégia de aprendizado e previsão a partir de dados. 
 
-<br>
+Existem vários tipos de aprendizado de máquina, como o aprendizado supervisionado, que analisa dados rotulados para prever novas saídas, e o aprendizado não supervisionado, que encontra padrões e estruturas nos dados. Neste artigo, vamos explorar os conceitos fundamentais do aprendizado de máquina, incluindo os diferentes tipos de aprendizado, técnicas de avaliação de modelos, técnicas de otimização e seus principais algoritmos.
+
+&nbsp;
 
 ## Aprendizado Supervisionado 
 
@@ -28,7 +30,7 @@ Alguns exemplos de algoritmos são:
 - ***Decision Trees***
 - ***Random Forests***
 
-<br>
+&nbsp;
 
 ## Aprendizado Não Supervisionado
 
@@ -36,13 +38,19 @@ O aprendizado não supervisionado é uma técnica de aprendizado de máquina em 
 
 Este aprendizado é usado quando se quer encontrar padrões e estruturas nos dados. Ele é amplamente utilizado em problemas de clusterização e redução de dimensionalidade. O modelo é treinado com um conjunto de dados não rotulados e, em seguida, é testado com um conjunto de dados não rotulados para avaliar o seu desempenho. O objetivo é encontrar uma estrutura nos dados que possa ser usada para análise posterior.
 
+&nbsp;
+
 ### Clusterização
 
 A clusterização é uma técnica de aprendizado não supervisionado que permite agrupar dados em clusters ou grupos com base em suas características. É útil para explorar conjuntos de dados sem a necessidade de rótulos ou categorias pré-definidas.
 
+&nbsp;
+
 ### Detecção de anomalia
 
 A detecção de anomalia é outra técnica de aprendizado não supervisionado que permite identificar padrões incomuns ou anômalos nos dados. É útil para detectar fraudes, falhas em sistemas e outras anomalias.
+
+&nbsp;
 
 ### Redução de dimensionalidade
 
@@ -58,7 +66,7 @@ Alguns exemplos de algoritmos não supervisionados são:
 - ***PCA***
 - ***t-SNE***
 
-<br>
+&nbsp;
 
 ## Aprendizado semi-supervisionado
 
@@ -66,7 +74,7 @@ O aprendizado semi supervisionado é uma técnica de aprendizado de máquina que
 
 Existem várias técnicas de aprendizado semi supervisionado, como a propagação de rótulos, a co-regularização e a mistura de modelos. O aprendizado semi supervisionado é útil em problemas em que é difícil obter dados rotulados suficientes para treinar um modelo de aprendizado de máquina. Ele permite que o modelo use informações dos dados não rotulados para melhorar o seu desempenho.
 
-<br>
+&nbsp;
 
 ## Aprendizado por reforço
 
@@ -74,7 +82,7 @@ O aprendizado por reforço é uma técnica de aprendizado de máquina em que um 
 
 Esta técnica é usada em problemas em que é difícil definir uma função de custo ou em que a função de custo é desconhecida. Ele é usado em jogos, robótica, finanças e outras áreas. O aprendizado por reforço é uma técnica poderosa de aprendizado de máquina que permite que os agentes aprendam a tomar decisões em ambientes complexos e incertos.
 
-<br>
+&nbsp;
 
 ## Conjunto de treino, validação e teste
 
@@ -82,7 +90,7 @@ O conjunto de treinamento, validação e teste é uma técnica de avaliação de
 
 A divisão dos dados em conjuntos de treino, validação e teste é uma técnica comum em problemas de aprendizado supervisionado, em que o modelo é treinado com um conjunto de dados rotulados e, em seguida, é testado com um conjunto de dados não rotulados para avaliar o seu desempenho. É importante ter um conjunto de teste separado para avaliar o desempenho do modelo em dados não vistos durante o treinamento.
 
-<br>
+&nbsp;
 
 ## *Overfitting* e *underfitting*
 
@@ -92,7 +100,7 @@ O ***overfitting*** e o ***underfitting*** são problemas comuns em modelos de a
 
 O *underfitting* ocorre quando o modelo **é muito simples** e não consegue capturar a complexidade dos dados, ou seja, o modelo não treinou o suficiente. Para evitar o *overfitting* e o *underfitting*, é importante **ajustar os hiperparâmetros** do modelo e usar técnicas de regularização. Esses são problemas comuns em modelos de aprendizado de máquina e podem levar a resultados ruins.
 
-<br>
+&nbsp;
 
 ## Regularização
 
@@ -100,11 +108,17 @@ Essa técnica adiciona uma penalização em modelos que são muito complexos ou 
 
 > A regularização é usada para evitar o *overfitting*, adicionando uma penalidade aos parâmetros do modelo.
 
-<br>
+&nbsp;
 
 ## Métricas de avaliação
 
-As métricas de avaliação são usadas para avaliar o desempenho de modelos de aprendizado de máquina. Algumas das principais métricas de avaliação para problemas de classificação são:
+As métricas de avaliação são usadas para avaliar o desempenho de modelos de aprendizado de máquina. 
+
+&nbsp;
+
+### Classificação
+
+Algumas das principais métricas de avaliação para problemas de classificação são:
 
 - **Acurácia**: mede a proporção de exemplos classificados corretamente.
 - **Sensibilidade (*recall* ou revocação)**: mede a proporção de exemplos positivos que foram corretamente identificados.
@@ -113,6 +127,10 @@ As métricas de avaliação são usadas para avaliar o desempenho de modelos de 
 - ***F-score***: é uma média harmônica da precisão e recall.
 - **Curva ROC**: é uma curva que mostra a taxa de verdadeiros positivos em relação à taxa de falsos positivos.
 
+&nbsp;
+
+### Regressão
+
 Em problemas de regressão, as métricas de avaliação comuns incluem:
 
 - **Erro médio absoluto (*MAE*)**: mede a média das diferenças absolutas entre as previsões e os valores reais.
@@ -120,15 +138,19 @@ Em problemas de regressão, as métricas de avaliação comuns incluem:
 - **Raiz do erro médio quadrático (*RMSE*)**: é a raiz quadrada do MSE.
 - **Coeficiente de determinação (R²)**: mede a proporção da variância nos dados que é explicada pelo modelo.
 
+&nbsp;
+
+### *Loss*
+
 A ***loss function*** é outra métrica que mede a diferença entre a saída prevista e a saída real. Ela é usada para ajustar os parâmetros do modelo durante o treinamento. Algumas das loss functions comuns são:
 
 - Entropia cruzada binária: usada em problemas de classificação binária.
 - Entropia cruzada categórica: usada em problemas de classificação multiclasse.
 - Erro médio quadrático: usada em problemas de regressão.
 
-A escolha da métrica de avaliação e da loss function depende do tipo de problema de aprendizado de máquina e dos objetivos do modelo. É importante escolher as métricas corretas para avaliar o desempenho do modelo e ajustar a loss function para obter um modelo com bom desempenho.
+A escolha da métrica de avaliação e da *loss function* depende do tipo de problema de aprendizado de máquina e dos objetivos do modelo. É importante escolher as métricas corretas para avaliar o desempenho do modelo e ajustar a loss function para obter um modelo com bom desempenho.
 
-<br>
+&nbsp;
 
 ## Hyperparâmetro X parâmetro
 
@@ -138,7 +160,7 @@ Os hiperparâmetros são definidos **antes do treinamento** e controlam o proces
 
 O ajuste de hiperparâmetros é o processo de encontrar os melhores valores para os hiperparâmetros do modelo. Ele é feito por meio de tentativa e erro ou por meio de técnicas mais avançadas, como o ***GridSearch*** ou o ***RandomSearch***. O ajuste de hiperparâmetros é uma parte importante do processo de treinamento de modelos de aprendizado de máquina.
 
-<br>
+&nbsp;
 
 ## Otimização
 
@@ -152,25 +174,31 @@ O tamanho do passo (conhecido como taxa de aprendizagem ou *learning rate*) que 
 
 Existem três tipos de gradiente descendente: *batch*, *minibatch* e estocástico. 
 
+&nbsp;
+
 ### Batch
 
 O gradiente descendente *batch* usa todo o conjunto de dados para calcular o gradiente e atualizar os parâmetros. 
+
+&nbsp;
 
 ### Estocástico
 
 O gradiente descendente estocástico usa apenas um exemplo de cada vez para calcular o gradiente e atualizar os parâmetros. 
 
+&nbsp;
+
 ### Minibatch
 
 O gradiente descendente *minibatch* usa um pequeno conjunto de dados para calcular o gradiente e atualizar os parâmetros. O gradiente descendente estocástico e minibatch são mais rápidos do que o *batch*, mas podem ser menos precisos. A escolha do tipo de gradiente descendente depende do tamanho do conjunto de dados e da complexidade do modelo.
 
-<br>
+&nbsp;
 
 ## Conclusão
 
 Neste artigo foram apresentados os principais conceitos do aprendizado de máquina e suas técnicas, incluindo o aprendizado supervisionado, não supervisionado, semi supervisionado e por reforço. Foram discutidas as métricas de avaliação e as funções de perda comuns usadas para avaliar o desempenho do modelo e ajustar os parâmetros do modelo durante o treinamento. Em geral, o aprendizado de máquina é uma área em constante evolução e oferece muitas oportunidades para aplicação em diversas áreas, incluindo a mineração de dados, diagnósticos médicos, biometria, extração de conhecimento, identificação de exceções dos dados de entrada, entre outras.
 
-<br>
+&nbsp;
 
 ## Referências
 
