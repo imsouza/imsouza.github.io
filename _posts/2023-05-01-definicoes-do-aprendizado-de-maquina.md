@@ -142,13 +142,13 @@ Em problemas de regressão, as métricas de avaliação comuns incluem:
 
 ### *Loss*
 
-A ***loss function*** é outra métrica que mede a diferença entre a saída prevista e a saída real. Ela é usada para ajustar os parâmetros do modelo durante o treinamento. Algumas das loss functions comuns são:
+A ***loss function*** é outra métrica que mede a diferença entre a saída prevista e a saída real. Ela é usada para ajustar os parâmetros do modelo durante o treinamento. Algumas das *loss functions* comuns são:
 
 - Entropia cruzada binária: usada em problemas de classificação binária.
 - Entropia cruzada categórica: usada em problemas de classificação multiclasse.
 - Erro médio quadrático: usada em problemas de regressão.
 
-A escolha da métrica de avaliação e da *loss function* depende do tipo de problema de aprendizado de máquina e dos objetivos do modelo. É importante escolher as métricas corretas para avaliar o desempenho do modelo e ajustar a loss function para obter um modelo com bom desempenho.
+A escolha da métrica de avaliação e da *loss function* depende do tipo de problema de aprendizado de máquina e dos objetivos do modelo. É importante escolher as métricas corretas para avaliar o desempenho do modelo e ajustar a *loss function* para obter um modelo com bom desempenho.
 
 &nbsp;
 
