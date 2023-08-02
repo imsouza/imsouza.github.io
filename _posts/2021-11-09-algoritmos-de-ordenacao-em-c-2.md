@@ -35,8 +35,8 @@ Um problema clássico que pode ser resolvido utiliando essa técnica é a [**Tor
 
 ## Algoritmos sofisticados de ordenação
 
-### Merge Sort
-O algoritmo de **merge sort** é um dos algoritmos populares que utiliza a técnica de dividir para conquistar. O funcionamento desse algoritmo é o seguinte: ele **divide** recursivamente o *array* em duas partes, também chamadas de ***subarrays***, até que cada posição dele seja considerada um *array* de um único elemento. Em seguida, o algoritmo **combina** dois *arrays* para obter um *array* maior e ordenado. Esse processo se repete até que exista apenas um *array* e que ele esteja totalmente ordenado.
+### *Merge Sort*
+O algoritmo de ***merge sort*** é um dos algoritmos populares que utiliza a técnica de dividir para conquistar. O funcionamento desse algoritmo é o seguinte: ele **divide** recursivamente o *array* em duas partes, também chamadas de ***subarrays***, até que cada posição dele seja considerada um *array* de um único elemento. Em seguida, o algoritmo **combina** dois *arrays* para obter um *array* maior e ordenado. Esse processo se repete até que exista apenas um *array* e que ele esteja totalmente ordenado.
 
 > A combinação dos *arrays* é feita **intercalando** seus elementos conforme o sentido da ordenação (crescente ou decrescente).
 
