@@ -25,7 +25,7 @@ A ideia para solucionar o problema proposto é a criação de um modelo de *deep
 
 O processo que o modelo irá realizar pode ser exemplificado por um raciocínio intuitivo da mesma forma que nós humanos fazemos para identificar algo que estamos olhando - capturando cada parte da informação e assimilando-as na totalidade. Claro que, para nós, é uma tarefa quase que instantânea, um nível que as máquinas ainda não alcançaram.
 
-O reconhecimento de padrões por partes é a chave para que as redes neurais convolucionais usam em seu cerne. Identificando e assimilando cada ”pedaço” é possível chegar a uma determinada conclusão. A imagem abaixo exemplifica como a rede ”enxerga” os *pixels* pela sua intensidade em cada neurônio:
+O reconhecimento de padrões por partes é o que as redes neurais convolucionais usam em seu cerne. Identificando e assimilando cada ”pedaço” é possível chegar a uma determinada conclusão. A imagem abaixo exemplifica como a rede ”enxerga” os *pixels* pela sua intensidade em cada neurônio:
 
 ![Rede](https://imgur.com/hWb7LJQ.png)
 
