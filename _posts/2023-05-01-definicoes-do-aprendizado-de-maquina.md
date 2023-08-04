@@ -135,7 +135,7 @@ Em problemas de regressão, as métricas de avaliação comuns incluem:
 
 - **Erro médio absoluto (*MAE*)**: mede a média das diferenças absolutas entre as previsões e os valores reais.
 - **Erro médio quadrático (*MSE*)**: mede a média das diferenças quadráticas entre as previsões e os valores reais.
-- **Raiz do erro médio quadrático (*RMSE*)**: é a raiz quadrada do MSE.
+- **Raiz do erro médio quadrático (*RMSE*)**: é a raiz quadrada do *MSE*.
 - **Coeficiente de determinação (R²)**: mede a proporção da variância nos dados que é explicada pelo modelo.
 
 &nbsp;
