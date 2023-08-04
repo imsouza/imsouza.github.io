@@ -56,8 +56,7 @@ A primeira aplicação bem sucedida de uma *CNN* foi dada em 1998 por *Yann LeCu
 ### *AlexNet*
 
 Outra arquitetura de rede convolucional popular e que revolucionou
-este campo foi a *AlexNet*, projetada por *Alex Krizhevsky*. A *AlexNet*
-competiu no Desafio de *Reconhecimento Visual em Grande Escala ImageNet* em 30 de setembro de 2012. Foi a primeira rede neural convolucional a usar várias *GPUs* para acelerar o treinamento e a primeira a usar a função de ativação *ReLU*. A arquitetura consiste em oito camadas, incluindo cinco camadas convolucionais e três camadas totalmente conectadas. A *AlexNet* foi um marco importante no desenvolvimento de redes neurais convolucionais profundas e ajudou a impulsionar o campo do aprendizado profundo.
+este campo foi a *AlexNet*, projetada por *Alex Krizhevsky*. A *AlexNet* competiu no Desafio de *Reconhecimento Visual em Grande Escala ImageNet* em 30 de setembro de 2012. Foi a primeira rede neural convolucional a usar várias *GPUs* para acelerar o treinamento e a primeira a usar a função de ativação *ReLU*. A arquitetura consiste em oito camadas, incluindo cinco camadas convolucionais e três camadas totalmente conectadas. A *AlexNet* foi um marco importante no desenvolvimento de redes neurais convolucionais profundas e ajudou a impulsionar o campo do aprendizado profundo.
 
 ![https://imgur.com/1oH5Isu.png](https://imgur.com/1oH5Isu.png)
 
