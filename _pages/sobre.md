@@ -42,7 +42,6 @@ permalink: /
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto;
-    border: 2px solid #353535;
     user-select: none; /* Prevent text selection */
     pointer-events: none; /* Ignore mouse events */
   }
