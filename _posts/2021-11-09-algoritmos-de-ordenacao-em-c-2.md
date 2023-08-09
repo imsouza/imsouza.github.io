@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Algoritmos de ordenação em C #2"
-description: "Neste artigo, discutiremos sobre os algoritmos sofisticados de ordenação  em *arrays*. Começaremos por um breve resumo sobre a técnica de dividir para conquistar..."
+title: "Algoritmos de Ordenação em C #2"
+description: "Neste artigo, discutiremos sobre os algoritmos sofisticados de ordenação  em arrays. Começaremos por um breve resumo sobre a técnica de dividir para conquistar..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img18.jpg
 tags: [Algoritmos]

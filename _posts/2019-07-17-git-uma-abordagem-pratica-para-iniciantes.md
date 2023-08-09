@@ -4,7 +4,7 @@ title: "Git, uma abordagem prática para iniciantes"
 description: "Quando falamos em Desenvolvimento de Software, o Git é uma ferramenta indispensável para o controle de versão e gerenciamento de código..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img1.jpeg
-tags: [Tools]
+tags: [Automação]
 ---
 
 ![Book](/assets/thumbnails/img1.jpeg)

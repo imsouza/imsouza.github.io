@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Algoritmos de ordenação em C #1"
-description: "Ordenar informações é uma tarefa um tanto quanto comum no desenvolvimento de aplicações. Este artigo visa os principais algoritmos de ordenação em *arrays* e como implementá-los na linguagem C..."
+title: "Algoritmos de Ordenação em C #1"
+description: "Ordenar informações é uma tarefa um tanto quanto comum no desenvolvimento de aplicações. Este artigo visa os principais algoritmos de ordenação em arrays e como implementá-los na linguagem C..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img17.jpeg
 tags: [Algoritmos]

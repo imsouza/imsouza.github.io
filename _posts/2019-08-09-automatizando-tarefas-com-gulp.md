@@ -4,7 +4,7 @@ title: "Automatizando tarefas com Gulp"
 description: "Lidar diariamente com tarefas maçantes é um pesadelo para qualquer desenvolvedor. Por sorte, atualmente, existem inúmeras ferramentas no mercado que possibilitam a..."
 author: "Mateus Almeida"
 image: /assets/thumbnails/img3.jpeg
-tags: [Tools]
+tags: [Automação]
 ---
 
 ![Book](/assets/thumbnails/img3.jpeg)
