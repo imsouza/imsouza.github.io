@@ -285,7 +285,6 @@ document.addEventListener("touchstart", function(){}, true);
   width: 50px;
   height: 50px;
   text-align: center;
-  border-radius: 4px;
   position: fixed;
   bottom: 30px;
   right: 30px;

@@ -26,12 +26,39 @@ permalink: /
   .cv:hover {
     opacity: 1;
   }
+
+  .social {
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+
+  .social:hover {
+    opacity: 1;
+  }
+
+  .circle-photo {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #353535;
+    user-select: none; /* Prevent text selection */
+    pointer-events: none; /* Ignore mouse events */
+  }
+
+  .circle-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 </style>
 
 <div class="tags-header">
   <div>&nbsp;</div>
-  <h2 class="tags-header-title">{{ page.title }}&nbsp;</h2>
-  <div class="tags-header-line"></div>
+  <div class="circle-photo">
+  <img src="assets/profile.jpg" alt="Profile Photo">
+  </div>
 </div>
 
 <p align="justify">
@@ -44,7 +71,8 @@ Acredito na importância da colaboração e da troca de conhecimentos na comunid
 <a href="/assets/cv/Curriculo.pdf" download class="cv">Download CV</a>
 
 <center>
-<a toggle="tooltip" data-placement="top" title="Github" href="https://github.com/imsouza" target="_blank" style="color: #353535;" alt="github"><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a toggle="tooltip" data-placement="top" title="Linkedin" href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a toggle="tooltip" data-placement="top" title="E-mail" href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a toggle="tooltip" data-placement="top" title="RSS" href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
+<a class="social" toggle="tooltip" data-placement="top" title="Github" href="https://github.com/imsouza" target="_blank" style="color: #353535;
+" alt="github"><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social" toggle="tooltip" data-placement="top" title="Linkedin" href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social" toggle="tooltip" data-placement="top" title="E-mail" href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social" toggle="tooltip" data-placement="top" title="RSS" href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
 </center>
 
 <br>
