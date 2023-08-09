@@ -11,7 +11,7 @@ tags: [Estrutura de Dados]
 
 &nbsp;
 
-Ao dar início aos estudos em alguma linguagem de programação, nos deparamos com uma série de conceitos. Um desses conceitos é o de **tipo de dados**. Um tipo de dado nada mais é do que um conjunto de valores e operações que uma variável pode assumir, por exemplo, ***float***, ***int***, ***char*** e ***double*** são alguns dos tipos de dados da linguagem C. Cada tipo aceita determinado valor, ou seja, o tipo ***int*** aceita somente números inteiros (pertencente ao conjunto dos inteiros) variando de -2.147.483.648 a 2.147.483.647.
+Ao dar início aos estudos em alguma linguagem de programação, nos deparamos com uma série de conceitos. Um desses conceitos é o de **tipo de dados**. Um tipo de dado nada mais é do que um conjunto de valores e operações que uma variável pode assumir, por exemplo, ***float***, ***int***, ***char*** e ***double*** são alguns dos tipos de dados da linguagem *C*. Cada tipo aceita determinado valor, ou seja, o tipo ***int*** aceita somente números inteiros (pertencente ao conjunto dos inteiros) variando de -2.147.483.648 a 2.147.483.647.
 
 Se você começou já faz um tempinho nos estudos, sabe (ou deveria saber) que os tipos de dados descritos acima não possuem nenhum tipo de estrutura sobre seus valores. No entanto, o que seria essa estrutura? Bem, uma estrutura, ou melhor, uma **estrutura de dados** é uma forma de armazenar e organizar os dados na máquina de modo que eles possam ser usados de forma eficiente.
 
@@ -55,7 +55,7 @@ A estratégia de ocultação de informações permite a implementação e manute
   <img src="https://user-images.githubusercontent.com/39147407/124054163-de9e5500-d9f7-11eb-969c-8f4a255e7c15.png" alt="estrutura" width="70%">
 </div>
 
-Na linguagem C, um TAD é declarado como uma **struct** e a interface é um conjunto de protótipos de funções que manipula a **struct**.
+Na linguagem *C*, um TAD é declarado como uma **struct** e a interface é um conjunto de protótipos de funções que manipula a **struct**.
 
 &nbsp;
 

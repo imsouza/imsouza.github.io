@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Birds](/assets/thumbnails/img26.jpeg)
 
+&nbsp;
+
 É de fundamental importância compreender o algoritmo de busca de profundidade e largura em grafos. Existem várias aplicações que fazem o uso de algoritmos de busca, podendo ser utilizadas em simulação computacional para encontrar a saída de um labirinto, ordenação topológica de um grafo, achar o menor caminho entre dois vértices. Essas são só algumas aplicações de incontáveis outras.
 
 ![Imgur](https://imgur.com/VHOrYu5.gif)

@@ -9,6 +9,8 @@ tags: [Machine Learning]
 
 ![Birds](/assets/thumbnails/img28.jpg)
 
+&nbsp;
+
 O *Machine Learning* (aprendizado de máquina) é o ramo da Inteligência Artificial que estuda e desenvolve sistemas computacionais capazes de aprender, prever e identificar padrões a partir de dados inseridos. É uma forma de inteligência artificial que incorpora a estratégia de aprendizado e previsão a partir de dados. 
 
 Existem vários tipos de aprendizado de máquina, como o aprendizado supervisionado, que analisa dados rotulados para prever novas saídas, e o aprendizado não supervisionado, que encontra padrões e estruturas nos dados. Neste artigo, vamos explorar os conceitos fundamentais do aprendizado de máquina, incluindo os diferentes tipos de aprendizado, técnicas de avaliação de modelos, técnicas de otimização e seus principais algoritmos.

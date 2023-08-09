@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Birds](/assets/thumbnails/img24.jpeg)
 
+&nbsp;
+
 Grafos são uma estrutura matemática fundamental em muitas áreas do conhecimento, desde a ciência da computação até a física e a biologia. Eles são usados em aplicações cotidianas, como encontrar a melhor rota para chegar a um local, planejar uma rede de transporte eficiente ou criar algoritmos de recomendação personalizados. Nesta série de artigos, vamos explorar os conceitos básicos de um grafo, seus diferentes tipos, suas representações e implementações. 
 
 &nbsp;

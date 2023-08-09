@@ -9,6 +9,8 @@ tags: [Algoritmos]
 
 ![Img](/assets/thumbnails/img17.jpeg)
 
+&nbsp;
+
 Ordenar informações é uma tarefa um tanto quanto comum no desenvolvimento de aplicações. Este artigo visa os principais algoritmos de ordenação e como implementá-los na linguagem *C*.
 
 &nbsp;

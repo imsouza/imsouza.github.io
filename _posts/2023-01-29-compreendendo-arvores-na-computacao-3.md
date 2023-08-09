@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Birds](/assets/thumbnails/img21.jpeg)
 
+&nbsp;
+
 As árvores binárias de busca (*BST*) são estruturas de dados muito úteis para armazenar e organizar informações de forma rápida e eficiente. No entanto, ao inserir ou remover elementos de forma desordenada, a árvore pode se desequilibrar, tornando as operações de busca e inserção menos eficientes.
 
 Para resolver este problema, foram criadas as árvores balanceadas, que garantem que a altura da árvore seja sempre menor do que a altura máxima possível para uma árvore binária de busca com o mesmo número de nós.

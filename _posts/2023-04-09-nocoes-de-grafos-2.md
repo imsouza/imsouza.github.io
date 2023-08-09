@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Birds](/assets/thumbnails/img25.jpg)
 
+&nbsp;
+
 A representação de grafos em um computador é uma questão importante a ser pensada quando estamos modelando um problema que necessita dessa estrutura. Existem duas abordagens muito populares utilizadas para representar um grafo computacionalmente. Sendo elas: **matriz de adjacências** e **lista de adjacências**. Veremos nesse artigo o que elas são e como funcionam, além disso, será explorado os diversos tipos de grafos mais utilizados.
 
 &nbsp;

@@ -9,6 +9,8 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img29.jpg)
 
+&nbsp;
+
 Atualmente as Redes Neurais Artificiais já apresentam resultados altamente satisfatórios para diversos problemas reais, no entanto, a categoria de redes neurais artificiais densas, provenientes do aprendizado profundo (do inglês *Deep Learning*) mostra um avanço no campo da Inteligência Artificial principalmente na resolução de problemas que envolvem a área de Visão Computacional e aplicações de áudio. Em muitos problemas dessas áreas, as Redes Neurais Convolucionais (*CNNs*) apresentam melhores resultados quando aplicadas ao modelo.
 
 &nbsp;

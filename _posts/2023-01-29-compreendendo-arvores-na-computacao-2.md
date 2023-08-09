@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Sky](/assets/thumbnails/img20.jpg)
 
+&nbsp;
+
 As árvores binárias são uma estrutura de dados fundamental que consiste em nós, cada um dos quais possui pelo menos um filho esquerdo e um filho direito. Elas são utilizadas para armazenar e organizar informações de maneira hierárquica, possibilitando operações de busca, inserção e remoção de elementos em tempo constante.
 
 As árvores binárias de busca são uma variante das árvores binárias, onde cada nó possui uma chave e todas as chaves dos nós filhos à esquerda são menores do que a chave do nó pai, enquanto as chaves dos nós filhos à direita são maiores. Isso permite que as operações de busca sejam realizadas de maneira eficiente, pois é possível descartar metade dos nós a cada comparação.

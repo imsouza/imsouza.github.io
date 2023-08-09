@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Img](/assets/thumbnails/img16.jpeg)
 
+&nbsp;
+
 Uma pilha é uma estrutura de dados linear que pode ser acessada somente por uma de suas extremidades para armazenar e recuperar dados em um computador. É uma estrutura de dados do tipo *LIFO* (*Last in, First out*), que em português significa "o último que entra, é o primeiro que sai". Objetos podem ser inseridos na estrutura a qualquer momento, mas apenas o objeto mais recente, ou seja, o último a ser inserido no topo da pilha, pode ser acessado ou removido a qualquer momento. Assim, a pilha só permite acesso a apenas um objeto — o último inserido.
 
 Diferente das listas, os elementos de uma pilha se encontram dipostos uns sobre os outros e uma forma intuitiva de imaginar isso é uma pilha de livros, sendo conveniente retirar ou adicionar os livros na parte superior.

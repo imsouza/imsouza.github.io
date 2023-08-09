@@ -9,6 +9,8 @@ tags: [Estrutura de Dados]
 
 ![Img](/assets/thumbnails/img15.jpeg)
 
+&nbsp;
+
 Uma estrutura de dados do tipo fila funciona de forma similar a uma fila do mundo real, como, por exemplo, a fila de um banco. As filas possuem uma característica especial, onde, o primeiro elemento que entra é o primeiro elemento que sai. Isso fica evidente em uma fila de banco, em que a primeira pessoa que entra na fila para ser atendida é a primeira a sair, enquanto isso, novas pessoas entram ao final da fila. Esse processo é chamado de FIFO (*First in, First out*), que em português significa "o primeiro que entra, é o primeiro que sai". 
 
 O fundamento principal da fila é que só podemos inserir um elemento no final e só podemos remover o elemento do início. Os elementos do meio ou em qualquer outra posição de memória que não seja o início e o fim, ficam inacessíveis, mesmo eles estando armazenados na memória do computador.

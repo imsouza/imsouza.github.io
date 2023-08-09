@@ -9,6 +9,8 @@ tags: [Deep Learning]
 
 ![Birds](/assets/thumbnails/img31.jpg)
 
+&nbsp;
+
 Nesta etapa, resolveremos um problema clássico quando o assunto é reconhecimento de padrões com redes convolucionais. O problema proposto consiste no reconhecimento de dígitos presentes no dataset *MNIST*. O banco de dados em questão contém inúmeras imagens de dígitos manuscritos, cada imagem possui um tamanho de 28x28 *pixels*, resultando em 784 células da matriz, onde cada uma dessas células possuem uma intensidade de 0 a 255.
 
 &nbsp;

@@ -9,6 +9,8 @@ tags: [Algoritmos]
 
 ![Img](/assets/thumbnails/img18.jpg)
 
+&nbsp;
+
 Neste artigo, discutiremos sobre os algoritmos sofisticados de ordenação  em *arrays*. Começaremos por um breve resumo sobre a técnica de **dividir para conquistar** que será de importante uso para as implementações. Em seguida, podemos dar início a uma breve introdução sobre os algoritmos de *merge sort*, *quicksort* e *heapsort*.
 
 &nbsp;

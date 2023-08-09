@@ -9,6 +9,8 @@ tags: [Machine Learning]
 
 ![Birds](/assets/thumbnails/img27.jpg)
 
+&nbsp;
+
 *PyTorch* é uma biblioteca de aprendizado de máquina de código aberto baseada em *Torch*, que é uma biblioteca de aprendizado de máquina e visão computacional. *PyTorch* é amplamente utilizado para desenvolver modelos de aprendizado profundo e é conhecido por sua facilidade de uso e flexibilidade. Uma das principais estruturas de dados em *PyTorch* são os tensores, que são matrizes multidimensionais que podem ser indexadas em mais de duas dimensões. Este artigo tem como foco introduzir os tensores e suas principais operações, além disso, será necessário abordar as demais representações e estruturas existentes como escalares, vetores e matrizes. 
 
 ![https://imgur.com/JqTTXrk.png](https://imgur.com/JqTTXrk.png)

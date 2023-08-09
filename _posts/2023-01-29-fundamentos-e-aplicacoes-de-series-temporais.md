@@ -9,6 +9,8 @@ tags: [Machine Learning]
 
 ![Birds](/assets/thumbnails/img22.jpg)
 
+&nbsp;
+
 Uma série temporal é uma coleção de dados coletados ao longo do tempo. Esses dados podem incluir informações sobre vendas, preços de ações, temperaturas, entre outros. As séries temporais são amplamente utilizadas em muitos campos, incluindo finanças, economia, saúde, climatologia e muito mais.
 
 A análise de séries temporais é uma ferramenta valiosa para entender tendências, padrões e previsões futuras. A previsão de séries temporais é uma tarefa comum na análise de dados e pode ser realizada usando vários métodos, incluindo modelos *ARIMA*, *SARIMA*, entre outros.
