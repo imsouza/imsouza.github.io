@@ -198,13 +198,13 @@ Se não ocorreu nenhum erro, serão gerados dois arquivos com a extensão ".o" (
 
 **gcc main.o Ponto.o -lm -o TADPonto**
 
-E, por fim, executar o **TADPonto**, caso tudo tenha dado certo. O "-lm" é para informar ao compilador ***gcc*** para incluir os códigos objetos da biblioteca matemática.
+E, por fim, executar o **TADPonto**, caso tudo tenha dado certo. O **-lm** é para informar ao compilador ***gcc*** para incluir os códigos objetos da biblioteca matemática.
 
 &nbsp;
 
 ### *Makefile*
 
-Utilizar a forma manual pode ser um pouco cansativo, concorda? Ficar repetindo aquele mesmo processo para diferentes testes é um pouco maçante. Para isso, existe uma ferramenta chamada ***Make*** que nos ajuda a automatizar o processo de compilação. Neste artigo não irei introduzir essa ferramenta, para isso, irei indicar o [seguinte post](https://www.embarcados.com.br/introducao-ao-makefile/){:target="_blank"} que faz uma breve introdução ao Makefile.
+Utilizar a forma manual pode ser um pouco cansativo, concorda? Ficar repetindo aquele mesmo processo para diferentes testes é um pouco maçante. Para isso, existe uma ferramenta chamada ***Make*** que nos ajuda a automatizar o processo de compilação. Neste artigo não irei introduzir essa ferramenta, para isso, irei indicar o [seguinte post](https://www.embarcados.com.br/introducao-ao-makefile/){:target="_blank"} que faz uma breve introdução ao *Makefile*.
 
 Nosso projeto pode ser compilado utilizando o seguinte arquivo *Makefile* simples criado na pasta do próprio projeto:
 
