@@ -67,11 +67,27 @@ Me chamo Mateus Almeida, tenho 23 anos e sou da cidade de São Mateus, localizad
 Acredito na importância da colaboração e da troca de conhecimentos na comunidade tecnológica e estou sempre em busca de novas oportunidades de crescimento e aprendizado. Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem ou se conectar comigo em minhas redes sociais. 
 </p>
 
-<a href="/assets/cv/Curriculo.pdf" download class="cv">Download CV</a>
+<!--<a href="/assets/cv/Curriculo.pdf" download class="cv">Download CV</a>-->
 
 <center>
 <a class="social" toggle="tooltip" data-placement="top" title="Github" href="https://github.com/imsouza" target="_blank" style="color: #353535;
-" alt="github"><i class="fa-brands fa-github"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social" toggle="tooltip" data-placement="top" title="Linkedin" href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social" toggle="tooltip" data-placement="top" title="E-mail" href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social" toggle="tooltip" data-placement="top" title="RSS" href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
+" alt="github"><i class="fa-brands fa-github"></i></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a class="social" toggle="tooltip" data-placement="top" title="Linkedin" href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a class="social" toggle="tooltip" data-placement="top" title="Download CV" href="/assets/cv/Curriculo.pdf" download target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-download"></i></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a class="social" toggle="tooltip" data-placement="top" title="E-mail" href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a class="social" toggle="tooltip" data-placement="top" title="RSS" href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
 </center>
 
 <br>
