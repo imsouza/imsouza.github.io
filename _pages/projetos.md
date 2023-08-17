@@ -199,12 +199,12 @@ document.addEventListener("touchstart", function(){}, true);
     </a>
     <a href="https://colab.research.google.com/drive/1BF-CC7_g5wiY7XqKjYl65FS5m8bDJhM1?usp=sharing" aria-haspopup="true" target="_blank" onclick="" class="item">
       <p class="category">
-        <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
+        <i class="fa-solid fa-flask"></i>&nbsp;Ciência de Dados
       </p>
       <img src="/assets/portfolio/covid.png" alt="Covid-19 Analysis" class="img">
       <div class="overlay">
         <p class="text">
-          Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e autocorrelação. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
+          Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e análise de grafos. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
           <br>
           <p class="text keywords">Palavras-chave: Time Series, Machine Learning, Covid-19, Previsões</p>
         </p>
@@ -272,6 +272,19 @@ document.addEventListener("touchstart", function(){}, true);
             Este projeto consiste em um sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
           <br>
           <p class="text keywords">Palavras-chave: OCR, Tesseract, Computer Vision</p>
+        </p>
+      </div>
+    </a>
+    <a href="https://colab.research.google.com/drive/1lXSatRcg8ojtNG4Ol1y8W6v0s2kunDlP?usp=sharing" onclick="" target="_blank" class="item">
+      <p class="category">
+        <i class="fa-solid fa-eye"></i>&nbsp;Visão Computacional
+      </p>
+      <img src="/assets/portfolio/face.png" alt="Face" class="img">
+      <div class="overlay">
+        <p class="text">
+            Modelo para detecção do uso de máscara que utiliza a abordagem de Aprendizagem de Metricas (Metric Learning) através do Modelo Siamês. Esta solução combina tecnologias para identificar e comparar rostos e determinar se uma máscara está sendo usada ou não.
+          <br>
+          <p class="text keywords">Palavras-chave: Metric Learning, Siamese Model, Computer Vision, Face Detection</p>
         </p>
       </div>
     </a>
