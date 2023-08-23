@@ -89,7 +89,7 @@ Daremos início agora a implementação do algoritmo. O princípio de funcioname
 
 <script src="https://gist.github.com/imsouza/6aab525ff245eea5c33bed209d0be346.js"></script>
 
-> Utilizei o tipo **bool** por questões de legibilidade, mas, também é possível utilizar os valores convencionais como **0** e **1**, fica ao critério do programador.
+> O tipo **bool** foi utilizado por questões de legibilidade, mas, também é possível utilizar os valores convencionais como **0** e **1**, fica ao critério do programador.
 
 <script src="https://gist.github.com/imsouza/565e5b68fff02835c90b12d414211973.js"></script>
 
