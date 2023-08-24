@@ -258,7 +258,7 @@ Enquanto as do *array* incluem:
 
 - Listas encadeadas requerem espaço extra para armazenar os ponteiros junto com cada elemento da lista;
 - Listas encadeadas não permitem um acesso aleatório dos itens. É necessário acessar os elementos sequencialmente a partir do primeiro nó. Por esse motivo, não é viável implementar uma busca binária em listas;
-- Arrays têm melhor [localidade de cache](https://pt.wikipedia.org/wiki/Cache#Princ%C3%ADpio_da_localidade_de_refer%C3%AAncia){:target="_blank"}, o que pode fazer uma diferença considerável no desempenho.
+- *Arrays* têm melhor [localidade de cache](https://pt.wikipedia.org/wiki/Cache#Princ%C3%ADpio_da_localidade_de_refer%C3%AAncia){:target="_blank"}, o que pode fazer uma diferença considerável no desempenho.
 
 &nbsp;
 
