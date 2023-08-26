@@ -12,6 +12,16 @@ permalink: /projetos/
 </style>
 
 <style>
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
 .portfolio {
   font-family: monospace; 
 }
@@ -26,7 +36,7 @@ permalink: /projetos/
   height: 0.13em;
   width: 2.75em;
   margin: 0.08em auto 0 auto;
-  background-color: #222;
+  background-color: #353535;
 }
 
 .showcase {
@@ -43,7 +53,7 @@ permalink: /projetos/
   overflow: hidden;
   width: 100%;
   min-width: 300px;
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 0px #353535;
 }
 
 .item:hover .item:active .img {
@@ -71,7 +81,7 @@ permalink: /projetos/
    
 }
 .overlay:hover{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #353535;
 }
 .overlay:hover .text {
   opacity: 1;

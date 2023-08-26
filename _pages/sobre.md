@@ -28,12 +28,12 @@ permalink: /
   }
 
   .social {
-    opacity: 0.6;
+    opacity: 1;
     transition: 0.3s;
   }
 
   .social:hover {
-    opacity: 1;
+    opacity: 0.6;
   }
 
   .circle-photo {
@@ -70,24 +70,24 @@ Acredito na importância da colaboração e da troca de conhecimentos na comunid
 <!--<a href="/assets/cv/Curriculo.pdf" download class="cv">Download CV</a>-->
 
 <center>
-<a class="social" toggle="tooltip" data-placement="top" title="Github" href="https://github.com/imsouza" target="_blank" style="color: #353535;
+<a class="social" toggle="tooltip" data-placement="top" title="Github" href="https://github.com/imsouza" target="_blank" style="color: #555;
 " alt="github"><i class="fa-brands fa-github"></i></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<a class="social" toggle="tooltip" data-placement="top" title="Linkedin" href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #353535;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+<a class="social" toggle="tooltip" data-placement="top" title="Linkedin" href="https://www.linkedin.com/in/mateus-almeida-de-souza/" target="_blank" style="color: #555;" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<a class="social" toggle="tooltip" data-placement="top" title="Download CV" href="/assets/cv/Curriculo.pdf" download target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-download"></i></a>
+<a class="social" toggle="tooltip" data-placement="top" title="Download CV" href="/assets/cv/Curriculo.pdf" download target="_blank" style="color: #555;" alt="rss"><i class="fa-solid fa-download"></i></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<a class="social" toggle="tooltip" data-placement="top" title="E-mail" href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #353535;" alt="email"><i class="fa-solid fa-envelope"></i></a>
+<a class="social" toggle="tooltip" data-placement="top" title="E-mail" href="mailto:mateusalmeida0715@gmail.com" target="_blank" style="color: #555;" alt="email"><i class="fa-solid fa-envelope"></i></a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 
-<a class="social" toggle="tooltip" data-placement="top" title="RSS" href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #353535;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
+<a class="social" toggle="tooltip" data-placement="top" title="RSS" href="https://imsouza.github.io/feed.xml" target="_blank" style="color: #555;" alt="rss"><i class="fa-solid fa-square-rss"></i></a>
 </center>
 
 <br>
