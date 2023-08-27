@@ -27,7 +27,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-chart-line" ></i>&nbsp;Análise Exploratória de Dados
         </p>
-        <img src="/assets/portfolio/airplane.png" alt="Count of crashes by Year" class="img">
+        <img src="/assets/portfolio/airplane.svg" alt="Count of crashes by Year" class="img">
         <div class="overlay">
           <p class="text">
             Exploração dos dados de acidentes aéreos mundiais de 1908 a 2009 utilizando técnicas de análise de causalidade e PCA em séries temporais para identificar padrões e tendências relacionadas às fatalidades.
@@ -40,7 +40,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-flask"></i>&nbsp;Ciência de Dados
         </p>
-        <img src="/assets/portfolio/covid.png" alt="Covid-19 Analysis" class="img">
+        <img src="/assets/portfolio/covid.svg" alt="Covid-19 Analysis" class="img">
         <div class="overlay">
           <p class="text">
             Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e análise de grafos. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
@@ -53,7 +53,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
         </p>      
-        <img src="/assets/portfolio/beer.png" alt="Beer Analysis" class="img">
+        <img src="/assets/portfolio/beer.svg" alt="Beer Analysis" class="img">
         <div class="overlay">
           <p class="text">
             Modelo regressivo para previsão do consumo de cerveja no estado de São Paulo. O objetivo é fornecer uma previsão precisa do consumo de cerveja que possam impactar a demanda levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
@@ -66,7 +66,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-desktop"></i>&nbsp;Desenvolvimento Web
         </p>
-        <img src="/assets/portfolio/accb.png" alt="Account balance" class="img">
+        <img src="/assets/portfolio/accb.svg" alt="Account balance" class="img">
         <div class="overlay">
           <p class="text">
             Este projeto envolve a criação de um sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
@@ -79,7 +79,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
         </p>
-        <img src="/assets/portfolio/spellchecker.png" alt="NLP" class="img">
+        <img src="/assets/portfolio/spellchecker.svg" alt="NLP" class="img">
         <div class="overlay">
           <p class="text"> 
             Criação de um corretor ortográfico que utiliza técnicas de processamento de linguagem natural (NLP) juntamente com a biblioteca NLTK para validar erros ortográficos em textos em língua portuguesa.
@@ -92,7 +92,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-robot"></i>&nbsp;Machine Learning
         </p>
-        <img src="/assets/portfolio/spotify.png" alt="Spotify" class="img">
+        <img src="/assets/portfolio/spotify.svg" alt="Spotify" class="img">
         <div class="overlay">
           <p class="text">
               Sistema de recomendação de músicas utilizando a API do Spotify e algoritmos de clusterização. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário e nos clusters aos quais as músicas pertencem.
@@ -105,7 +105,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-eye"></i>&nbsp;Visão Computacional
         </p>
-        <img src="/assets/portfolio/ocr.png" alt="Spotify" class="img">
+        <img src="/assets/portfolio/ocr.svg" alt="Spotify" class="img">
         <div class="overlay">
           <p class="text">
               Este projeto consiste em um sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
@@ -118,7 +118,7 @@ permalink: /projetos/
         <p class="category">
           <i class="fa-solid fa-eye"></i>&nbsp;Visão Computacional
         </p>
-        <img src="/assets/portfolio/face.png" alt="Face" class="img">
+        <img src="/assets/portfolio/face.svg" alt="Face" class="img">
         <div class="overlay">
           <p class="text">
               Modelo para detecção do uso de máscara que utiliza a abordagem de Aprendizagem de Metricas (Metric Learning) através do Modelo Siamês. Esta solução combina tecnologias para identificar e comparar rostos e determinar se uma máscara está sendo usada ou não.
