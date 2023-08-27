@@ -1,0 +1,145 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+.saturate { filter: saturate(3); }
+.grayscale { filter: grayscale(100%); }
+.contrast { filter: contrast(160%); }
+.brightness { filter: brightness(0.25); }
+.blur { filter: blur(3px); }
+.invert { filter: invert(100%); }
+.sepia { filter: sepia(100%); }
+.huerotate { filter: hue-rotate(180deg); }
+.rss.opacity { filter: opacity(50%); }
+
+.portfolio {
+  font-family: monospace; 
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  height: 0.13em;
+  width: 2.75em;
+  margin: 0.08em auto 0 auto;
+  background-color: #353535;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 95%;
+  margin: 3% auto 0 auto;
+}
+
+.item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-width: 300px;
+  box-shadow: 0px 0px 0px #353535;
+}
+
+.item:hover .item:active .img {
+  filter: blur(2px);
+  transform: scale(1.05);
+}
+
+.img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.overlay {
+  border: 3.5px solid #353535;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+   
+}
+.overlay:hover{
+  background-color: #353535;
+}
+.overlay:hover .text {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+}
+
+.hover_effect {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(-50%);
+  transition: all 0.5s ease-in-out;
+}
+
+.text {
+  text-align: justify;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding: 0 5% auto 0;
+  top: 45%;
+  font-size: 65%;
+  position: relative;
+  transform: translateY(-10%);
+  opacity: 0;
+  visibility: hidden;
+  font-weight: bolder;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.category {
+  text-align: center;
+  font-size: 65%;
+  position: absolute;
+  width: 100%;
+  padding: 2% 5% 2% 5%;
+  z-index: 1;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.keywords {
+  text-align: bottom;
+  font-size: 50%;
+  padding: 2% 5% 2% 5%;
+  transform: translateY(-10%);
+  position: absolute;
+  top: 85%;
+  opacity: 0;
+  font-weight: normal;
+  visibility: hidden;
+  text-align: left;
+}
+
+.overlay:hover, .overlay:active {
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+-webkit-user-select: none;
+-webkit-touch-callout: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .showcase {
+    grid-template-columns: auto;
+    grid-gap: 20px 0;
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .showcase {
+    width: 100%;
+  }
+}
