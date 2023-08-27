@@ -28,12 +28,12 @@ permalink: /
   }
 
   .social {
-    opacity: 1;
+    opacity: 0.6;
     transition: 0.3s;
   }
 
   .social:hover {
-    opacity: 0.6;
+    opacity: 1;
   }
 
   .circle-photo {
