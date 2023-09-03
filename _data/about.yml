@@ -1,0 +1,32 @@
+layout: about
+title: "Sobre"
+author: "Mateus Almeida"
+permalink: /
+
+profile_image: "/assets/profile2.jpg"  # Adjust the path as needed
+github_url: "https://github.com/imsouza"
+linkedin_url: "https://www.linkedin.com/in/mateus-almeida-de-souza/"
+cv_url: "/assets/cv/Curriculo.pdf"  # Adjust the path as needed
+email: "mateusalmeida0715@gmail.com"
+rss_url: "https://imsouza.github.io/feed.xml"
+
+intro:
+  - "Me chamo Mateus Almeida, tenho 23 anos e sou da cidade de São Mateus, localizada no norte do estado do Espírito Santo. Sou estudante de Ciência da Computação na UFES onde realizo projetos de pesquisa, especificamente na área de aprendizado de máquina e análise de séries temporais. Além disso, meus interesses incluem Inteligência Artificial, Deep Learning, Visão Computacional, Teoria da Computação, Matemática e Otimização."
+  - "Acredito na importância da colaboração e da troca de conhecimentos na comunidade tecnológica e estou sempre em busca de novas oportunidades de crescimento e aprendizado. Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem ou se conectar comigo em minhas redes sociais."
+
+social_icons:
+  - name: "GitHub"
+    icon: "fa-brands fa-github"
+    url: "https://github.com/imsouza"
+  - name: "LinkedIn"
+    icon: "fa-brands fa-linkedin"
+    url: "https://www.linkedin.com/in/mateus-almeida-de-souza/"
+  - name: "Download CV"
+    icon: "fa-solid fa-download"
+    url: "/assets/cv/Curriculo.pdf"
+  - name: "E-mail"
+    icon: "fa-solid fa-envelope"
+    url: "mailto:mateusalmeida0715@gmail.com"
+  - name: "RSS"
+    icon: "fa-solid fa-square-rss"
+    url: "https://imsouza.github.io/feed.xml"

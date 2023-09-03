@@ -1,0 +1,14 @@
+.hovertag {
+  border-radius: 0!important; 
+  color: #353535!important; 
+  padding: 0.8%; 
+  padding-left: 1%;
+  padding-right: 1%;
+  font-size: 65%;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.hovertag:hover {
+  opacity: 0.6;
+}

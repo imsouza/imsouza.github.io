@@ -4,6 +4,9 @@ title: "Tags"
 permalink: /tags/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
+
 <a id="button"></a>
 
 <div class="tags">
@@ -14,7 +17,7 @@ permalink: /tags/
 </div>
   <div class="tags-clouds">
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}" class="hovertag" style="border-radius: 0; background-color: #353535; color: #fff; padding: 0.8%; padding-left: 1%;padding-right: 1%;font-size: 65%;">{{ tag[0] }}</a>
+    <a href="#{{ tag[0] }}" class="hovertag">{{ tag[0] }}</a>
     {% endfor %}
   </div>
   {% for tag in site.tags %}
@@ -56,67 +59,4 @@ permalink: /tags/
   {% endfor %}
 </div>
 
-
-<style>
-.hovertag {
-  opacity: 1;
-  transition: 0.3s;
-}
-
-.hovertag:hover {
-  opacity: 0.6;
-}
-
-#button {
-  display: inline-block;
-  background-color: #333;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#button:active {
-  background-color: #555;
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
-</style>
-
-<script>
-var btn = $('#button');
-
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
-});
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
-</script>
+<script src="{{ '/assets/js/button.js' | relative_url }}"></script>
