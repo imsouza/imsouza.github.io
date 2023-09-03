@@ -1,0 +1,87 @@
+- layout: default
+  title: "Análise Exploratória de Dados"
+  url: "https://colab.research.google.com/github/imsouza/airplane-crash/blob/main/EDA%20-%20Airplane%20Crash.ipynb"
+  icon: "fa-solid fa-chart-line"
+  category: "Análise Exploratória de Dados"
+  image: "/assets/portfolio/airplane.svg"
+  alt: "Count of crashes by Year"
+  description: >
+    Exploração dos dados de acidentes aéreos mundiais de 1908 a 2009 utilizando técnicas de análise de causalidade e PCA em séries temporais para identificar padrões e tendências relacionadas às fatalidades.
+  keywords: "Airplane, Time Series, EDA, PCA, Kmeans, Granger Causality"
+
+- layout: default
+  title: "Ciência de Dados"
+  url: "https://colab.research.google.com/drive/1BF-CC7_g5wiY7XqKjYl65FS5m8bDJhM1?usp=sharing"
+  icon: "fa-solid fa-flask"
+  category: "Ciência de Dados"
+  image: "/assets/portfolio/covid.svg"
+  alt: "Covid-19 Analysis"
+  description: >
+    Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e análise de grafos. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
+  keywords: "Time Series, Machine Learning, Covid-19, Previsões"
+
+- layout: default
+  title: "Machine Learning"
+  url: "https://colab.research.google.com/drive/1FuTkYHyoYCpWS422nuLF_LcDMjLm2KGb?usp=sharing"
+  icon: "fa-solid fa-robot"
+  category: "Machine Learning"
+  image: "/assets/portfolio/beer.svg"
+  alt: "Beer Analysis"
+  description: >
+    Modelo regressivo para previsão do consumo de cerveja no estado de São Paulo. O objetivo é fornecer uma previsão precisa do consumo de cerveja que possam impactar a demanda levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
+  keywords: "Regressão Linear, Estatística, Cerveja"
+
+- layout: default
+  title: "Desenvolvimento Web"
+  url: "https://github.com/imsouza/account-balance"
+  icon: "fa-solid fa-desktop"
+  category: "Desenvolvimento Web"
+  image: "/assets/portfolio/accb.svg"
+  alt: "Account balance"
+  description: >
+    Este projeto envolve a criação de um sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
+  keywords: "Laravel, Conta Bancária, CRUD, Sistema"
+
+- layout: default
+  title: "Machine Learning"
+  url: "https://colab.research.google.com/drive/1m-pyGCxmjJkQX3n8kalPmBz488aaJLkU?usp=sharing"
+  icon: "fa-solid fa-robot"
+  category: "Machine Learning"
+  image: "/assets/portfolio/spellchecker.svg"
+  alt: "NLP"
+  description: >
+    Criação de um corretor ortográfico que utiliza técnicas de processamento de linguagem natural (NLP) juntamente com a biblioteca NLTK para validar erros ortográficos em textos em língua portuguesa.
+  keywords: "NLTK, NLP, Spell Checker"
+
+- layout: default
+  title: "Machine Learning"
+  url: "https://colab.research.google.com/drive/1HIDFgE819Yovue63iMI2wyicQPWLWMGc?usp=sharing"
+  icon: "fa-solid fa-robot"
+  category: "Machine Learning"
+  image: "/assets/portfolio/spotify.svg"
+  alt: "Spotify"
+  description: >
+    Sistema de recomendação de músicas utilizando a API do Spotify e algoritmos de clusterização. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário e nos clusters aos quais as músicas pertencem.
+  keywords: "Cluster, Spotify, Sistema, Músicas"
+
+- layout: default
+  title: "Visão Computacional"
+  url: "https://colab.research.google.com/drive/1i90wYeYHdOlo-EUXowqtVV3sGElBeYys?usp=sharing"
+  icon: "fa-solid fa-eye"
+  category: "Visão Computacional"
+  image: "/assets/portfolio/ocr.svg"
+  alt: "OCR"
+  description: >
+    Este projeto consiste em um sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
+  keywords: "OCR, Tesseract, Computer Vision"
+
+- layout: default
+  title: "Visão Computacional"
+  url: "https://colab.research.google.com/drive/1tMqZD0JZbfDW3dA9L3UOxxhO8KTk0X-u?usp=sharing"
+  icon: "fa-solid fa-eye"
+  category: "Visão Computacional"
+  image: "/assets/portfolio/face.svg"
+  alt: "Face Detection"
+  description: >
+    Modelo para detecção de rostos humanos em imagens utilizando a biblioteca OpenCV. O projeto também inclui a marcação dos rostos encontrados com retângulos e identificação de olhos.
+  keywords: "OpenCV, Face Detection, Visão Computacional"

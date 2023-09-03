@@ -43,3 +43,6 @@ collections:
   notas:
     output: true
     permalink: notas/:title/
+  projetos:
+    output: true
+
