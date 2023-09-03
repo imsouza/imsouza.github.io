@@ -43,17 +43,13 @@ layout: default
   {{ content }}
 </div>
 
-{% if page.comments %}
-  {% include disqus_comments.html %}
-{% endif %}
-
 <div class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8592;&nbsp;</a>
+    <a href="{{ page.next.url | prepend: site.baseurl }}" toggle="tooltip" data-placement="top" title="Post anterior" class="left arrow" style=" padding: 0.5% 1.5% 0 1.5%; color: #353535;">&nbsp;&#8592;&nbsp;</a>
   {% endif %}
   {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8594;&nbsp;</a>
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" toggle="tooltip" data-placement="top" title="Próximo post" class="right arrow" style="padding: 0.5% 1.5% 0 1.5%; color: #353535; color: #353535;">&nbsp;&#8594;&nbsp;</a>
   {% endif %}
 
-  <a href="#" class="top" style="top: 1.5rem; padding: 1.5%; border-radius: 5px; background-color: #353535; color: white">Ir para o topo</a>
+  <a href="#" class="top btn" toggle="tooltip" data-placement="top" title="Voltar para o topo" style="top: 1.5rem; padding: 0.5% 1.5% 0 1.5%; color: #353535"><i class="fa-sharp fa-solid fa-caret-up"></i></a>
 </div>
