@@ -26,6 +26,8 @@
   {% seo %}
 
   <!-- CSS -->
+  {% include preload.html %}
+
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
   {% if site.rtl %}<link rel="stylesheet" href="{{ '/assets/rtl.css' | relative_url }}">{% endif %}
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
@@ -53,6 +55,10 @@
     gtag('js', new Date());
 
     gtag('config', 'G-P9G89F6KLE');
+  </script>
+
+  <script type="text/javascript">
+    window.onload = function(){ setTimeout("console.clear()",4000) }
   </script>
 
 

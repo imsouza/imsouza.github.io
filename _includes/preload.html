@@ -1,7 +1,13 @@
-{% capture imageUrls %}
+{% capture cssCode %}
   {% for file in site.static_files %}
     {% if file.path contains 'assets/' and (file.path contains '.png' or file.path contains '.jpg' or file.path contains '.jpeg' or file.path contains '.gif' or file.path contains '.svg') %}
-      {{ file.path | relative_url }}
+      .img-{{ forloop.index }} {
+        background-image: url("{{ file.path | relative_url }}");
+      }
     {% endif %}
   {% endfor %}
 {% endcapture %}
+
+<style>
+  {{ cssCode | strip_newlines }}
+</style>
