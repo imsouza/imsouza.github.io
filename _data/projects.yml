@@ -83,5 +83,5 @@
   image: "/assets/portfolio/face.svg"
   alt: "Face Detection"
   description: >
-    Modelo para detecção de rostos humanos em imagens utilizando a biblioteca OpenCV. O projeto também inclui a marcação dos rostos encontrados com retângulos e identificação de olhos.
+    Modelo para detecção de máscaras em rostos humanos utilizando a biblioteca OpenCV juntamente com a técnica de Aprendizado por Métricas (Metric Learning).
   keywords: "OpenCV, Face Detection, Visão Computacional"
