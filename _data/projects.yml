@@ -7,7 +7,7 @@
   alt: "Count of crashes by Year"
   description: >
     Exploração dos dados de acidentes aéreos mundiais de 1908 a 2009 utilizando técnicas de análise de causalidade e PCA em séries temporais para identificar padrões e tendências relacionadas às fatalidades.
-  keywords: "Airplane, Time Series, EDA, PCA, Kmeans, Granger Causality"
+  keywords: "Airplane, Time Series, EDA, PCA, Kmeans"
 
 - layout: default
   title: "Ciência de Dados"
@@ -17,7 +17,7 @@
   image: "/assets/portfolio/covid.svg"
   alt: "Covid-19 Analysis"
   description: >
-    Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo, considerando fatores como tendência, sazonalidade, erro, ciclicidade e análise de grafos. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
+    Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
   keywords: "Time Series, Machine Learning, Covid-19, Previsões"
 
 - layout: default
@@ -28,7 +28,7 @@
   image: "/assets/portfolio/beer.svg"
   alt: "Beer Analysis"
   description: >
-    Modelo regressivo para previsão do consumo de cerveja no estado de São Paulo. O objetivo é fornecer uma previsão precisa do consumo de cerveja que possam impactar a demanda levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
+    Modelo para previsão do consumo de cerveja no estado de São Paulo levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
   keywords: "Regressão Linear, Estatística, Cerveja"
 
 - layout: default
@@ -39,7 +39,7 @@
   image: "/assets/portfolio/accb.svg"
   alt: "Account balance"
   description: >
-    Este projeto envolve a criação de um sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
+    Sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
   keywords: "Laravel, Conta Bancária, CRUD, Sistema"
 
 - layout: default
@@ -61,7 +61,7 @@
   image: "/assets/portfolio/spotify.svg"
   alt: "Spotify"
   description: >
-    Sistema de recomendação de músicas utilizando a API do Spotify e algoritmos de clusterização. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário e nos clusters aos quais as músicas pertencem.
+    Sistema de recomendação de músicas utilizando a API do Spotify. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário.
   keywords: "Cluster, Spotify, Sistema, Músicas"
 
 - layout: default
@@ -72,7 +72,7 @@
   image: "/assets/portfolio/ocr.svg"
   alt: "OCR"
   description: >
-    Este projeto consiste em um sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
+    Sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
   keywords: "OCR, Tesseract, Computer Vision"
 
 - layout: default

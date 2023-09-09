@@ -22,7 +22,7 @@ permalink: /projetos/
     <section class="portfolio">
       <div class="showcase">
         {% for project in site.data.projects %}
-            <a href="{{ project.url }}" aria-haspopup="true" target="_blank" onclick="" class="item">
+            <div class="item" aria-haspopup="true">
               <p class="category">
                 <i class="{{ project.icon }}"></i>&nbsp;{{ project.category }}
               </p>
@@ -31,10 +31,13 @@ permalink: /projetos/
                 <p class="text">
                   {{ project.description }}
                   <br>
+                  <br>
+                  <a href="{{ project.url }}" class="link" aria-haspopup="true" target="_blank" onclick="">Acessar Projeto <i class="fa-solid fa-square-arrow-up-right"></i></a>
                   <p class="text keywords">Palavras-chave: {{ project.keywords }}</p>
                 </p>
               </div>
-            </a>
+            </div>
+
         {% endfor %}
       </div>
     </section>
