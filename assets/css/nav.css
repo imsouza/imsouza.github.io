@@ -1,6 +1,6 @@
-  * {
-    font-family: monospace;
-  }
+* {
+font-family: monospace;
+}
 
 /* Desktop and Tablet Menu */
 .menu {
@@ -12,6 +12,18 @@
     display: none; /* Hide the mobile menu by default */
 }
 
+.mobile-menu ul li {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+.align {
+    padding: 0;
+    margin: 0;
+}
+
 /* Media query for screens up to 768px (typical tablet size) */
 @media (max-width: 768px) {
   /* Desktop and Tablet Menu (Hide on screens up to 768px) */
@@ -21,15 +33,7 @@
 
   /* Mobile Menu (Show on screens up to 768px) */
   .mobile-menu {
-    margin: 0;
-    padding: 0;
     font-size: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center;
-    flex-direction: row;
   }
 
 }

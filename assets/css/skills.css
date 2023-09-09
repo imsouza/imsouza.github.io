@@ -28,23 +28,20 @@ ul, li {
 }
 
 .skills-list li {
-  color: #fff;
-    text-align: center;
-
-  background-color: #353535;
+  color: #353535;
+  text-align: left;
+  background-color: #fff;
   border-radius: 0;
-  text-align: center;
 }
 
-.skills-list h3 {
-  font-size: 20px;
-  color: #fff;
+.skills-list p {
+  margin-bottom: 0;
 }
 
 .progressbar {
   width: 100%;
   text-align: center;
-  background-color: #555;
+  background-color: #e6e6e6;
   height: 20px;
   border-radius: 0;
   position: relative; /* Add position relative */
@@ -52,7 +49,7 @@ ul, li {
 
 .progress {
   height: 100%;
-  background-color: #e6e6e6; /* Progress bar color */
+  background-color: #353535; /* Progress bar color */
   border-radius: 0;
   transition: width 0.5s ease;
   text-align: center;
@@ -64,7 +61,7 @@ ul, li {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  color: #353535; /* Customize text color */
+  color: #e6e6e6; /* Customize text color */
   line-height: 20px;
 }
 
