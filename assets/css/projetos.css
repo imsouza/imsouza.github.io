@@ -19,6 +19,7 @@
 .link {
   border: 1px solid #fff;
   padding: 2%;
+  line-height: 20px;
   font-weight: bolder;
   color: #fff;
 }
