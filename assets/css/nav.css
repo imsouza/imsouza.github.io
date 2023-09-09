@@ -9,7 +9,7 @@
 
 /* Mobile Menu */
 .mobile-menu {
-  display: none; /* Hide the mobile menu by default */
+    display: none; /* Hide the mobile menu by default */
 }
 
 /* Media query for screens up to 768px (typical tablet size) */
@@ -21,11 +21,15 @@
 
   /* Mobile Menu (Show on screens up to 768px) */
   .mobile-menu {
-    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     text-align: center;
+    flex-direction: row;
   }
 
 }
