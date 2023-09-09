@@ -22,6 +22,9 @@
   /* Mobile Menu (Show on screens up to 768px) */
   .mobile-menu {
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
   }
 
