@@ -1,6 +1,6 @@
 .hovertag {
   border-radius: 0!important; 
-  font-size: 65%;
+  font-size: 80%;
   opacity: 0.6;
   background-color: #555;
   transition: 0.3s;
@@ -8,4 +8,10 @@
 
 .hovertag:hover {
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .hovertag {
+      font-size: 18px; 
+    }
 }
