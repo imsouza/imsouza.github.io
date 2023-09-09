@@ -1,0 +1,83 @@
+/* Reset some default styles */
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-list {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  margin: 3% auto 0 auto;
+}
+
+/* Define a responsive grid layout with media queries */
+@media (min-width: 768px) {
+  .skills-list {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for screens >= 768px */
+  }
+}
+
+@media (min-width: 992px) {
+  .skills-list {
+    grid-template-columns: repeat(4, 1fr); /* Four columns for screens >= 992px */
+  }
+}
+
+.skills-list li {
+  color: #fff;
+    text-align: center;
+
+  background-color: #353535;
+  border-radius: 0;
+  text-align: center;
+}
+
+.skills-list h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.progressbar {
+  width: 100%;
+  text-align: center;
+  background-color: #555;
+  height: 20px;
+  border-radius: 0;
+  position: relative; /* Add position relative */
+}
+
+.progress {
+  height: 100%;
+  background-color: #e6e6e6; /* Progress bar color */
+  border-radius: 0;
+  transition: width 0.5s ease;
+  text-align: center;
+}
+
+.percentage {
+  position: absolute;
+  top: -80%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #353535; /* Customize text color */
+  line-height: 20px;
+}
+
+@keyframes fillWidth {
+  from {
+    width: 0%;
+  }
+  
+  to {
+    width: {{ skill.percentage }}%;
+  }
+}
+
+.progress {
+  animation: fillWidth 0.9s ease;
+}

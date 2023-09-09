@@ -1,0 +1,38 @@
+---
+layout: default
+title: "Skills"
+author: "Mateus Almeida"
+permalink: /skills
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ '/assets/css/skills.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <div class="tags-header">
+    <div>&nbsp;</div>
+    <h2 class="tags-header-title">{{ page.title }}</h2>
+    <div class="tags-header-line"></div>
+  </div>
+  <section>
+    <ul class="skills-list">
+      {% for skill in site.data.skills %}
+      <li>
+        <p>{{ skill.name }}</p>
+        <div class="progressbar">
+          <div class="progress" style="width: {{ skill.percentage }}%;">
+            <p class="percentage">{{ skill.percentage }}%</p>
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</body>
+</html>
