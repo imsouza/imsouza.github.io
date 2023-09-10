@@ -23,20 +23,6 @@
   opacity: 1;
 }
 
-i {
-  padding-top: 4%;
-  font-size: 24px;
-}
-
-.social {
-  opacity: 0.6;
-  transition: 0.3s;
-}
-
-.social:hover {
-  opacity: 1;
-}
-
 .circle-photo {
   width: 150px;
   height: 150px;
