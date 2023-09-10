@@ -11,8 +11,21 @@
   transition: 0.3s;
 }
 
+.nav-title2 {
+  opacity: 0.6;
+  color: ;
+  padding: 0;
+  margin-bottom: 0;
+  padding-top: 2.5%;
+}
+
 .cv:hover {
   opacity: 1;
+}
+
+i {
+  padding-top: 4%;
+  font-size: 20px;
 }
 
 .social {

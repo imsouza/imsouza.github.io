@@ -10,9 +10,11 @@ permalink: /
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/assets/css/sobre.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/skills.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
 </head>
 <body>
+  <a id="button"></a>
   <div class="tags-header">
     <div>&nbsp;</div>
     <div class="circle-photo">
@@ -24,7 +26,24 @@ permalink: /
       {% for paragraph in site.data.about.intro %}
         {{ paragraph | newline_to_br }}
       {% endfor %}
+
+      <center><h2 class="nav-title2">Habilidades</h2></center>
+      <ul class="skills-list">
+        {% for skill in site.data.skills %}
+        <li>
+          <p>{{ skill.name }}</p>
+          <div class="progressbar">
+            <div class="progress" style="width: {{ skill.percentage }}%;">
+              <p class="percentage">{{ skill.percentage }}%</p>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
     </p>
+  </section>
+
+  <section>
     <center>
       {% for social in site.data.about.social_icons %}
         <a class="social" toggle="tooltip" data-placement="top" title="{{ social.name }}" href="{{ social.url | relative }}" target="_blank" style="color: #555;"><i class="{{ social.icon }}"></i></a>
