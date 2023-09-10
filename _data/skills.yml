@@ -8,12 +8,12 @@
   percentage: 90
 - name: Keras
   percentage: 90
+- name: Excel
+  percentage: 90
 - name: PyTorch
   percentage: 80
 - name: Numpy
   percentage: 80
-- name: Excel
-  percentage: 90
 - name: OpenCV
   percentage: 70
 - name: SQL
