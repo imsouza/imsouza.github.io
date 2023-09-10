@@ -1,7 +1,5 @@
 - name: C
   percentage: 100
-- name: EDA
-  percentage: 100
 - name: Pandas
   percentage: 100
 - name: Python
@@ -14,6 +12,8 @@
   percentage: 80
 - name: Numpy
   percentage: 80
+- name: PowerBI
+  percentage: 70
 - name: OpenCV
   percentage: 70
 - name: SQL
