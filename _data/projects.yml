@@ -45,8 +45,8 @@
 - layout: default
   title: "Machine Learning"
   url: "https://colab.research.google.com/drive/1m-pyGCxmjJkQX3n8kalPmBz488aaJLkU?usp=sharing"
-  icon: "fa-solid fa-robot"
-  category: "Machine Learning"
+  icon: "fa-solid fa-language"
+  category: "Processamento de Linguagem Natural"
   image: "/assets/portfolio/spellchecker.svg"
   alt: "NLP"
   description: >
@@ -85,3 +85,25 @@
   description: >
     Modelo para detecção de máscaras em rostos humanos utilizando a biblioteca OpenCV juntamente com a técnica de Aprendizado por Métricas (Metric Learning).
   keywords: "OpenCV, Face Detection, Visão Computacional"
+
+- layout: default
+  title: "Desenvolvimento Web"
+  url: "https://github.com/imsouza/osorvetao-site"
+  icon: "fa-solid fa-desktop"
+  category: "Desenvolvimento Web"
+  image: "/assets/portfolio/svt.svg"
+  alt: "Landing page"
+  description: >
+    Landing page estática desenvolvida para a sorveteria oSorvetão utilizando HTML5, Gulp, Bootstrap3 e JavaScript.
+  keywords: "Front-end, Site"
+
+- layout: default
+  title: "Desenvolvimento Web"
+  url: "https://github.com/imsouza/account-balance"
+  icon: "fa-solid fa-desktop"
+  category: "Desenvolvimento Web"
+  image: "/assets/portfolio/box.svg"
+  alt: "CRUD Estoque"
+  description: >
+    Sistema de gerenciamento de estoque usando o framework Laravel. Ele permitirá aos usuários gerenciar o estoque de mercadorias de maneira fácil a fim de controlar o fluxo de entradas e saídas.
+  keywords: "Laravel, CRUD, Sistema"
