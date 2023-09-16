@@ -11,6 +11,15 @@
   transition: 0.3s;
 }
 
+.link {
+  border: 1px solid #353535;
+  line-height: 20px;
+  padding: 2%;
+  font-weight: bolder;
+  color: #353535;
+  opacity: 0.6;
+}
+
 .nav-title2 {
   opacity: 0.6;
   color: ;
@@ -19,6 +28,9 @@
   padding-top: 2.5%;
 }
 
+.link:hover {
+  opacity: 1;
+}
 .cv:hover {
   opacity: 1;
 }

@@ -10,7 +10,7 @@ permalink: /
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{ '/assets/css/sobre.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/skills.css' | relative_url }}">
+  <!--<link rel="stylesheet" href="{{ '/assets/css/skills.css' | relative_url }}">-->
   <link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
 </head>
 <body>
@@ -26,6 +26,8 @@ permalink: /
       {% for paragraph in site.data.about.intro %}
         {{ paragraph | newline_to_br }}
       {% endfor %}
+      <br><br>
+      <a href="/assets/cv/Curriculo.pdf" class="link" aria-haspopup="true" target="_blank" onclick="">Download CV</a>
 
       <!--
       <center><h2 class="nav-title2">Habilidades</h2></center>
