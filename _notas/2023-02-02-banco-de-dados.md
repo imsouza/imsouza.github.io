@@ -3,6 +3,7 @@ layout: note
 title: "Banco de Dados"
 author: "Mateus Almeida"
 categories: [notas]
+tags: [Banco de Dados]
 ---
 
 # Sumário

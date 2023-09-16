@@ -5,6 +5,9 @@ author: "Mateus Almeida"
 permalink: /notas/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}">
+
+
 <a id="button"></a>
 
 <div class="tags">
@@ -14,127 +17,40 @@ permalink: /notas/
   <div class="tags-header-line"></div>
 </div>
 
-{% for nota in site.notas %}
-  {% if nota.categories contains 'notas' %}
-    <a class="tags-post" href="{{ nota.url | prepend: site.baseurl }}">
-      <div>
-        <span class="tags-post-title">{{ nota.title }}</span>
-        <div class="tags-post-line"></div>
+<div class="tags-clouds">
+  {% assign unique_tags = "" %}
+  {% for nota in site.notas %}
+    {% for tag in nota.tags %}
+      {% unless unique_tags contains tag %}
+        <a href="javascript:void(0);" class="hovertag" data-tag="{{ tag }}">{{ tag }}</a>
+        {% capture unique_tags %}{{ unique_tags | append: tag | append: "," }}{% endcapture %}
+      {% endunless %}
+    {% endfor %}
+  {% endfor %}
+</div>
+
+<div class="tags-posts">
+  {% for nota in site.notas %}
+    {% if nota.categories contains 'notas' %}
+      <div class="nota-tags">
+        {% for tag in nota.tags %}
+          <a class="tags-post" href="{{ nota.url | prepend: site.baseurl }}" data-tag="{{ tag }}">
+            <div>
+              <span class="tags-post-title">{{ nota.title }}</span>
+              <div class="tags-post-line"></div>
+            </div>
+            <span class="tags-post-meta" style="display: grid;">
+              <time datetime="{{ post.date }}">
+                {{ nota.date | date:"%Y-%m-%d" }}
+              </time>
+            </span>
+          </a>
+        {% endfor %}
       </div>
-      <span class="tags-post-meta">
-        <time datetime="{{ nota.date }}">
-          {{ nota.date | date:"%Y-%m-%d" }}
-        </time>
-      </span>
-    </a>
-  {% endif %}
-{% endfor %}
-</div>
-
-<!--
-<div class="catalogue">
- {% for note in site.notas %}
-   {% if note.categories contains 'notas' %}
-    <a href="{{ note.url | prepend: site.baseurl }}" class="catalogue-item">
-      <time datetime="{{ note.date }}" class="catalogue-time">
-        {% assign m = note.date | date: "%-m" %}
-        {{ note.date | date: "%-d" }}
-        {% case m %}
-          {% when '1' %}Janeiro
-          {% when '2' %}Fevereiro
-          {% when '3' %}Março
-          {% when '4' %}Abril
-          {% when '5' %}Maio
-          {% when '6' %}Junho
-          {% when '7' %}Julho
-          {% when '8' %}Agosto
-          {% when '9' %}Setembro
-          {% when '10' %}Outubro
-          {% when '11' %}Novembro
-          {% when '12' %}Dezembro
-        {% endcase %}
-        {{ note.date | date: "%Y" }}
-      </time>
-
-        <h1 class="catalogue-title">{{ note.title }}</h1>
-        <div class="catalogue-line"></div>
-        <p>
-          {% if note.excerpt_separator %}
-            {{ note.excerpt | strip_html }}
-          {% else %}
-            {{ note.content | strip_html | truncatewords: 30 }}
-          {% endif %}
-        </p>    
-    </a>
     {% endif %}
-{% endfor %}
+  {% endfor %}
 </div>
 
+<script src="{{ '/assets/js/hover-notes.js' | relative_url }}"></script>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="left arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8592;&nbsp;</a>
-  {% endif %}
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="right arrow" style="top: 1.5rem; padding: 1% 1.5% 0 1.5%; border-radius: 2.5px; background-color: #353535; color: white;">&nbsp;&#8594;&nbsp;</a>
-  {% endif %}
-
-  <span>{{ paginator.page }}</span>
-</div>
--->
-
-<style>
-#button {
-  display: inline-block;
-  background-color: #333;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
-}
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#button:active {
-  background-color: #555;
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
-}
-</style>
-
-<script>
-var btn = $('#button');
-
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
-});
-
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
-});
-</script>
+<script src="{{ '/assets/js/button.js' | relative_url }}"></script>
