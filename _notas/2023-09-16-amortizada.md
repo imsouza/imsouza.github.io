@@ -4,6 +4,7 @@ title: "Teste2"
 author: "Mateus Almeida"
 categories: [notas]
 tags: [Projeto e Análise de Algoritmos]
+mermaid: true
 ---
 
 $$
@@ -22,3 +23,12 @@ $$
     \end{array} \right)
 \end{align*}
 $$
+
+<div class="mermaid">
+
+graph LR
+    A --- B
+    B-->C[Happy]
+    B-->D(Sad);
+
+</div>
