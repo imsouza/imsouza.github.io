@@ -7,6 +7,7 @@ tags: [Projeto e Análise de Algoritmos]
 mermaid: true
 ---
 
+<div class="responsive-latex">
 $$
 \begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
@@ -23,12 +24,18 @@ $$
     \end{array} \right)
 \end{align*}
 $$
+</div>
 
+
+<center>
 <div class="mermaid">
-
 graph LR
     A --- B
     B-->C[Happy]
     B-->D(Sad);
-
+    A --- B
+    D-->E[Happy]
+    E-->F(Sad);
+    F-->G(Sad);
 </div>
+</center>
