@@ -9,7 +9,7 @@ mermaid: true
 
 ## Pseudocódigo
 
-<pre>
+<pre class="responsive-latex">
 1  |PROCEDIMENTO BubbleSort(A[] : Inteiro):
 2  |VAR
 3  |  | i, j, t : Inteiro
