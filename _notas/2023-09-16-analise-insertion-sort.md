@@ -111,7 +111,7 @@ $$
 \\
 =1/2(n(n-1)/2)
 \\
-=n(n-1)/4 = O(n^2)
+=n(n-1)/4 = \Theta(n^{2})
 $$
 
 #### Número esperado de execuções no total (linha 8)
