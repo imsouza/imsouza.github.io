@@ -12,7 +12,7 @@ mermaid: true
 <pre class="responsive-latex">
 1  |PROCEDIMENTO InsertionSort(A[] : Inteiro):
 2  |VAR
-3  |  | i, j : Inteiro
+3  |  |i, j : Inteiro
 4  |INICIO
 5  |  |PARA j <- 2 ATÉ Comprimento(A), FAÇA:
 6  |  |  |chave <- A[j] // Insere A[j] na parte ordenada A[1..j-1]

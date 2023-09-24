@@ -12,7 +12,7 @@ mermaid: true
 <pre class="responsive-latex">
 1  |PROCEDIMENTO BubbleSort(A[] : Inteiro):
 2  |VAR
-3  |  | i, j, t : Inteiro
+3  |  |i, j, t : Inteiro
 4  |INICIO
 5  |  |PARA i <- Comprimento(A) ATÉ 1, FAÇA:
 6  |  |  |PARA j <- 2, ATÉ i, FAÇA:
