@@ -96,7 +96,7 @@ $$
 ### Caso médio
 >Para cada valor de j, a linha 8 é executada de 1 a j vezes.
 
->Qual a probabilidade dela ser executada t vezes? R: 1/j
+>Qual a probabilidade dela ser executada t vezes? R: 1/j.
 
 >$$E\left [ x \right ] = t(1/j)$$
 

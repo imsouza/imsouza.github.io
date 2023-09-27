@@ -9,7 +9,7 @@ mermaid: true
 
 ## Pseudocódigo
 
-### HeapSort
+### Heap Sort
 <pre class="responsive-latex">
 1  |PROCEDIMENTO HeapSort(A[] : Inteiro):
 2  |VAR
@@ -92,7 +92,7 @@ Os filhos do elemento A[i] estão em posições maiores que i e, pela propriedad
 ### Finalização
 Quando i=0, pela invariante de laço, 1, 2, 3,..., n são raizes de um heap máximo. Particularmente, o nó 1 é raiz do heap contendo todos elementos de A.
 
-## Corretude HeapSort
+## Corretude Heap Sort
 
 ### Laço invariante
 Laço para as linhas 6 a 10.
@@ -108,3 +108,49 @@ Supondo que o invariante é verdadeiro antes da i-ésima iteração, temos que A
 
 ### Finalização
 Após a n-ésima iteração do laço inariante, temos que A[2..n] está ordenado e A[1] é o menor elemento do array, ou seja, o array estará ordenado.
+
+## Complexidade de tempo
+>O melhor caso do Heap Sort ocorre quando o vetor já está ordenado. Isso ocorre porque, quando o vetor já está ordenado, o Heap Sort não precisa fazer nenhuma troca de elementos, apenas construir o heap e retirar os elementos em ordem crescente.
+
+>O pior caso do Heap Sort ocorre quando o vetor está ordenado de forma inversa, ou seja, em ordem decrescente. Isso ocorre porque, quando o vetor está ordenado de forma inversa, o Heap Sort precisa fazer muitas trocas de elementos para construir o heap e retirar os elementos em ordem crescente.
+
+>No caso médio, a complexidade de tempo do Heap Sort é $$\Theta(n log n)$$. Isso ocorre porque, em média, o Heap Sort precisa fazer cerca de n/2 trocas de elementos para construir o heap e retirar os elementos em ordem crescente.
+
+>Nº de nós com altura h=$$\left \lceil n/2^{h+1} \right \rceil$$
+
+## Tempo total
+
+### ConstruirHeapMax
+> Para qualquer sub-árvore da árvore, temos 2n/3 nós sendo o número máximo de elementos.
+
+<center>
+<div class="mermaid">
+  graph TD;
+    A((&nbsp;))
+    B((&nbsp;))
+    C((&nbsp;))
+    A --> B;
+    A --> C;
+</div>
+</center>
+
+$$
+T(n) = T(2n/3) + O(1)
+\\=O(logn) \therefore | h=logn
+\\=O(h)
+$$
+
+$$
+\sum_{h=0}^{logn}\left \lceil n/2^{h+1} \right \rceil O(h)
+\\=\sum_{h=0}^{logn}\left \lceil n/2^{n}\cdot 2 \right \rceil O(ch)
+\\=cn/2\sum_{h=0}^{logn}\left \lceil h/2^{h}\cdot 2 \right \rceil
+\\=cn/2\cdot 2 = O(n)
+$$
+
+### Heap Sort
+
+$$
+T(n) = (Complexidade de tempo do ConstruirHeapMax) + 
+	   \\(Complexidade de tempo do MaxHeapify)
+\\=O(n) + (n-1) + \left [ O(logn) \right ] = O(nlogn)
+$$
