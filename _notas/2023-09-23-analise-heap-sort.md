@@ -138,7 +138,7 @@ $$
 T(n) = T(2n/3) + O(1)
 \\=O(logn) \therefore | h=logn
 \\=O(h)
-\sum_{h=0}^{logn}\left \lceil n/2^{h+1} \right \rceil O(h)
+\\\sum_{h=0}^{logn}\left \lceil n/2^{h+1} \right \rceil O(h)
 \\=\sum_{h=0}^{logn}\left \lceil n/2^{n}\cdot 2 \right \rceil O(ch)
 \\=cn/2\sum_{h=0}^{logn}\left \lceil h/2^{h}\cdot 2 \right \rceil
 \\=cn/2\cdot 2 = O(n)
