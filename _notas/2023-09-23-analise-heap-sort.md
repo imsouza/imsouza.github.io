@@ -87,7 +87,7 @@ No começo de cada laço invariante, cada nó i+1, i+2, ..., n é a raiz de um h
 Antes da primeira iteração, temos que i=$$\left \lfloor n/2 \right \rfloor$$ e cada nó $$\left \lfloor n/2 \right \rfloor$$ + 1, $$\left \lfloor n/2 \right \rfloor$$ + 2, ..., n é uma folha e, portanto, é a raiz de um heap máximo. 
 
 ### Manutenção
-Os filhos do elemento A[i] estão em posições maiores que i e, pela propriedade invariante, são raizes de heaps máximos. Sabemos que esta é a condição exigida pelo procedimento MaxHeapify para que a chamada MaxHeapify(A, i) torne a posição i a raiz de um heap máximo. Logo, após a chamada MaxHeapify(A, i), temos que o nó i é a raiz de um heap máximo. Ao decrementar i, temos que a propriedade invariante é verdadeira para a próxima iteração do laço.
+Supondo que o invariante é verdadeiro antes da i-ésima iteração do laço invariante, os filhos do elemento A[i] estão em posições maiores que i e, pela propriedade invariante, são raizes de heaps máximos. Sabemos que esta é a condição exigida pelo procedimento MaxHeapify para que a chamada MaxHeapify(A, i) torne a posição i a raiz de um heap máximo. Logo, após a chamada MaxHeapify(A, i), temos que o nó i é a raiz de um heap máximo. Ao decrementar i, temos que a propriedade invariante é verdadeira para a próxima iteração do laço.
 
 ### Finalização
 Quando i=0, pela invariante de laço, 1, 2, 3,..., n são raizes de um heap máximo. Particularmente, o nó 1 é raiz do heap contendo todos elementos de A.
