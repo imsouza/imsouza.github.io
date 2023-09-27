@@ -149,8 +149,7 @@ $$
 
 ### Heap Sort
 
-$$
-T(n) = (Complexidade de tempo do ConstruirHeapMax) + 
-	   \\(Complexidade de tempo do MaxHeapify)
+T(n) = (Complexidade de tempo do ConstruirHeapMax) + (Complexidade de tempo do MaxHeapify)
+$$	   
 \\=O(n) + (n-1) + \left [ O(logn) \right ] = O(nlogn)
 $$
