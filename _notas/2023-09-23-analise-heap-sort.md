@@ -118,9 +118,9 @@ Após a n-ésima iteração do laço inariante, temos que A[2..n] está ordenado
 
 >Nº de nós com altura h=$$\left \lceil n/2^{h+1} \right \rceil$$
 
-## Tempo total
+### Tempo total
 
-### ConstruirHeapMax
+#### ConstruirHeapMax
 > Para qualquer sub-árvore da árvore, temos 2n/3 nós sendo o número máximo de elementos.
 
 <center>
@@ -144,7 +144,7 @@ T(n) = T(2n/3) + O(1)
 \\=cn/2\cdot 2 = O(n)
 $$
 
-### Heap Sort
+#### Heap Sort
 
 T(n) = (Complexidade de tempo do ConstruirHeapMax) + (Complexidade de tempo do MaxHeapify)
 
