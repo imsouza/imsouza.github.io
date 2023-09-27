@@ -4,7 +4,6 @@ title: "Análise Bubble Sort"
 author: "Mateus Almeida"
 categories: [notas]
 tags: [Projeto e Análise de Algoritmos]
-mermaid: true
 ---
 
 ## Pseudocódigo
