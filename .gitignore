@@ -6,3 +6,4 @@ _site
 Gemfile.lock
 .jekyll-cache
 run.sh
+push.sh
