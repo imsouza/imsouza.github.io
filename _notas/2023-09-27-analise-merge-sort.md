@@ -71,10 +71,8 @@ Com base na manutenção, é possível afirmar que (x) está sendo copiado corre
 ## Complexidade de tempo
 >O melhor caso do Merge Sort é quando o vetor já está ordenado. Isso ocorre porque o algoritmo divide o vetor em subvetores menores e, em seguida, os mescla em ordem crescente. Quando o vetor já está ordenado, o algoritmo não precisa fazer a mesclagem, pois cada subvetor já está ordenado, resultando em uma complexidade de tempo de O(n lg n) para o melhor, pior e caso médio.
 
-### Tempo total
+>Dado um vetor de tamanho n, o vetor será dividido em n/2 recursivamente até sobrar vetores de tamanho 1. Assim, $$n/2^{x} = 2^{x}$$ onde x é o número de divisões recursivas, assim, $$x=lgn$$.
 
-Dado um vetor de tamanho n, o vetor será dividido em n/2 recursivamente até sobrar vetores de tamanho 1. Assim, $$n/2^{x} = 2^{x}$$ onde x é o número de divisões recursivas, assim, $$x=lgn$$
-
-#### Comparações
+#### Tempo total
 
 Para cada etapa em que será realizada o merge teremos no máximo n comparações. A quantidade de etapas, por nível, será lgn, porém, em cada nível teremos n comparações, logo o resultado é O(nlgn) para todos os casos.
