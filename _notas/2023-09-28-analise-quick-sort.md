@@ -101,7 +101,8 @@ No término, j = r. Portanto, todas as entradas no vetor estão em um dos três 
 Na divisão mais uniforme possível, o algoritmo Particiona produz dois subproblemas, cada um com tamanho não maior que n/2, já que um é de tamanho \\(\left \lfloor n/2 \right \rfloor\\) e um de tamanho \\(\left \lceil n/2 \right \rceil - 1\\).
 
 $$
-T(n) = T(\left \lceil 1/2(n-1) \right \rceil) + T(\left \lfloor 1/2(n-1) \right \rfloor) + n-1
+T(n) = T(\left \lceil 1/2(n-1) \right \rceil) 
+\\+ T(\left \lfloor 1/2(n-1) \right \rfloor) + n-1
 $$
 
 >n-1 é o número de comparações que Particiona faz.
