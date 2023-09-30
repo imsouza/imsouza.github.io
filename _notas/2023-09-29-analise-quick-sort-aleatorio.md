@@ -84,7 +84,7 @@ Assumindo que \\(p_{ij}\\) é a probabilidade de \\(S_{i}\\) ser comparado com \
 
 $$
 \therefore E[X_{ij}] = 1 \cdot p_{ij} + 0 \cdot (1-p_{ij})
-\\=E[X_{ij} = p_{ij}]
+\\=E[X_{ij}] = p_{ij}
 \\=E[T_{c}] = E\left [ \sum_{i=1}^{n}\left ( \sum_{j > i}^{n} (p_{ij}) \right ) \right ]
 $$
 
