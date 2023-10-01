@@ -27,3 +27,6 @@ Os programas de usuário invocam serviços do SO por meio das chamadas de sistem
 ## Formas de Processamento do SO
 - Serial (Monoprogramação): recursos alocados a um único programa.
 - Concorrente (Multiprogramação): recursos dinamicamente reassociados entre uma coleção de programas em diferentes estágios.
+
+## Inicialização
+O processo de inicialização começa com o BIOS, que é um programa de firmware embutido na placa-mãe do computador na memória EEPROM. O programa bootstrap é o programa inicial que é executado quando o computador é ligado. Ele é responsável por encontrar o kernel do sistema operacional no disco e carregá-lo na memória.
