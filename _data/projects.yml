@@ -80,7 +80,7 @@
   url: "https://github.com/imsouza/products-crud"
   icon: "fa-solid fa-desktop"
   category: "Desenvolvimento Web"
-  image: "/assets/portfolio/crud.png"
+  image: "/assets/portfolio/box.png"
   alt: "CRUD Estoque"
   description: >
     Sistema de gerenciamento de estoque usando o framework Laravel. Ele permitirá aos usuários gerenciar o estoque de mercadorias de maneira fácil a fim de controlar o fluxo de entradas e saídas.
