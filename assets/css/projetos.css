@@ -76,6 +76,7 @@
 }
 .overlay:hover{
   background-color: #353535;
+  filter: grayscale(10%);
 }
 .overlay:hover .text {
   opacity: 1;
@@ -114,7 +115,6 @@
   padding: 2% 5% 2% 5%;
   z-index: 1;
   font-weight: bolder;
-  color: #fff;
 }
 
 .keywords {

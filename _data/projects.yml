@@ -3,7 +3,7 @@
   url: "https://colab.research.google.com/github/imsouza/airplane-crash/blob/main/EDA%20-%20Airplane%20Crash.ipynb"
   icon: "fa-solid fa-chart-line"
   category: "Análise Exploratória de Dados"
-  image: "/assets/portfolio/airplane.svg"
+  image: "/assets/portfolio/airplane.png"
   alt: "Count of crashes by Year"
   description: >
     Exploração dos dados de acidentes aéreos mundiais de 1908 a 2009 utilizando técnicas de análise de causalidade e PCA em séries temporais para identificar padrões e tendências relacionadas às fatalidades.
@@ -14,7 +14,7 @@
   url: "https://colab.research.google.com/drive/1BF-CC7_g5wiY7XqKjYl65FS5m8bDJhM1?usp=sharing"
   icon: "fa-solid fa-flask"
   category: "Ciência de Dados"
-  image: "/assets/portfolio/covid.svg"
+  image: "/assets/portfolio/covid.png"
   alt: "Covid-19 Analysis"
   description: >
     Modelo preditivo sobre a evolução da Covid-19 no Espírito Santo. O objetivo é obter uma visão aprofundada da evolução da pandemia e seu impacto na região.
@@ -25,7 +25,7 @@
   url: "https://colab.research.google.com/drive/1FuTkYHyoYCpWS422nuLF_LcDMjLm2KGb?usp=sharing"
   icon: "fa-solid fa-robot"
   category: "Machine Learning"
-  image: "/assets/portfolio/beer.svg"
+  image: "/assets/portfolio/beer.png"
   alt: "Beer Analysis"
   description: >
     Modelo para previsão do consumo de cerveja no estado de São Paulo levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
@@ -36,7 +36,7 @@
   url: "https://github.com/imsouza/account-balance"
   icon: "fa-solid fa-desktop"
   category: "Desenvolvimento Web"
-  image: "/assets/portfolio/accb.svg"
+  image: "/assets/portfolio/accb.png"
   alt: "Account balance"
   description: >
     Sistema de conta bancária usando o framework Laravel. Ele permitirá aos usuários gerenciar suas finanças de maneira fácil, incluindo funcionalidades como transferências, pagamentos, depósito, saque e visualização de extrato.
@@ -44,21 +44,10 @@
 
 - layout: default
   title: "Machine Learning"
-  url: "https://colab.research.google.com/drive/1m-pyGCxmjJkQX3n8kalPmBz488aaJLkU?usp=sharing"
-  icon: "fa-solid fa-language"
-  category: "Processamento de Linguagem Natural"
-  image: "/assets/portfolio/spellchecker.svg"
-  alt: "NLP"
-  description: >
-    Criação de um corretor ortográfico que utiliza técnicas de processamento de linguagem natural (NLP) juntamente com a biblioteca NLTK para validar erros ortográficos em textos em língua portuguesa.
-  keywords: "NLTK, NLP, Spell Checker"
-
-- layout: default
-  title: "Machine Learning"
   url: "https://colab.research.google.com/drive/1HIDFgE819Yovue63iMI2wyicQPWLWMGc?usp=sharing"
   icon: "fa-solid fa-robot"
   category: "Machine Learning"
-  image: "/assets/portfolio/spotify.svg"
+  image: "/assets/portfolio/spotify.png"
   alt: "Spotify"
   description: >
     Sistema de recomendação de músicas utilizando a API do Spotify. O objetivo é agrupar as músicas em clusters com base em características semelhantes, permitindo a recomendação com base nas preferências do usuário.
@@ -66,21 +55,10 @@
 
 - layout: default
   title: "Visão Computacional"
-  url: "https://colab.research.google.com/drive/1i90wYeYHdOlo-EUXowqtVV3sGElBeYys?usp=sharing"
-  icon: "fa-solid fa-eye"
-  category: "Visão Computacional"
-  image: "/assets/portfolio/ocr.svg"
-  alt: "OCR"
-  description: >
-    Sistema de OCR (Optical Character Recognition) capaz de reconhecer texto em imagens. O objetivo principal é extrair informações textuais de imagens, permitindo a busca e processamento desses dados de forma automatizada.
-  keywords: "OCR, Tesseract, Computer Vision"
-
-- layout: default
-  title: "Visão Computacional"
   url: "https://colab.research.google.com/drive/1lXSatRcg8ojtNG4Ol1y8W6v0s2kunDlP?usp=sharing"
   icon: "fa-solid fa-eye"
   category: "Visão Computacional"
-  image: "/assets/portfolio/face.svg"
+  image: "/assets/portfolio/face.png"
   alt: "Face Detection"
   description: >
     Modelo para detecção de máscaras em rostos humanos utilizando a biblioteca OpenCV juntamente com a técnica de Aprendizado por Métricas (Metric Learning).
@@ -91,7 +69,7 @@
   url: "https://github.com/imsouza/osorvetao-site"
   icon: "fa-solid fa-desktop"
   category: "Desenvolvimento Web"
-  image: "/assets/portfolio/svt.svg"
+  image: "/assets/portfolio/svt.png"
   alt: "Landing page"
   description: >
     Landing page estática desenvolvida para a sorveteria oSorvetão utilizando HTML5, Gulp, Bootstrap3 e JavaScript.
@@ -102,7 +80,7 @@
   url: "https://github.com/imsouza/products-crud"
   icon: "fa-solid fa-desktop"
   category: "Desenvolvimento Web"
-  image: "/assets/portfolio/box.svg"
+  image: "/assets/portfolio/crud.png"
   alt: "CRUD Estoque"
   description: >
     Sistema de gerenciamento de estoque usando o framework Laravel. Ele permitirá aos usuários gerenciar o estoque de mercadorias de maneira fácil a fim de controlar o fluxo de entradas e saídas.
