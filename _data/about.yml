@@ -26,7 +26,7 @@ social_icons:
     url: "https://www.linkedin.com/in/mateus-almeida-de-souza/"
   - name: "Notas de Aula"
     icon: "fa-solid fa-note-sticky"
-    url: "https://imsouza.github.io//notas/"
+    url: "https://imsouza.github.io/notas/"
   - name: "E-mail"
     icon: "fa-solid fa-envelope"
     url: "mailto:mateusalmeida0715@gmail.com"
