@@ -61,7 +61,7 @@ $$
 \\
 =\sum_{i=1}^{n}i-1
 \\
-=1\sum_{i=1}^{n}i = \Omega(n)
+=1\sum_{i=1}^{n}i = \Omega(n^{2})
 $$
 
 ### Pior caso
