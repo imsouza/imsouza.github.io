@@ -40,7 +40,7 @@ tags: [Projeto e Análise de Algoritmos]
 12 |  |PARA k <- l..r, FAÇA:
 13 |  |  |SE i <= m - l + 1 E j <= r - m, ENTÃO:
 14 |  |  |  |SE B1[i] <= B2[j], ENTÃO:
-15 |  |  |  |  |A[k] <- B[i]; i <- i + 1
+15 |  |  |  |  |A[k] <- B1[i]; i <- i + 1
 16 |  |  |  |SENÃO:
 17 |  |  |  |  |A[k] <- B2[j]; j <- j + 1
 18 |  |  |  |FIM-SE
