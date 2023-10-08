@@ -112,7 +112,7 @@ O algoritmo de **heapsort** é mais um algoritmo sofisticado de ordenação. A i
   <img src="https://user-images.githubusercontent.com/39147407/140923837-c60b46b9-ea17-4d45-92ca-b5af90b96e5e.gif" alt="img">
 </center> <br>
 
-A estrutura de *heap* permite a recuperação e remoção do elemento de maior valor do *array*. Além disso, cada posição **i** do *array* passa a ser considerada o pai de duas outras posições, chamadas filhos. Para encontrar cada filho, em relação ao pai, será utilizado o seguinte cálculo de indíces: *2i + 1* (filho à esquerda) e *2i + 2* (filho à direita). Em seguida, o algoritmo reorganiza o *array* para que o pai seja sempre maior que os dois filhos. Por fim, o maior elemento do *array* será também o pai dos demais elementos. Este elemento poderá ser removido da *heap* e adicionado na última posição do *array*. O processo se repete para toda *heap*.
+A estrutura de *heap* permite a recuperação e remoção do elemento de maior valor do *array*. Além disso, cada posição **i** do *array* passa a ser considerada o pai de duas outras posições, chamadas filhos. Para encontrar cada filho, em relação ao pai, será utilizado o seguinte cálculo de indíces: *2i* (filho à esquerda) e *2i + 1* (filho à direita). Em seguida, o algoritmo reorganiza o *array* para que o pai seja sempre maior que os dois filhos. Por fim, o maior elemento do *array* será também o pai dos demais elementos. Este elemento poderá ser removido da *heap* e adicionado na última posição do *array*. O processo se repete para toda *heap*.
 
 ![img](https://user-images.githubusercontent.com/39147407/140924191-c0e7454a-2c1c-4993-805e-3e575977d71f.png)
 
