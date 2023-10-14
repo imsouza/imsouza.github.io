@@ -83,8 +83,7 @@ O PCB é uma estrutura que contém todas as informações de que o SO precisa pa
 
 >O espaço de endereçamento não está contido no PCB.
 
-## Contexto
-Contém as informações de que o SO precisa após suspender um processo, trazê-lo de volta à execução. Ex: ponteiros de arquivos abertos.
+>Quando uma interrupção ocorre, o sistema precisa salvar o contexto corrente da execução da CPU – de modo a restaurar esse contexto quando seu processamento for concluído – essencialmente, suspendendo o processo para depois retorna-lo.
 
 ## Criação
 Processos são criados por outros processos, executando uma chamada de sistema. Ex: fork() que cria um clone do processo pai.
@@ -110,3 +109,14 @@ Existem outros estados atípicos:
 
 ## Escalonador
 A troca de processos, por sua vez, é feita pelo escalonador de processos. É o escalonador juntamente com um dado algoritmo de escalonamento que irá escolher qual o próximo processo a ser exxecutado. No entanto, o escalonador apenas escolhe, o dispatcher que é o responsável por "puxar o gatilho" e executar de fato o processo.
+
+### Curto prazo
+Controla os processos que estão na memória e os aloca na CPU.
+
+## Longo prazo
+Controla o grau de multiprogramação e administra o número de processos sendo executados simultaneamente.
+
+## Médio prazo
+Controla os processos que serão removidos de forma parcial ou total da memória para serem suspenso.
+
+>A principal diferença entre o curto e longo prazo é a frequência de execução. O scheduler de curto prazo é executado pelo menos uma vez a cada 100 milissegundos.
