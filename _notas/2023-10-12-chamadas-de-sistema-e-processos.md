@@ -47,15 +47,15 @@ Cada processo possui:
 
 ### Primeiro Plano
 - Interagem com o usuário:
-- - Leitura de um arquivo;
-- - Iniciar um programa.
+	- Leitura de um arquivo;
+	- Iniciar um programa.
 
 ![https://imgur.com/zuDRcrX.png](https://imgur.com/zuDRcrX.png)
 
 ### Segundo Plano (Daemons)
 - Processos com funções específicas que independem de usuários:
-- - Recepção e envio de emails;
-- - Serviços de impressão.
+	- Recepção e envio de emails;
+	- Serviços de impressão.
 
 ![https://imgur.com/iOTyIFu.png](https://imgur.com/iOTyIFu.png)
 
@@ -63,13 +63,13 @@ Cada processo possui:
 O espaço de endereçamento é uma lista de posições na memória onde o processo pode ler e escrever. Possui três segmentos:
 
 - **Texto**:
-- - Código executável dos programas.
+	- Código executável dos programas.
 - **Dados**:
-- - Variáveis.
+	- Variáveis.
 - **Pilha de Execução**:
-- - Controla a execução dos processos;
-- - Empilha chamadas de procedimentos, parâmetros e variáveis locais, etc;
-- - Contém uma estrutura para cada rotina chamada que ainda não retornou.
+	- Controla a execução dos processos;
+	- Empilha chamadas de procedimentos, parâmetros e variáveis locais, etc;
+	- Contém uma estrutura para cada rotina chamada que ainda não retornou.
 
 ![https://imgur.com/i25QXfo.png](https://imgur.com/i25QXfo.png)
 

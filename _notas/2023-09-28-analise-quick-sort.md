@@ -62,7 +62,7 @@ tags: [Projeto e Análise de Algoritmos]
 Laço para as linhas 7 até 12.
 
 ### Invariante
-No início de cada iteração do laço invariante, para qualquer índice k do array, temos: 
+No início de cada iteração do laço invariante, para qualquer índice k do vetor, temos: 
 - Se p <= k <= i, então A[k] <= pivo;
 - Se i+1 <= k <= j-1, então A[k] >= pivo;
 - Se k = r, então A[k] = pivo.
