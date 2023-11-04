@@ -65,15 +65,15 @@
   keywords: "OpenCV, Face Detection, Visão Computacional"
 
 - layout: default
-  title: "Desenvolvimento Web"
-  url: "https://github.com/imsouza/osorvetao-site"
-  icon: "fa-solid fa-desktop"
-  category: "Desenvolvimento Web"
-  image: "/assets/portfolio/svt.png"
+  title: "Ciência de Dados"
+  url: "https://github.com/imsouza/oil-analysis"
+  icon: "fa-solid fa-flask"
+  category: "Ciência de Dados"
+  image: "/assets/portfolio/oil.png"
   alt: "Landing page"
   description: >
-    Landing page estática desenvolvida para a sorveteria oSorvetão utilizando HTML5, Gulp, Bootstrap3 e JavaScript.
-  keywords: "Front-end, Site"
+    Modelo de previsão de preços do petróleo usando redes adversárias generativas (GANs) e backtesting. Este projeto tem o potencial de fornecer insights sobre os preços futuros do petróleo que podem ser usados para tomada de decisões em investimentos.
+  keywords: "GANs, Oil, Investimento"
 
 - layout: default
   title: "Desenvolvimento Web"
