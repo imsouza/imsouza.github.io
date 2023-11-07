@@ -113,10 +113,10 @@ A troca de processos, por sua vez, é feita pelo escalonador de processos. É o 
 ### Curto prazo
 Controla os processos que estão na memória e os aloca na CPU.
 
-## Longo prazo
+### Longo prazo
 Controla o grau de multiprogramação e administra o número de processos sendo executados simultaneamente.
 
-## Médio prazo
+### Médio prazo
 Controla os processos que serão removidos de forma parcial ou total da memória para serem suspenso.
 
 >A principal diferença entre o curto e longo prazo é a frequência de execução. O scheduler de curto prazo é executado pelo menos uma vez a cada 100 milissegundos.
