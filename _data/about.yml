@@ -30,6 +30,3 @@ social_icons:
   - name: "E-mail"
     icon: "fa-solid fa-envelope"
     url: "mailto:mateusalmeida0715@gmail.com"
-  - name: "RSS"
-    icon: "fa-solid fa-square-rss"
-    url: "https://imsouza.github.io/feed.xml"

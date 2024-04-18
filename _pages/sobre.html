@@ -17,6 +17,7 @@ permalink: /
   <a id="button"></a>
   <div class="tags-header">
     <div>&nbsp;</div>
+    <div>&nbsp;</div>
     <div class="circle-photo">
       <img src="{{ site.data.about.profile_image | relative_url }}" alt="Profile Photo">
     </div>
@@ -26,23 +27,6 @@ permalink: /
       {% for paragraph in site.data.about.intro %}
         {{ paragraph | newline_to_br }}
       {% endfor %}
-      <br><br>
-      <a href="/assets/cv/Curriculo.pdf" class="link" aria-haspopup="true" target="_blank" onclick="">Download CV</a>
-
-      <!--
-      <center><h2 class="nav-title2">Habilidades</h2></center>
-      <ul class="skills-list">
-        {% for skill in site.data.skills %}
-        <li>
-          <p>{{ skill.name }}</p>
-          <div class="progressbar">
-            <div class="progress" style="width: {{ skill.percentage }}%;">
-              <p class="percentage">{{ skill.percentage }}%</p>
-            </div>
-          </div>
-        </li>
-        {% endfor %}
-      </ul>-->
     </p>
   </section>
 
