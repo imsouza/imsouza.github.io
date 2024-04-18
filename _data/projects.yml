@@ -72,7 +72,7 @@
   image: "/assets/portfolio/oil.png"
   alt: "Landing page"
   description: >
-    Modelo de previsão de preços do petróleo usando redes adversárias generativas (GANs) e backtesting. Este projeto tem o potencial de fornecer insights sobre os preços futuros do petróleo que podem ser usados para tomada de decisões em investimentos.
+    Modelo de previsão de preços do petróleo usando redes adversárias generativas (GANs) e backtesting. Este projeto fornece insights sobre os preços futuros do petróleo que podem ser usados para tomada de decisões em investimentos.
   keywords: "GANs, Oil, Investimento"
 
 - layout: default
