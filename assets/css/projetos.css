@@ -102,14 +102,13 @@
   transform: translateY(-10%);
   opacity: 0;
   visibility: hidden;
-  font-weight: bolder;
   color: white;
   transition: all 0.3s ease-in-out;
 }
 
 .category {
   text-align: center;
-  font-size: 70%;
+  font-size: 80%;
   position: absolute;
   width: 100%;
   padding: 2% 5% 2% 5%;
