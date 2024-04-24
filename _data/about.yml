@@ -11,8 +11,8 @@ email: "mateusalmeida0715@gmail.com"
 rss_url: "https://imsouza.github.io/feed.xml"
 
 intro:
-  - "&nbsp;Me chamo Mateus Almeida, tenho 23 anos e sou natural da cidade de Montanha, localizada no norte do estado do Espírito Santo. Faço Ciência da Computação na UFES onde trabalho com projetos de pesquisa na área de Inteligência Artificial. Além disso, meus interesses incluem Desenvolvimento Web, Visão Computacional, Design e Estatística."
-  - "<br><br>&nbsp;Acredito na importância da colaboração e da troca de conhecimentos na comunidade tecnológica e estou sempre em busca de novas oportunidades de crescimento e aprendizado. Se você quiser entrar em contato comigo, sinta-se à vontade para me enviar uma mensagem ou se conectar comigo em minhas redes sociais."
+  - <p>Me chamo <strong>Mateus Almeida</strong>, 23 anos, natural de Montanha, no norte do Espírito Santo. Estudo <strong>Ciência da Computação</strong> na <strong>Universidade Federal do Espírito Santo - UFES</strong>, focado em projetos de pesquisa em <strong>Inteligência Artificial</strong> e <strong>Aprendizado de Máquina</strong>. Meus interesses também abrangem <strong>Ciência de Dados</strong>, <strong>Visão Computacional</strong>, <strong>Design</strong> e <strong>Estatística</strong>.</p>
+  - <p>Acredito na colaboração e na troca de conhecimentos na comunidade tecnológica e estou sempre em busca de oportunidades de crescimento e aprendizado. Fique à vontade para entrar em contato comigo ou conectar-se através das minhas redes sociais.</p>
 
 social_icons:
   - name: "GitHub"
