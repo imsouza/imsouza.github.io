@@ -1,0 +1,14 @@
+current directory: /mnt/wsl/PHYSICALDRIVE2/imsouza.github.io/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/home/mtz-dev/anaconda3/envs/web-dev/bin/ruby -I /home/mtz-dev/anaconda3/envs/web-dev/lib/ruby/site_ruby/2.6.0 -r ./siteconf20241209-31284-122nwfs.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/wsl/PHYSICALDRIVE2/imsouza.github.io/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR=" clean
+
+current directory: /mnt/wsl/PHYSICALDRIVE2/imsouza.github.io/_vendor/ruby/2.6.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make "DESTDIR="
+compiling ruby_http_parser.c
+/bin/sh: line 1: x86_64-conda-linux-gnu-cc: command not found
+make: *** [Makefile:244: ruby_http_parser.o] Error 127
+
+make failed, exit code 2

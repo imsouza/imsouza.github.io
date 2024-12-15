@@ -19,12 +19,7 @@ permalink: /
     <h2 class="tags-header-title">Olá, seja bem-vindo!</h2>
     <div class="tags-header-line"></div>
   </div>
-  <div class="tags-header">
-    <div class="photo">
-      <img src="{{ site.data.about.profile_image | relative_url }}" alt="Profile Photo">
-    </div>
-  </div>
-  <section class="text-container text-justify">
+  <section class="text-container text-justify padding">
     <p>
       {% for paragraph in site.data.about.intro %}
         {{ paragraph | newline_to_br }}

@@ -55,6 +55,19 @@
   overflow: hidden; /* Para evitar que o texto flua ao redor da imagem */
 }
 
+.shadow-padding {
+  padding: 1%;
+  margin: 1rem;
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.padding {
+  padding: 1rem;
+}
+
+
+
 /* Media query para dispositivos com largura de tela menor que 768px (dispositivos móveis) */
 @media only screen and (max-width: 768px) {
   .photo {

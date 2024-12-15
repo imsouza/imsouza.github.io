@@ -21,15 +21,15 @@
   keywords: "Time Series, Machine Learning, Covid-19, IC"
 
 - layout: default
-  title: "Machine Learning"
-  url: "https://colab.research.google.com/drive/1FuTkYHyoYCpWS422nuLF_LcDMjLm2KGb?usp=sharing"
-  icon: "fa-solid fa-robot"
-  category: "Machine Learning"
-  image: "/assets/portfolio/beer.png"
-  alt: "Beer Analysis"
+  title: "Processamento de Linguagem Natural"
+  url: "https://huggingface.co/matunderstars/ufes-qa-embedding-finetuned"
+  icon: "fa-solid fa-language"
+  category: "Processamento de Linguagem Natural"
+  image: "/assets/portfolio/chatbot.png"
+  alt: "ChatBot UFES"
   description: >
-    Modelo para previsão do consumo de cerveja no estado de São Paulo levando em consideração os dados de finais de semana, chuva, consumo em litros e temperatura.
-  keywords: "Regressão Linear, Estatística, Cerveja"
+    Assistente Virtual criado para a UFES. Foi realizado um fine-tuning no modelo de embedding all-MiniLM-L12-v2 com alta acurácia para responder perguntas frequentes relacionadas aos setores do CEUNES. Como inteface gráfica foi utilizado o Streamlit.
+  keywords: "Fine-tuning, Embedding, Streamlit"
 
 - layout: default
   title: "Desenvolvimento Web"
