@@ -25,9 +25,22 @@
 
   {% seo %}
 
+  <script>
+    (function() {
+      try {
+        var storedTheme = localStorage.getItem("theme");
+        var systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+        var theme = storedTheme || (systemDark ? "dark" : "light");
+        document.documentElement.dataset.theme = theme;
+      } catch (error) {
+        document.documentElement.dataset.theme = "light";
+      }
+    })();
+  </script>
+
   <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}?v=20260630-4">
   
   {% if site.rtl %}<link rel="stylesheet" href="{{ '/assets/rtl.css' | relative_url }}">{% endif %}
   
@@ -47,6 +60,7 @@
     gtag('js', new Date());
     gtag('config', 'G-P9G89F6KLE');
   </script>
+  <script defer src="{{ '/assets/js/theme.js' | relative_url }}?v=20260630-4"></script>
 
   {% if page.mermaid %}
     {% include mermaid.html %}

@@ -9,27 +9,35 @@
         </span>
       </a>
       <div class="mobile-nav-control">
-        <input class="nav-toggle-input" id="nav-toggle" type="checkbox" aria-label="Abrir menu">
-        <label class="mobile-menu-toggle" for="nav-toggle">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </label>
         <ul id="mobile-menu" class="mobile-menu">
+          <li><a href="{{ '/' | prepend: site.baseurl }}">Início</a></li>
           <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
           <li><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
           <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
           <li><a class="nav-cv" href="{{ '/assets/cv/CV-2.pdf' | relative_url }}" download>CV</a></li>
+          <li>
+            <button class="theme-toggle theme-toggle-mobile" type="button" data-theme-toggle aria-label="Alternar modo noturno" aria-pressed="false">
+              <span class="theme-icon theme-icon-light">{% include icon.html name="fa-solid fa-sun" %}</span>
+              <span class="theme-icon theme-icon-dark">{% include icon.html name="fa-solid fa-moon" %}</span>
+            </button>
+          </li>
         </ul>
       </div>
     </div>
 
     <div class="align">
       <ul class="menu">
+        <li><a toggle="tooltip" data-placement="top" title="Início" href="{{ '/' | prepend: site.baseurl }}">Início</a></li>
         <li><a toggle="tooltip" data-placement="top" title="Projetos" href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
         <li><a toggle="tooltip" data-placement="top" title="Blog" href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
         <li><a toggle="tooltip" data-placement="top" title="Tags de Posts" href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
         <li><a class="nav-cv" toggle="tooltip" data-placement="top" title="Download CV" href="{{ '/assets/cv/CV-2.pdf' | relative_url }}" download>CV</a></li>
+        <li>
+          <button class="theme-toggle" type="button" data-theme-toggle aria-label="Alternar modo noturno" aria-pressed="false" title="Modo noturno">
+            <span class="theme-icon theme-icon-light">{% include icon.html name="fa-solid fa-sun" %}</span>
+            <span class="theme-icon theme-icon-dark">{% include icon.html name="fa-solid fa-moon" %}</span>
+          </button>
+        </li>
       </ul>
     </div>
   </div>

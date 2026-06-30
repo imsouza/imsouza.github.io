@@ -26,6 +26,7 @@ const checks = [
   ["global redesign css exists", () => exists("assets/css/redesign.css")],
   ["layout loads redesign css", () => read("_includes/head.html").includes("redesign.css")],
   ["navigation links CV", () => read("_includes/navigation.html").includes("CV-2.pdf")],
+  ["navigation links home", () => read("_includes/navigation.html").includes(">Início</a>") && read("_includes/navigation.html").includes("title=\"Início\"")],
   ["navigation does not link notes", () => !read("_includes/navigation.html").includes("/notas")],
   ["footer keeps notes link", () => read("_data/about.yml").includes("Notas de Aula")],
   ["projects page uses modern grid", () => read("_pages/projetos.html").includes("project-card")],
@@ -50,21 +51,50 @@ const checks = [
       "_includes/head.html",
       "_includes/navigation.html",
       "_layouts/default.html",
-      "_layouts/post.html",
       "assets/js/button.js",
       "assets/js/nav.js",
     ].map(read).join("\n");
     return !combined.includes("adsbygoogle") &&
       !combined.includes("cdn.mathjax.org") &&
       !combined.toLowerCase().includes("jquery") &&
-      !combined.toLowerCase().includes("disqus.com") &&
-      !combined.includes("disqus_comments.html");
+      !combined.toLowerCase().includes("disqus.com");
+  }],
+  ["disqus removed completely", () => {
+    const combined = [
+      "_config.yml",
+      "_layouts/post.html",
+      "assets/css/redesign.css",
+    ].map(read).join("\n").toLowerCase();
+    return !exists("_includes/disqus_comments.html") &&
+      !combined.includes("disqus") &&
+      !combined.includes("comments-load") &&
+      !combined.includes("disqus_thread");
   }],
   ["google analytics restored without ads", () => {
     const head = read("_includes/head.html");
     return head.includes("G-P9G89F6KLE") &&
       head.includes("googletagmanager.com/gtag/js") &&
       !head.includes("adsbygoogle");
+  }],
+  ["dark mode toggle exists", () => {
+    const nav = read("_includes/navigation.html");
+    const head = read("_includes/head.html");
+    const css = read("assets/css/redesign.css");
+    return exists("assets/js/theme.js") &&
+      nav.includes("data-theme-toggle") &&
+      head.includes("localStorage.getItem(\"theme\")") &&
+      head.includes("assets/js/theme.js") &&
+      css.includes('html[data-theme="dark"]') &&
+      css.includes(".theme-toggle");
+  }],
+  ["dark mode preserves key images", () => {
+    const css = read("assets/css/redesign.css");
+    return css.includes(".post img") &&
+      css.includes("--post-image-bg") &&
+      css.includes(".profile-panel img,\n.project-media img") &&
+      css.includes('html[data-theme="dark"] .post img') &&
+      css.includes("filter: invert(1) hue-rotate(180deg)") &&
+      css.includes(".post > p:first-of-type img");
   }],
   ["local svg icons replace fontawesome css", () => {
     const head = read("_includes/head.html").toLowerCase();
@@ -108,8 +138,10 @@ const checks = [
   ["project cards do not repeat access label", () => !read("_pages/projetos.html").includes("Acessar projeto")],
   ["static preview supports extensionless urls", () => read("scripts/static-preview.js").includes("`${direct}.html`") && read("scripts/static-preview.js").includes("Cache-Control")],
   ["nav css request removed", () => !read("_includes/navigation.html").includes("nav.css")],
-  ["nav js request removed", () => !read("_includes/navigation.html").includes("nav.js") && read("_includes/navigation.html").includes("nav-toggle-input")],
-  ["mobile menu uses css toggle", () => read("_includes/navigation.html").includes('id="nav-toggle"') && read("assets/css/redesign.css").includes(".nav-toggle-input:checked ~ .mobile-menu")],
+  ["nav js request removed", () => !read("_includes/navigation.html").includes("nav.js") && !read("_includes/navigation.html").includes("data-mobile-menu-toggle")],
+  ["mobile menu is visible without toggle", () => read("_includes/navigation.html").includes('id="mobile-menu"') && read("assets/css/redesign.css").includes(".mobile-nav-control") && read("assets/css/redesign.css").includes(".mobile-menu") && !read("assets/css/redesign.css").includes(".mobile-menu.is-open")],
+  ["preview html cache disabled", () => read("scripts/static-preview.js").includes('type.includes("text/html") ? "no-store"')],
+  ["posts catalogue dark colors exist", () => read("assets/css/redesign.css").includes(".catalogue-title") && read("assets/css/redesign.css").includes(".catalogue-item p")],
   ["hero profile photo stretches on desktop", () => {
     const css = read("assets/css/redesign.css");
     return css.includes("align-items: stretch") &&

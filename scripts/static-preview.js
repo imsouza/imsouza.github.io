@@ -39,9 +39,10 @@ function resolveFile(urlPath) {
 }
 
 function send(res, status, body, type = "text/plain; charset=utf-8") {
+  const cache = type.includes("text/html") ? "no-store" : "public, max-age=300";
   res.writeHead(status, {
     "Content-Type": type,
-    "Cache-Control": status === 200 ? "public, max-age=300" : "no-store",
+    "Cache-Control": status === 200 ? cache : "no-store",
   });
   res.end(body);
 }
@@ -63,9 +64,11 @@ http.createServer((req, res) => {
   }
 
   const ext = path.extname(file).toLowerCase();
+  const type = types[ext] || "application/octet-stream";
+  const cache = type.includes("text/html") ? "no-store" : "public, max-age=300";
   res.writeHead(200, {
-    "Content-Type": types[ext] || "application/octet-stream",
-    "Cache-Control": "public, max-age=300",
+    "Content-Type": type,
+    "Cache-Control": cache,
   });
   fs.createReadStream(file).pipe(res);
 }).listen(port, host, () => {
