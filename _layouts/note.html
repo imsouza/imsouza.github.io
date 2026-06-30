@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="post">
+<article class="post reading-shell">
   <div class="post-info">
     <span>Escrito por</span>
     {% if page.author %}
@@ -40,7 +40,15 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
 
+  {% if page.tags %}
+    <div class="tag-list">
+      {% for tag in page.tags %}
+        <span class="post-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
+
   {{ content }}
-</div>
+</article>
 
 {% include paginate.html %}

@@ -26,13 +26,10 @@
   {% seo %}
 
   <!-- CSS -->
-  {% include preload.html %}
-
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/redesign.css' | relative_url }}">
   
   {% if site.rtl %}<link rel="stylesheet" href="{{ '/assets/rtl.css' | relative_url }}">{% endif %}
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon-32x32.png' | relative_url }}">
@@ -42,41 +39,20 @@
   <!-- RSS -->
   {% feed_meta %}
 
-  <!-- Google Analytics-->
-  {% if site.google_analytics and jekyll.environment == 'production' %}
-  {% include analytics.html %}
-  {% endif %}
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9G89F6KLE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-P9G89F6KLE');
+  </script>
 
   {% if page.mermaid %}
     {% include mermaid.html %}
   {% endif %}
 
 
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P9G89F6KLE"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-P9G89F6KLE');
-  </script>
-
-  <script type="text/javascript">
-    window.onload = function(){ setTimeout("console.clear()",4000) }
-  </script>
-
-  <script type="text/javascript">
-    document.addEventListener('contextmenu', event => event.preventDefault());
-  </script>
-
-
   <meta name="google-site-verification" content="IIGuc7fvGY3M_a9vp7KXPigMF_kUuwifsvAEWgPWNaU" />
-
-  <script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-
 
 </head>

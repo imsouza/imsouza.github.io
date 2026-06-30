@@ -3,18 +3,18 @@ title: "Sobre"
 author: "Mateus Almeida"
 permalink: /
 
-profile_image: "/assets/profile2.jpg"  # Adjust the path as needed
+profile_image: "/assets/photo.jpg"
 github_url: "https://github.com/imsouza"
 linkedin_url: "https://www.linkedin.com/in/mateus-almeida-de-souza/"
-cv_url: "/assets/cv/Curriculo.pdf"  # Adjust the path as needed
+cv_url: "/assets/cv/CV-2.pdf"
 email: "mateusalmeida0715@gmail.com"
 rss_url: "https://imsouza.github.io/feed.xml"
 
 intro:
-  - <p>Me chamo Mateus Almeida, sou estudante de Ciência da Computação no Centro Universitário Norte do Espírito Santo (CEUNES). Meu foco acadêmico e profissional está em projetos de pesquisa voltados para Inteligência Artificial (IA) e Aprendizado de Máquina.
-  - <p>Ao longo da minha trajetória, participei de pesquisas que exploraram Séries Temporais, Aprendizado de Redes Neurais de Grafos, Algoritmos Genéticos e Q-learning. Também trabalhei como instrutor acadêmico, freelancer em Design Gráfico e como Desenvolvedor Web na empresa júnior Adapti. Atualmente, atuo na Divisão de Tecnologia da Informação Setorial Norte (DTIN) com Redes de Computadores e Automações.</p>  
-  - <p>Meu portfólio inclui uma seção de postagens (/Posts) onde compartilho conteúdos sobre Ciência da Computação e temas relacionados à tecnologia e uma seção de projetos (/Projetos) que reúne os últimos trabalhos realizados.</p> 
-  - <p>Acredito na colaboração e na troca de conhecimentos na comunidade tecnológica e estou sempre em busca de oportunidades de crescimento e aprendizado. Fique à vontade para entrar em contato comigo ou conectar-se através das minhas redes sociais.</p>
+  - <p>Sou Mateus Almeida, estudante de Ciência da Computação no CEUNES/UFES, com atuação em Ciência de Dados, Inteligência Artificial, Machine Learning, Deep Learning, LLMs, automação e desenvolvimento de soluções digitais.</p>
+  - <p>Minha trajetória combina pesquisa acadêmica, desenvolvimento web, suporte e redes, automações em Python, criação de RAGs e auditoria de segurança. Também faço parte do time de desenvolvimento da Opt Labs, com foco em automação e IA para pequenos negócios.</p>
+  - <p>Atuei em projetos de séries temporais, aprendizado por reforço, Smart Grids, visão computacional, NLP e sistemas web. Minha formação também passa por design gráfico, o que fortalece minha visão de produto, comunicação e experiência visual.</p>
+  - <p>Este portfólio reúne projetos, publicações, notas técnicas e experiências profissionais que conectam pesquisa, engenharia e aplicação prática de tecnologia.</p>
 
 social_icons:
   - name: "GitHub"

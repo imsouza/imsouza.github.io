@@ -4,27 +4,22 @@ title: Posts
 permalink: /posts
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
+<div class="page-shell">
+  <header class="page-header">
+    <span class="eyebrow">blog técnico</span>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-copy">Anotações, estudos e textos sobre Ciência da Computação, dados, algoritmos, sistemas e tecnologia.</p>
+  </header>
 
+  <div class="catalogue">
+    {% for post in site.posts %}
+      {% if post.sticky %}
+        {% include catalogue_item.html sticky='true' %}
+      {% endif %}
+    {% endfor %}
 
-<a id="button"></a>
-
-<div class="tags-header">
-  <div>&nbsp;</div>
-  <h2 class="tags-header-title">{{ page.title }}</h2>
-  <div class="tags-header-line"></div>
+    {% for post in paginator.posts %}
+      {% include catalogue_item.html %}
+    {% endfor %}
+  </div>
 </div>
-
-<div class="catalogue">
-  {% for post in site.posts %}
-    {% if post.sticky %}
-      {% include catalogue_item.html sticky='true' %}
-    {% endif %}
-  {% endfor %}
-
-  {% for post in paginator.posts %}
-    {% include catalogue_item.html %}
-  {% endfor %}
-</div>
-
-<script src="{{ '/assets/js/button.js' | relative_url }}"></script>

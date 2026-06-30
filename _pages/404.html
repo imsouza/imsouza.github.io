@@ -4,12 +4,17 @@ title: "404"
 permalink: /404.html
 ---
 
-<div class="notfound">
-  <h1 class="notfound-error">404: Page not found</h1>
-  <div class="notfound-line"></div>
-  <p class="notfound-message">
-    Oops! We can't seem to find the page you are looking for. Let's
-    <a href="{{ site.baseurl }}/">head back home</a>.
-  </p>
-  <p></p>
+<div class="page-shell error-page">
+  <section class="error-panel">
+    <span class="eyebrow">404</span>
+    <h1 class="page-title">Página não encontrada</h1>
+    <div class="notfound-line"></div>
+    <p class="page-copy">
+      O conteúdo pode ter mudado de endereço. Volte para a página inicial ou navegue pelos projetos.
+    </p>
+    <div class="button-row" style="justify-content: center;">
+      <a class="button-primary" href="{{ site.baseurl }}/">Início</a>
+      <a class="button-secondary" href="{{ '/projetos/' | relative_url }}">Projetos</a>
+    </div>
+  </section>
 </div>

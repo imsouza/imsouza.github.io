@@ -5,28 +5,117 @@ author: "Mateus Almeida"
 permalink: /
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ '/assets/css/sobre.css' | relative_url }}">
-</head>
-<body>
-  <a id="button"></a>
-  <div class="tags-header">
-    <div>&nbsp;</div>
-    <h2 class="tags-header-title">Olá, seja bem-vindo!</h2>
-    <div class="tags-header-line"></div>
-  </div>
-  <section class="text-container text-justify padding">
-    <p>
+<div class="page-shell">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <span class="eyebrow">Portfolio pessoal</span>
+        <h1 class="hero-title">Data Science, IA e automação aplicada.</h1>
+        <p class="hero-copy">
+          Mateus Almeida trabalha na interseção entre pesquisa, engenharia, inteligência artificial, automação e design para transformar problemas reais em soluções digitais úteis.
+        </p>
+        <div class="button-row">
+          <a class="button-primary" href="{{ site.data.about.cv_url | relative_url }}" download>
+            {% include icon.html name="fa-solid fa-file-arrow-down" %}
+            Download CV
+          </a>
+          <a class="button-secondary" href="{{ '/projetos/' | relative_url }}">
+            {% include icon.html name="fa-solid fa-border-all" %}
+            Ver projetos
+          </a>
+          <a class="button-secondary" href="{{ site.data.about.linkedin_url }}" target="_blank" rel="noreferrer">
+            {% include icon.html name="fa-brands fa-linkedin" %}
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <aside class="profile-panel">
+        <picture>
+          <source media="(max-width: 759px)" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==">
+          <source type="image/webp" srcset="{{ '/assets/photo.webp' | relative_url }}">
+          <img src="{{ site.data.about.profile_image | relative_url }}" alt="Mateus Almeida" width="420" height="525" loading="lazy" decoding="async">
+        </picture>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Sobre</h2>
+      <span>perfil profissional</span>
+    </div>
+    <div class="bio-block">
       {% for paragraph in site.data.about.intro %}
         {{ paragraph | newline_to_br }}
       {% endfor %}
-    </p>
+    </div>
   </section>
 
-  <script src="{{ '/assets/js/button.js' | relative_url }}"></script>
-</body>
-</html>
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Trajetória</h2>
+      <span>experiência recente</span>
+    </div>
+    <div class="career-timeline">
+      {% for item in site.data.experience %}
+        <article class="career-item">
+          <span class="company-mark company-mark-vertical">{{ item.company }}</span>
+          <div class="career-content">
+            <h3>{{ item.role }}</h3>
+            <p class="meta-line">{{ item.company }} · {{ item.type }} · {{ item.period }} · {{ item.duration }}</p>
+            <p class="meta-line">{{ item.location }}</p>
+            <p>{{ item.description }}</p>
+            <div class="pill-list">
+              {% for skill in item.skills %}
+                <span class="pill">{{ skill }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Pesquisa</h2>
+      <span>iniciação científica</span>
+    </div>
+    <div class="research-grid">
+      {% for research in site.data.research %}
+        <article class="research-card">
+          <span class="eyebrow">{{ research.period }}</span>
+          <h3>{{ research.title }}</h3>
+          <p class="meta-line">{{ research.institution }}</p>
+          <p><strong>{{ research.project_title }}</strong></p>
+          <p>{{ research.description }}</p>
+          <div class="pill-list">
+            {% for skill in research.skills %}
+              <span class="pill">{{ skill }}</span>
+            {% endfor %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-heading">
+      <h2>Competências</h2>
+      <span>áreas de atuação</span>
+    </div>
+    <div class="skills-grid">
+      {% for group in site.data.skills %}
+        <article class="skill-group">
+          <h3>{% include icon.html name=group.icon %} {{ group.group }}</h3>
+          <ul>
+            {% for item in group.items %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+  </section>
+</div>

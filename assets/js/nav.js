@@ -1,10 +1,8 @@
-$(document).ready(function () {
-  $(".mobile-menu-toggle").click(function () {
-    $(".mobile-menu").slideToggle(); // Toggle the mobile menu
-  });
-});
-
 function toggleMenu() {
-  const menuToggle = document.querySelector('.mobile-menu-toggle');
+  const menuToggle = document.querySelector(".mobile-menu-toggle");
+  const menu = document.querySelector(".mobile-menu");
+  if (!menuToggle || !menu) return;
+
   menuToggle.classList.toggle('active');
+  menu.classList.toggle("is-open");
 }

@@ -5,34 +5,23 @@ author: "Mateus Almeida"
 permalink: /skills
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ '/assets/css/skills.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
-  <title>{{ page.title }}</title>
-</head>
-<body>
-  <div class="tags-header">
-    <div>&nbsp;</div>
-    <h2 class="tags-header-title">{{ page.title }}</h2>
-    <div class="tags-header-line"></div>
-  </div>
-  <section>
-    <ul class="skills-list">
-      {% for skill in site.data.skills %}
-      <li>
-        <p>{{ skill.name }}</p>
-        <div class="progressbar">
-          <div class="progress" style="width: {{ skill.percentage }}%;">
-            <p class="percentage">{{ skill.percentage }}%</p>
-          </div>
-        </div>
-      </li>
-      {% endfor %}
-    </ul>
+<div class="page-shell">
+  <header class="page-header">
+    <span class="eyebrow">competências</span>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-copy">Agrupamento das principais competências técnicas, de produto e operação presentes na minha trajetória acadêmica e profissional.</p>
+  </header>
+
+  <section class="skills-grid">
+    {% for group in site.data.skills %}
+      <article class="skill-group">
+        <h3><i class="{{ group.icon }}"></i> {{ group.group }}</h3>
+        <ul>
+          {% for item in group.items %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
   </section>
-</body>
-</html>
+</div>

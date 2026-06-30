@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Chatbot UFES">
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  <rect x="96" y="82" width="608" height="336" rx="10" fill="#fff" stroke="#353535" stroke-width="10"/>
+  <rect x="150" y="142" width="500" height="52" rx="8" fill="#353535"/>
+  <rect x="150" y="226" width="260" height="42" rx="8" fill="#e5e5e5"/>
+  <rect x="390" y="298" width="260" height="42" rx="8" fill="#4a9ae1"/>
+  <circle cx="236" cy="342" r="34" fill="#353535"/>
+  <circle cx="564" cy="214" r="34" fill="#353535"/>
+  <path d="M220 342h32M548 214h32" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M370 385l52-42 52 42" fill="none" stroke="#353535" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

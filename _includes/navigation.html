@@ -1,59 +1,36 @@
-<style type="text/css">
-html {
-  background: transparent !important;
-}
-
-img {
-  display: flex;
-  align-content: center !important;
-}
-</style>
-
-<link rel="stylesheet" href="{{ '/assets/css/nav.css' | relative_url }}">
-
-<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-
-</script>
-
 <nav class="nav">
-  <div class="nav-container">
+  <div class="nav-container nav-shell">
     <div class="mobile-logo-menu">
-    <a href="{{ site.baseurl }}/">
-      <h2 class="nav-title">Meu Portfólio</h2>
-    </a>
-    <div class="mobile-menu-toggle" onclick="toggleMenu()">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
+      <a class="brand-lockup" href="{{ site.baseurl }}/" aria-label="Ir para a página inicial">
+        <span class="brand-mark">MA</span>
+        <span>
+          <strong>Mateus Almeida</strong>
+          <small>Data Science · AI · Automation</small>
+        </span>
+      </a>
+      <div class="mobile-nav-control">
+        <input class="nav-toggle-input" id="nav-toggle" type="checkbox" aria-label="Abrir menu">
+        <label class="mobile-menu-toggle" for="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </label>
+        <ul id="mobile-menu" class="mobile-menu">
+          <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
+          <li><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
+          <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+          <li><a class="nav-cv" href="{{ '/assets/cv/CV-2.pdf' | relative_url }}" download>CV</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
 
     <div class="align">
-      <ul class="mobile-menu" style="text-align: justify!important;">
-        <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li><br>
-        <li><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li><br>
-        <!--<li><a href="{{ '/notas' | prepend: site.baseurl }}">Notas</a></li><br>-->
-        <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li><br>
+      <ul class="menu">
+        <li><a toggle="tooltip" data-placement="top" title="Projetos" href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
+        <li><a toggle="tooltip" data-placement="top" title="Blog" href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
+        <li><a toggle="tooltip" data-placement="top" title="Tags de Posts" href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+        <li><a class="nav-cv" toggle="tooltip" data-placement="top" title="Download CV" href="{{ '/assets/cv/CV-2.pdf' | relative_url }}" download>CV</a></li>
       </ul>
-    <div>
-    <ul class="menu">
-      <!--<li><a toggle="tooltip" data-placement="top" title="Home" href="{{ '/' | prepend: site.baseurl }}">/</a></li>-->
-      <!--<li><a href="{{ '/notas' | prepend: site.baseurl }}">Notas</a></li>-->
-      <!--<li><a href="{{ '/publicacoes' | prepend: site.baseurl }}">Publicações</a></li>-->
-      <!--<li><a href="{{ '/skills' | prepend: site.baseurl }}">Skills</a></li>-->
-      <!--<li><a toggle="tooltip" data-placement="top" title="Notas de Aula" href="{{ '/' | prepend: site.baseurl }}">Sobre</a></li>-->
-      <li><a toggle="tooltip" data-placement="top" title="Meu Portfólio" href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
-      <li><a toggle="tooltip" data-placement="top" title="Blog" href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
-      <!--<li><a toggle="tooltip" data-placement="top" title="Notas de Aula" href="{{ '/notas' | prepend: site.baseurl }}">Notas</a></li>-->
-      <li><a toggle="tooltip" data-placement="top" title="Tags de Posts" href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
-      <!--<li>
-        <a style="cursor: pointer;" toggle="tooltip" data-placement="top" title="Modo Escuro/Claro" id="darkmode" onclick="darkMode()">
-          <i id="icon-dark" class="fa fa-moon"></i>
-          <span id="dark-text"></span>
-       </a>
-      </li>-->
-    </ul>
+    </div>
   </div>
 </nav>
-
-<script src="{{ '/assets/js/nav.js' | relative_url }}"></script>

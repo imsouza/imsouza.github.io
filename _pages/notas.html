@@ -5,52 +5,44 @@ author: "Mateus Almeida"
 permalink: /notas/
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/tags.css' | relative_url }}">
+<div class="page-shell tags">
+  <header class="page-header">
+    <span class="eyebrow">base de estudos</span>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-copy">Notas técnicas organizadas por temas de computação, algoritmos, sistemas e estatística.</p>
+  </header>
 
-
-<a id="button"></a>
-
-<div class="tags">
-<div class="tags-header">
-  <div>&nbsp;</div>
-  <h2 class="tags-header-title">{{ page.title }}</h2>
-  <div class="tags-header-line"></div>
-</div>
-
-<div class="tags-clouds" style="margin-bottom: 3%;">
-  {% assign unique_tags = "" %}
-  {% for nota in site.notas %}
-    {% for tag in nota.tags %}
-      {% unless unique_tags contains tag %}
-        <a href="javascript:void(0);" class="hovertag" data-tag="{{ tag }}">{{ tag }}</a>
-        {% capture unique_tags %}{{ unique_tags | append: tag | append: "," }}{% endcapture %}
-      {% endunless %}
+  <div class="tag-cloud">
+    {% assign unique_tags = "" %}
+    {% for nota in site.notas %}
+      {% for tag in nota.tags %}
+        {% unless unique_tags contains tag %}
+          <a href="javascript:void(0);" class="hovertag" data-tag="{{ tag }}">{{ tag }}</a>
+          {% capture unique_tags %}{{ unique_tags | append: tag | append: "," }}{% endcapture %}
+        {% endunless %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-</div>
+  </div>
 
-<div class="tags-posts">
-  {% for nota in site.notas %}
-    {% if nota.categories contains 'notas' %}
-      <div class="nota-tags">
+  <div class="notes-grid tags-posts">
+    {% for nota in site.notas %}
+      {% if nota.categories contains 'notas' %}
         {% for tag in nota.tags %}
-          <a class="tags-post" href="{{ nota.url | prepend: site.baseurl }}" data-tag="{{ tag }}">
+          <a class="note-card tags-post" href="{{ nota.url | prepend: site.baseurl }}" data-tag="{{ tag }}">
             <div>
               <span class="tags-post-title">{{ nota.title }}</span>
               <div class="tags-post-line"></div>
             </div>
-            <span class="tags-post-meta" style="display: grid;">
-              <time datetime="{{ post.date }}">
+            <span class="tags-post-meta">
+              <time datetime="{{ nota.date }}">
                 {{ nota.date | date:"%Y-%m-%d" }}
               </time>
             </span>
           </a>
         {% endfor %}
-      </div>
-    {% endif %}
-  {% endfor %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
 
 <script src="{{ '/assets/js/hover-notes.js' | relative_url }}"></script>
-
-<script src="{{ '/assets/js/button.js' | relative_url }}"></script>

@@ -5,42 +5,33 @@ author: "Mateus Almeida"
 permalink: /projetos/
 ---
 
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ '/assets/css/projetos.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/button.css' | relative_url }}">
-</head>
-<body>
-  <a id="button"></a>
-    <div class="tags-header">
-      <div>&nbsp;</div>
-      <h2 class="tags-header-title">{{ page.title }}</h2>
-      <div class="tags-header-line"></div>
-    </div>
-    <section class="portfolio">
-      <div class="showcase">
-        {% for project in site.data.projects %}
-            <div class="item" aria-haspopup="true">
-              <p style="background-color: #353535;margin-top: 0%; color: white;" class="category">
-                <i class="{{ project.icon }}"></i>&nbsp;{{ project.category }}
-              </p>
-              <img src="{{ project.image }}" alt="{{ project.alt }}" class="img grayscale">
-              <div style="border:none!important; opacity: 0.9;" class="overlay">
-                <p class="text">
-                  {{ project.description }}
-                  <br>
-                  <br>
-                  <a href="{{ project.url }}" class="link" aria-haspopup="true" target="_blank" onclick="">Acessar Projeto <i class="fa-solid fa-square-arrow-up-right"></i></a>
-                  <!--<p class="text keywords">Palavras-chave: {{ project.keywords }}</p>-->
-                </p>
-              </div>
-            </div>
+<div class="page-shell">
+  <header class="page-header">
+    <span class="eyebrow">seleção técnica</span>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="page-copy">Projetos em dados, IA, visão computacional, NLP e desenvolvimento web, reunindo pesquisa, prototipação e engenharia.</p>
+  </header>
 
-        {% endfor %}
-      </div>
-    </section>
-  <script src="{{ '/assets/js/button.js' | relative_url }}"></script>
-</body>
-</html>
+  <section class="projects-grid">
+    {% for project in site.data.projects %}
+      <a class="project-card" href="{{ project.url }}" target="_blank" rel="noreferrer">
+        <div class="project-media">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.alt }}" loading="lazy" decoding="async">
+        </div>
+        <div class="project-content">
+          <span class="project-category">{% include icon.html name=project.icon %} {{ project.category }}</span>
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          {% if project.keywords %}
+            <div class="pill-list">
+              {% assign keywords = project.keywords | split: "," %}
+              {% for keyword in keywords %}
+                <span class="pill">{{ keyword | strip }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </a>
+    {% endfor %}
+  </section>
+</div>
