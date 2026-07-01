@@ -62,7 +62,7 @@ permalink: /
           <span class="company-mark company-mark-vertical">{{ item.company }}</span>
           <div class="career-content">
             <h3>{{ item.role }}</h3>
-            <p class="meta-line">{{ item.company }} · {{ item.type }} · {{ item.period }} · {{ item.duration }}</p>
+            <p class="meta-line">{{ item.company }} · {{ item.type }} · {{ item.period }}{% if item.duration %} · {{ item.duration }}{% endif %}</p>
             <p class="meta-line">{{ item.location }}</p>
             <p>{{ item.description }}</p>
             <div class="pill-list">
