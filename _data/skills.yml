@@ -29,6 +29,7 @@
     - "C"
     - "Git"
     - "GitHub"
+    - "Automação"
 
 - group: "Web e Produto"
   icon: "fa-solid fa-layer-group"
@@ -46,6 +47,7 @@
     - "Bootstrap"
     - "jQuery"
     - "Web design"
+    - "Redes de computadores"
 
 - group: "Design e Marketing"
   icon: "fa-solid fa-pen-nib"
@@ -59,6 +61,4 @@
     - "Tipografia"
     - "Adobe Illustrator"
     - "Adobe Photoshop"
-    - "Redes de computadores"
-    - "Automação"
     - "Suporte técnico"
