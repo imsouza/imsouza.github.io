@@ -38,24 +38,19 @@ html[data-theme="dark"] {
   color-scheme: dark;
 }
 
-.mobile-nav-control {
-  display: none;
-  width: 100%;
-  z-index: 120;
-}
-
 .mobile-menu-toggle {
   background: transparent;
   border: 0;
   color: var(--ink);
   cursor: pointer;
-  display: grid;
+  display: none;
   gap: 6px;
   min-height: 44px;
   min-width: 44px;
   padding: 0.45rem;
   place-content: center;
   position: relative;
+  width: 44px;
   z-index: 130;
 }
 
@@ -64,21 +59,42 @@ html[data-theme="dark"] {
   border: 1px solid var(--line);
   border-radius: 8px;
   display: none;
-  flex-wrap: wrap;
-  gap: 0.35rem;
+  flex-direction: column;
   list-style: none;
-  margin: 0.75rem 0 0;
   padding: 0.5rem;
-  position: static;
-  z-index: 80;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 100vw;
+  z-index: 120;
+}
+
+.mobile-menu.is-open {
+  display: flex;
 }
 
 .mobile-menu li {
   list-style: none;
+  width: 100%;
+}
+
+.mobile-menu li + li {
+  border-top: 1px solid var(--line);
+}
+
+.mobile-menu a {
+  align-items: center;
+  color: var(--ink);
+  display: flex;
+  min-height: 44px;
+  padding: 0.4rem 0.75rem;
+  text-decoration: none;
 }
 
 .mobile-menu .theme-toggle {
-  margin-top: 0.35rem;
+  justify-content: center;
+  margin-top: 0.25rem;
+  padding: 0.5rem;
   width: 100%;
 }
 
@@ -87,6 +103,7 @@ html[data-theme="dark"] {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  position: relative;
   width: 100%;
 }
 
@@ -99,7 +116,25 @@ html[data-theme="dark"] {
   background-color: var(--ink);
   display: block;
   height: 2px;
+  margin: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
   width: 28px;
+}
+
+.mobile-menu-toggle.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.mobile-menu-toggle.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.mobile-menu-toggle.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav {
+  overflow: visible;
 }
 
 .icon {
@@ -860,18 +895,13 @@ html[data-theme="dark"] .post figure.hero-image img {
     display: none;
   }
 
-  .mobile-nav-control {
-    display: block;
-  }
-
-  .mobile-menu {
-    display: flex;
+  .mobile-menu-toggle {
+    display: grid;
   }
 
   .mobile-menu li,
   .mobile-menu a {
     display: block;
-    width: auto;
   }
 }
 

@@ -34,7 +34,7 @@ permalink:      posts/:title
 paginate:       999
 
 # Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec, vendor, "vendor/bundle" ]
 
 collections:
   notas:

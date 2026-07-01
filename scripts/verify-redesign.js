@@ -139,7 +139,7 @@ const checks = [
   ["static preview supports extensionless urls", () => read("scripts/static-preview.js").includes("`${direct}.html`") && read("scripts/static-preview.js").includes("Cache-Control")],
   ["nav css request removed", () => !read("_includes/navigation.html").includes("nav.css")],
   ["nav js request removed", () => !read("_includes/navigation.html").includes("nav.js") && !read("_includes/navigation.html").includes("data-mobile-menu-toggle")],
-  ["mobile menu is visible without toggle", () => read("_includes/navigation.html").includes('id="mobile-menu"') && read("assets/css/redesign.css").includes(".mobile-nav-control") && read("assets/css/redesign.css").includes(".mobile-menu") && !read("assets/css/redesign.css").includes(".mobile-menu.is-open")],
+  ["mobile menu uses native details", () => read("_includes/navigation.html").includes("<details class=\"mobile-nav-control\"") && read("_includes/navigation.html").includes("<summary class=\"mobile-menu-toggle\"") && read("assets/css/redesign.css").includes(".mobile-nav-control[open] .mobile-menu") && !read("_includes/navigation.html").includes("data-mobile-menu-toggle")],
   ["preview html cache disabled", () => read("scripts/static-preview.js").includes('type.includes("text/html") ? "no-store"')],
   ["posts catalogue dark colors exist", () => read("assets/css/redesign.css").includes(".catalogue-title") && read("assets/css/redesign.css").includes(".catalogue-item p")],
   ["hero profile photo stretches on desktop", () => {

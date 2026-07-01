@@ -8,21 +8,24 @@
           <small>Data Science · AI · Automation</small>
         </span>
       </a>
-      <div class="mobile-nav-control">
-        <ul id="mobile-menu" class="mobile-menu">
-          <li><a href="{{ '/' | prepend: site.baseurl }}">Início</a></li>
-          <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
-          <li><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
-          <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
-          <li><a class="nav-cv" href="{{ '/assets/cv/CV-2.pdf' | relative_url }}" download>CV</a></li>
-          <li>
-            <button class="theme-toggle theme-toggle-mobile" type="button" data-theme-toggle aria-label="Alternar modo noturno" aria-pressed="false">
-              <span class="theme-icon theme-icon-light">{% include icon.html name="fa-solid fa-sun" %}</span>
-              <span class="theme-icon theme-icon-dark">{% include icon.html name="fa-solid fa-moon" %}</span>
-            </button>
-          </li>
-        </ul>
-      </div>
+      <button class="mobile-menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul id="mobile-menu" class="mobile-menu">
+        <li><a href="{{ '/' | prepend: site.baseurl }}">Início</a></li>
+        <li><a href="{{ '/projetos' | prepend: site.baseurl }}">Projetos</a></li>
+        <li><a href="{{ '/posts' | prepend: site.baseurl }}">Posts</a></li>
+        <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+        <li><a class="nav-cv" href="{{ '/assets/cv/CV-2.pdf' | relative_url }}" download>CV</a></li>
+        <li>
+          <button class="theme-toggle theme-toggle-mobile" type="button" data-theme-toggle aria-label="Alternar modo noturno" aria-pressed="false">
+            <span class="theme-icon theme-icon-light">{% include icon.html name="fa-solid fa-sun" %}</span>
+            <span class="theme-icon theme-icon-dark">{% include icon.html name="fa-solid fa-moon" %}</span>
+          </button>
+        </li>
+      </ul>
     </div>
 
     <div class="align">
