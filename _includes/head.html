@@ -29,9 +29,7 @@
     (function() {
       try {
         var storedTheme = localStorage.getItem("theme");
-        var systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-        var theme = storedTheme || (systemDark ? "dark" : "light");
-        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.theme = storedTheme || "light";
       } catch (error) {
         document.documentElement.dataset.theme = "light";
       }
